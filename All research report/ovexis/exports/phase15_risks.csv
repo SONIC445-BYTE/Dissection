@@ -1,0 +1,9 @@
+risk,sev,mitigation,status
+HMIS vendors already cover Tier-1 workflows,CRITICAL,82 demo videos before commitment (DL-066),BLOCKING
+No moat for 12+ months,HIGH,Reframed to domain+policy+provenance; accept the exposure,ACCEPTED
+No budget line exists for the category,HIGH,Attach to HMIS AMC or claims-recovery % (DL-068),MITIGATED
+CIO rejects unproven solo vendor,CRITICAL,"SHADOW-mode entry (DL-069), already in feature_gate",MITIGATED
+Indian unit economics never justify integration effort,HIGH,Validate with one hospital before scaling,UNVALIDATED
+OpenAI commoditises computer-use,HIGH,"Moat is domain+policy+provenance, not clicking (DL-070)",MITIGATED
+Orphaned safety stack creates false confidence,CRITICAL,Stage 0 mandatory before features (DL-057),ACTIONABLE NOW
+Solo builder capacity,HIGH,Sequencing over volume (DL-052); no hires until proof (DL-064),STRUCTURAL

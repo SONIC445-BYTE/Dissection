@@ -1,0 +1,682 @@
+schema: ovexis.hpid.phase2.market_model/v1
+generated: '2026-07-26'
+phase: 2
+status: CANONICAL
+method: company-agnostic reconstruction; term-density measurement across 21 artifacts
+  + live ABDM API + HPID registry
+layers:
+  infrastructure:
+    definition: compute, hosting, uptime, deployment substrate
+    corpus_attention_hits: 593
+    artifacts_engaging: 9
+    carriers:
+    - D03
+    - D04
+    - D11
+    - D13
+    - D15
+    - D16
+    - D17
+    - D18
+    - G01
+  identity:
+    definition: who is this patient/clinician; ABHA, HPR, HFR, MRN, consent identity
+    corpus_attention_hits: 536
+    artifacts_engaging: 8
+    carriers:
+    - D01
+    - D04
+    - D08
+    - D11
+    - D16
+    - D17
+    - D18
+    - D19
+  workflow:
+    definition: scheduling, queues, orders, referrals, handoffs, discharge
+    corpus_attention_hits: 1017
+    artifacts_engaging: 18
+    carriers:
+    - D01
+    - D02
+    - D03
+    - D04
+    - D05
+    - D06
+    - D07
+    - D08
+    - D09
+    - D11
+    - D12
+    - D13
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+  clinical:
+    definition: diagnosis, treatment, prescribing, care plans, protocols
+    corpus_attention_hits: 491
+    artifacts_engaging: 10
+    carriers:
+    - D02
+    - D03
+    - D04
+    - D06
+    - D07
+    - D08
+    - D10
+    - D11
+    - D18
+    - G01
+  data:
+    definition: FHIR/HL7, terminology, normalisation, longitudinal record
+    corpus_attention_hits: 704
+    artifacts_engaging: 12
+    carriers:
+    - D01
+    - D03
+    - D08
+    - D11
+    - D12
+    - D13
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+  ai:
+    definition: models, RAG, agents, inference, grounding
+    corpus_attention_hits: 2762
+    artifacts_engaging: 20
+    carriers:
+    - D01
+    - D02
+    - D03
+    - D04
+    - D05
+    - D06
+    - D07
+    - D08
+    - D09
+    - D10
+    - D11
+    - D12
+    - D13
+    - D14
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+  decision:
+    definition: CDS, risk scores, alerts, recommendations
+    corpus_attention_hits: 473
+    artifacts_engaging: 6
+    carriers:
+    - D03
+    - D04
+    - D08
+    - D15
+    - D18
+    - G01
+  automation:
+    definition: 'doing the work: scribing, RPA, autonomous execution'
+    corpus_attention_hits: 208
+    artifacts_engaging: 4
+    carriers:
+    - D04
+    - D07
+    - D18
+    - G01
+  patient:
+    definition: consumer apps, portals, wearables, engagement
+    corpus_attention_hits: 1081
+    artifacts_engaging: 16
+    carriers:
+    - D01
+    - D02
+    - D03
+    - D04
+    - D05
+    - D06
+    - D07
+    - D08
+    - D11
+    - D13
+    - D14
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+  hospital:
+    definition: 'provider-side systems: HMIS/EMR, departments'
+    corpus_attention_hits: 1170
+    artifacts_engaging: 19
+    carriers:
+    - D01
+    - D03
+    - D04
+    - D05
+    - D06
+    - D07
+    - D08
+    - D09
+    - D11
+    - D12
+    - D13
+    - D14
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+    - I01
+  government:
+    definition: ABDM/NHA/ONC policy, mandates, regulation
+    corpus_attention_hits: 475
+    artifacts_engaging: 10
+    carriers:
+    - D02
+    - D06
+    - D08
+    - D11
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - I01
+  insurance:
+    definition: payers, claims, pre-auth, reimbursement
+    corpus_attention_hits: 590
+    artifacts_engaging: 12
+    carriers:
+    - D02
+    - D03
+    - D04
+    - D05
+    - D06
+    - D11
+    - D14
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+occupancy:
+  D01:
+    target: Human API / LexisNexis Health Intelligence
+    dominant_position: system_of_engagement
+    position_density_per_1k_words:
+      system_of_record: 0.11
+      system_of_engagement: 3.17
+      system_of_intelligence: 0.22
+      data_pipe: 0.44
+      knowledge_corpus: 2.73
+      sensor: 0.77
+      service_delivery: 0.22
+      marketplace: 0.33
+  D02:
+    target: Regacore
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.1
+      system_of_engagement: 0.1
+      system_of_intelligence: 0.0
+      data_pipe: 0.0
+      knowledge_corpus: 0.29
+      sensor: 0.68
+      service_delivery: 1.65
+      marketplace: 4.09
+  D03:
+    target: Superpower Health
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.38
+      system_of_intelligence: 0.19
+      data_pipe: 0.14
+      knowledge_corpus: 0.38
+      sensor: 1.19
+      service_delivery: 0.62
+      marketplace: 2.0
+  D04:
+    target: Function Health
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.23
+      system_of_intelligence: 0.0
+      data_pipe: 0.0
+      knowledge_corpus: 0.91
+      sensor: 2.04
+      service_delivery: 0.03
+      marketplace: 0.45
+  D05:
+    target: Levels Health
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 1.35
+      system_of_intelligence: 0.29
+      data_pipe: 0.0
+      knowledge_corpus: 0.18
+      sensor: 7.76
+      service_delivery: 1.0
+      marketplace: 0.94
+  D06:
+    target: OpenEvidence
+    dominant_position: knowledge_corpus
+    position_density_per_1k_words:
+      system_of_record: 0.06
+      system_of_engagement: 0.25
+      system_of_intelligence: 0.44
+      data_pipe: 0.0
+      knowledge_corpus: 2.54
+      sensor: 0.57
+      service_delivery: 0.0
+      marketplace: 0.51
+  D07:
+    target: Glass Health
+    dominant_position: knowledge_corpus
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.0
+      system_of_intelligence: 0.61
+      data_pipe: 0.91
+      knowledge_corpus: 1.67
+      sensor: 1.06
+      service_delivery: 0.0
+      marketplace: 0.15
+  D08:
+    target: AMBOSS
+    dominant_position: knowledge_corpus
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.0
+      system_of_intelligence: 0.62
+      data_pipe: 0.08
+      knowledge_corpus: 2.32
+      sensor: 0.85
+      service_delivery: 0.15
+      marketplace: 0.62
+  D09:
+    target: Apollo 24|7
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.59
+      system_of_intelligence: 0.44
+      data_pipe: 0.0
+      knowledge_corpus: 0.59
+      sensor: 0.3
+      service_delivery: 0.59
+      marketplace: 2.21
+  D10:
+    target: Tata 1mg
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.15
+      system_of_intelligence: 0.38
+      data_pipe: 0.08
+      knowledge_corpus: 0.38
+      sensor: 0.85
+      service_delivery: 0.15
+      marketplace: 1.54
+  D11:
+    target: HealthifyMe / Healthify
+    dominant_position: service_delivery
+    position_density_per_1k_words:
+      system_of_record: 0.05
+      system_of_engagement: 0.24
+      system_of_intelligence: 0.89
+      data_pipe: 0.0
+      knowledge_corpus: 0.22
+      sensor: 2.7
+      service_delivery: 3.6
+      marketplace: 0.77
+  D12:
+    target: Apple Health / HealthKit
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.14
+      system_of_engagement: 0.28
+      system_of_intelligence: 0.14
+      data_pipe: 0.28
+      knowledge_corpus: 0.28
+      sensor: 2.51
+      service_delivery: 0.0
+      marketplace: 0.7
+  D13:
+    target: Google Health
+    dominant_position: service_delivery
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.79
+      system_of_intelligence: 0.29
+      data_pipe: 0.22
+      knowledge_corpus: 0.14
+      sensor: 2.38
+      service_delivery: 5.27
+      marketplace: 0.58
+  D14:
+    target: Oura Health
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.0
+      system_of_intelligence: 0.07
+      data_pipe: 0.0
+      knowledge_corpus: 0.15
+      sensor: 11.72
+      service_delivery: 0.3
+      marketplace: 0.9
+  D15:
+    target: Atropos Health
+    dominant_position: system_of_engagement
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 5.15
+      system_of_intelligence: 1.31
+      data_pipe: 0.0
+      knowledge_corpus: 0.11
+      sensor: 0.66
+      service_delivery: 0.11
+      marketplace: 3.29
+  D16:
+    target: WHOOP
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.65
+      system_of_intelligence: 0.05
+      data_pipe: 0.0
+      knowledge_corpus: 0.0
+      sensor: 4.66
+      service_delivery: 4.43
+      marketplace: 0.55
+  D17:
+    target: Practo
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.12
+      system_of_intelligence: 0.3
+      data_pipe: 0.06
+      knowledge_corpus: 0.06
+      sensor: 0.24
+      service_delivery: 1.2
+      marketplace: 5.12
+  D18:
+    target: UpToDate (Wolters Kluwer)
+    dominant_position: knowledge_corpus
+    position_density_per_1k_words:
+      system_of_record: 0.04
+      system_of_engagement: 0.51
+      system_of_intelligence: 0.11
+      data_pipe: 0.0
+      knowledge_corpus: 6.44
+      sensor: 0.59
+      service_delivery: 0.07
+      marketplace: 0.59
+  D19:
+    target: Ultrahuman
+    dominant_position: sensor
+    position_density_per_1k_words:
+      system_of_record: 0.14
+      system_of_engagement: 0.57
+      system_of_intelligence: 0.28
+      data_pipe: 0.14
+      knowledge_corpus: 0.14
+      sensor: 12.64
+      service_delivery: 0.0
+      marketplace: 0.42
+  G01:
+    target: JARVIS-Automation (engineering ground truth)
+    dominant_position: system_of_intelligence
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.26
+      system_of_intelligence: 1.2
+      data_pipe: 0.0
+      knowledge_corpus: 0.43
+      sensor: 0.0
+      service_delivery: 0.0
+      marketplace: 0.04
+  I01:
+    target: HPID Phase-0 registry (449 platforms)
+    dominant_position: marketplace
+    position_density_per_1k_words:
+      system_of_record: 0.0
+      system_of_engagement: 0.39
+      system_of_intelligence: 0.0
+      data_pipe: 0.78
+      knowledge_corpus: 0.0
+      sensor: 0.0
+      service_delivery: 0.0
+      marketplace: 1.56
+departments:
+  radiology:
+    corpus_hits: 234
+    artifacts_covering: 16
+    carriers:
+    - D03
+    - D04
+    - D05
+    - D06
+    - D08
+    - D11
+    - D12
+    - D13
+    - D14
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+    - I01
+  quality_compliance:
+    corpus_hits: 210
+    artifacts_covering: 18
+    carriers:
+    - D01
+    - D02
+    - D03
+    - D04
+    - D05
+    - D06
+    - D07
+    - D08
+    - D09
+    - D11
+    - D12
+    - D13
+    - D15
+    - D17
+    - D18
+    - D19
+    - G01
+    - I01
+  billing_rcm:
+    corpus_hits: 190
+    artifacts_covering: 9
+    carriers:
+    - D03
+    - D04
+    - D07
+    - D11
+    - D16
+    - D17
+    - D18
+    - G01
+    - I01
+  admin_management:
+    corpus_hits: 141
+    artifacts_covering: 15
+    carriers:
+    - D01
+    - D04
+    - D05
+    - D06
+    - D08
+    - D10
+    - D11
+    - D13
+    - D14
+    - D15
+    - D16
+    - D18
+    - D19
+    - G01
+    - I01
+  ipd_ward:
+    corpus_hits: 107
+    artifacts_covering: 15
+    carriers:
+    - D01
+    - D03
+    - D04
+    - D05
+    - D06
+    - D08
+    - D10
+    - D11
+    - D14
+    - D15
+    - D16
+    - D17
+    - D18
+    - D19
+    - G01
+  emergency:
+    corpus_hits: 103
+    artifacts_covering: 16
+    carriers:
+    - D02
+    - D03
+    - D05
+    - D06
+    - D07
+    - D08
+    - D09
+    - D10
+    - D11
+    - D12
+    - D13
+    - D14
+    - D16
+    - D17
+    - D18
+    - D19
+  reception_front_desk:
+    corpus_hits: 80
+    artifacts_covering: 14
+    carriers:
+    - D01
+    - D02
+    - D03
+    - D04
+    - D06
+    - D07
+    - D08
+    - D09
+    - D11
+    - D16
+    - D18
+    - D19
+    - G01
+    - I01
+  discharge_followup:
+    corpus_hits: 56
+    artifacts_covering: 11
+    carriers:
+    - D02
+    - D03
+    - D06
+    - D09
+    - D10
+    - D11
+    - D12
+    - D15
+    - D16
+    - D17
+    - D18
+  laboratory:
+    corpus_hits: 27
+    artifacts_covering: 6
+    carriers:
+    - D03
+    - D08
+    - D16
+    - D18
+    - G01
+    - I01
+  pharmacy_dept:
+    corpus_hits: 27
+    artifacts_covering: 5
+    carriers:
+    - D03
+    - D06
+    - D15
+    - D18
+    - G01
+  nursing:
+    corpus_hits: 10
+    artifacts_covering: 2
+    carriers:
+    - D18
+    - G01
+  opd_consult:
+    corpus_hits: 8
+    artifacts_covering: 2
+    carriers:
+    - D11
+    - D17
+  icu:
+    corpus_hits: 4
+    artifacts_covering: 1
+    carriers:
+    - D10
+  insurance_preauth:
+    corpus_hits: 4
+    artifacts_covering: 1
+    carriers:
+    - D06
+  ot_surgery:
+    corpus_hits: 2
+    artifacts_covering: 1
+    carriers:
+    - I01
+flows:
+  money:
+    b2c_subscription: 453
+    b2b_enterprise: 253
+    b2b2c: 179
+    payer_reimb: 251
+    transaction: 64
+    ads_lead: 17
+    data_monet: 86
+    hardware: 460
+    diagnostics: 547
+    pharmacy: 16
+  interoperability:
+    fhir: 525
+    hl7v2: 80
+    smart_cds_hooks: 38
+    epic: 175
+    cerner_oracle: 66
+    screen_ui_automation: 13
+    hie_tefca: 48
+    abdm_rails: 151
+    device_sdk: 325
+    manual_human: 24
+    no_public_api: 23
+    terminology: 110

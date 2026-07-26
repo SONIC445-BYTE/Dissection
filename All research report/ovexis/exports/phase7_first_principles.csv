@@ -1,0 +1,33 @@
+concept,ai_native_verdict,root_cause,detail,companies,gap_position,strategic_importance,jarvis_loc
+documentation_scribe,ARTIFACT OF BILLING,billing/legal require a written artifact,ARTIFACT OF BILLING - not of care,6,AT_COMMIT,8.3,362
+coaching_service,CONTESTED,behaviour change needs a human relationship,CONTESTED,7,human_fallback,6.1,0
+analytics_dashboard,NO,humans cannot query data without a pre-built view,NO - replaced by query,16,before_commit,2.3,0
+gamification_habit,NO,engagement is hard,NO - crutch for bad value,12,wrapper,2.0,0
+conversion_growth_surface,NO,humans must be persuaded to sign up,NO - if value is real,11,wrapper,1.9,0
+onboarding_flow,NO,software is hard to start using,NO - conversation replaces setup,7,wrapper,2.4,426
+provider_discovery,NO,no way to match need to supply without a directory,NO - agent negotiates,5,wrapper,2.4,0
+content_education,PARTIAL,knowledge was scarce and had to be pre-authored into articles,PARTIAL - synthesis on demand,13,before_commit,2.6,0
+marketplace_commerce,PARTIAL,transactions need a storefront,PARTIAL,13,wrapper,1.9,0
+composite_health_score,PARTIAL,humans need one number to act on,PARTIAL - compression for humans,5,before_commit,3.8,0
+identity_resolution,PARTIAL,no universal patient identifier,PARTIAL - solved by ABHA in India,3,before_commit,4.0,0
+ui_automation_execution,TRANSITIONAL,systems lack APIs,TRANSITIONAL - exists because integration failed,7,AT_COMMIT,7.8,1747
+ai_chat_assistant,YES,interface to knowledge,YES - but becomes ambient not a feature,15,before_commit,2.8,1017
+task_workflow_engine,YES,work must be sequenced and tracked,YES - permanent,15,AT_COMMIT,5.1,1767
+safety_guardrails,YES,autonomous action can harm,YES - strengthens,14,wrapper,1.9,852
+subscription_billing,YES,recurring revenue mechanics,YES - commercial not clinical,14,wrapper,1.7,0
+longitudinal_timeline,YES,record fragmented across providers,YES - permanent,13,before_commit,2.9,684
+fhir_api_surface,YES,machines must exchange data,YES - permanent,13,before_commit,2.6,0
+security_access_control,YES,data must be protected,YES - permanent,13,wrapper,1.8,926
+rag_grounded_answer,YES,models hallucinate; corpus is external,YES - permanent trust primitive,12,before_commit,3.1,655
+explainability_provenance,YES,trust requires traceability,YES - strengthens,11,before_commit,3.0,815
+summarisation,YES,humans cannot read everything,YES - permanent,10,before_commit,3.0,309
+consent_management,YES,legal requirement for data movement,"YES - permanent, strengthens",10,before_commit,3.1,0
+ehr_record_retrieval,YES,records locked in silos,YES - permanent,10,before_commit,3.3,0
+compliance_certification,YES,trust must be attested,YES - permanent,10,wrapper,2.0,0
+ordering_eprescribing,YES,an authorised human must commit an instruction,YES - liability anchor,9,AT_COMMIT,6.6,0
+clinical_decision_support,YES,clinician cannot hold all evidence,YES - but merges into reasoning,8,before_commit,3.4,0
+referral_care_coordination,YES,care spans institutions,YES - permanent,7,AT_COMMIT,7.1,0
+data_normalisation,YES,systems disagree on meaning,YES - permanent chokepoint,6,before_commit,3.6,0
+scheduling_booking,YES,resources are scarce and contended,YES - permanent,6,AT_COMMIT,8.4,0
+clinician_review_loop,YES,liability requires a human signature,"YES - liability, not capability",5,human_fallback,6.0,0
+billing_claims,YES while payers exist,payer and provider are separate entities with opposed incentives,YES while payers exist,8,AT_COMMIT,7.7,0

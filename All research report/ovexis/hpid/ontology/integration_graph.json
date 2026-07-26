@@ -1,0 +1,5622 @@
+[
+ {
+  "platform_id": "IN-abha-abdm-core-hfr-hpr-hie-cm",
+  "platform": "ABHA / ABDM core (HFR, HPR, HIE-CM)",
+  "category": "National Infra",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cdac",
+  "platform": "CDAC",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cdac",
+  "platform": "CDAC",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-practo",
+  "platform": "Practo",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nic",
+  "platform": "NIC",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-karexpert",
+  "platform": "KareXpert",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-e-hospital-nextgen-e-hmis",
+  "platform": "e-Hospital / NextGen e-HMIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-e-sushrut",
+  "platform": "e-Sushrut",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthplix",
+  "platform": "HealthPlix",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bahmni",
+  "platform": "Bahmni",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India/Global"
+ },
+ {
+  "platform_id": "IN-openmrs",
+  "platform": "OpenMRS",
+  "category": "EMR",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "Global"
+ },
+ {
+  "platform_id": "IN-medixcel-emr-his",
+  "platform": "Medixcel EMR & HIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nhcx",
+  "platform": "NHCX",
+  "category": "Insurance Exchange",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dcm4chee",
+  "platform": "dcm4chee",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "Global"
+ },
+ {
+  "platform_id": "IN-attune-his-lis",
+  "platform": "Attune HIS/LIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-insta-hms",
+  "platform": "Insta HMS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P0",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-creliohealth",
+  "platform": "CrelioHealth",
+  "category": "LMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-e-sushrut-clinic",
+  "platform": "e-Sushrut@Clinic",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drucare-private",
+  "platform": "Drucare Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drucare-private",
+  "platform": "Drucare Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drucare-private",
+  "platform": "Drucare Private Limited",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-orbi-health-private",
+  "platform": "Orbi Health Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-orbi-health-private",
+  "platform": "Orbi Health Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-orbi-health-private",
+  "platform": "Orbi Health Private Limited",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-orbi-health-private",
+  "platform": "Orbi Health Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plus-91",
+  "platform": "Plus 91",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plus-91",
+  "platform": "Plus 91",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plus-91",
+  "platform": "Plus 91",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plus-91",
+  "platform": "Plus 91",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-yro-systems-pvt",
+  "platform": "Yro Systems Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-yro-systems-pvt",
+  "platform": "Yro Systems Pvt Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-finserv-health",
+  "platform": "Bajaj Finserv Health",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-finserv-health",
+  "platform": "Bajaj Finserv Health",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-finserv-health",
+  "platform": "Bajaj Finserv Health",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-finserv-health",
+  "platform": "Bajaj Finserv Health",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dhanush-healthcare-systems-private",
+  "platform": "Dhanush Healthcare Systems Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dhanush-healthcare-systems-private",
+  "platform": "Dhanush Healthcare Systems Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hodo-medical-informatic-solutions-private",
+  "platform": "HODO Medical Informatic Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hodo-medical-informatic-solutions-private",
+  "platform": "HODO Medical Informatic Solutions Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthray-technologies-pvt",
+  "platform": "Healthray Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nice-hms",
+  "platform": "NICE-HMS",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-caresoft-his",
+  "platform": "Caresoft HIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drlogy",
+  "platform": "Drlogy",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ezovion-hims",
+  "platform": "Ezovion HIMS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-halemind",
+  "platform": "Halemind",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-napier-his",
+  "platform": "Napier HIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "Singapore/India"
+ },
+ {
+  "platform_id": "IN-softclinic-genx",
+  "platform": "SoftClinic GenX",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drcfo-management-consultants-private",
+  "platform": "DRCFO MANAGEMENT CONSULTANTS PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eaushadhi",
+  "platform": "eAushadhi",
+  "category": "Pharmacy/SCM",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-connection-loops-pvt",
+  "platform": "Connection Loops Pvt Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-a-hmis",
+  "platform": "A-HMIS",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aciana-health-technologies-india-private",
+  "platform": "ACIANA HEALTH TECHNOLOGIES INDIA PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-acutech-solutions-private",
+  "platform": "ACUTECH SOLUTIONS PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aireach-medtech-private",
+  "platform": "AIREACH MedTech Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-apleixa-technologies-private",
+  "platform": "APLEIXA TECHNOLOGIES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-arinsta-private",
+  "platform": "ARINSTA PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-arinsta-private",
+  "platform": "ARINSTA PRIVATE LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-arinsta-private",
+  "platform": "ARINSTA PRIVATE LIMITED",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-axonic-health-private",
+  "platform": "AXONIC HEALTH PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-akhil-systems-pvt",
+  "platform": "Akhil Systems Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-algoflow-ai-private",
+  "platform": "Algoflow AI Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-amrita",
+  "platform": "Amrita Technologies",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aosta-india-private",
+  "platform": "Aosta India Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-apollo-hospital",
+  "platform": "Apollo hospital",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-argusoft-india",
+  "platform": "ArguSoft India Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-argusoft-india",
+  "platform": "ArguSoft India Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-artem-healthtech-private",
+  "platform": "Artem HealthTech Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-asmi-global-softwares-opc-pvt",
+  "platform": "Asmi Global Softwares (OPC) Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P1",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-asuun-wellness-pvt",
+  "platform": "Asuun Wellness Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-athma-healthtech-pvt",
+  "platform": "Athma Healthtech Pvt Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-athma-healthtech-pvt",
+  "platform": "Athma Healthtech Pvt Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-auroitech-digital-solutions-foundation",
+  "platform": "Auroitech Digital Solutions Foundation",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-biosoft-health-tech-pvt",
+  "platform": "BIOSOFT HEALTH TECH PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bs-infosystems-and-solutions-private",
+  "platform": "BS Infosystems And Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bavya-health-services-private",
+  "platform": "Bavya Health Services Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bharuwa-solutions-pvt",
+  "platform": "Bharuwa Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-byepo",
+  "platform": "Byepo Technologies",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-byepo",
+  "platform": "Byepo Technologies",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-c-u-shah-medical-college-hospital",
+  "platform": "C U Shah Medical College & Hospital",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-catalyst-software",
+  "platform": "CATALYST SOFTWARE",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cdac-noida",
+  "platform": "CDAC Noida",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chipsy-information-technology-services-private",
+  "platform": "CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chipsy-information-technology-services-private",
+  "platform": "CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chipsy-information-technology-services-private",
+  "platform": "CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chipsy-information-technology-services-private",
+  "platform": "CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-curebay-technologies-private",
+  "platform": "CUREBAY TECHNOLOGIES PRIVATE LIMITED",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-curebay-technologies-private",
+  "platform": "CUREBAY TECHNOLOGIES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-curebay-technologies-private",
+  "platform": "CUREBAY TECHNOLOGIES PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-clinally-mpower-health",
+  "platform": "Clinally mPower Health",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cliniq360-pvt",
+  "platform": "CliniQ360 Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-codepro-management-private",
+  "platform": "Codepro Management Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-compune-digital-solutions-pvt",
+  "platform": "Compune Digital Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-copious-healthcare-india-pvt",
+  "platform": "Copious Healthcare India Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-copious-healthcare-india-pvt",
+  "platform": "Copious Healthcare India Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cordelia-technology-private",
+  "platform": "Cordelia Technology Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-core5-systems-and-services-private",
+  "platform": "Core5 Systems and Services Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cottonsoil-healthcare-tech-pvt",
+  "platform": "Cottonsoil Healthcare Tech Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-crane-global-solutions-limited-cgsl",
+  "platform": "Crane Global Solutions Limited (CGSL)",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-criterion-tech-private",
+  "platform": "Criterion Tech Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-curasync-technologies",
+  "platform": "Curasync Technologies LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dalvkot-utility-enterprises-pvt",
+  "platform": "DALVKOT UTILITY ENTERPRISES PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dcdc-health-services-pvt-lt",
+  "platform": "DCDC Health Services Pvt. Lt",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-devenv-tech-private",
+  "platform": "DEVENV TECH PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-driefcase-connect",
+  "platform": "DRiefcase Connect",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dataman-computer-systems-pvt",
+  "platform": "Dataman Computer Systems Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dataman-computer-systems-pvt",
+  "platform": "Dataman Computer Systems Pvt. Ltd.",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dataman-computer-systems-pvt",
+  "platform": "Dataman Computer Systems Pvt. Ltd.",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dataman-computer-systems-pvt",
+  "platform": "Dataman Computer Systems Pvt. Ltd.",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-datamate-info-solutions",
+  "platform": "Datamate Info Solutions Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-datasoftline-pvt",
+  "platform": "Datasoftline Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-homoeopathy-govt-of-kerala",
+  "platform": "Department of Homoeopathy, Govt of Kerala",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-destratum-solutions-private",
+  "platform": "Destratum Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-digicare-healthcare-solutions-private",
+  "platform": "Digicare Healthcare Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-docon-technologies-pvt",
+  "platform": "DocOn Technologies Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-docplix-solutions-pvt",
+  "platform": "Docplix Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-docterz-health-tech-labs-pvt",
+  "platform": "Docterz Health-Tech Labs Pvt Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dreamsoft4u-private",
+  "platform": "DreamSoft4u Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-egerp-informatics-pvt",
+  "platform": "EGERP INFORMATICS PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-enlacecode-technology-pvt",
+  "platform": "ENLACECODE TECHNOLOGY PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eva-soft-private",
+  "platform": "EVA SOFT PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-easy-solution-infosystems-private",
+  "platform": "Easy Solution Infosystems Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-entro-labs-it-solutions-pvt",
+  "platform": "Entro Labs IT Solutions Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-equeue-technosolutions-private",
+  "platform": "Equeue Technosolutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-equilym-technologies-private",
+  "platform": "Equilym Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-existence-software-solution-pvt",
+  "platform": "Existence Software Solution Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-expedien-esolutions",
+  "platform": "Expedien eSolutions",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-fortis-healthcare",
+  "platform": "Fortis Healthcare",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-forus-health-pvt",
+  "platform": "Forus Health Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-founding-minds-pvt",
+  "platform": "Founding Minds Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-framework-futuristic-pvt",
+  "platform": "Framework Futuristic Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-gj-global-it-ventures-pvt",
+  "platform": "GJ Global IT Ventures Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-godhani-infotech",
+  "platform": "GODHANI INFOTECH",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-grapes-innovative",
+  "platform": "Grapes Innovative Solutions.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-gravity-web-technologies-pvt",
+  "platform": "Gravity Web Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hanuram-healthtech-private",
+  "platform": "HANURAM HEALTHTECH PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthcare-global-enterprises",
+  "platform": "HEALTHCARE GLOBAL ENTERPRISES LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-helyxon-healthcare-solutions-private",
+  "platform": "HELYXON HEALTHCARE SOLUTIONS PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-helyxon-healthcare-solutions-private",
+  "platform": "HELYXON HEALTHCARE SOLUTIONS PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hisp-emr",
+  "platform": "HISP-EMR",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hll-lifecare-limited-a-government-of-india-enterprise",
+  "platform": "HLL Lifecare Limited (A Government of India Enterprise)",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hll-lifecare",
+  "platform": "HLL Lifecare Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hll-lifecare",
+  "platform": "HLL Lifecare Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hlthtek-optimus-private",
+  "platform": "HLTHTek Optimus Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-holofx-consulting-private",
+  "platform": "HOLOFX CONSULTING PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hamsa-soham-health-care-pvt",
+  "platform": "Hamsa Soham Health Care Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healtether-healthcare-services-private",
+  "platform": "HealTether Healthcare Services Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-family-welfare-department-government-of-tripura",
+  "platform": "Health & Family Welfare Department, Government of Tripura",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-family-welfare-department-government-of-tripura",
+  "platform": "Health & Family Welfare Department, Government of Tripura",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-smarttech-private",
+  "platform": "Health Smarttech Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthixio",
+  "platform": "Healthixio",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthvalors-technosoft-private",
+  "platform": "Healthvalors Technosoft Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthvalors-technosoft-private",
+  "platform": "Healthvalors Technosoft Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hunnarvi-technologies-private",
+  "platform": "Hunnarvi Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-i-medicus-india-private",
+  "platform": "I-MEDICUS INDIA PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ihx-health-repository-provider",
+  "platform": "IHX Health Repository Provider",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-infuture-com",
+  "platform": "INFUTURE.COM",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-iplit-solutions",
+  "platform": "IPLit Solutions LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-iplit-solutions",
+  "platform": "IPLit Solutions LLP",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-iq-line-private",
+  "platform": "IQ-Line Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-iq-line-private",
+  "platform": "IQ-Line Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-iqvia",
+  "platform": "IQVIA",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ishaa-infinity-software-technologies",
+  "platform": "ISHAA INFINITY SOFTWARE TECHNOLOGIES LLP",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ishaa-infinity-software-technologies",
+  "platform": "ISHAA INFINITY SOFTWARE TECHNOLOGIES LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-itdose-infosystems-pvt",
+  "platform": "ITDOSE INFOSYSTEMS Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-itdose-infosystems-pvt",
+  "platform": "ITDOSE INFOSYSTEMS Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-itsc-technologies-pvt",
+  "platform": "ITSC Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-itsc-technologies-pvt",
+  "platform": "ITSC Technologies Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-integrated-health-management-system",
+  "platform": "Integrated Health Management System",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jpr-systems-pvt",
+  "platform": "JPR SYSTEMS PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jupiter-lifeline-hospitals",
+  "platform": "JUPITER LIFELINE HOSPITALS LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jdeanz-healthtech-pvt",
+  "platform": "Jdeanz Healthtech Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jdeanz-healthtech-pvt",
+  "platform": "Jdeanz Healthtech Pvt. Ltd.",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jdeanz-healthtech-pvt",
+  "platform": "Jdeanz Healthtech Pvt. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jdeanz-healthtech-pvt",
+  "platform": "Jdeanz Healthtech Pvt. Ltd.",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kranium-healthcare-systems-pvt",
+  "platform": "KRANIUM HEALTHCARE SYSTEMS PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-karkinos-application-suite",
+  "platform": "Karkinos Application Suite",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-karnavati-software-technologies-pvt",
+  "platform": "Karnavati Software Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-karnavati-software-technologies-pvt",
+  "platform": "Karnavati Software Technologies Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kulcare-india-private",
+  "platform": "Kulcare India Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kyrocare-healthtech-private",
+  "platform": "Kyrocare Healthtech Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kyrocare-healthtech-private",
+  "platform": "Kyrocare Healthtech Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kyrocare-healthtech-private",
+  "platform": "Kyrocare Healthtech Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-lsg-associate",
+  "platform": "LSG Associate",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-linkedcare-chc-private",
+  "platform": "Linkedcare CHC Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-linkedcare-chc-private",
+  "platform": "Linkedcare CHC Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medifox-technologies-private",
+  "platform": "MEDIFOX TECHNOLOGIES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mediquity-technologies-private",
+  "platform": "MEDIQUITY TECHNOLOGIES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mediquity-technologies-private",
+  "platform": "MEDIQUITY TECHNOLOGIES PRIVATE LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mindgenix-private",
+  "platform": "MINDGENIX PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mmh-global-india-private",
+  "platform": "MMH Global (India) Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-maestros-electronics-telecommunications-systems",
+  "platform": "Maestros Electronics & Telecommunications Systems Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mangalcare-systems-private",
+  "platform": "Mangalcare Systems Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mani-tech-nest-solutions",
+  "platform": "Mani Tech Nest Solutions LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mann",
+  "platform": "Mann Technologies",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-manorama-infosolutions-pvt",
+  "platform": "Manorama Infosolutions Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medisage",
+  "platform": "MediSage",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P2",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medicalmine-india-private",
+  "platform": "MedicalMine India Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medimaze-solutions-pvt",
+  "platform": "Medimaze Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medionce-solutions-private",
+  "platform": "Medionce Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medjacket-india-pvt",
+  "platform": "Medjacket India Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medongo-health-pvt",
+  "platform": "Medongo Health Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medulia-healthcare-solutions-private",
+  "platform": "Medulia Healthcare Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-merago-software-technologies-private",
+  "platform": "Merago Software Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-merago-software-technologies-private",
+  "platform": "Merago Software Technologies Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-meta16labs-healthcare-and-analytics-pvt",
+  "platform": "Meta16Labs Healthcare and Analytics Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mindzone-technologies-pvt",
+  "platform": "Mindzone Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ministry-of-ayush-government-of-india",
+  "platform": "Ministry of Ayush, Government of India",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-myhealthcare-technologies-private",
+  "platform": "MyHealthcare Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nalam-hcit-solutions-pvt",
+  "platform": "NALAM HCIT SOLUTIONS PVT LTD.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nextgen-esolutions-pvt-ltd-subsidiary-company-of-aimil",
+  "platform": "NEXTGEN ESOLUTIONS PVT LTD SUBSIDIARY COMPANY OF AIMIL LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nextgen-esolutions-pvt-ltd-subsidiary-company-of-aimil",
+  "platform": "NEXTGEN ESOLUTIONS PVT LTD SUBSIDIARY COMPANY OF AIMIL LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nict-bills-and-services",
+  "platform": "NICT Bills and Services",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nanocare-health-services-pvt-ltd-nanohealth",
+  "platform": "Nanocare Health Services Pvt Ltd. (NanoHealth)",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-narayana-health",
+  "platform": "Narayana Health Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-mission-shs-nagrota-jammu-j-k",
+  "platform": "National Health Mission, SHS, Nagrota, Jammu, J&K",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-informatics-centre",
+  "platform": "National Informatics Centre",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-netedge-computing-solutions-pvt",
+  "platform": "NetEdge Computing Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-neuralbits-technologies-pvt",
+  "platform": "Neuralbits Technologies Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-neurosynaptic-communications-pvt",
+  "platform": "Neurosynaptic Communications Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oasys-cybernetics-pvt",
+  "platform": "OASYS Cybernetics Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ohum-healthcare-solutions-pvt",
+  "platform": "OHUM Healthcare Solutions Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oakland-systems-pvt",
+  "platform": "Oakland Systems Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oakland-systems-pvt",
+  "platform": "Oakland Systems Pvt Ltd",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oneglance-software-services-private",
+  "platform": "Oneglance Software Services Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oneglance-software-services-private",
+  "platform": "Oneglance Software Services Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-pace-softronix-pvt",
+  "platform": "PACE SOFTRONIX PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-peritos-solutions-consulting-private",
+  "platform": "PERITOS SOLUTIONS & CONSULTING PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-purple-sky-health-private",
+  "platform": "PURPLE SKY HEALTH PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paliwal-infotech",
+  "platform": "Paliwal Infotech",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paliwal-infotech",
+  "platform": "Paliwal Infotech",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-perfect-software-solution",
+  "platform": "Perfect Software Solution",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-picasoid-health-technology-pvt",
+  "platform": "Picasoid Health Technology Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-piramal-swasthya-management-and-research-institute",
+  "platform": "Piramal Swasthya Management and Research Institute",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plus-curenearme",
+  "platform": "Plus CureNearMe",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-postgraduate-institute-of-medical-education-and-research",
+  "platform": "Postgraduate Institute of Medical Education and Research",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-pranam-creative-solutions-pvt",
+  "platform": "Pranam Creative Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prantae-solutions-private",
+  "platform": "Prantae Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-pregnancy-child-tracking-health-services-management-system-p",
+  "platform": "Pregnancy, Child Tracking & Health Services Management System (PCTS)",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-probeplus-innovative-solutions-private",
+  "platform": "Probeplus Innovative Solutions Private Limited.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-protean-health",
+  "platform": "Protean Health",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prudas-technologies-private",
+  "platform": "Prudas Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prudas-technologies-private",
+  "platform": "Prudas Technologies Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prudas-technologies-private",
+  "platform": "Prudas Technologies Private Limited",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-purnank-software-solutions-pvt",
+  "platform": "Purnank Software Solutions Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-qmarksoft-qhms-qlms-qbilling",
+  "platform": "Qmarksoft QHMS/QLMS/Qbilling",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-quantum-corphealth-private",
+  "platform": "Quantum CorpHealth Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-renaissance-health-enterprise-suite-rhes",
+  "platform": "RENAISSANCE HEALTH ENTERPRISE SUITE (RHES)",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rvs-healthcare-pvt",
+  "platform": "RVS Healthcare Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rajasthan-government-health-scheme",
+  "platform": "Rajasthan Government Health Scheme",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ramalogy-private",
+  "platform": "Ramalogy Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-raxa-health",
+  "platform": "Raxa Health",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-raxa-health",
+  "platform": "Raxa Health",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-raxa-health",
+  "platform": "Raxa Health",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-raxa-health",
+  "platform": "Raxa Health",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rely-technologies-private",
+  "platform": "Rely Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rescribe-by-scorg-technologies-pvt",
+  "platform": "Rescribe by Scorg Technologies Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rigved-technologies-pvt",
+  "platform": "Rigved Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-s2-infotech-international",
+  "platform": "S2 Infotech International Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sanharabs-india-pvt",
+  "platform": "SANHARABS INDIA PVT LTD",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-satra-services-and-solutions-private",
+  "platform": "SATRA Services and Solutions Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sirobilt-software-services-private",
+  "platform": "SIROBILT SOFTWARE SERVICES PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-softcure-technology",
+  "platform": "SOFTCURE TECHNOLOGY LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-softman-software-system",
+  "platform": "SOFTMAN SOFTWARE SYSTEM",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sri-laxmi-kravia-techlabs-private",
+  "platform": "SRI LAXMI KRAVIA TECHLABS PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sri-laxmi-kravia-techlabs-private",
+  "platform": "SRI LAXMI KRAVIA TECHLABS PRIVATE LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-suja-associates-private",
+  "platform": "SUJA Associates Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sunil-medico-softwares",
+  "platform": "SUNIL MEDICO SOFTWARES",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-scisco-it-solutions-pvt",
+  "platform": "Scisco IT Solutions Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sher-i-kashmir-institute-of-medical-sciences",
+  "platform": "Sher-I-Kashmir Institute of Medical Sciences",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-shivam-medisoft-private",
+  "platform": "Shivam Medisoft Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-shrimad-rajchandra-hospital-and-research-centre",
+  "platform": "Shrimad Rajchandra Hospital and Research Centre",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-skearth-healthcare-pvt",
+  "platform": "Skearth Healthcare Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-skearth-healthcare-pvt",
+  "platform": "Skearth Healthcare Pvt. Ltd.",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-skearth-healthcare-pvt",
+  "platform": "Skearth Healthcare Pvt. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-skearth-healthcare-pvt",
+  "platform": "Skearth Healthcare Pvt. Ltd.",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-smarthms-solutions-pvt",
+  "platform": "SmartHMS & Solutions Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-smarthms-solutions-pvt",
+  "platform": "SmartHMS & Solutions Pvt. Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-smarthms-solutions-pvt",
+  "platform": "SmartHMS & Solutions Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-society-of-education-welfare-action-rural",
+  "platform": "Society of Education Welfare Action Rural",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sofscript-systems-services",
+  "platform": "Sofscript Systems & Services Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-softcane-solutions-pvt",
+  "platform": "Softcane Solutions Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sri-ramakrishna-hospital",
+  "platform": "Sri Ramakrishna Hospital",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-suvarna-arogya-suraksha-trust",
+  "platform": "Suvarna Arogya Suraksha Trust",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-suvarna-technosoft-pvt",
+  "platform": "Suvarna Technosoft Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-suvarna-technosoft-pvt",
+  "platform": "Suvarna Technosoft Pvt. Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-suvarna-technosoft-pvt",
+  "platform": "Suvarna Technosoft Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-swasthya-ingit",
+  "platform": "Swasthya Ingit",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-swingbell-labs",
+  "platform": "SwingBell Labs",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-symbiosis-university-hospital-and-research-centre",
+  "platform": "Symbiosis University Hospital and Research Centre",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-telerad-tech-private",
+  "platform": "TELERAD TECH Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tirupati-software-infotech-pvt",
+  "platform": "TIRUPATI SOFTWARE INFOTECH PVT. LTD.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-trrev-technology-opc-private",
+  "platform": "TRRev Technology (OPC) Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tata-medical-and-diagnostics",
+  "platform": "Tata Medical and Diagnostics",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tattva-foundation",
+  "platform": "Tattva Foundation",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-techsmith-solutions-pvt",
+  "platform": "TechSmith Solutions Pvt. Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tecnospice-tecnologies-pvt",
+  "platform": "Tecnospice Tecnologies Pvt Ltd",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tenwave-infotech-pvt",
+  "platform": "Tenwave Infotech Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-the-gemini-india",
+  "platform": "The Gemini India",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-third-ai-platforms-private",
+  "platform": "Third Ai Platforms Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-thoughtworks",
+  "platform": "Thoughtworks",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-timestream-technologies-private",
+  "platform": "Timestream Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tricog-health-india-private",
+  "platform": "Tricog Health India Private limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-triotree-technologies-pvt",
+  "platform": "TrioTree Technologies Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-unidoc-healthcare-private",
+  "platform": "UNIDOC Healthcare Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-unnati-digital-solutions-private",
+  "platform": "UNNATI DIGITAL SOLUTIONS PRIVATE LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-unify-digital",
+  "platform": "Unify Digital LLP",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vibe-it",
+  "platform": "VIBE IT SOLUTIONS",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vitalic-health",
+  "platform": "VITALIC HEALTH LIMITED",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vanburen-technlogies-private",
+  "platform": "Vanburen Technlogies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vesak-technologies-private",
+  "platform": "Vesak Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vigorus-ai-private",
+  "platform": "Vigorus AI Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vigorus-ai-private",
+  "platform": "Vigorus AI Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vigorus-ai-private",
+  "platform": "Vigorus AI Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-visual-infosoft-pvt",
+  "platform": "Visual InfoSoft Pvt. Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vitalytics-professional-services-private",
+  "platform": "Vitalytics Professional Services Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-wisdomleaf-technologies-private",
+  "platform": "Wisdomleaf Technologies Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-zebricon",
+  "platform": "ZEBRICON TECHNOLOGIES",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eclinical-india-pvt",
+  "platform": "eClinical India Pvt Ltd.",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eclinical-india-pvt",
+  "platform": "eClinical India Pvt Ltd.",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eclinical-india-pvt",
+  "platform": "eClinical India Pvt Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-eclinical-india-pvt",
+  "platform": "eClinical India Pvt Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-evaidya-private",
+  "platform": "eVaidya Private Limited",
+  "category": "HMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-e-raktkosh-bbms",
+  "platform": "e-Raktkosh / BBMS",
+  "category": "Blood Bank",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-intersystems-trakcare",
+  "platform": "InterSystems TrakCare",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "USA/Global"
+ },
+ {
+  "platform_id": "IN-radspa-ris-pacs",
+  "platform": "RADSpa RIS-PACS",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-abdm-and-nhm-ladakh",
+  "platform": "ABDM and NHM Ladakh",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-central-tb-division-mohfw",
+  "platform": "Central TB Division, MoHFW",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-central-tb-division-mohfw",
+  "platform": "Central TB Division, MoHFW",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-commissioner-of-health-family-welfare-telangana",
+  "platform": "Commissioner of Health & Family Welfare, Telangana",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-commissioner-of-health-family-welfare-telangana",
+  "platform": "Commissioner of Health & Family Welfare, Telangana",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cowin",
+  "platform": "Cowin",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cowin",
+  "platform": "Cowin",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-health-and-family-welfare-assam",
+  "platform": "Department of health and family welfare, Assam",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-health-and-family-welfare-manipur",
+  "platform": "Department of health and family welfare, Manipur",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-health-and-family-welfare-meghalaya",
+  "platform": "Department of health and family welfare, Meghalaya",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-health-and-family-welfare-nagaland",
+  "platform": "Department of health and family welfare, Nagaland",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-department-of-health-and-family-welfare-sikkim",
+  "platform": "Department of health and family welfare, Sikkim",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-government-of-gujarat",
+  "platform": "Government Of Gujarat",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-government-of-uttar-pradesh",
+  "platform": "Government Of Uttar Pradesh",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-government-of-rajasthan-chip",
+  "platform": "Government of Rajasthan - CHIP",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hfws-karnataka-samasta",
+  "platform": "HFWS Karnataka (SAMASTA)",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-department-dnh-dd",
+  "platform": "Health Department DNH & DD",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-department-dnh-dd",
+  "platform": "Health Department DNH & DD",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medplat-ddd-phmp",
+  "platform": "MEDplat DDD-PHMP",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ncd-india",
+  "platform": "NCD India",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ncd-india",
+  "platform": "NCD India",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-authority",
+  "platform": "National Health Authority",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-authority",
+  "platform": "National Health Authority",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-mission-andhra-pradesh",
+  "platform": "National Health Mission, Andhra Pradesh",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-mission-andhra-pradesh",
+  "platform": "National Health Mission, Andhra Pradesh",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-viral-hepatitis-control-program-nvhcp",
+  "platform": "National Viral Hepatitis Control Program (NVHCP)",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-viral-hepatitis-control-program-nvhcp",
+  "platform": "National Viral Hepatitis Control Program (NVHCP)",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-pune-smart-city-development-corporation",
+  "platform": "Pune Smart City Development Corporation Limited",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-swasthya-sathi-samiti-health-and-family-welfare-dept-govt-of",
+  "platform": "Swasthya Sathi Samiti, Health and Family Welfare dept., Govt. of West Bengal",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-swasthya-sathi-samiti-health-and-family-welfare-dept-govt-of",
+  "platform": "Swasthya Sathi Samiti, Health and Family Welfare dept., Govt. of West Bengal",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-uttarakhand-health-and-family-welfare-society",
+  "platform": "Uttarakhand Health and Family Welfare Society",
+  "category": "Government Programs",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-uttarakhand-health-and-family-welfare-society",
+  "platform": "Uttarakhand Health and Family Welfare Society",
+  "category": "Others",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-agilus-diagnostics",
+  "platform": "Agilus Diagnostics Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-blue-pearl-health-tech-pvt",
+  "platform": "Blue Pearl Health Tech Pvt Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-busysoft-systems-private",
+  "platform": "Busysoft Systems Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-csc-healthcare-wellness-services",
+  "platform": "CSC Healthcare & Wellness Services Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dr-lal-pathlabs",
+  "platform": "Dr Lal PathLabs",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ezerx-health-tech-pvt",
+  "platform": "EzeRx Health Tech Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hscc-india",
+  "platform": "HSCC (INDIA) LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hindustan-wellness-pvt",
+  "platform": "Hindustan Wellness Pvt. Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-isiri-technologies-pvt",
+  "platform": "ISIRI Technologies Pvt Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-krsnaa-diagnostics",
+  "platform": "Krsnaa Diagnostics Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-livehealth",
+  "platform": "Livehealth",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mediquity-technologies-pvt-ltd-sharp-lims",
+  "platform": "MEDIQUITY TECHNOLOGIES PVT. LTD (SHARP LIMS)",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-pathkind-diagnostics-private",
+  "platform": "PATHKIND DIAGNOSTICS PRIVATE LIMITED",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-remidio-innovative-solutions-pvt",
+  "platform": "Remidio Innovative Solutions Pvt Ltd",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-softmed-technologies",
+  "platform": "Softmed Technologies LLP",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sufalam-solutions-pvt",
+  "platform": "Sufalam Solutions Pvt. Ltd.",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sunfox-technologies-private",
+  "platform": "Sunfox Technologies Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-wrig-nanosystems-private",
+  "platform": "Wrig Nanosystems Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-zealthix-technologies-private",
+  "platform": "Zealthix Technologies Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-zealthix-technologies-private",
+  "platform": "Zealthix Technologies Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-zealthix-technologies-private",
+  "platform": "Zealthix Technologies Private Limited",
+  "category": "LMIS",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-epic",
+  "platform": "Epic",
+  "category": "EMR",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "USA/Global"
+ },
+ {
+  "platform_id": "IN-oracle-health-cerner",
+  "platform": "Oracle Health (Cerner)",
+  "category": "EMR",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "USA/Global"
+ },
+ {
+  "platform_id": "IN-abym-technology-private",
+  "platform": "Abym Technology Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-driefcase-health-tech-pvt",
+  "platform": "Driefcase Health Tech Pvt Ltd",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-driefcase-health-tech-pvt",
+  "platform": "Driefcase Health Tech Pvt Ltd",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-driefcase-health-tech-pvt",
+  "platform": "Driefcase Health Tech Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthica-digisol-private",
+  "platform": "Healthica Digisol Private Limited",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthica-digisol-private",
+  "platform": "Healthica Digisol Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthica-digisol-private",
+  "platform": "Healthica Digisol Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-quality-healthcare-access-private",
+  "platform": "QUALITY HEALTHCARE ACCESS PRIVATE LIMITED",
+  "category": "Connectors",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-abi-health-technologies-private",
+  "platform": "ABI-Health Technologies Private Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-abi-health-technologies-private",
+  "platform": "ABI-Health Technologies Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-acko-general-insurance",
+  "platform": "Acko General Insurance Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aditya-birla-health-insurance-company",
+  "platform": "Aditya Birla Health Insurance Company Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aditya-birla-health-insurance-company",
+  "platform": "Aditya Birla Health Insurance Company Ltd.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-aditya-birla-health-insurance-company",
+  "platform": "Aditya Birla Health Insurance Company Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-general-insurance",
+  "platform": "Bajaj General Insurance Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-bajaj-general-insurance",
+  "platform": "Bajaj General Insurance Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chola-ms-general-insurance-co",
+  "platform": "Chola MS General Insurance Co Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-chola-ms-general-insurance-co",
+  "platform": "Chola MS General Insurance Co Ltd",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ihx-private",
+  "platform": "IHX Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-manipalcigna-health-insurance-company",
+  "platform": "ManipalCigna Health Insurance Company Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-manipalcigna-health-insurance-company",
+  "platform": "ManipalCigna Health Insurance Company Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medi-assist-insurance-tpa-pvt",
+  "platform": "Medi Assist Insurance TPA Pvt. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-navi-general-insurance",
+  "platform": "Navi General Insurance Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-navi-general-insurance",
+  "platform": "Navi General Insurance Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-niva-bupa-health-insurance-company",
+  "platform": "Niva Bupa Health Insurance Company Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-niva-bupa-health-insurance-company",
+  "platform": "Niva Bupa Health Insurance Company Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-one-sg-technologies-pvt",
+  "platform": "One SG Technologies Pvt Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-one-sg-technologies-pvt",
+  "platform": "One SG Technologies Pvt Ltd",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-reliance-general-insurance-co",
+  "platform": "Reliance General Insurance Co. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-star-health-and-allied-insurance-company",
+  "platform": "Star Health and Allied Insurance Company Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-star-health-and-allied-insurance-company",
+  "platform": "Star Health and Allied Insurance Company Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tecforz-innovations-pvt",
+  "platform": "Tecforz Innovations Pvt Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tecforz-innovations-pvt",
+  "platform": "Tecforz Innovations Pvt Ltd",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-united-india-insurance-company",
+  "platform": "United India Insurance Company",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-united-india-insurance-company",
+  "platform": "United India Insurance Company",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-universal-sompo-general-insurance-c",
+  "platform": "Universal Sompo General Insurance C",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-universal-sompo-general-insurance-c",
+  "platform": "Universal Sompo General Insurance C",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vesak-technologies-pvt",
+  "platform": "Vesak Technologies Pvt. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vidal-health-insurance-tpa-private",
+  "platform": "Vidal Health Insurance TPA Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vitraya-technologies-private",
+  "platform": "Vitraya Technologies Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-vitraya-technologies-private",
+  "platform": "Vitraya Technologies Private Limited",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-volo-health-insurance-tpa-pvt",
+  "platform": "Volo Health Insurance TPA Pvt. Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-volo-health-insurance-tpa-pvt",
+  "platform": "Volo Health Insurance TPA Pvt. Ltd.",
+  "category": "NHCX",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-akna-health-insurance-tpa-private",
+  "platform": "AKNA HEALTH INSURANCE TPA PRIVATE LIMITED",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-am-tree-healthwealth-innovations-private",
+  "platform": "AM-TREE HEALTHWEALTH INNOVATIONS PRIVATE LIMITED",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-apna-policy-insurance-brokers-pvt",
+  "platform": "Apna Policy Insurance Brokers Pvt. Ltd.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-care-health-insurance",
+  "platform": "Care health insurance",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-cholamandalam-ms-general-insurance-company",
+  "platform": "Cholamandalam MS General Insurance company Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-genins-india-insurance-tpa",
+  "platform": "Genins India Insurance TPA Ltd.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-go-digit-general-insurance",
+  "platform": "Go Digit General Insurance Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hdfc-ergo-general-insurance-company",
+  "platform": "HDFC Ergo General Insurance Company Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-icici-lombard-general-insurance-company",
+  "platform": "ICICI Lombard General Insurance Company Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-icici-prudential-life-insurance-co",
+  "platform": "ICICI Prudential Life Insurance Co. Ltd.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kotak-mahindra-general-insurance-company",
+  "platform": "KOTAK MAHINDRA GENERAL INSURANCE COMPANY LIMITED",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kotak-mahindra-life-insurance-company",
+  "platform": "Kotak Mahindra Life Insurance Company",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-liberty-general-insurance",
+  "platform": "Liberty General Insurance Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-link-k-insurance-tpa-private",
+  "platform": "Link-K Insurance TPA Private Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-m-s-galaxy-health-insurance-co",
+  "platform": "M/s. GALAXY HEALTH INSURANCE CO LTD.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mediprobe-consultancy-services-private",
+  "platform": "MEDIPROBE CONSULTANCY SERVICES PRIVATE LIMITED",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-insurance-company",
+  "platform": "NATIONAL INSURANCE COMPANY LIMITED",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-oriental-insurance-company",
+  "platform": "Oriental Insurance Company Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paramount-health-services-insurance-tpa-pvt",
+  "platform": "PARAMOUNT HEALTH SERVICES & INSURANCE TPA PVT LTD",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-qbe-general-insurance-private",
+  "platform": "QBE General Insurance Private Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rajasthan-state-health-assurance-agency-rshaa",
+  "platform": "Rajasthan State Health Assurance Agency (RSHAA)",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-rajiv-aarogyasri-health-care-trust",
+  "platform": "Rajiv Aarogyasri Health Care Trust",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-royal-sundaram-general-insurance-co",
+  "platform": "Royal Sundaram General Insurance Co. Ltd.",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tata-aia-life-insurance",
+  "platform": "TATA AIA Life Insurance",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-tata-aig-general-insurance-co",
+  "platform": "TATA AIG General Insurance Co Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-universal-sompo-general-insurance-company",
+  "platform": "Universal Sompo General Insurance Company Ltd",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-zuno-general-insurance",
+  "platform": "Zuno General Insurance Limited",
+  "category": "Insurance",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-arupavi-health-technologies-pvt",
+  "platform": "Arupavi Health Technologies Pvt Ltd",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-csquare-info-solutions",
+  "platform": "CSQUARE INFO SOLUTIONS LTD",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-davadost-pharma-pvt",
+  "platform": "Davadost Pharma PVT LTD",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-el-pharmacy",
+  "platform": "EL Pharmacy LLP",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-marg-erp",
+  "platform": "Marg ERP Limited",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-softworld-india-private",
+  "platform": "SOFTWORLD (INDIA) PRIVATE LIMITED",
+  "category": "Pharmacy",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-4p-healthcare-private",
+  "platform": "4P Healthcare Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-achala-health-services-private",
+  "platform": "Achala Health Services Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-alafied-solutions-private",
+  "platform": "Alafied Solutions Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-apex-kidney-care-pvt",
+  "platform": "Apex Kidney Care Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-artivatic-data-labs-pvt",
+  "platform": "Artivatic Data Labs Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-artivatic-data-labs-pvt",
+  "platform": "Artivatic Data Labs Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-athlex-innovations-pvt",
+  "platform": "Athlex Innovations Pvt. Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-beh-private",
+  "platform": "BEH Private Limited",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-beh-private",
+  "platform": "BEH Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-beh-private",
+  "platform": "BEH Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-belfricsbt-pvt",
+  "platform": "Belfricsbt Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-caare-assisted-telemedicine",
+  "platform": "Caare Assisted Telemedicine",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-central-india-associates",
+  "platform": "Central India Associates",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-collateral-medical-pvt",
+  "platform": "Collateral Medical Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-curelink-private",
+  "platform": "Curelink Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-deeptek-medical-imaging-pvt",
+  "platform": "DeepTek Medical Imaging Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-digisparsh-pvt",
+  "platform": "Digisparsh Pvt Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-doconline-health-india-pvt",
+  "platform": "DocOnline Health India Pvt. Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-docsymedsy-healthtech-private",
+  "platform": "Docsymedsy Healthtech Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-doxper",
+  "platform": "Doxper",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-drome-services-private",
+  "platform": "Drome Services Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ev-software-solutions-pvt",
+  "platform": "EV Software Solutions PVT LTD",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-equal",
+  "platform": "Equal",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-farmako",
+  "platform": "FARMAKO",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healon-technologies-private",
+  "platform": "HealOn Technologies Private Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healspan",
+  "platform": "Healspan",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healthatm-india-private",
+  "platform": "HealthATM India Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-hitachi-mgrm-net",
+  "platform": "Hitachi MGRM Net",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-india-health-link-pvt",
+  "platform": "India Health Link Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-jio-health-hub",
+  "platform": "Jio Health Hub",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-karkinos-healthcare-private",
+  "platform": "Karkinos Healthcare Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-kokoro-bharat-health-and-wellness-pvt",
+  "platform": "Kokoro Bharat Health and Wellness pvt ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-letsdoc-healthcare-technologies-pvt",
+  "platform": "LetsDoc Healthcare Technologies Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-letsdoc-healthcare-technologies-pvt",
+  "platform": "LetsDoc Healthcare Technologies Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-livlong-protection-and-wellness-solutions",
+  "platform": "Livlong Protection and Wellness Solutions Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medical-network-private",
+  "platform": "MEDICAL NETWORK PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-marsha-health",
+  "platform": "MarSha Health",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medblocks",
+  "platform": "Medblocks",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medibuddy",
+  "platform": "MediBuddy",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medsynapse-ris-pacs",
+  "platform": "Medsynapse RIS-PACS",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-meraadhikar",
+  "platform": "Meraadhikar",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-myclnq",
+  "platform": "MyCLNQ",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mydigi-records",
+  "platform": "MyDigi Records",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nec-software-solution",
+  "platform": "NEC Software Solution",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-national-health-mission-tamil-nadu",
+  "platform": "National Health Mission - Tamil Nadu",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-nephroplus",
+  "platform": "NephroPlus",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-neurobit-innovations-private",
+  "platform": "Neurobit Innovations Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-panscience-ai-healthcare-pvt",
+  "platform": "Panscience AI Healthcare Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paperplane-whatsapp-clinic",
+  "platform": "Paperplane WhatsApp Clinic",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-purplebits-infosystems-pvt",
+  "platform": "Purplebits Infosystems Pvt. Ltd.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-qure-ai-technologies-private",
+  "platform": "QURE AI TECHNOLOGIES PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-recodeai-digital-solutions-private",
+  "platform": "Recodeai Digital Solutions Private Limited.",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-redkenko-health-tech-private",
+  "platform": "Redkenko Health Tech Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-renatus-meditech-solutions-pvt",
+  "platform": "Renatus Meditech Solutions Pvt. Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-roojh-india-pvt",
+  "platform": "Roojh India Pvt Ltd",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-roojh-india-pvt",
+  "platform": "Roojh India Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-sehatpro-technologies-private",
+  "platform": "SEHATPRO TECHNOLOGIES PRIVATE LIMITED",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-telehealth-innovations-foundation",
+  "platform": "Telehealth Innovations Foundation",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-univlabs-technologies-pvt",
+  "platform": "UNIVLABS TECHNOLOGIES PVT LTD",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-verraton-health-private",
+  "platform": "Verraton Health Private Limited",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-yorecare",
+  "platform": "Yorecare",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-argusoft-medplat",
+  "platform": "argusoft MEDplat",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-https-egov-org-in",
+  "platform": "https://egov.org.in/",
+  "category": "Health Tech",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-amogh-nsmp-tech-private",
+  "platform": "AMOGH NSMP TECH PRIVATE LIMITED",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-adhyanshi-enterprises",
+  "platform": "Adhyanshi Enterprises",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-adhyanshi-enterprises",
+  "platform": "Adhyanshi Enterprises",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ambula-technologies-pvt",
+  "platform": "Ambula Technologies Pvt Ltd",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-ambula-technologies-pvt",
+  "platform": "Ambula Technologies Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-anahat-solutions-pvt",
+  "platform": "Anahat Solutions Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-arogya-setu",
+  "platform": "Arogya Setu",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-health-and-medical-education-department-j-k",
+  "platform": "Health and Medical Education Department, J&K",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-livo-aarogyaaadhar-private",
+  "platform": "Livo AarogyaAadhar Private Limited",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-livo-aarogyaaadhar-private",
+  "platform": "Livo AarogyaAadhar Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-mrg-blockchain-solutions-pvt",
+  "platform": "MRG Blockchain Solutions Pvt. Ltd.",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-panscience-ai-healthcare-private",
+  "platform": "PanScience AI Healthcare Private Limited",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-panscience-ai-healthcare-private",
+  "platform": "PanScience AI Healthcare Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paytm",
+  "platform": "Paytm",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-paytm",
+  "platform": "Paytm",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-plenome-technologies-private",
+  "platform": "Plenome Technologies Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prudas-technologies-pvt",
+  "platform": "Prudas Technologies Pvt Ltd",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-prudas-technologies-pvt",
+  "platform": "Prudas Technologies Pvt Ltd",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-remote-healthcare-technologies-pvt",
+  "platform": "Remote Healthcare Technologies Pvt. Ltd.",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-remote-healthcare-technologies-pvt",
+  "platform": "Remote Healthcare Technologies Pvt. Ltd.",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-remoteward-care-private",
+  "platform": "RemoteWard Care Private Limited",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healow-india-eclinicalworks",
+  "platform": "healow India (eClinicalWorks)",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-healow-india-eclinicalworks",
+  "platform": "healow India (eClinicalWorks)",
+  "category": "PHR App",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-appex-tech-innovations-pvt",
+  "platform": "Appex Tech Innovations Pvt Ltd",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-digilocker",
+  "platform": "DIGILOCKER",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-driefcase",
+  "platform": "DRiefcase",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-docprime-technologies-private",
+  "platform": "DocPrime Technologies Private Limited",
+  "category": "Health Locker",
+  "protocol": "FHIR-R4/ABDM",
+  "api_surface": "ABDM M1-M3",
+  "automation_method": "api-preferred",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-qure-ai",
+  "platform": "Qure.ai",
+  "category": "Imaging AI",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-birlamedisoft-quanta",
+  "platform": "Birlamedisoft Quanta",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-dedalus",
+  "platform": "Dedalus",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "Italy/Global"
+ },
+ {
+  "platform_id": "IN-docengage",
+  "platform": "DocEngage",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-lifetrenz",
+  "platform": "Lifetrenz",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-medstar-his",
+  "platform": "Medstar HIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-palash-hmis",
+  "platform": "Palash HMIS",
+  "category": "HMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-meditech-expanse",
+  "platform": "MEDITECH Expanse",
+  "category": "EMR",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "USA/Global"
+ },
+ {
+  "platform_id": "IN-centricity-pacs",
+  "platform": "Centricity PACS",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "USA/Global"
+ },
+ {
+  "platform_id": "IN-dr-lal-pathlabs-lis",
+  "platform": "Dr Lal PathLabs LIS",
+  "category": "LMIS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-intellispace-healthsuite-imaging",
+  "platform": "IntelliSpace / HealthSuite Imaging",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "NL/Global"
+ },
+ {
+  "platform_id": "IN-synapse-enterprise-imaging",
+  "platform": "Synapse / Enterprise Imaging",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "Japan/Global"
+ },
+ {
+  "platform_id": "IN-syngo-via",
+  "platform": "syngo.via",
+  "category": "RIS/PACS",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "DE/Global"
+ },
+ {
+  "platform_id": "IN-5c-network",
+  "platform": "5C Network",
+  "category": "Teleradiology/AI",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-deeptek",
+  "platform": "DeepTek",
+  "category": "Imaging AI",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ },
+ {
+  "platform_id": "IN-synapsica",
+  "platform": "Synapsica",
+  "category": "Imaging AI",
+  "protocol": "unknown",
+  "api_surface": "none-documented",
+  "automation_method": "ui-automation",
+  "tier": "P3",
+  "country": "India"
+ }
+]

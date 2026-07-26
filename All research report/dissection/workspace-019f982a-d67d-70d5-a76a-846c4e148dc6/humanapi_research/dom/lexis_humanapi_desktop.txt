@@ -1,0 +1,684 @@
+US - English
+
+Product Sign In
+
+Choose Your Industry
+toggle menu
+Products
+Insights and Resources
+About Us
+toggle menu
+Contact
+Healthcare
+Markets We Serve
+Toggle
+Capabilities & Solutions
+Toggle
+Healthcare Insights
+Toggle
+Contact Us
+LexisNexis® Human API™
+Connecting Health Data to Advance Clinical Research and Healthcare
+Home  Our Products  Human API™
+Simplify the Complexities of Health Data
+
+Personalized medicine and care require a whole person view and next-generation data collection. However, amidst this progress lies a significant challenge: the proliferation and fragmentation of healthcare data. It has never been more important to have visibility into a person’s comprehensive health history—but the data is often scattered across disparate systems. Healthcare and life science organizations need secure, user-friendly methods for patients to share their data to provide insights that can help to optimize care, advance clinical research and ultimately, improve health outcomes.
+
+Consumer-Consented Health Data at Scale
+
+LexisNexis® Human API™ combines a vast consumer-permission health data network with next-generation digital capabilities to address the core challenges of data access. Through this user-friendly technology, healthcare and life science companies have a transformative solution that can: 
+
+Empower consumers with a seamless, secure and user-friendly tool to provide consent to access and share their health data, so organizations can gain a more complete picture of the individual and patient journey. 
+Gain consumer-level data and longitudinal insights to deepen relationships and deliver more personalized and meaningful healthcare experiences. 
+Securely access data from healthcare consumers and patients more efficiently than traditional methods.
+Receive standardized and normalized data in a digital format, enabling these organizations to leverage the data for a variety of patient care, business purposes and clinical research. 
+
+Click to View Wearable Network Coverage
+
+
+Efficient Screening of Clinical Trial Patients
+
+Clinical trial sites can conduct more efficient patient screening to improve site confidence in referrals, accelerate speed to market and support more diverse clinical research. In addition, by capturing data from diverse patient populations in real-world settings, researchers can understand treatment performance and outcomes outside of clinical trials.
+
+Human API™ can help research teams and healthcare organizations to: 
+
+Improve Site Confidence in Referrals:   Send the highest-quality leads to sites, reduce screen fails and site fatigue. 
+Improve Speed to Market:  Enroll qualified patients more quickly with rapid access to comprehensive health history. 
+Support Hybrid / Decentralized Trials:  Access consented patient data to support more diverse clinical research.
+
+
+Optimize Digital Health Programs
+
+Digital health programs can deliver personalized care plans and resources with improved patient engagement and health outcomes.
+
+HumanAPI can help healthcare organizations to: 
+
+Improve Patient Engagement and Satisfaction: Personalize digital experiences and deliver more meaningful healthcare experiences.
+Improve Health Outcomes: Better target and deliver relevant programs to meet the needs of the patient.
+Enable Data Sharing with Ease
+
+Coupling a seamless, secure, and user-friendly consumer consent interface with a vast data network of over 30,000 data connections including medical records, labs, fitness wearables and apps, research teams and healthcare organizations can empower consumers to easily share their health data for a more complete picture of the individual and patient journey. Paired with sophisticated data management and processing, the seamless installation and flexible implementation reduces IT burden, consolidates multiple authorization modalities and data retrieval channels into a single user experience, and instantly brings standardized data into existing workflows. 
+
+   
+
+ 
+
+Contact Us For More Information
+* Indicates required field
+First Name *
+Last Name *
+Work Phone *
+Work Email *
+Company *
+Country / Region *
+Country / Region *
+ 
+Country / Region *
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Ascension Island
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Chad
+Channel Islands
+Chile
+China
+Colombia
+Comoros
+Congo
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curacao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Fiji
+Finland
+France
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong SAR
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Korea
+Korea, Democratic People's Rep
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau SAR
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mexico
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nepal
+Netherlands
+Netherlands Antilles
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Authority
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+St. Kitts and Nevis
+St. Lucia
+St. Pierre and Miquelon
+St. Vincent and Grenadines
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+US Minor Outlying Islands
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Zip Code *
+Industry *
+Industry *
+ 
+Industry *
+Automobiles & Parts
+Collection Agency/Debt Buyer
+Cryptocurrency
+Education
+Financial Services
+Food & Beverage
+Gaming and gambling
+Government - Federal
+Government - State/Local
+Healthcare
+Insurance
+Law Enforcement & Public safety
+Legal
+Manufacturing
+Media
+Mining
+Oil, Gas & Chemicals
+Professional Services
+Real Estate
+Receivables Management
+Retail
+Security & Private Investigation
+Technology
+Telecommunications
+Travel & Leisure
+Utilities
+Other
+Job Title *
+How Can We Help You
+LexisNexis Risk Solutions Inc. and its entities may also contact you regarding our products and services as well as the latest industry insights. You can opt-out of our communications at any time via our preference center.
+Submit
+Want to see what devices and
+apps are supported?
+View our wearable network coverage
+ 
+Are you an insurance company looking for Human API?
+Click Here
+
+
+Maximize Success of Healthcare Initiatives
+
+Comprehensive Data: Consumer, claims, provider and SDoH data to transform healthcare.
+
+Provider Search: Search by provider or quick-select by location.
+
+Enterprise Portal Hosted web portal to view and manage consumer data.
+
+Consumer Access Wizard: 30K+ unique data connections; 270M+ people; medical records, labs, 300+ wearables and apps.
+
+Data Normalization and Transformation: Standardization, normalization and enrichment of data.
+
+Flexible and Integrated Data Delivery Integrate directly into customer source systems.
+
+As the healthcare delivery landscape continues to evolve with new settings of care and sources of information, healthcare consumers will expect experiences be more personalized, consumer-centric, and user-friendly.  They will demand a more holistic look into their entire healthcare information portfolio, and Human API can provide that solution.  As research teams and life science companies need to recruit and enroll study participants, the opportunity for a more insightful patient profile can help reduce the times for study start-up and overall cost. And, as regulations and mandates require more transparency, this solution sets the stage for a new level of consumer insight previously unknown.
+To schedule a demo of the powerful Human API capabilities from LexisNexis Risk Solutions, please fill out the form below: 
+* Indicates required field
+First Name *
+Last Name *
+Work Phone *
+Work Email *
+Company *
+Country / Region *
+Country / Region *
+ 
+Country / Region *
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Ascension Island
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Chad
+Channel Islands
+Chile
+China
+Colombia
+Comoros
+Congo
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curacao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Fiji
+Finland
+France
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong SAR
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Korea
+Korea, Democratic People's Rep
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau SAR
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mexico
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nepal
+Netherlands
+Netherlands Antilles
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Authority
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+St. Kitts and Nevis
+St. Lucia
+St. Pierre and Miquelon
+St. Vincent and Grenadines
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+US Minor Outlying Islands
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Zip Code *
+Industry *
+Industry *
+ 
+Industry *
+Automobiles & Parts
+Collection Agency/Debt Buyer
+Cryptocurrency
+Education
+Financial Services
+Food & Beverage
+Gaming and gambling
+Government - Federal
+Government - State/Local
+Healthcare
+Insurance
+Law Enforcement & Public safety
+Legal
+Manufacturing
+Media
+Mining
+Oil, Gas & Chemicals
+Professional Services
+Real Estate
+Receivables Management
+Retail
+Security & Private Investigation
+Technology
+Telecommunications
+Travel & Leisure
+Utilities
+Other
+Job Title *
+How Can We Help You
+LexisNexis Risk Solutions Inc. and its entities may also contact you regarding our products and services as well as the latest industry insights. You can opt-out of our communications at any time via our preference center.
+Submit
+LexisNexis and the Knowledge Burst logo are registered trademarks of RELX Inc.  Human API is a trademark of HumanAPI Inc. Copyright © 2024 LexisNexis Risk Solutions. 
+
+Industries
+
+Collections and Recovery
+Financial Services
+Government
+Healthcare
+Insurance
+Law Enforcement and Public Safety
+Corporations and Non-Profits
+
+Our Products
+
+View Our Products
+
+Insights and Resources
+
+Article
+Case Study
+Blog
+Infographic
+Podcast
+Research
+Video
+Webinar
+White Paper
+
+About Us
+
+Business Overview
+Executive Leadership
+Our Technology
+Careers
+Press Room
+Experts
+Corporate Service Partnerships
+Government Alliances
+Healthcare Partnerships
+Insurance Partnerships
+Site Map
+
+Contact
+
+Sales
+Customer Support
+Consumer Assistance
+Media Contacts
+Industry Analyst
+Career Opportunities
+Report Security Issue
+Provide Feedback
+
+Policies
+
+Terms and Conditions
+Legal Notices
+Reporting Requirements
+Privacy Policy
+US Privacy Notice
+Cookie Settings
+Cookie Policy
+Consumer and Data Access
+Ad Choices
+Your Privacy Choices 
+LexisNexis® Risk Solutions, part of RELX.
+
+Copyright © 2026 LexisNexis Risk Solutions.
+
+Share

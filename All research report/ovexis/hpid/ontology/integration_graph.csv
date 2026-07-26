@@ -1,0 +1,563 @@
+platform_id,platform,category,protocol,api_surface,automation_method,tier,country
+IN-abha-abdm-core-hfr-hpr-hie-cm,"ABHA / ABDM core (HFR, HPR, HIE-CM)",National Infra,unknown,none-documented,ui-automation,P0,India
+IN-cdac,CDAC,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-cdac,CDAC,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-practo,Practo,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-nic,NIC,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-karexpert,KareXpert,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-e-hospital-nextgen-e-hmis,e-Hospital / NextGen e-HMIS,HMIS,unknown,none-documented,ui-automation,P0,India
+IN-e-sushrut,e-Sushrut,HMIS,unknown,none-documented,ui-automation,P0,India
+IN-healthplix,HealthPlix,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P0,India
+IN-bahmni,Bahmni,HMIS,unknown,none-documented,ui-automation,P0,India/Global
+IN-openmrs,OpenMRS,EMR,unknown,none-documented,ui-automation,P0,Global
+IN-medixcel-emr-his,Medixcel EMR & HIS,HMIS,unknown,none-documented,ui-automation,P0,India
+IN-nhcx,NHCX,Insurance Exchange,unknown,none-documented,ui-automation,P0,India
+IN-dcm4chee,dcm4chee,RIS/PACS,unknown,none-documented,ui-automation,P0,Global
+IN-attune-his-lis,Attune HIS/LIS,HMIS,unknown,none-documented,ui-automation,P0,India
+IN-insta-hms,Insta HMS,HMIS,unknown,none-documented,ui-automation,P0,India
+IN-creliohealth,CrelioHealth,LMIS,unknown,none-documented,ui-automation,P1,India
+IN-e-sushrut-clinic,e-Sushrut@Clinic,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-drucare-private,Drucare Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-drucare-private,Drucare Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-drucare-private,Drucare Private Limited,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-orbi-health-private,Orbi Health Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-orbi-health-private,Orbi Health Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-orbi-health-private,Orbi Health Private Limited,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-orbi-health-private,Orbi Health Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-plus-91,Plus 91,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-plus-91,Plus 91,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-plus-91,Plus 91,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-plus-91,Plus 91,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-yro-systems-pvt,Yro Systems Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-yro-systems-pvt,Yro Systems Pvt Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-bajaj-finserv-health,Bajaj Finserv Health,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-bajaj-finserv-health,Bajaj Finserv Health,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-bajaj-finserv-health,Bajaj Finserv Health,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-bajaj-finserv-health,Bajaj Finserv Health,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-dhanush-healthcare-systems-private,Dhanush Healthcare Systems Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-dhanush-healthcare-systems-private,Dhanush Healthcare Systems Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-hodo-medical-informatic-solutions-private,HODO Medical Informatic Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-hodo-medical-informatic-solutions-private,HODO Medical Informatic Solutions Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-healthray-technologies-pvt,Healthray Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-nice-hms,NICE-HMS,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-caresoft-his,Caresoft HIS,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-drlogy,Drlogy,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-ezovion-hims,Ezovion HIMS,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-halemind,Halemind,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-napier-his,Napier HIS,HMIS,unknown,none-documented,ui-automation,P1,Singapore/India
+IN-softclinic-genx,SoftClinic GenX,HMIS,unknown,none-documented,ui-automation,P1,India
+IN-drcfo-management-consultants-private,DRCFO MANAGEMENT CONSULTANTS PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-eaushadhi,eAushadhi,Pharmacy/SCM,unknown,none-documented,ui-automation,P1,India
+IN-connection-loops-pvt,Connection Loops Pvt Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-a-hmis,A-HMIS,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-aciana-health-technologies-india-private,ACIANA HEALTH TECHNOLOGIES INDIA PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-acutech-solutions-private,ACUTECH SOLUTIONS PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-aireach-medtech-private,AIREACH MedTech Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-apleixa-technologies-private,APLEIXA TECHNOLOGIES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-arinsta-private,ARINSTA PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-arinsta-private,ARINSTA PRIVATE LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-arinsta-private,ARINSTA PRIVATE LIMITED,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-axonic-health-private,AXONIC HEALTH PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-akhil-systems-pvt,Akhil Systems Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-algoflow-ai-private,Algoflow AI Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-amrita,Amrita Technologies,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-aosta-india-private,Aosta India Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-apollo-hospital,Apollo hospital,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-argusoft-india,ArguSoft India Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-argusoft-india,ArguSoft India Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-artem-healthtech-private,Artem HealthTech Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-asmi-global-softwares-opc-pvt,Asmi Global Softwares (OPC) Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P1,India
+IN-asuun-wellness-pvt,Asuun Wellness Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-athma-healthtech-pvt,Athma Healthtech Pvt Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-athma-healthtech-pvt,Athma Healthtech Pvt Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-auroitech-digital-solutions-foundation,Auroitech Digital Solutions Foundation,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-biosoft-health-tech-pvt,BIOSOFT HEALTH TECH PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-bs-infosystems-and-solutions-private,BS Infosystems And Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-bavya-health-services-private,Bavya Health Services Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-bharuwa-solutions-pvt,Bharuwa Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-byepo,Byepo Technologies,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-byepo,Byepo Technologies,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-c-u-shah-medical-college-hospital,C U Shah Medical College & Hospital,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-catalyst-software,CATALYST SOFTWARE,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-cdac-noida,CDAC Noida,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-chipsy-information-technology-services-private,CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-chipsy-information-technology-services-private,CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-chipsy-information-technology-services-private,CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-chipsy-information-technology-services-private,CHIPSY INFORMATION TECHNOLOGY SERVICES PRIVATE LIMITED,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-curebay-technologies-private,CUREBAY TECHNOLOGIES PRIVATE LIMITED,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-curebay-technologies-private,CUREBAY TECHNOLOGIES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-curebay-technologies-private,CUREBAY TECHNOLOGIES PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-clinally-mpower-health,Clinally mPower Health,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-cliniq360-pvt,CliniQ360 Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-codepro-management-private,Codepro Management Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-compune-digital-solutions-pvt,Compune Digital Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-copious-healthcare-india-pvt,Copious Healthcare India Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-copious-healthcare-india-pvt,Copious Healthcare India Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-cordelia-technology-private,Cordelia Technology Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-core5-systems-and-services-private,Core5 Systems and Services Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-cottonsoil-healthcare-tech-pvt,Cottonsoil Healthcare Tech Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-crane-global-solutions-limited-cgsl,Crane Global Solutions Limited (CGSL),HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-criterion-tech-private,Criterion Tech Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-curasync-technologies,Curasync Technologies LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dalvkot-utility-enterprises-pvt,DALVKOT UTILITY ENTERPRISES PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dcdc-health-services-pvt-lt,DCDC Health Services Pvt. Lt,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-devenv-tech-private,DEVENV TECH PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-driefcase-connect,DRiefcase Connect,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dataman-computer-systems-pvt,Dataman Computer Systems Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dataman-computer-systems-pvt,Dataman Computer Systems Pvt. Ltd.,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dataman-computer-systems-pvt,Dataman Computer Systems Pvt. Ltd.,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dataman-computer-systems-pvt,Dataman Computer Systems Pvt. Ltd.,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-datamate-info-solutions,Datamate Info Solutions Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-datasoftline-pvt,Datasoftline Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-department-of-homoeopathy-govt-of-kerala,"Department of Homoeopathy, Govt of Kerala",HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-destratum-solutions-private,Destratum Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-digicare-healthcare-solutions-private,Digicare Healthcare Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-docon-technologies-pvt,DocOn Technologies Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-docplix-solutions-pvt,Docplix Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-docterz-health-tech-labs-pvt,Docterz Health-Tech Labs Pvt Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-dreamsoft4u-private,DreamSoft4u Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-egerp-informatics-pvt,EGERP INFORMATICS PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-enlacecode-technology-pvt,ENLACECODE TECHNOLOGY PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-eva-soft-private,EVA SOFT PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-easy-solution-infosystems-private,Easy Solution Infosystems Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-entro-labs-it-solutions-pvt,Entro Labs IT Solutions Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-equeue-technosolutions-private,Equeue Technosolutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-equilym-technologies-private,Equilym Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-existence-software-solution-pvt,Existence Software Solution Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-expedien-esolutions,Expedien eSolutions,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-fortis-healthcare,Fortis Healthcare,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-forus-health-pvt,Forus Health Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-founding-minds-pvt,Founding Minds Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-framework-futuristic-pvt,Framework Futuristic Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-gj-global-it-ventures-pvt,GJ Global IT Ventures Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-godhani-infotech,GODHANI INFOTECH,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-grapes-innovative,Grapes Innovative Solutions.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-gravity-web-technologies-pvt,Gravity Web Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hanuram-healthtech-private,HANURAM HEALTHTECH PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-healthcare-global-enterprises,HEALTHCARE GLOBAL ENTERPRISES LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-helyxon-healthcare-solutions-private,HELYXON HEALTHCARE SOLUTIONS PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-helyxon-healthcare-solutions-private,HELYXON HEALTHCARE SOLUTIONS PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hisp-emr,HISP-EMR,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hll-lifecare-limited-a-government-of-india-enterprise,HLL Lifecare Limited (A Government of India Enterprise),HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hll-lifecare,HLL Lifecare Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hll-lifecare,HLL Lifecare Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hlthtek-optimus-private,HLTHTek Optimus Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-holofx-consulting-private,HOLOFX CONSULTING PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hamsa-soham-health-care-pvt,Hamsa Soham Health Care Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-healtether-healthcare-services-private,HealTether Healthcare Services Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-health-family-welfare-department-government-of-tripura,"Health & Family Welfare Department, Government of Tripura",HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-health-family-welfare-department-government-of-tripura,"Health & Family Welfare Department, Government of Tripura",LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-health-smarttech-private,Health Smarttech Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-healthixio,Healthixio,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-healthvalors-technosoft-private,Healthvalors Technosoft Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-healthvalors-technosoft-private,Healthvalors Technosoft Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-hunnarvi-technologies-private,Hunnarvi Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-i-medicus-india-private,I-MEDICUS INDIA PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-ihx-health-repository-provider,IHX Health Repository Provider,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-infuture-com,INFUTURE.COM,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-iplit-solutions,IPLit Solutions LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-iplit-solutions,IPLit Solutions LLP,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-iq-line-private,IQ-Line Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-iq-line-private,IQ-Line Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-iqvia,IQVIA,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-ishaa-infinity-software-technologies,ISHAA INFINITY SOFTWARE TECHNOLOGIES LLP,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-ishaa-infinity-software-technologies,ISHAA INFINITY SOFTWARE TECHNOLOGIES LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-itdose-infosystems-pvt,ITDOSE INFOSYSTEMS Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-itdose-infosystems-pvt,ITDOSE INFOSYSTEMS Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-itsc-technologies-pvt,ITSC Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-itsc-technologies-pvt,ITSC Technologies Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-integrated-health-management-system,Integrated Health Management System,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jpr-systems-pvt,JPR SYSTEMS PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jupiter-lifeline-hospitals,JUPITER LIFELINE HOSPITALS LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jdeanz-healthtech-pvt,Jdeanz Healthtech Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jdeanz-healthtech-pvt,Jdeanz Healthtech Pvt. Ltd.,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jdeanz-healthtech-pvt,Jdeanz Healthtech Pvt. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-jdeanz-healthtech-pvt,Jdeanz Healthtech Pvt. Ltd.,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-kranium-healthcare-systems-pvt,KRANIUM HEALTHCARE SYSTEMS PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-karkinos-application-suite,Karkinos Application Suite,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-karnavati-software-technologies-pvt,Karnavati Software Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-karnavati-software-technologies-pvt,Karnavati Software Technologies Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-kulcare-india-private,Kulcare India Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-kyrocare-healthtech-private,Kyrocare Healthtech Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-kyrocare-healthtech-private,Kyrocare Healthtech Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-kyrocare-healthtech-private,Kyrocare Healthtech Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-lsg-associate,LSG Associate,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-linkedcare-chc-private,Linkedcare CHC Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-linkedcare-chc-private,Linkedcare CHC Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-medifox-technologies-private,MEDIFOX TECHNOLOGIES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mediquity-technologies-private,MEDIQUITY TECHNOLOGIES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mediquity-technologies-private,MEDIQUITY TECHNOLOGIES PRIVATE LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mindgenix-private,MINDGENIX PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mmh-global-india-private,MMH Global (India) Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-maestros-electronics-telecommunications-systems,Maestros Electronics & Telecommunications Systems Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mangalcare-systems-private,Mangalcare Systems Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mani-tech-nest-solutions,Mani Tech Nest Solutions LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-mann,Mann Technologies,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-manorama-infosolutions-pvt,Manorama Infosolutions Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-medisage,MediSage,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P2,India
+IN-medicalmine-india-private,MedicalMine India Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medimaze-solutions-pvt,Medimaze Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medionce-solutions-private,Medionce Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medjacket-india-pvt,Medjacket India Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medongo-health-pvt,Medongo Health Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medulia-healthcare-solutions-private,Medulia Healthcare Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-merago-software-technologies-private,Merago Software Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-merago-software-technologies-private,Merago Software Technologies Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-meta16labs-healthcare-and-analytics-pvt,Meta16Labs Healthcare and Analytics Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-mindzone-technologies-pvt,Mindzone Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ministry-of-ayush-government-of-india,"Ministry of Ayush, Government of India",HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-myhealthcare-technologies-private,MyHealthcare Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nalam-hcit-solutions-pvt,NALAM HCIT SOLUTIONS PVT LTD.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nextgen-esolutions-pvt-ltd-subsidiary-company-of-aimil,NEXTGEN ESOLUTIONS PVT LTD SUBSIDIARY COMPANY OF AIMIL LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nextgen-esolutions-pvt-ltd-subsidiary-company-of-aimil,NEXTGEN ESOLUTIONS PVT LTD SUBSIDIARY COMPANY OF AIMIL LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nict-bills-and-services,NICT Bills and Services,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nanocare-health-services-pvt-ltd-nanohealth,Nanocare Health Services Pvt Ltd. (NanoHealth),HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-narayana-health,Narayana Health Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-mission-shs-nagrota-jammu-j-k,"National Health Mission, SHS, Nagrota, Jammu, J&K",HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-informatics-centre,National Informatics Centre,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-netedge-computing-solutions-pvt,NetEdge Computing Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-neuralbits-technologies-pvt,Neuralbits Technologies Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-neurosynaptic-communications-pvt,Neurosynaptic Communications Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oasys-cybernetics-pvt,OASYS Cybernetics Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ohum-healthcare-solutions-pvt,OHUM Healthcare Solutions Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oakland-systems-pvt,Oakland Systems Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oakland-systems-pvt,Oakland Systems Pvt Ltd,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oneglance-software-services-private,Oneglance Software Services Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oneglance-software-services-private,Oneglance Software Services Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-pace-softronix-pvt,PACE SOFTRONIX PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-peritos-solutions-consulting-private,PERITOS SOLUTIONS & CONSULTING PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-purple-sky-health-private,PURPLE SKY HEALTH PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paliwal-infotech,Paliwal Infotech,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paliwal-infotech,Paliwal Infotech,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-perfect-software-solution,Perfect Software Solution,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-picasoid-health-technology-pvt,Picasoid Health Technology Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-piramal-swasthya-management-and-research-institute,Piramal Swasthya Management and Research Institute,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-plus-curenearme,Plus CureNearMe,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-postgraduate-institute-of-medical-education-and-research,Postgraduate Institute of Medical Education and Research,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-pranam-creative-solutions-pvt,Pranam Creative Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prantae-solutions-private,Prantae Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-pregnancy-child-tracking-health-services-management-system-p,"Pregnancy, Child Tracking & Health Services Management System (PCTS)",HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-probeplus-innovative-solutions-private,Probeplus Innovative Solutions Private Limited.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-protean-health,Protean Health,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prudas-technologies-private,Prudas Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prudas-technologies-private,Prudas Technologies Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prudas-technologies-private,Prudas Technologies Private Limited,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-purnank-software-solutions-pvt,Purnank Software Solutions Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-qmarksoft-qhms-qlms-qbilling,Qmarksoft QHMS/QLMS/Qbilling,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-quantum-corphealth-private,Quantum CorpHealth Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-renaissance-health-enterprise-suite-rhes,RENAISSANCE HEALTH ENTERPRISE SUITE (RHES),HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rvs-healthcare-pvt,RVS Healthcare Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rajasthan-government-health-scheme,Rajasthan Government Health Scheme,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ramalogy-private,Ramalogy Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-raxa-health,Raxa Health,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-raxa-health,Raxa Health,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-raxa-health,Raxa Health,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-raxa-health,Raxa Health,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rely-technologies-private,Rely Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rescribe-by-scorg-technologies-pvt,Rescribe by Scorg Technologies Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rigved-technologies-pvt,Rigved Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-s2-infotech-international,S2 Infotech International Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sanharabs-india-pvt,SANHARABS INDIA PVT LTD,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-satra-services-and-solutions-private,SATRA Services and Solutions Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sirobilt-software-services-private,SIROBILT SOFTWARE SERVICES PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-softcure-technology,SOFTCURE TECHNOLOGY LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-softman-software-system,SOFTMAN SOFTWARE SYSTEM,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sri-laxmi-kravia-techlabs-private,SRI LAXMI KRAVIA TECHLABS PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sri-laxmi-kravia-techlabs-private,SRI LAXMI KRAVIA TECHLABS PRIVATE LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-suja-associates-private,SUJA Associates Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sunil-medico-softwares,SUNIL MEDICO SOFTWARES,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-scisco-it-solutions-pvt,Scisco IT Solutions Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sher-i-kashmir-institute-of-medical-sciences,Sher-I-Kashmir Institute of Medical Sciences,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-shivam-medisoft-private,Shivam Medisoft Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-shrimad-rajchandra-hospital-and-research-centre,Shrimad Rajchandra Hospital and Research Centre,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-skearth-healthcare-pvt,Skearth Healthcare Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-skearth-healthcare-pvt,Skearth Healthcare Pvt. Ltd.,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-skearth-healthcare-pvt,Skearth Healthcare Pvt. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-skearth-healthcare-pvt,Skearth Healthcare Pvt. Ltd.,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-smarthms-solutions-pvt,SmartHMS & Solutions Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-smarthms-solutions-pvt,SmartHMS & Solutions Pvt. Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-smarthms-solutions-pvt,SmartHMS & Solutions Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-society-of-education-welfare-action-rural,Society of Education Welfare Action Rural,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sofscript-systems-services,Sofscript Systems & Services Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-softcane-solutions-pvt,Softcane Solutions Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sri-ramakrishna-hospital,Sri Ramakrishna Hospital,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-suvarna-arogya-suraksha-trust,Suvarna Arogya Suraksha Trust,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-suvarna-technosoft-pvt,Suvarna Technosoft Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-suvarna-technosoft-pvt,Suvarna Technosoft Pvt. Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-suvarna-technosoft-pvt,Suvarna Technosoft Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-swasthya-ingit,Swasthya Ingit,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-swingbell-labs,SwingBell Labs,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-symbiosis-university-hospital-and-research-centre,Symbiosis University Hospital and Research Centre,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-telerad-tech-private,TELERAD TECH Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tirupati-software-infotech-pvt,TIRUPATI SOFTWARE INFOTECH PVT. LTD.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-trrev-technology-opc-private,TRRev Technology (OPC) Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tata-medical-and-diagnostics,Tata Medical and Diagnostics,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tattva-foundation,Tattva Foundation,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-techsmith-solutions-pvt,TechSmith Solutions Pvt. Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tecnospice-tecnologies-pvt,Tecnospice Tecnologies Pvt Ltd,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tenwave-infotech-pvt,Tenwave Infotech Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-the-gemini-india,The Gemini India,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-third-ai-platforms-private,Third Ai Platforms Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-thoughtworks,Thoughtworks,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-timestream-technologies-private,Timestream Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tricog-health-india-private,Tricog Health India Private limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-triotree-technologies-pvt,TrioTree Technologies Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-unidoc-healthcare-private,UNIDOC Healthcare Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-unnati-digital-solutions-private,UNNATI DIGITAL SOLUTIONS PRIVATE LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-unify-digital,Unify Digital LLP,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vibe-it,VIBE IT SOLUTIONS,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vitalic-health,VITALIC HEALTH LIMITED,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vanburen-technlogies-private,Vanburen Technlogies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vesak-technologies-private,Vesak Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vigorus-ai-private,Vigorus AI Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vigorus-ai-private,Vigorus AI Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vigorus-ai-private,Vigorus AI Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-visual-infosoft-pvt,Visual InfoSoft Pvt. Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vitalytics-professional-services-private,Vitalytics Professional Services Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-wisdomleaf-technologies-private,Wisdomleaf Technologies Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-zebricon,ZEBRICON TECHNOLOGIES,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-eclinical-india-pvt,eClinical India Pvt Ltd.,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-eclinical-india-pvt,eClinical India Pvt Ltd.,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-eclinical-india-pvt,eClinical India Pvt Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-eclinical-india-pvt,eClinical India Pvt Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-evaidya-private,eVaidya Private Limited,HMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-e-raktkosh-bbms,e-Raktkosh / BBMS,Blood Bank,unknown,none-documented,ui-automation,P3,India
+IN-intersystems-trakcare,InterSystems TrakCare,HMIS,unknown,none-documented,ui-automation,P3,USA/Global
+IN-radspa-ris-pacs,RADSpa RIS-PACS,RIS/PACS,unknown,none-documented,ui-automation,P3,India
+IN-abdm-and-nhm-ladakh,ABDM and NHM Ladakh,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-central-tb-division-mohfw,"Central TB Division, MoHFW",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-central-tb-division-mohfw,"Central TB Division, MoHFW",Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-commissioner-of-health-family-welfare-telangana,"Commissioner of Health & Family Welfare, Telangana",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-commissioner-of-health-family-welfare-telangana,"Commissioner of Health & Family Welfare, Telangana",LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-cowin,Cowin,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-cowin,Cowin,Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-department-of-health-and-family-welfare-assam,"Department of health and family welfare, Assam",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-department-of-health-and-family-welfare-manipur,"Department of health and family welfare, Manipur",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-department-of-health-and-family-welfare-meghalaya,"Department of health and family welfare, Meghalaya",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-department-of-health-and-family-welfare-nagaland,"Department of health and family welfare, Nagaland",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-department-of-health-and-family-welfare-sikkim,"Department of health and family welfare, Sikkim",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-government-of-gujarat,Government Of Gujarat,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-government-of-uttar-pradesh,Government Of Uttar Pradesh,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-government-of-rajasthan-chip,Government of Rajasthan - CHIP,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-hfws-karnataka-samasta,HFWS Karnataka (SAMASTA),Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-health-department-dnh-dd,Health Department DNH & DD,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-health-department-dnh-dd,Health Department DNH & DD,Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medplat-ddd-phmp,MEDplat DDD-PHMP,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ncd-india,NCD India,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ncd-india,NCD India,Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-authority,National Health Authority,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-authority,National Health Authority,Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-mission-andhra-pradesh,"National Health Mission, Andhra Pradesh",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-mission-andhra-pradesh,"National Health Mission, Andhra Pradesh",Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-viral-hepatitis-control-program-nvhcp,National Viral Hepatitis Control Program (NVHCP),Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-viral-hepatitis-control-program-nvhcp,National Viral Hepatitis Control Program (NVHCP),Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-pune-smart-city-development-corporation,Pune Smart City Development Corporation Limited,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-swasthya-sathi-samiti-health-and-family-welfare-dept-govt-of,"Swasthya Sathi Samiti, Health and Family Welfare dept., Govt. of West Bengal",Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-swasthya-sathi-samiti-health-and-family-welfare-dept-govt-of,"Swasthya Sathi Samiti, Health and Family Welfare dept., Govt. of West Bengal",Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-uttarakhand-health-and-family-welfare-society,Uttarakhand Health and Family Welfare Society,Government Programs,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-uttarakhand-health-and-family-welfare-society,Uttarakhand Health and Family Welfare Society,Others,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-agilus-diagnostics,Agilus Diagnostics Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-blue-pearl-health-tech-pvt,Blue Pearl Health Tech Pvt Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-busysoft-systems-private,Busysoft Systems Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-csc-healthcare-wellness-services,CSC Healthcare & Wellness Services Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-dr-lal-pathlabs,Dr Lal PathLabs,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ezerx-health-tech-pvt,EzeRx Health Tech Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-hscc-india,HSCC (INDIA) LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-hindustan-wellness-pvt,Hindustan Wellness Pvt. Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-isiri-technologies-pvt,ISIRI Technologies Pvt Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-krsnaa-diagnostics,Krsnaa Diagnostics Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-livehealth,Livehealth,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-mediquity-technologies-pvt-ltd-sharp-lims,MEDIQUITY TECHNOLOGIES PVT. LTD (SHARP LIMS),LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-pathkind-diagnostics-private,PATHKIND DIAGNOSTICS PRIVATE LIMITED,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-remidio-innovative-solutions-pvt,Remidio Innovative Solutions Pvt Ltd,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-softmed-technologies,Softmed Technologies LLP,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sufalam-solutions-pvt,Sufalam Solutions Pvt. Ltd.,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sunfox-technologies-private,Sunfox Technologies Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-wrig-nanosystems-private,Wrig Nanosystems Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-zealthix-technologies-private,Zealthix Technologies Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-zealthix-technologies-private,Zealthix Technologies Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-zealthix-technologies-private,Zealthix Technologies Private Limited,LMIS,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-epic,Epic,EMR,unknown,none-documented,ui-automation,P3,USA/Global
+IN-oracle-health-cerner,Oracle Health (Cerner),EMR,unknown,none-documented,ui-automation,P3,USA/Global
+IN-abym-technology-private,Abym Technology Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-driefcase-health-tech-pvt,Driefcase Health Tech Pvt Ltd,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-driefcase-health-tech-pvt,Driefcase Health Tech Pvt Ltd,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-driefcase-health-tech-pvt,Driefcase Health Tech Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healthica-digisol-private,Healthica Digisol Private Limited,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healthica-digisol-private,Healthica Digisol Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healthica-digisol-private,Healthica Digisol Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-quality-healthcare-access-private,QUALITY HEALTHCARE ACCESS PRIVATE LIMITED,Connectors,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-abi-health-technologies-private,ABI-Health Technologies Private Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-abi-health-technologies-private,ABI-Health Technologies Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-acko-general-insurance,Acko General Insurance Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-aditya-birla-health-insurance-company,Aditya Birla Health Insurance Company Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-aditya-birla-health-insurance-company,Aditya Birla Health Insurance Company Ltd.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-aditya-birla-health-insurance-company,Aditya Birla Health Insurance Company Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-bajaj-general-insurance,Bajaj General Insurance Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-bajaj-general-insurance,Bajaj General Insurance Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-chola-ms-general-insurance-co,Chola MS General Insurance Co Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-chola-ms-general-insurance-co,Chola MS General Insurance Co Ltd,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ihx-private,IHX Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-manipalcigna-health-insurance-company,ManipalCigna Health Insurance Company Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-manipalcigna-health-insurance-company,ManipalCigna Health Insurance Company Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medi-assist-insurance-tpa-pvt,Medi Assist Insurance TPA Pvt. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-navi-general-insurance,Navi General Insurance Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-navi-general-insurance,Navi General Insurance Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-niva-bupa-health-insurance-company,Niva Bupa Health Insurance Company Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-niva-bupa-health-insurance-company,Niva Bupa Health Insurance Company Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-one-sg-technologies-pvt,One SG Technologies Pvt Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-one-sg-technologies-pvt,One SG Technologies Pvt Ltd,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-reliance-general-insurance-co,Reliance General Insurance Co. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-star-health-and-allied-insurance-company,Star Health and Allied Insurance Company Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-star-health-and-allied-insurance-company,Star Health and Allied Insurance Company Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tecforz-innovations-pvt,Tecforz Innovations Pvt Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tecforz-innovations-pvt,Tecforz Innovations Pvt Ltd,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-united-india-insurance-company,United India Insurance Company,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-united-india-insurance-company,United India Insurance Company,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-universal-sompo-general-insurance-c,Universal Sompo General Insurance C,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-universal-sompo-general-insurance-c,Universal Sompo General Insurance C,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vesak-technologies-pvt,Vesak Technologies Pvt. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vidal-health-insurance-tpa-private,Vidal Health Insurance TPA Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vitraya-technologies-private,Vitraya Technologies Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-vitraya-technologies-private,Vitraya Technologies Private Limited,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-volo-health-insurance-tpa-pvt,Volo Health Insurance TPA Pvt. Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-volo-health-insurance-tpa-pvt,Volo Health Insurance TPA Pvt. Ltd.,NHCX,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-akna-health-insurance-tpa-private,AKNA HEALTH INSURANCE TPA PRIVATE LIMITED,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-am-tree-healthwealth-innovations-private,AM-TREE HEALTHWEALTH INNOVATIONS PRIVATE LIMITED,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-apna-policy-insurance-brokers-pvt,Apna Policy Insurance Brokers Pvt. Ltd.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-care-health-insurance,Care health insurance,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-cholamandalam-ms-general-insurance-company,Cholamandalam MS General Insurance company Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-genins-india-insurance-tpa,Genins India Insurance TPA Ltd.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-go-digit-general-insurance,Go Digit General Insurance Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-hdfc-ergo-general-insurance-company,HDFC Ergo General Insurance Company Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-icici-lombard-general-insurance-company,ICICI Lombard General Insurance Company Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-icici-prudential-life-insurance-co,ICICI Prudential Life Insurance Co. Ltd.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-kotak-mahindra-general-insurance-company,KOTAK MAHINDRA GENERAL INSURANCE COMPANY LIMITED,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-kotak-mahindra-life-insurance-company,Kotak Mahindra Life Insurance Company,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-liberty-general-insurance,Liberty General Insurance Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-link-k-insurance-tpa-private,Link-K Insurance TPA Private Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-m-s-galaxy-health-insurance-co,M/s. GALAXY HEALTH INSURANCE CO LTD.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-mediprobe-consultancy-services-private,MEDIPROBE CONSULTANCY SERVICES PRIVATE LIMITED,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-insurance-company,NATIONAL INSURANCE COMPANY LIMITED,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-oriental-insurance-company,Oriental Insurance Company Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paramount-health-services-insurance-tpa-pvt,PARAMOUNT HEALTH SERVICES & INSURANCE TPA PVT LTD,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-qbe-general-insurance-private,QBE General Insurance Private Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rajasthan-state-health-assurance-agency-rshaa,Rajasthan State Health Assurance Agency (RSHAA),Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-rajiv-aarogyasri-health-care-trust,Rajiv Aarogyasri Health Care Trust,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-royal-sundaram-general-insurance-co,Royal Sundaram General Insurance Co. Ltd.,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tata-aia-life-insurance,TATA AIA Life Insurance,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-tata-aig-general-insurance-co,TATA AIG General Insurance Co Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-universal-sompo-general-insurance-company,Universal Sompo General Insurance Company Ltd,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-zuno-general-insurance,Zuno General Insurance Limited,Insurance,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-arupavi-health-technologies-pvt,Arupavi Health Technologies Pvt Ltd,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-csquare-info-solutions,CSQUARE INFO SOLUTIONS LTD,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-davadost-pharma-pvt,Davadost Pharma PVT LTD,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-el-pharmacy,EL Pharmacy LLP,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-marg-erp,Marg ERP Limited,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-softworld-india-private,SOFTWORLD (INDIA) PRIVATE LIMITED,Pharmacy,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-4p-healthcare-private,4P Healthcare Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-achala-health-services-private,Achala Health Services Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-alafied-solutions-private,Alafied Solutions Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-apex-kidney-care-pvt,Apex Kidney Care Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-artivatic-data-labs-pvt,Artivatic Data Labs Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-artivatic-data-labs-pvt,Artivatic Data Labs Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-athlex-innovations-pvt,Athlex Innovations Pvt. Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-beh-private,BEH Private Limited,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-beh-private,BEH Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-beh-private,BEH Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-belfricsbt-pvt,Belfricsbt Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-caare-assisted-telemedicine,Caare Assisted Telemedicine,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-central-india-associates,Central India Associates,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-collateral-medical-pvt,Collateral Medical Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-curelink-private,Curelink Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-deeptek-medical-imaging-pvt,DeepTek Medical Imaging Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-digisparsh-pvt,Digisparsh Pvt Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-doconline-health-india-pvt,DocOnline Health India Pvt. Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-docsymedsy-healthtech-private,Docsymedsy Healthtech Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-doxper,Doxper,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-drome-services-private,Drome Services Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ev-software-solutions-pvt,EV Software Solutions PVT LTD,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-equal,Equal,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-farmako,FARMAKO,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healon-technologies-private,HealOn Technologies Private Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healspan,Healspan,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healthatm-india-private,HealthATM India Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-hitachi-mgrm-net,Hitachi MGRM Net,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-india-health-link-pvt,India Health Link Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-jio-health-hub,Jio Health Hub,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-karkinos-healthcare-private,Karkinos Healthcare Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-kokoro-bharat-health-and-wellness-pvt,Kokoro Bharat Health and Wellness pvt ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-letsdoc-healthcare-technologies-pvt,LetsDoc Healthcare Technologies Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-letsdoc-healthcare-technologies-pvt,LetsDoc Healthcare Technologies Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-livlong-protection-and-wellness-solutions,Livlong Protection and Wellness Solutions Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medical-network-private,MEDICAL NETWORK PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-marsha-health,MarSha Health,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medblocks,Medblocks,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medibuddy,MediBuddy,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-medsynapse-ris-pacs,Medsynapse RIS-PACS,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-meraadhikar,Meraadhikar,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-myclnq,MyCLNQ,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-mydigi-records,MyDigi Records,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nec-software-solution,NEC Software Solution,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-national-health-mission-tamil-nadu,National Health Mission - Tamil Nadu,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-nephroplus,NephroPlus,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-neurobit-innovations-private,Neurobit Innovations Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-panscience-ai-healthcare-pvt,Panscience AI Healthcare Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paperplane-whatsapp-clinic,Paperplane WhatsApp Clinic,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-purplebits-infosystems-pvt,Purplebits Infosystems Pvt. Ltd.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-qure-ai-technologies-private,QURE AI TECHNOLOGIES PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-recodeai-digital-solutions-private,Recodeai Digital Solutions Private Limited.,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-redkenko-health-tech-private,Redkenko Health Tech Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-renatus-meditech-solutions-pvt,Renatus Meditech Solutions Pvt. Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-roojh-india-pvt,Roojh India Pvt Ltd,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-roojh-india-pvt,Roojh India Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-sehatpro-technologies-private,SEHATPRO TECHNOLOGIES PRIVATE LIMITED,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-telehealth-innovations-foundation,Telehealth Innovations Foundation,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-univlabs-technologies-pvt,UNIVLABS TECHNOLOGIES PVT LTD,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-verraton-health-private,Verraton Health Private Limited,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-yorecare,Yorecare,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-argusoft-medplat,argusoft MEDplat,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-https-egov-org-in,https://egov.org.in/,Health Tech,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-amogh-nsmp-tech-private,AMOGH NSMP TECH PRIVATE LIMITED,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-adhyanshi-enterprises,Adhyanshi Enterprises,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-adhyanshi-enterprises,Adhyanshi Enterprises,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ambula-technologies-pvt,Ambula Technologies Pvt Ltd,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-ambula-technologies-pvt,Ambula Technologies Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-anahat-solutions-pvt,Anahat Solutions Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-arogya-setu,Arogya Setu,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-health-and-medical-education-department-j-k,"Health and Medical Education Department, J&K",PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-livo-aarogyaaadhar-private,Livo AarogyaAadhar Private Limited,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-livo-aarogyaaadhar-private,Livo AarogyaAadhar Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-mrg-blockchain-solutions-pvt,MRG Blockchain Solutions Pvt. Ltd.,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-panscience-ai-healthcare-private,PanScience AI Healthcare Private Limited,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-panscience-ai-healthcare-private,PanScience AI Healthcare Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paytm,Paytm,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-paytm,Paytm,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-plenome-technologies-private,Plenome Technologies Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prudas-technologies-pvt,Prudas Technologies Pvt Ltd,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-prudas-technologies-pvt,Prudas Technologies Pvt Ltd,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-remote-healthcare-technologies-pvt,Remote Healthcare Technologies Pvt. Ltd.,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-remote-healthcare-technologies-pvt,Remote Healthcare Technologies Pvt. Ltd.,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-remoteward-care-private,RemoteWard Care Private Limited,PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healow-india-eclinicalworks,healow India (eClinicalWorks),Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-healow-india-eclinicalworks,healow India (eClinicalWorks),PHR App,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-appex-tech-innovations-pvt,Appex Tech Innovations Pvt Ltd,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-digilocker,DIGILOCKER,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-driefcase,DRiefcase,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-docprime-technologies-private,DocPrime Technologies Private Limited,Health Locker,FHIR-R4/ABDM,ABDM M1-M3,api-preferred,P3,India
+IN-qure-ai,Qure.ai,Imaging AI,unknown,none-documented,ui-automation,P3,India
+IN-birlamedisoft-quanta,Birlamedisoft Quanta,HMIS,unknown,none-documented,ui-automation,P3,India
+IN-dedalus,Dedalus,HMIS,unknown,none-documented,ui-automation,P3,Italy/Global
+IN-docengage,DocEngage,HMIS,unknown,none-documented,ui-automation,P3,India
+IN-lifetrenz,Lifetrenz,HMIS,unknown,none-documented,ui-automation,P3,India
+IN-medstar-his,Medstar HIS,HMIS,unknown,none-documented,ui-automation,P3,India
+IN-palash-hmis,Palash HMIS,HMIS,unknown,none-documented,ui-automation,P3,India
+IN-meditech-expanse,MEDITECH Expanse,EMR,unknown,none-documented,ui-automation,P3,USA/Global
+IN-centricity-pacs,Centricity PACS,RIS/PACS,unknown,none-documented,ui-automation,P3,USA/Global
+IN-dr-lal-pathlabs-lis,Dr Lal PathLabs LIS,LMIS,unknown,none-documented,ui-automation,P3,India
+IN-intellispace-healthsuite-imaging,IntelliSpace / HealthSuite Imaging,RIS/PACS,unknown,none-documented,ui-automation,P3,NL/Global
+IN-synapse-enterprise-imaging,Synapse / Enterprise Imaging,RIS/PACS,unknown,none-documented,ui-automation,P3,Japan/Global
+IN-syngo-via,syngo.via,RIS/PACS,unknown,none-documented,ui-automation,P3,DE/Global
+IN-5c-network,5C Network,Teleradiology/AI,unknown,none-documented,ui-automation,P3,India
+IN-deeptek,DeepTek,Imaging AI,unknown,none-documented,ui-automation,P3,India
+IN-synapsica,Synapsica,Imaging AI,unknown,none-documented,ui-automation,P3,India

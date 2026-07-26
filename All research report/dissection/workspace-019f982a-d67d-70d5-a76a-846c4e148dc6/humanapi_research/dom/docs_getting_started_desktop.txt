@@ -1,0 +1,68 @@
+Jump to Content
+Guides
+API Reference
+Portal
+Support and Knowledge base
+Integration Status
+HIP
+API Reference
+Search
+CTRL-K
+JUMP TO
+CTRL-/
+INTRODUCTION
+Getting Started
+Authentication
+ADMIN API
+orders
+/api/v1/order-types
+GET
+users
+/api/v1/users
+GET
+/api/v1/users
+POST
+/api/v1/users/actions
+POST
+/api/v1/users/{humanId}
+GET
+/api/v1/users/providers
+GET
+subscriptions
+/api/v1/subscriptions
+GET
+/api/v1/subscriptions
+POST
+/api/v1/subscriptions/{subscriptionId}
+GET
+/api/v1/subscriptions/{subscriptionId}
+DEL
+reports
+/api/v1/user/reports
+GET
+/api/v1/user/reports/{reportId}
+GET
+resources
+/api/v1/resources/consumer-link
+POST
+HAPI AUTH PUBLIC
+admin
+/v1/admin/token
+POST
+connect
+/v1/connect/token
+POST
+Getting Started
+Copy Page
+
+Welcome to Human API!
+
+You can use Human API to manage your app orders, subscriptions and access health data for your app's users.
+
+Before you’ll be able to use Human API to query real data, you’ll need to make sure the API is enabled for your applications.
+
+HAPI coding!
+
+Updated 5 months ago
+
+Authentication

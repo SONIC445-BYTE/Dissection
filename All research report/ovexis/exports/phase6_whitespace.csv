@@ -1,0 +1,26 @@
+rank,id,name,tier,gap_category,owners,concept,gap_position,strategic_importance,liability,digital_artifact,jarvis_loc,priority_score,robustness_top8_of_5,why_software_failed
+1,O05,OT turnover coordination,T1_ROBUST,operational,0,task_workflow_engine,AT_COMMIT,5.1,LOW,True,1767,5.86,4,Cross-team choreography; nobody owns the clock
+2,O06,Bed capacity & flow,T2_CONDITIONAL,operational,0,task_workflow_engine,AT_COMMIT,5.1,LOW,True,1767,5.86,3,State lives in whiteboards and phone calls
+3,O07,Staff rostering,T2_CONDITIONAL,operational,2,task_workflow_engine,AT_COMMIT,5.1,LOW,True,1767,4.69,2,Constraint solving + human negotiation; spreadsheets win
+4,O04,OT scheduling & list building,T1_ROBUST,operational,0,scheduling_booking,AT_COMMIT,8.4,LOW,True,0,4.35,5,"Multi-constraint (surgeon, anaesthetist, room, kit, bed) — no single system holds all constraints"
+5,O09,Claim validation / scrubbing,T1_ROBUST,automation,0,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.98,5,Rules change per payer; no shared rule substrate
+6,O13,Claims adjudication liaison,T1_ROBUST,decision,0,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.98,5,Opaque payer logic; provider cannot see rules
+7,O08,Charge capture at point of care,T1_ROBUST,data,1,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.19,5,Requires clinician action at the moment of least attention
+8,O10,Claim submission & tracking,T1_ROBUST,integration,1,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.19,5,Per-payer portals; NHCX exists but adoption partial
+9,O11,Denial management & appeal,T2_CONDITIONAL,workflow,1,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.19,3,"Long-tail reasons, unstructured payer replies"
+10,O12,Pre-authorisation,T3_DEFERRED,communication,2,billing_claims,AT_COMMIT,7.7,LOW,True,0,3.19,1,Phone/fax/portal triad; payer-specific; latency measured in days
+11,O16,Results inbox triage,T3_DEFERRED,decision,2,task_workflow_engine,AT_COMMIT,5.1,MED,True,1767,3.05,0,Volume overwhelms; no prioritisation substrate
+12,O03,Nursing care documentation,T3_DEFERRED,workflow,0,documentation_scribe,AT_COMMIT,8.3,MED,False,362,2.56,1,"High-volume, low-status; nurses hold no budget authority"
+13,O17,History taking / intake synthesis,T3_DEFERRED,knowledge,0,documentation_scribe,AT_COMMIT,8.3,MED,False,362,2.56,1,Patient narrative is unstructured; no reusable artifact
+14,O25,Cross-system data normalisation,T3_DEFERRED,data,0,data_normalisation,before_commit,3.6,LOW,True,0,1.86,0,"FHIR:terminology 4.8:1 — transport solved, meaning is not"
+15,O15,Lab result release & routing,T3_DEFERRED,workflow,0,anomaly_alerting,before_commit,4.7,MED,True,0,1.58,0,Validation + routing + acknowledgement chain
+16,O01,Nursing shift handover,T3_DEFERRED,communication,0,referral_care_coordination,AT_COMMIT,7.1,MED,False,0,1.31,0,Verbal/paper SBAR; no structured artifact exists to automate against
+17,O20,Operational MIS reporting,T3_DEFERRED,data,0,analytics_dashboard,before_commit,2.3,LOW,True,0,1.19,0,Data scattered across modules; manual spreadsheet assembly
+18,O21,Capacity planning,T3_DEFERRED,decision,0,analytics_dashboard,before_commit,2.3,LOW,True,0,1.19,0,Requires cross-departmental state nobody aggregates
+19,O22,Consent capture & lifecycle,T3_DEFERRED,data,0,consent_management,before_commit,3.1,MED,True,0,1.04,0,"Legal precondition; discussed by 4, built by ~0"
+20,O23,Regulatory / statutory reporting,T3_DEFERRED,automation,0,compliance_certification,wrapper,2.0,LOW,True,0,1.03,0,Format churn; manual assembly each cycle
+21,O14,Critical result communication,T4_BLOCKED_BY_LIABILITY,communication,0,anomaly_alerting,before_commit,4.7,HIGH,True,0,0.73,0,Closed-loop acknowledgement required; phone tag; medico-legal
+22,O19,ICU ventilator/drug titration,T4_BLOCKED_BY_LIABILITY,clinical,0,anomaly_alerting,before_commit,4.7,HIGH,True,0,0.73,0,"Continuous, high-acuity, regulated as device"
+23,O18,ED disposition decision support,T4_BLOCKED_BY_LIABILITY,decision,0,clinical_decision_support,before_commit,3.4,HIGH,True,0,0.53,0,Highest-stakes decision; liability blocks automation
+24,O24,Record retrieval & synthesis,T3_DEFERRED,integration,9,ehr_record_retrieval,before_commit,3.3,MED,True,0,0.44,0,Fragmented across systems; manual chart review named 3x in corpus
+25,O02,Nursing continuous observation,T4_BLOCKED_BY_LIABILITY,clinical,0,anomaly_alerting,before_commit,4.7,HIGH,False,0,0.4,0,"Interstitial, unstructured, no discrete event to trigger on"

@@ -1,0 +1,8 @@
+HTTP/2 404 
+content-type: text/html; charset=utf-8
+content-language: en
+x-frame-options: DENY
+date: Sat, 25 Jul 2026 08:38:20 GMT
+content-length: 1400
+strict-transport-security: max-age=86400
+

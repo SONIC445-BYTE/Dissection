@@ -1,0 +1,105 @@
+{
+  "schema": "ovexis.hpid.phase12.strategy/v1",
+  "generated": "2026-07-26",
+  "phase": 12,
+  "status": "CANONICAL",
+  "binding_constraints": [
+    "DL-007 solo builder, no team",
+    "DL-034 pricing not inheritable",
+    "LAW01-12 binding (DL-053)",
+    "ENG01-12 binding (DL-054)"
+  ],
+  "count": 15,
+  "recommendations": [
+    {
+      "area": "10-Year Vision",
+      "recommendation": "The execution layer for healthcare operations: the system that completes work other systems only recommend",
+      "basis": "LAW02 + commit gap (4 independent confirmations)",
+      "risk": "Category may be absorbed by HMIS vendors if they wake up"
+    },
+    {
+      "area": "Beachhead Market",
+      "recommendation": "Indian private multi-specialty hospitals, 100-500 beds, ABDM-certified HMIS installed. Entry workflow: OT turnover/scheduling OR claim validation",
+      "basis": "Phase6 T1 robust across all 5 weightings; LAW11 fragmentation; LAW12 NHCX rail live",
+      "risk": "Unknown whether HMIS already covers these internally (G-4.2)"
+    },
+    {
+      "area": "Category Positioning",
+      "recommendation": "NOT an EHR, NOT a copilot, NOT a scribe. \"Operational execution agent\" - sits beside the HMIS and completes multi-step internal work",
+      "basis": "LAW01 never replace SoR; DL-049 scribe excluded (19 competitors); Phase7 dashboards are legacy",
+      "risk": "Category has no existing budget line"
+    },
+    {
+      "area": "Distribution",
+      "recommendation": "Direct founder-led to 1-3 hospitals; then ABDM-certified HMIS vendors as channel (253 fragmented vendors need differentiation)",
+      "basis": "DL-007 solo; LAW11; HPID gives named targets with contacts",
+      "risk": "Long enterprise cycles vs solo runway"
+    },
+    {
+      "area": "Pricing",
+      "recommendation": "DERIVE FROM FIRST PRINCIPLES - do not inherit. Start: per-completed-workflow outcome pricing (e.g. per validated claim, per theatre turnover saved)",
+      "basis": "DL-034 all 7 pricing patterns failed corroboration; LAW02 value is in completion",
+      "risk": "Outcome pricing requires measurement infrastructure Ovexis must build"
+    },
+    {
+      "area": "Moat",
+      "recommendation": "Adapter coverage x completed-workflow outcome data (R6 flywheel). Neither is buyable; both compound",
+      "basis": "Phase8 R6; LAW02 only completion generates data",
+      "risk": "Thin until first workflows complete; no moat at all for 12+ months"
+    },
+    {
+      "area": "AI Strategy",
+      "recommendation": "Model-agnostic. Local for PHI, cloud for general reasoning. Never train foundation models",
+      "basis": "ENG07; Phase5 arch_llm_wrapper GREEN 18 cos = commodity",
+      "risk": "Local model quality ceiling"
+    },
+    {
+      "area": "Healthcare Strategy",
+      "recommendation": "Stay out of clinical decisions entirely for 24 months. Operational and financial workflows only",
+      "basis": "LAW04 liability bounds automation; Phase6 all clinical opportunities T4-blocked",
+      "risk": "Ceiling on TAM; perceived as unambitious"
+    },
+    {
+      "area": "Technical Strategy",
+      "recommendation": "Stage 0 wiring before features (DL-057). Depth-first adapters. Workflow engine as the core build",
+      "basis": "Phase11 F-11.1 76% unreachable; ENG08, ENG12, DL-059",
+      "risk": "Months of invisible work with nothing to demo"
+    },
+    {
+      "area": "Regulatory Strategy",
+      "recommendation": "Deliberately stay below SaMD threshold. ABDM M1-M3 certification as the credential. DPDP compliance by design",
+      "basis": "LAW04; Phase6 liability tiers; ABDM cert is the recognised trust signal in India",
+      "risk": "Regulatory definitions may shift"
+    },
+    {
+      "area": "Hiring Strategy",
+      "recommendation": "NO HIRES until one workflow completes end-to-end in one hospital. First hire: a hospital operations person, not an engineer",
+      "basis": "DL-007 no team; G-4.2 the pivotal unknown is domain not technical",
+      "risk": "Solo capacity limits parallelism"
+    },
+    {
+      "area": "Capital Allocation",
+      "recommendation": "Zero-capital Stage 0. Any capital raised goes to: (1) one design-partner hospital, (2) ABDM sandbox integration, (3) NOT marketing",
+      "basis": "DL-052 leverage is sequencing not build volume",
+      "risk": "No funding data exists for Ovexis (Phase0 unknown)"
+    },
+    {
+      "area": "Partnership Strategy",
+      "recommendation": "Target the 13 NHA-rated HMIS vendors (govt-published quality scores) as integration partners, not competitors",
+      "basis": "LAW01; HPID govt ratings are a free qualified target list; LAW11",
+      "risk": "Vendors may see an agent as a threat to their roadmap"
+    },
+    {
+      "area": "Platform Strategy",
+      "recommendation": "Adapter SDK only after 10 workflows complete. Platform before product is the 149-adapter mistake repeated",
+      "basis": "Phase8 R6; CB-04",
+      "risk": "Slower ecosystem formation"
+    },
+    {
+      "area": "Global Expansion",
+      "recommendation": "India first, deeply. US entry only via a US-specific rail (clearinghouse partnership), never by porting",
+      "basis": "DL-018, DL-023 one product two substrates; LAW12 US network must be bought",
+      "risk": "India-only revenue may cap valuation narrative"
+    }
+  ]
+}

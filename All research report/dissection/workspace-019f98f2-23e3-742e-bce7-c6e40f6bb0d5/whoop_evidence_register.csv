@@ -1,0 +1,26 @@
+SourceID,Source,URL,Evidence,Screenshot,Observed vs inferred,Confidence
+S1,WHOOP homepage,https://www.whoop.com/us/en/,"Homepage positioning, tiers, outcomes, trust signals",not captured,Observed,High
+S2,WHOOP 5.0/MG launch,https://www.whoop.com/us/en/press-center/whoop-unveils-5.0-MG/,"Hardware, Healthspan, ECG, BPI, pricing",not captured,Observed,High
+S3,Advanced Labs,https://www.whoop.com/us/en/advanced-labs/,"Quest, biomarkers, panels, pricing, workflow",not captured,Observed,High
+S4,Feature availability,https://www.whoop.com/us/en/feature-availability/,ECG/IHRN/Labs regional availability,not captured,Observed,High
+S5,Privacy policy,https://www.whoop.com/us/en/full-privacy-policy/,"Data collected, AI partner, zero retention, rights",not captured,Observed,High
+S6,Privacy principles,https://www.whoop.com/us/en/whoop-privacy-policies/,"No sale, employee access logs, data control",not captured,Observed,High
+S7,Terms of Use,https://www.whoop.com/us/en/whoop-terms-of-use/,Medical/AI/labs/billing disclaimers,not captured,Observed,High
+S8,Trial page,https://www.whoop.com/us/en/whoop-trials/,"Free trial, warranty, Peak trial",not captured,Observed,High
+S9,Tier pages,https://www.whoop.com/us/en/one/,One/Peak/Life features and pricing,not captured,Observed,High
+S10,Support pages,https://support.whoop.com/s/article/Calibration-Timeline?language=en_US,"Calibration, basics, navigation, AI Coach, Health Connect",not captured,Observed,High
+S11,Coach OpenAI press,https://www.whoop.com/us/en/press-center/whoop-unveils-the-new-whoop-coach-powered-by-openai/,GPT-4/OpenAI and Coach capabilities,not captured,Observed,High
+S12,Developer API,https://developer.whoop.com/api/,"REST endpoints, scopes, partner API",not captured,Observed,High
+S13,OAuth/rate/webhooks,https://developer.whoop.com/docs/developing/oauth/,"OAuth, rate limits, webhook security",not captured,Observed,High
+S14,Series G,https://www.whoop.com/us/en/press-center/whoop-announces-series-g-funding/,"Funding, valuation, members, data hours",not captured,Observed,High
+S15,Health OS essay,https://www.whoop.com/us/en/thelocker/what-is-the-health-operating-system/,Founder vision and strategy,not captured,Observed,High
+S16,Hiring surge,https://www.whoop.com/us/en/press-center/whoop-announces-2026-hiring-surge-adding-more-than-600-roles/,"600+ roles, AI/clinical/international strategy",not captured,Observed,High
+S17,Careers/job postings,https://jobs.ashbyhq.com/whoop,"Stack, AI, security, healthcare roadmap clues",not captured,Observed,High
+S18,AI Studio,https://engineering.prod.whoop.com/ai-studio/,"Agent IDE, evals, inline tools, PII guardrails",not captured,Observed,High
+S19,Funding 2020/2021,https://www.whoop.com/us/en/press-center/200-million-financing-3-6-billion-valuation/,Series E/F details and capital use,not captured,Observed,High
+S20,PUSH acquisition,https://www.whoop.com/us/en/press-center/acquires-push-velocity-based-training-solution/,Acquisition and strength training rationale,not captured,Observed,High
+S21,Global expansion/executives,https://www.whoop.com/us/en/press-center/whoop-announces-significant-global-expansion/,"Markets, languages, C-suite, retail",not captured,Observed,High
+S22,FDA ECG 510(k),https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243236,ECG clearance and intended use,not captured,Observed,High
+S23,FDA BPI letters,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/whoop-inc-709755-07142025,BPI warning and closeout,not captured,Observed,High
+S24,Peer-reviewed/official research,https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0243693,"COVID respiratory paper, Sensors wear study, Sleep study",not captured,Observed,High
+S25,Public user reviews,https://apps.apple.com/us/app/whoop/id933944389,VOC themes; not statistically representative,not captured,Observed public reviews,Medium

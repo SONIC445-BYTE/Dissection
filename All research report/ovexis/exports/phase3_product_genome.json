@@ -1,0 +1,2272 @@
+{
+  "schema": "ovexis.hpid.phase3.product_genome/v1",
+  "generated": "2026-07-26",
+  "phase": 3,
+  "status": "CANONICAL",
+  "method": "1277 structured feature rows from 17 dossiers -> 55 canonical concepts via semantic clustering; scores aggregated from inherited 1-5 ordinal fields; strategic/future importance derived (rule published)",
+  "coverage": {
+    "raw_rows": 1277,
+    "clustered": 993,
+    "residual": 284,
+    "residual_pct": 22.2,
+    "concepts": 55
+  },
+  "commit_gap_distribution": {
+    "AT_COMMIT": {
+      "concepts": 9,
+      "rows": 192
+    },
+    "human_fallback": {
+      "concepts": 4,
+      "rows": 62
+    },
+    "before_commit": {
+      "concepts": 27,
+      "rows": 782
+    },
+    "wrapper": {
+      "concepts": 15,
+      "rows": 455
+    }
+  },
+  "concepts": [
+    {
+      "concept": "protocol_commitment",
+      "n_rows": 24,
+      "n_companies": 6,
+      "companies": [
+        "D02",
+        "D03",
+        "D08",
+        "D11",
+        "D13",
+        "D16"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "US"
+      ],
+      "user_value": 4.8,
+      "business_value": 4.4,
+      "eng_cx": 3,
+      "clin_cx": 3.5,
+      "infra_cx": 2.9,
+      "reg_cx": 3.2,
+      "examples": [
+        "How-it-works grid",
+        "App nav modules",
+        "Protocol review page",
+        "Protocol action cards",
+        "Confirm protocol selection",
+        "Supplement marketplace"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 9.6,
+      "future_importance": 10,
+      "dependencies": [
+        "personalised_recommendation",
+        "task_workflow_engine"
+      ]
+    },
+    {
+      "concept": "scheduling_booking",
+      "n_rows": 20,
+      "n_companies": 6,
+      "companies": [
+        "D02",
+        "D03",
+        "D09",
+        "D10",
+        "D11",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.9,
+      "business_value": 4.1,
+      "eng_cx": 2.9,
+      "clin_cx": 2.8,
+      "infra_cx": 2.7,
+      "reg_cx": 3.3,
+      "examples": [
+        "Appointment status card",
+        "Appointment timeline",
+        "Add-to-calendar",
+        "Agent 'skills' registry",
+        "Video consults (Cal.com)",
+        "Phlebotomy scheduling (in-lab + at-home)"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 8.4,
+      "future_importance": 9.1,
+      "dependencies": [
+        "identity_resolution",
+        "task_workflow_engine"
+      ]
+    },
+    {
+      "concept": "inventory_supply",
+      "n_rows": 6,
+      "n_companies": 4,
+      "companies": [
+        "D06",
+        "D09",
+        "D11",
+        "D15"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3,
+      "business_value": 4.4,
+      "eng_cx": 3,
+      "clin_cx": 2,
+      "infra_cx": 3,
+      "reg_cx": 3.8,
+      "examples": [
+        "Free verified-clinician access",
+        "Prescription fulfilment",
+        "SSO / SCIM for enterprise",
+        "SOC 2 Type II",
+        "Accessibility conformance / VPAT",
+        "AWS Marketplace"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 8.4,
+      "future_importance": 9.1,
+      "dependencies": []
+    },
+    {
+      "concept": "documentation_scribe",
+      "n_rows": 19,
+      "n_companies": 6,
+      "companies": [
+        "D01",
+        "D06",
+        "D07",
+        "D12",
+        "D15",
+        "D18"
+      ],
+      "geos": [
+        "NL",
+        "US"
+      ],
+      "user_value": 3.9,
+      "business_value": 4,
+      "eng_cx": 3.4,
+      "clin_cx": 3.8,
+      "infra_cx": 3.8,
+      "reg_cx": 3.8,
+      "examples": [
+        "Role-based producer subscription",
+        "ONC/Epic developer documentation",
+        "Visits audio transcription",
+        "Custom note templates",
+        "Evidence-enriched assessment/plan",
+        "AI note editing/literature search"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 362,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 8.3,
+      "future_importance": 10,
+      "dependencies": [
+        "ehr_record_retrieval",
+        "data_normalisation",
+        "clinician_review_loop"
+      ]
+    },
+    {
+      "concept": "ui_automation_execution",
+      "n_rows": 17,
+      "n_companies": 7,
+      "companies": [
+        "D02",
+        "D03",
+        "D06",
+        "D07",
+        "D13",
+        "D16",
+        "D18"
+      ],
+      "geos": [
+        "NL",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 3.7,
+      "eng_cx": 3.4,
+      "clin_cx": 3,
+      "infra_cx": 3.3,
+      "reg_cx": 2.7,
+      "examples": [
+        "Membership visuals carousel",
+        "AI disclaimers",
+        "Scan prescreen questionnaire",
+        "Trial navigator / referral closure",
+        "Click-through BAA",
+        "Fitbit Air"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 1747,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 7.8,
+      "future_importance": 10,
+      "dependencies": [
+        "task_workflow_engine",
+        "safety_guardrails",
+        "explainability_provenance"
+      ]
+    },
+    {
+      "concept": "billing_claims",
+      "n_rows": 21,
+      "n_companies": 8,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D10",
+        "D11",
+        "D16"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.6,
+      "business_value": 4.2,
+      "eng_cx": 2.9,
+      "clin_cx": 2.8,
+      "infra_cx": 2.5,
+      "reg_cx": 3,
+      "examples": [
+        "HSA/FSA trust chip",
+        "100+ biomarkers claim",
+        "1",
+        "AI disclaimers",
+        "FHIR-native citations (fhir://observation/{uuid})",
+        "Stripe billing + Klarna BNPL"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 7.7,
+      "future_importance": 8.3,
+      "dependencies": [
+        "data_normalisation",
+        "ehr_record_retrieval",
+        "compliance_certification"
+      ]
+    },
+    {
+      "concept": "referral_care_coordination",
+      "n_rows": 12,
+      "n_companies": 7,
+      "companies": [
+        "D02",
+        "D03",
+        "D06",
+        "D09",
+        "D11",
+        "D15",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 3.3,
+      "eng_cx": 3.1,
+      "clin_cx": 2.7,
+      "infra_cx": 3,
+      "reg_cx": 3,
+      "examples": [
+        "Referral program",
+        "Clinical review tickets",
+        "Member referral / invite",
+        "Clinical Trial Matching",
+        "Trial location/site filtering",
+        "Trial navigator / referral closure"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 7.1,
+      "future_importance": 7.7,
+      "dependencies": [
+        "identity_resolution",
+        "consent_management",
+        "task_workflow_engine"
+      ]
+    },
+    {
+      "concept": "ordering_eprescribing",
+      "n_rows": 20,
+      "n_companies": 9,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D09",
+        "D10",
+        "D11",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.2,
+      "business_value": 3.7,
+      "eng_cx": 3.6,
+      "clin_cx": 3.4,
+      "infra_cx": 2.8,
+      "reg_cx": 3.7,
+      "examples": [
+        "Rx/medication upsell",
+        "Marketplace product tabs",
+        "Prescription/peptide marketplace",
+        "Prescription Rx (GLP-1s, peptides, HRT)",
+        "Rx subscriptions (pause/refill/change plan)",
+        "Identity verification (Stripe Identity)"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 6.6,
+      "future_importance": 7.1,
+      "dependencies": [
+        "ehr_record_retrieval",
+        "identity_resolution",
+        "safety_guardrails",
+        "clinical_decision_support"
+      ]
+    },
+    {
+      "concept": "teleconsultation",
+      "n_rows": 2,
+      "n_companies": 2,
+      "companies": [
+        "D03",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 4,
+      "eng_cx": null,
+      "clin_cx": null,
+      "infra_cx": null,
+      "reg_cx": 4,
+      "examples": [
+        "Video consults (Cal.com)",
+        "Instant video consult (<60s)"
+      ],
+      "gap_position": "human_fallback",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 6.6,
+      "future_importance": 7.1,
+      "dependencies": []
+    },
+    {
+      "concept": "coaching_service",
+      "n_rows": 41,
+      "n_companies": 7,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D11",
+        "D13",
+        "D16",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 4.5,
+      "eng_cx": 3.2,
+      "clin_cx": 2.5,
+      "infra_cx": 2.9,
+      "reg_cx": 2.6,
+      "examples": [
+        "App nav modules",
+        "AI Concierge landing",
+        "AI Doctor / Concierge chat",
+        "Insight feed / Superpower Coach",
+        "Functional nutritionist session",
+        "Concierge support"
+      ],
+      "gap_position": "human_fallback",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 6.1,
+      "future_importance": 6.6,
+      "dependencies": []
+    },
+    {
+      "concept": "clinician_review_loop",
+      "n_rows": 10,
+      "n_companies": 5,
+      "companies": [
+        "D02",
+        "D05",
+        "D06",
+        "D15",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 4,
+      "eng_cx": 3.2,
+      "clin_cx": 3.6,
+      "infra_cx": 2,
+      "reg_cx": 3.6,
+      "examples": [
+        "Clinical review tickets",
+        "Named medical board",
+        "Clinician review written note",
+        "Medical advisor network",
+        "Expert clinician review",
+        "Request clinician review"
+      ],
+      "gap_position": "human_fallback",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 6.0,
+      "future_importance": 6.5,
+      "dependencies": []
+    },
+    {
+      "concept": "care_team_collaboration",
+      "n_rows": 9,
+      "n_companies": 6,
+      "companies": [
+        "D03",
+        "D06",
+        "D08",
+        "D12",
+        "D15",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "US"
+      ],
+      "user_value": 3.7,
+      "business_value": 3.6,
+      "eng_cx": 3.2,
+      "clin_cx": 3.4,
+      "infra_cx": 3.2,
+      "reg_cx": 3.2,
+      "examples": [
+        "24/7 care team messaging",
+        "Family Risk insights + public share link",
+        "Conversation private by default",
+        "Invite sharing / non-PHI public links",
+        "Assignment creation",
+        "Health sharing"
+      ],
+      "gap_position": "human_fallback",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 5.3,
+      "future_importance": 5.7,
+      "dependencies": []
+    },
+    {
+      "concept": "task_workflow_engine",
+      "n_rows": 53,
+      "n_companies": 15,
+      "companies": [
+        "D01",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.2,
+      "business_value": 3.6,
+      "eng_cx": 3.2,
+      "clin_cx": 3.1,
+      "infra_cx": 3,
+      "reg_cx": 3.1,
+      "examples": [
+        "Smart evidence orchestration",
+        "APS delay logic",
+        "Order sufficiency logic",
+        "Pended task model",
+        "Task Manager link",
+        "Order cancellation API"
+      ],
+      "gap_position": "AT_COMMIT",
+      "jarvis_loc": 1767,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 5.1,
+      "future_importance": 6.9,
+      "dependencies": [
+        "safety_guardrails",
+        "longitudinal_timeline"
+      ]
+    },
+    {
+      "concept": "anomaly_alerting",
+      "n_rows": 4,
+      "n_companies": 2,
+      "companies": [
+        "D03",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 5,
+      "business_value": 4,
+      "eng_cx": 3.5,
+      "clin_cx": 4,
+      "infra_cx": 3.5,
+      "reg_cx": 4,
+      "examples": [
+        "Care-team auto-escalation",
+        "PostHog experimentation + flags",
+        "Provider portal",
+        "Clinically safe escalation"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 4.7,
+      "future_importance": 5.1,
+      "dependencies": []
+    },
+    {
+      "concept": "personalised_recommendation",
+      "n_rows": 16,
+      "n_companies": 5,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D08",
+        "D16"
+      ],
+      "geos": [
+        "DE",
+        "US"
+      ],
+      "user_value": 5,
+      "business_value": 4.3,
+      "eng_cx": 3.7,
+      "clin_cx": 2.7,
+      "infra_cx": 2.4,
+      "reg_cx": 2.6,
+      "examples": [
+        "Current focus card",
+        "Protocol review page",
+        "Chat input",
+        "Recommended add-on tests",
+        "Personalized Protocol v2 (actions/goals)",
+        "Personalized plan quiz"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 4.5,
+      "future_importance": 4.9,
+      "dependencies": [
+        "longitudinal_timeline",
+        "clinical_decision_support"
+      ]
+    },
+    {
+      "concept": "genomic",
+      "n_rows": 3,
+      "n_companies": 3,
+      "companies": [
+        "D10",
+        "D13",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4.5,
+      "business_value": 4,
+      "eng_cx": 4.3,
+      "clin_cx": 4.3,
+      "infra_cx": 4.5,
+      "reg_cx": 4,
+      "examples": [
+        "DeepVariant",
+        "Genomics intelligence",
+        "Genomic Data Integration"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 4.3,
+      "future_importance": 4.6,
+      "dependencies": []
+    },
+    {
+      "concept": "identity_resolution",
+      "n_rows": 10,
+      "n_companies": 3,
+      "companies": [
+        "D01",
+        "D10",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 4,
+      "eng_cx": 3.9,
+      "clin_cx": 2,
+      "infra_cx": 3.5,
+      "reg_cx": 3.5,
+      "examples": [
+        "Provider object with NPI/MRN/fax",
+        "Demographic validation",
+        "Advanced linking of consumers/providers",
+        "Identity resolution integration",
+        "ABHA / US Core FHIR",
+        "Provider object with NPI/MRN/fax"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 4.0,
+      "future_importance": 4.3,
+      "dependencies": []
+    },
+    {
+      "concept": "evidence_generation",
+      "n_rows": 11,
+      "n_companies": 6,
+      "companies": [
+        "D05",
+        "D08",
+        "D11",
+        "D15",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3,
+      "business_value": 5,
+      "eng_cx": 3.2,
+      "clin_cx": 3.5,
+      "infra_cx": 3.1,
+      "reg_cx": 3.2,
+      "examples": [
+        "Pro cohorts/challenges",
+        "Institution usage report",
+        "Academic research publication",
+        "ACE",
+        "Evidence Network",
+        "Evidence Agent"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.9,
+      "future_importance": 4.2,
+      "dependencies": [
+        "data_normalisation",
+        "population_health",
+        "consent_management"
+      ]
+    },
+    {
+      "concept": "device_sdk_ingest",
+      "n_rows": 17,
+      "n_companies": 6,
+      "companies": [
+        "D03",
+        "D05",
+        "D12",
+        "D13",
+        "D16",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 4.2,
+      "eng_cx": 3.4,
+      "clin_cx": 2.4,
+      "infra_cx": 3.1,
+      "reg_cx": 2.9,
+      "examples": [
+        "iOS native app",
+        "Automatic strenuous detection",
+        "HealthKit repository",
+        "Multi-provider aggregation",
+        "BLE device integration",
+        "Third-party app/device integrations"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.8,
+      "future_importance": 4.1,
+      "dependencies": []
+    },
+    {
+      "concept": "composite_health_score",
+      "n_rows": 14,
+      "n_companies": 5,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D10",
+        "D11"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 3.8,
+      "eng_cx": 3.6,
+      "clin_cx": 2.8,
+      "infra_cx": 2.6,
+      "reg_cx": 2.6,
+      "examples": [
+        "Composite health score",
+        "Biological age",
+        "Organ/system grades",
+        "Organ health grid",
+        "Superpower Score + Biological Age",
+        "Daily Stability/Metabolic score"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.8,
+      "future_importance": 4.1,
+      "dependencies": [
+        "longitudinal_timeline",
+        "data_normalisation",
+        "explainability_provenance"
+      ]
+    },
+    {
+      "concept": "agent_tool_transparency",
+      "n_rows": 1,
+      "n_companies": 1,
+      "companies": [
+        "D03"
+      ],
+      "geos": [
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": null,
+      "eng_cx": null,
+      "clin_cx": null,
+      "infra_cx": null,
+      "reg_cx": null,
+      "examples": [
+        "Agent activity stream (13 tool types)"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 508,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 3.7,
+      "future_importance": 5.0,
+      "dependencies": []
+    },
+    {
+      "concept": "data_normalisation",
+      "n_rows": 23,
+      "n_companies": 6,
+      "companies": [
+        "D01",
+        "D07",
+        "D11",
+        "D15",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.3,
+      "business_value": 4.3,
+      "eng_cx": 3.7,
+      "clin_cx": 3.6,
+      "infra_cx": 3.7,
+      "reg_cx": 3.1,
+      "examples": [
+        "Medical API: allergies",
+        "Medical API: problems/issues",
+        "Medical API: medications",
+        "Medical API: test results",
+        "Human summary endpoint",
+        "Advanced linking of consumers/providers"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.6,
+      "future_importance": 4.9,
+      "dependencies": [
+        "fhir_api_surface"
+      ]
+    },
+    {
+      "concept": "biomarker_lab_panel",
+      "n_rows": 30,
+      "n_companies": 7,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D10",
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 3.8,
+      "eng_cx": 2.8,
+      "clin_cx": 3.3,
+      "infra_cx": 2.5,
+      "reg_cx": 3.2,
+      "examples": [
+        "100+ biomarkers claim",
+        "Biomarker directory",
+        "Biomarker category chips",
+        "Biomarker tables",
+        "Biomarker summary counts",
+        "Biomarker search"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.5,
+      "future_importance": 3.8,
+      "dependencies": []
+    },
+    {
+      "concept": "population_health",
+      "n_rows": 3,
+      "n_companies": 3,
+      "companies": [
+        "D03",
+        "D06",
+        "D11"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3,
+      "business_value": 3.7,
+      "eng_cx": 2,
+      "clin_cx": 2,
+      "infra_cx": 2,
+      "reg_cx": 4,
+      "examples": [
+        "Agent 'skills' registry",
+        "Patient\u2013evidence applicability scoring",
+        "Sub-processor transparency registry"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.5,
+      "future_importance": 3.8,
+      "dependencies": []
+    },
+    {
+      "concept": "clinical_decision_support",
+      "n_rows": 12,
+      "n_companies": 8,
+      "companies": [
+        "D03",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D11",
+        "D15",
+        "D17"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "US"
+      ],
+      "user_value": 4.1,
+      "business_value": 3.6,
+      "eng_cx": 4.2,
+      "clin_cx": 4.4,
+      "infra_cx": 4,
+      "reg_cx": 3.8,
+      "examples": [
+        "'Think' / reasoning transparency tab",
+        "CDS Hooks + FHIR Subscriptions (R4)",
+        "Evidence-enriched assessment/plan",
+        "AI note editing/literature search",
+        "Live clinical insights",
+        "Tiered differential diagnosis"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.4,
+      "future_importance": 4.6,
+      "dependencies": [
+        "data_normalisation",
+        "rag_grounded_answer",
+        "explainability_provenance",
+        "regulatory_clinical_validation"
+      ]
+    },
+    {
+      "concept": "imaging_capture",
+      "n_rows": 8,
+      "n_companies": 6,
+      "companies": [
+        "D03",
+        "D05",
+        "D06",
+        "D10",
+        "D11",
+        "D13"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.4,
+      "business_value": 3.8,
+      "eng_cx": 3.6,
+      "clin_cx": 2.6,
+      "infra_cx": 3.2,
+      "reg_cx": 3,
+      "examples": [
+        "Advanced scans (MRI, DEXA, CAC, VO2max, CGM, Galleri)",
+        "Scan prescreen questionnaire",
+        "Barcode scanner",
+        "Fax / scan workflow",
+        "Auto Snap \u2013 gallery auto-logging",
+        "DICOM/DICOMweb store"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.4,
+      "future_importance": 3.7,
+      "dependencies": []
+    },
+    {
+      "concept": "ehr_record_retrieval",
+      "n_rows": 38,
+      "n_companies": 10,
+      "companies": [
+        "D01",
+        "D03",
+        "D06",
+        "D07",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 4.1,
+      "eng_cx": 3.7,
+      "clin_cx": 3.4,
+      "infra_cx": 3.3,
+      "reg_cx": 3.6,
+      "examples": [
+        "Life-insurance EHR landing page",
+        "Consumer-mediated retrieval channel",
+        "Digital HIPAA authorization channel",
+        "Traditional HIPAA/APS channel",
+        "APS delay logic",
+        "Clinical History report"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.3,
+      "future_importance": 3.6,
+      "dependencies": [
+        "fhir_api_surface",
+        "consent_management",
+        "identity_resolution"
+      ]
+    },
+    {
+      "concept": "risk_scoring",
+      "n_rows": 4,
+      "n_companies": 2,
+      "companies": [
+        "D01",
+        "D08"
+      ],
+      "geos": [
+        "DE",
+        "US"
+      ],
+      "user_value": null,
+      "business_value": null,
+      "eng_cx": 4.2,
+      "clin_cx": 3.5,
+      "infra_cx": 3,
+      "reg_cx": 2.5,
+      "examples": [
+        "Mortality management output",
+        "USMLE/COMLEX Score Predictor",
+        "Clinical calculators via QxMD",
+        "Mortality management output"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.2,
+      "future_importance": 3.5,
+      "dependencies": []
+    },
+    {
+      "concept": "rag_grounded_answer",
+      "n_rows": 35,
+      "n_companies": 12,
+      "companies": [
+        "D01",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D13",
+        "D15",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 4.2,
+      "eng_cx": 3.8,
+      "clin_cx": 3.1,
+      "infra_cx": 3,
+      "reg_cx": 2.8,
+      "examples": [
+        "Order type configuration",
+        "Consumer-mediated retrieval channel",
+        "Digital HIPAA authorization channel",
+        "Smart evidence orchestration",
+        "FHIR-native citations (fhir://observation/{uuid})",
+        "Wearable citation resolution"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 655,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 3.1,
+      "future_importance": 4.2,
+      "dependencies": [
+        "data_normalisation",
+        "explainability_provenance"
+      ]
+    },
+    {
+      "concept": "consent_management",
+      "n_rows": 27,
+      "n_companies": 10,
+      "companies": [
+        "D01",
+        "D03",
+        "D06",
+        "D07",
+        "D09",
+        "D11",
+        "D12",
+        "D13",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.7,
+      "business_value": 3.8,
+      "eng_cx": 3.2,
+      "clin_cx": 2.7,
+      "infra_cx": 3.1,
+      "reg_cx": 3.5,
+      "examples": [
+        "Consumer consent interface",
+        "Human API Connect JS client",
+        "Consent deletion/revocation",
+        "Informed consent + PHI consent flows",
+        "Patient-consented action ledger",
+        "Patient consent graph"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.1,
+      "future_importance": 3.3,
+      "dependencies": [
+        "identity_resolution"
+      ]
+    },
+    {
+      "concept": "patient_reported_input",
+      "n_rows": 17,
+      "n_companies": 5,
+      "companies": [
+        "D03",
+        "D05",
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 2.8,
+      "business_value": 3.5,
+      "eng_cx": 2.5,
+      "clin_cx": 1.4,
+      "infra_cx": 2.1,
+      "reg_cx": 1.3,
+      "examples": [
+        "Scan prescreen questionnaire",
+        "Questionnaire engine + insights",
+        "Meal logging by text/voice",
+        "Meal logging by photo",
+        "Barcode scanner",
+        "Food search"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 3.1,
+      "future_importance": 3.3,
+      "dependencies": []
+    },
+    {
+      "concept": "explainability_provenance",
+      "n_rows": 22,
+      "n_companies": 11,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D09",
+        "D11",
+        "D12",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 3.6,
+      "eng_cx": 2.4,
+      "clin_cx": 2.6,
+      "infra_cx": 2.3,
+      "reg_cx": 3.2,
+      "examples": [
+        "B2B enterprise product landing page",
+        "How-it-works grid",
+        "Health context sidebar",
+        "'Think' / reasoning transparency tab",
+        "Homepage value proposition",
+        "Longitudinal provenance timeline"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 815,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 3.0,
+      "future_importance": 4.1,
+      "dependencies": []
+    },
+    {
+      "concept": "summarisation",
+      "n_rows": 40,
+      "n_companies": 10,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D07",
+        "D08",
+        "D13",
+        "D15",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.7,
+      "business_value": 3.7,
+      "eng_cx": 3.3,
+      "clin_cx": 3.2,
+      "infra_cx": 2.7,
+      "reg_cx": 2.9,
+      "examples": [
+        "Highlights Summary",
+        "Webhook order summary",
+        "Wellness API: sleep",
+        "Wellness API: heart rate",
+        "Human summary endpoint",
+        "APS summarization"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 309,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 3.0,
+      "future_importance": 3.2,
+      "dependencies": []
+    },
+    {
+      "concept": "longitudinal_timeline",
+      "n_rows": 42,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D09",
+        "D11",
+        "D12",
+        "D15",
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 4.0,
+      "business_value": 3.8,
+      "eng_cx": 3.2,
+      "clin_cx": 2.5,
+      "infra_cx": 2.9,
+      "reg_cx": 2.6,
+      "examples": [
+        "Interactive timeline",
+        "Biomarker history",
+        "Appointment timeline",
+        "External lab upload/OCR",
+        "100+ biomarker baseline panel",
+        "Digital Twin (3D body model)"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 684,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 2.9,
+      "future_importance": 3.1,
+      "dependencies": [
+        "data_normalisation",
+        "identity_resolution",
+        "consent_management"
+      ]
+    },
+    {
+      "concept": "ai_chat_assistant",
+      "n_rows": 34,
+      "n_companies": 15,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 4.2,
+      "business_value": 4.1,
+      "eng_cx": 3.6,
+      "clin_cx": 3.3,
+      "infra_cx": 3.8,
+      "reg_cx": 3.3,
+      "examples": [
+        "Conversation history",
+        "Prompt chips",
+        "Chat input",
+        "Ask AI floating CTA",
+        "AI Doctor / Concierge chat",
+        "Cross-AI context import (ChatGPT/Claude/Gemini/Perplexity/Grok)"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 1017,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 2.8,
+      "future_importance": 3.0,
+      "dependencies": []
+    },
+    {
+      "concept": "wearable_biometric_stream",
+      "n_rows": 60,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D07",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 3.7,
+      "eng_cx": 3.3,
+      "clin_cx": 2.2,
+      "infra_cx": 3.0,
+      "reg_cx": 2.3,
+      "examples": [
+        "Smart evidence orchestration",
+        "Wellness API: heart rate",
+        "Wearable integrations",
+        "Wearables via Vital (Oura, Whoop, Garmin, Fitbit, Apple Health, Within",
+        "Wearable citation resolution",
+        "Advanced scans (MRI, DEXA, CAC, VO2max, CGM, Galleri)"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.7,
+      "future_importance": 2.9,
+      "dependencies": []
+    },
+    {
+      "concept": "data_export_portability",
+      "n_rows": 19,
+      "n_companies": 11,
+      "companies": [
+        "D01",
+        "D05",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.8,
+      "business_value": 3.2,
+      "eng_cx": 3.1,
+      "clin_cx": 2.4,
+      "infra_cx": 2.9,
+      "reg_cx": 3.2,
+      "examples": [
+        "API Data JSON report",
+        "CSV data export",
+        "FHIR import/export",
+        "Data export (user-initiated)",
+        "Health data export / sharing report",
+        "Health data export/delete"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.7,
+      "future_importance": 2.9,
+      "dependencies": []
+    },
+    {
+      "concept": "fhir_api_surface",
+      "n_rows": 105,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D03",
+        "D06",
+        "D07",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D16",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.1,
+      "business_value": 4,
+      "eng_cx": 3.3,
+      "clin_cx": 3,
+      "infra_cx": 3.4,
+      "reg_cx": 3.4,
+      "examples": [
+        "B2B enterprise product landing page",
+        "Human API Connect JS client",
+        "NPM package",
+        "CDN script",
+        "Lifecycle hooks",
+        "Session token endpoint"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.6,
+      "future_importance": 2.8,
+      "dependencies": []
+    },
+    {
+      "concept": "content_education",
+      "n_rows": 89,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D02",
+        "D05",
+        "D06",
+        "D08",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.6,
+      "business_value": 3.4,
+      "eng_cx": 3.0,
+      "clin_cx": 3.3,
+      "infra_cx": 2.9,
+      "reg_cx": 2.3,
+      "examples": [
+        "Report download API",
+        "Fixed public navigation",
+        "How-it-works grid",
+        "FAQ accordions",
+        "Blog index filters",
+        "Article TLDR blocks"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.6,
+      "future_importance": 2.8,
+      "dependencies": []
+    },
+    {
+      "concept": "onboarding_flow",
+      "n_rows": 14,
+      "n_companies": 7,
+      "companies": [
+        "D02",
+        "D03",
+        "D05",
+        "D08",
+        "D13",
+        "D15",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "NL",
+        "US"
+      ],
+      "user_value": 4,
+      "business_value": 4,
+      "eng_cx": 2.3,
+      "clin_cx": 1.7,
+      "infra_cx": 1.9,
+      "reg_cx": 2.1,
+      "examples": [
+        "Waitlist wizard",
+        "Ops console (_maps: users/schedule/settings/onboarding)",
+        "Onboarding modules (medical-history, lifestyle, female-health)",
+        "Add-on panel upsell in onboarding",
+        "Personalized plan quiz",
+        "International waitlist"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 426,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 2.4,
+      "future_importance": 2.6,
+      "dependencies": []
+    },
+    {
+      "concept": "provider_discovery",
+      "n_rows": 10,
+      "n_companies": 5,
+      "companies": [
+        "D01",
+        "D02",
+        "D09",
+        "D13",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.3,
+      "business_value": 4,
+      "eng_cx": 3.4,
+      "clin_cx": 3,
+      "infra_cx": 3,
+      "reg_cx": 2.5,
+      "examples": [
+        "Provider search",
+        "Biomarker directory",
+        "Specialist directory",
+        "Doctor discovery",
+        "AlphaFold",
+        "Free doctor discovery"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.4,
+      "future_importance": 2.6,
+      "dependencies": []
+    },
+    {
+      "concept": "regulatory_clinical_validation",
+      "n_rows": 5,
+      "n_companies": 4,
+      "companies": [
+        "D06",
+        "D07",
+        "D10",
+        "D15"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.4,
+      "business_value": 3.8,
+      "eng_cx": 3.5,
+      "clin_cx": 4,
+      "infra_cx": 3,
+      "reg_cx": 4,
+      "examples": [
+        "Licensed journal corpus",
+        "Clinical Trial Matching",
+        "FDA label retrieval",
+        "Databricks MCP",
+        "Clinical Trial Matching"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.4,
+      "future_importance": 2.6,
+      "dependencies": []
+    },
+    {
+      "concept": "analytics_dashboard",
+      "n_rows": 98,
+      "n_companies": 16,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.3,
+      "business_value": 3.8,
+      "eng_cx": 3.2,
+      "clin_cx": 2.7,
+      "infra_cx": 3.1,
+      "reg_cx": 2.6,
+      "examples": [
+        "Clinical History report",
+        "HealthCheck report",
+        "FHIR R4 report",
+        "CCD/CCDA report",
+        "API Data JSON report",
+        "Report download API"
+      ],
+      "gap_position": "before_commit",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.3,
+      "future_importance": 2.5,
+      "dependencies": []
+    },
+    {
+      "concept": "employer_enterprise_admin",
+      "n_rows": 8,
+      "n_companies": 5,
+      "companies": [
+        "D01",
+        "D03",
+        "D09",
+        "D10",
+        "D18"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 2.5,
+      "business_value": 3.8,
+      "eng_cx": 3,
+      "clin_cx": 2.3,
+      "infra_cx": 2.3,
+      "reg_cx": 2.7,
+      "examples": [
+        "Enterprise Portal",
+        "Admin impersonation ('Log in as User')",
+        "B2B/Employer channel + HRIS 834",
+        "Corporate API/CSV",
+        "Enterprise Portal",
+        "Corporate Health Programs"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.1,
+      "future_importance": 2.3,
+      "dependencies": []
+    },
+    {
+      "concept": "offline_low_bandwidth",
+      "n_rows": 6,
+      "n_companies": 4,
+      "companies": [
+        "D08",
+        "D10",
+        "D13",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.5,
+      "business_value": 3,
+      "eng_cx": 3.8,
+      "clin_cx": 2.7,
+      "infra_cx": 3.7,
+      "reg_cx": 2.8,
+      "examples": [
+        "Mobile Knowledge app offline",
+        "Mobile Qbank app",
+        "Open Health Stack Android FHIR SDK",
+        "Offline Stores (280+)",
+        "Lexidrug offline mode",
+        "Lexidrug offline mode"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.1,
+      "future_importance": 2.3,
+      "dependencies": []
+    },
+    {
+      "concept": "gamification_habit",
+      "n_rows": 36,
+      "n_companies": 12,
+      "companies": [
+        "D01",
+        "D02",
+        "D05",
+        "D06",
+        "D10",
+        "D11",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.9,
+      "business_value": 3.9,
+      "eng_cx": 2.6,
+      "clin_cx": 2.5,
+      "infra_cx": 2.4,
+      "reg_cx": 2.3,
+      "examples": [
+        "API Data JSON report",
+        "ROI stats/proof points",
+        "Prep instruction carousel",
+        "Expert request status badges",
+        "Notifications/reminders",
+        "Habit loops"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.0,
+      "future_importance": 2.2,
+      "dependencies": []
+    },
+    {
+      "concept": "compliance_certification",
+      "n_rows": 33,
+      "n_companies": 10,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D06",
+        "D07",
+        "D11",
+        "D13",
+        "D15",
+        "D16",
+        "D17"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.1,
+      "business_value": 4,
+      "eng_cx": 3.4,
+      "clin_cx": 2.8,
+      "infra_cx": 3.1,
+      "reg_cx": 4.2,
+      "examples": [
+        "Digital HIPAA authorization channel",
+        "Traditional HIPAA/APS channel",
+        "ONC/Epic developer documentation",
+        "Privacy policy DPDP/SPI",
+        "Terms liability cap",
+        "Identity verification (Stripe Identity)"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.0,
+      "future_importance": 2.2,
+      "dependencies": []
+    },
+    {
+      "concept": "localisation_multilingual",
+      "n_rows": 19,
+      "n_companies": 10,
+      "companies": [
+        "D01",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D11",
+        "D13",
+        "D15",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.5,
+      "business_value": 3.8,
+      "eng_cx": 3.2,
+      "clin_cx": 3.1,
+      "infra_cx": 3.1,
+      "reg_cx": 2.6,
+      "examples": [
+        "Global country selector",
+        "Meal logging by text/voice",
+        "Natural-language medical search",
+        "Speaker diarized transcription",
+        "Patient handouts/instructions",
+        "Semantic Search"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 2.0,
+      "future_importance": 2.2,
+      "dependencies": []
+    },
+    {
+      "concept": "safety_guardrails",
+      "n_rows": 35,
+      "n_companies": 14,
+      "companies": [
+        "D02",
+        "D03",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D17",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 4.2,
+      "business_value": 4.0,
+      "eng_cx": 3.2,
+      "clin_cx": 3.9,
+      "infra_cx": 2.8,
+      "reg_cx": 3.9,
+      "examples": [
+        "WebGL fallback",
+        "FHIR-native citations (fhir://observation/{uuid})",
+        "'Think' / reasoning transparency tab",
+        "24/7 care team messaging",
+        "Care-team auto-escalation",
+        "Scan prescreen questionnaire"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 852,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 1.9,
+      "future_importance": 2.6,
+      "dependencies": [
+        "explainability_provenance"
+      ]
+    },
+    {
+      "concept": "marketplace_commerce",
+      "n_rows": 52,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D17",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.4,
+      "business_value": 4.1,
+      "eng_cx": 3.5,
+      "clin_cx": 2.5,
+      "infra_cx": 3.1,
+      "reg_cx": 3.1,
+      "examples": [
+        "AES-256 at-rest encryption",
+        "App nav modules",
+        "Rx/medication upsell",
+        "Protocol action cards",
+        "Marketplace search",
+        "Marketplace product tabs"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 1.9,
+      "future_importance": 2.1,
+      "dependencies": []
+    },
+    {
+      "concept": "conversion_growth_surface",
+      "n_rows": 57,
+      "n_companies": 11,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D08",
+        "D10",
+        "D11",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.1,
+      "business_value": 4.0,
+      "eng_cx": 2.5,
+      "clin_cx": 2.2,
+      "infra_cx": 2.3,
+      "reg_cx": 2.3,
+      "examples": [
+        "B2B enterprise product landing page",
+        "Life-insurance EHR landing page",
+        "Contact/demo form",
+        "Fixed public navigation",
+        "Mobile slide-out menu",
+        "Dark premium hero/video"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 1.9,
+      "future_importance": 2.1,
+      "dependencies": []
+    },
+    {
+      "concept": "auth_session",
+      "n_rows": 51,
+      "n_companies": 14,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.4,
+      "business_value": 4.1,
+      "eng_cx": 3.0,
+      "clin_cx": 2.8,
+      "infra_cx": 3,
+      "reg_cx": 2.9,
+      "examples": [
+        "Consumer consent interface",
+        "Session token endpoint",
+        "Digital HIPAA authorization channel",
+        "BAA support",
+        "Fixed public navigation",
+        "Checkout email-first flow"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 447,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 1.8,
+      "future_importance": 1.9,
+      "dependencies": []
+    },
+    {
+      "concept": "security_access_control",
+      "n_rows": 43,
+      "n_companies": 13,
+      "companies": [
+        "D01",
+        "D03",
+        "D05",
+        "D06",
+        "D07",
+        "D09",
+        "D11",
+        "D12",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D19"
+      ],
+      "geos": [
+        "IN",
+        "US"
+      ],
+      "user_value": 3.6,
+      "business_value": 3.9,
+      "eng_cx": 3.1,
+      "clin_cx": 2.3,
+      "infra_cx": 2.9,
+      "reg_cx": 3.7,
+      "examples": [
+        "Audit logging",
+        "AES-256 at-rest encryption",
+        "HTTPS/TLS everywhere",
+        "Admin impersonation ('Log in as User')",
+        "AI provider pseudonymization",
+        "HIPAA BAA"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 926,
+      "jarvis_status": "partial_exists",
+      "strategic_importance": 1.8,
+      "future_importance": 1.9,
+      "dependencies": []
+    },
+    {
+      "concept": "community_social",
+      "n_rows": 24,
+      "n_companies": 11,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D06",
+        "D08",
+        "D11",
+        "D15",
+        "D16",
+        "D18",
+        "D19"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3.1,
+      "business_value": 3.6,
+      "eng_cx": 3.0,
+      "clin_cx": 2.4,
+      "infra_cx": 2.8,
+      "reg_cx": 2.4,
+      "examples": [
+        "Highlights Summary",
+        "Save/share article buttons",
+        "Family Risk insights + public share link",
+        "Gift memberships",
+        "Member referral / invite",
+        "Pro cohorts/challenges"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 1.8,
+      "future_importance": 1.9,
+      "dependencies": []
+    },
+    {
+      "concept": "subscription_billing",
+      "n_rows": 62,
+      "n_companies": 14,
+      "companies": [
+        "D01",
+        "D02",
+        "D03",
+        "D05",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D13",
+        "D15",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "geos": [
+        "DE",
+        "IN",
+        "NL",
+        "US"
+      ],
+      "user_value": 3,
+      "business_value": 4.2,
+      "eng_cx": 2.4,
+      "clin_cx": 1.9,
+      "infra_cx": 2.2,
+      "reg_cx": 2.2,
+      "examples": [
+        "Subscriptions for agents/producers",
+        "Role-based producer subscription",
+        "Fixed public navigation",
+        "Membership benefits list",
+        "Membership visuals carousel",
+        "Pricing card \u20b910"
+      ],
+      "gap_position": "wrapper",
+      "jarvis_loc": 0,
+      "jarvis_status": "absent",
+      "strategic_importance": 1.7,
+      "future_importance": 1.8,
+      "dependencies": []
+    }
+  ]
+}

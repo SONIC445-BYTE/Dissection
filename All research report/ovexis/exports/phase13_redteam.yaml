@@ -1,0 +1,117 @@
+schema: ovexis.hpid.phase13.redteam/v1
+generated: '2026-07-26'
+phase: 13
+status: CANONICAL
+attacks:
+- id: RT01
+  target: 'Beachhead: Indian hospital operational workflows'
+  attack: The 253 HMIS vendors already ship OT/bed/roster modules; they just do not
+    market them in an ABDM partner directory. The entire Tier-1 whitespace is a measurement
+    artifact of looking at marketing copy.
+  severity: CRITICAL
+  evidence_for_attack: G-4.2 explicitly unresolved; ABDM taxonomy has no nursing/OT
+    category (C-19); HPID descriptions are vendor marketing
+  survives: UNPROVEN - must watch 82 demo videos before committing
+  verdict: BLOCKED PENDING EVIDENCE
+- id: RT02
+  target: 'Moat: adapter coverage x outcome data'
+  attack: No moat exists for 12+ months. A funded competitor with 10 engineers reaches
+    the same position faster. Coverage is not defensible - it is just work.
+  severity: HIGH
+  evidence_for_attack: C-34 self-identified; DL-007 solo builder
+  survives: PARTIALLY - only if depth-first produces switching cost before a competitor
+    notices the category
+  verdict: WEAK - accept as real risk
+- id: RT03
+  target: 'Category: operational execution agent'
+  attack: There is no budget line for this. Hospitals buy HMIS, they buy devices,
+    they buy consumables. A CFO cannot code an invoice for "execution agent".
+  severity: HIGH
+  evidence_for_attack: Phase12 risk noted; LAW08 CFO veto; no procurement evidence
+    G-6.4
+  survives: CONDITIONALLY - must attach to an existing budget line (HMIS AMC, or claims
+    recovery %)
+  verdict: REFRAME REQUIRED
+- id: RT04
+  target: 'Pricing: per-completed-workflow'
+  attack: 'Outcome pricing requires measurement infrastructure Ovexis must build AND
+    the hospital must trust. Circular dependency: cannot measure outcomes until deployed,
+    cannot deploy without a price.'
+  severity: HIGH
+  evidence_for_attack: Phase12 unknown 4; DL-034
+  survives: NO - needs a simpler entry price
+  verdict: REPLACE with flat pilot fee, outcome pricing later
+- id: RT05
+  target: JARVIS as the technical foundation
+  attack: 76% of code unreachable, safety stack orphaned, XOR encryption, zero healthcare
+    code, untested on real hardware. Rewriting from scratch may be faster than wiring
+    this.
+  severity: MEDIUM
+  evidence_for_attack: F-11.1; CB-07; CB-08; G-1.1
+  survives: YES - the reachable execution stack (ui_executor, odav_loop, command_router,
+    resolution_gate) is genuinely valuable and hard to rebuild
+  verdict: SURVIVES with Stage 0 mandatory
+- id: RT06
+  target: India-first sequencing
+  attack: India healthcare IT budgets are small; hospitals are price-crushing; enterprise
+    sales cycles are long and relationship-driven. Revenue per hospital may never
+    justify the integration effort.
+  severity: HIGH
+  evidence_for_attack: No pricing/budget data exists (G-5.2, G-6.1); LAW11 fragmentation
+    cuts both ways - many small buyers
+  survives: UNPROVEN - no unit economics data anywhere in corpus
+  verdict: UNVALIDATED
+- id: RT07
+  target: Staying out of clinical decisions
+  attack: Operational-only caps TAM severely and makes Ovexis an IT tool, not a healthcare
+    company. Valuation narrative collapses.
+  severity: MEDIUM
+  evidence_for_attack: Phase12 risk noted
+  survives: YES - LAW04 makes clinical entry unsafe for a solo builder; this is correct
+    sequencing not permanent scope
+  verdict: SURVIVES
+- id: RT08
+  target: Commit gap thesis itself
+  attack: The gap may persist because completing actions is genuinely undesirable
+    - clinicians WANT the final say. Automating the commit may be solving a problem
+    nobody has.
+  severity: CRITICAL
+  evidence_for_attack: 'LAW04; Phase7 F-7.5 human review is liability allocation;
+    corpus: "clinician-editable draft, not automated order execution"'
+  survives: PARTIALLY - true for CLINICAL commits, false for OPERATIONAL ones (bed
+    assignment, theatre turnover, claim submission have no clinician judgement)
+  verdict: SURVIVES ONLY FOR OPERATIONAL SCOPE - validates Phase12 restriction
+competitor_moves:
+- actor: Epic
+  move: Ships operational modules inside the existing licence at zero marginal price
+  impact: CRITICAL in US, LOW in India (Epic is NICHE tier there)
+  defence: India-first (DL-018) is structurally a defence against Epic
+- actor: Google
+  move: Vertex AI Search for Healthcare + Cloud Healthcare API absorbs the data layer
+  impact: MEDIUM - attacks before-commit layer, not execution
+  defence: Execution layer is not their pattern; they sell infrastructure
+- actor: OpenAI
+  move: Computer-use agents become a commodity capability
+  impact: HIGH - directly commoditises ui_automation_execution
+  defence: Domain adapters + healthcare policy + audit are the durable part, not the
+    clicking
+- actor: Microsoft
+  move: Nuance DAX + Copilot bundled into hospital IT agreements
+  impact: HIGH in scribing (already excluded), LOW in operations
+  defence: DL-049 already excludes scribing
+- actor: HMIS incumbent (Practo/KareXpert/HealthPlix)
+  move: Adds the workflow natively; they own the data and the relationship
+  impact: CRITICAL - this is RT01
+  defence: Partner rather than compete (DL Partnership); or move faster than a 253-vendor
+    fragmented market can coordinate
+- actor: Hospital CIO
+  move: 'Rejects: unproven vendor, no BAA/DPDP posture, no references, solo founder,
+    agent touching production systems'
+  impact: CRITICAL - blocks entry entirely
+  defence: 'Start in SHADOW mode (feature_gate already supports it): observe and recommend
+    before acting'
+summary:
+  critical: 2
+  high: 4
+  blocked: 1
+  survives: 3

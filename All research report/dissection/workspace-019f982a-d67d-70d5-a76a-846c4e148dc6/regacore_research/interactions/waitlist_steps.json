@@ -1,0 +1,302 @@
+[
+  {
+    "label": "step1",
+    "text": "<\nName\ncontinue",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "placeholder": "",
+        "value": "",
+        "required": true
+      }
+    ],
+    "buttons": [
+      "<",
+      "continue"
+    ],
+    "reqs": [
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/110q6k5sdl4es.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0pqt~8bl3ukh4.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/turbopack-0ek93-9e7u6_o.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/12w7pwbsl9som.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0c_20tjb65n15.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0yb10jawt2ibw.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0gecmpr6b9m98.js"
+      ],
+      [
+        "GET",
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/videos/waitlist/bg-compressed.mp4"
+      ],
+      [
+        "POST",
+        "https://www.regacore.com/cdn-cgi/rum?"
+      ]
+    ]
+  },
+  {
+    "label": "after_submit_1_text_name",
+    "text": "<\nemail\ncontinue",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "placeholder": "",
+        "value": "",
+        "required": true
+      }
+    ],
+    "buttons": [
+      "<",
+      "continue"
+    ],
+    "reqs": [
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/110q6k5sdl4es.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0pqt~8bl3ukh4.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/turbopack-0ek93-9e7u6_o.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/12w7pwbsl9som.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0c_20tjb65n15.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0yb10jawt2ibw.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0gecmpr6b9m98.js"
+      ],
+      [
+        "GET",
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/videos/waitlist/bg-compressed.mp4"
+      ],
+      [
+        "POST",
+        "https://www.regacore.com/cdn-cgi/rum?"
+      ]
+    ]
+  },
+  {
+    "label": "after_submit_2_email_email",
+    "text": "<\nPhone Number\ncontinue",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "tel",
+        "name": "phone",
+        "placeholder": "",
+        "value": "",
+        "required": true
+      }
+    ],
+    "buttons": [
+      "<",
+      "continue"
+    ],
+    "reqs": [
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/110q6k5sdl4es.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0pqt~8bl3ukh4.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/turbopack-0ek93-9e7u6_o.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/12w7pwbsl9som.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0c_20tjb65n15.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0yb10jawt2ibw.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0gecmpr6b9m98.js"
+      ],
+      [
+        "GET",
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/videos/waitlist/bg-compressed.mp4"
+      ],
+      [
+        "POST",
+        "https://www.regacore.com/cdn-cgi/rum?"
+      ]
+    ]
+  },
+  {
+    "label": "after_submit_3_tel_phone",
+    "text": "<\nAge\nsubmit",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "name": "age",
+        "placeholder": "",
+        "value": "",
+        "required": true
+      }
+    ],
+    "buttons": [
+      "<",
+      "submit"
+    ],
+    "reqs": [
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/110q6k5sdl4es.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0pqt~8bl3ukh4.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/turbopack-0ek93-9e7u6_o.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/12w7pwbsl9som.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0c_20tjb65n15.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0yb10jawt2ibw.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0gecmpr6b9m98.js"
+      ],
+      [
+        "GET",
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/videos/waitlist/bg-compressed.mp4"
+      ],
+      [
+        "POST",
+        "https://www.regacore.com/cdn-cgi/rum?"
+      ]
+    ]
+  },
+  {
+    "label": "after_submit_4_number_age",
+    "text": "<\nAge\nsubmitting...",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "number",
+        "name": "age",
+        "placeholder": "",
+        "value": "9000000000",
+        "required": true
+      }
+    ],
+    "buttons": [
+      "<",
+      "submitting..."
+    ],
+    "reqs": [
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0pqt~8bl3ukh4.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/turbopack-0ek93-9e7u6_o.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/12w7pwbsl9som.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0c_20tjb65n15.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0yb10jawt2ibw.js"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/_next/static/chunks/0gecmpr6b9m98.js"
+      ],
+      [
+        "GET",
+        "https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496"
+      ],
+      [
+        "GET",
+        "https://www.regacore.com/videos/waitlist/bg-compressed.mp4"
+      ],
+      [
+        "POST",
+        "https://www.regacore.com/cdn-cgi/rum?"
+      ],
+      [
+        "POST",
+        "https://script.google.com/macros/s/AKfycbyN6Nv3ii3bSveQ4_TL20ZC6QKJv7OgEyK5Mmmn5zQXVIpj-DkJNTehIlh2mHwmvOw0/exec"
+      ]
+    ]
+  }
+]

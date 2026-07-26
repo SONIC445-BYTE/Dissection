@@ -1,0 +1,213 @@
+{
+  "schema": "ovexis.hpid.phase8.system_dynamics/v1",
+  "generated": "2026-07-26",
+  "phase": 8,
+  "status": "CANONICAL",
+  "summary": {
+    "loops": 9,
+    "reinforcing": 6,
+    "balancing": 3,
+    "vicious": 4,
+    "virtuous": 2
+  },
+  "loops": [
+    {
+      "id": "R1",
+      "name": "Commit Gap Reinforcing Loop",
+      "type": "REINFORCING",
+      "polarity": "vicious",
+      "nodes": [
+        "AI produces recommendation",
+        "human must execute it",
+        "execution is slow/skipped",
+        "outcome data never captured",
+        "AI cannot learn from outcomes",
+        "recommendation quality plateaus",
+        "trust falls",
+        "less execution"
+      ],
+      "evidence": "Phase2 F-2.12, Phase3 F-3.1, Phase5 F-5.1",
+      "leverage": "Close the loop by executing AND capturing the result \u2014 the only way outcome data appears"
+    },
+    {
+      "id": "R2",
+      "name": "Documentation Burden Loop",
+      "type": "REINFORCING",
+      "polarity": "vicious",
+      "nodes": [
+        "billing requires written artifact",
+        "clinician documents for billing not care",
+        "note quality degrades",
+        "data quality degrades",
+        "AI trained on poor data",
+        "AI output distrusted",
+        "more manual documentation"
+      ],
+      "evidence": "Phase7 F-7.2, corpus: pajama time, click fatigue",
+      "leverage": "Decouple capture from billing artifact \u2014 capture once, render many"
+    },
+    {
+      "id": "R3",
+      "name": "Integration Avoidance Loop",
+      "type": "REINFORCING",
+      "polarity": "vicious",
+      "nodes": [
+        "integration is expensive",
+        "vendors avoid deep integration",
+        "workflows stay fragmented",
+        "staff re-key between systems",
+        "manual work normalised",
+        "nobody demands integration",
+        "integration stays expensive"
+      ],
+      "evidence": "Phase2 253 HMIS vendors; Phase5 bot_integration_effort only 14 hits",
+      "leverage": "Make integration marginal-cost-zero via computer-use adapters (DL-046)"
+    },
+    {
+      "id": "R4",
+      "name": "Consumer Subscription Trap",
+      "type": "REINFORCING",
+      "polarity": "vicious",
+      "nodes": [
+        "payer revenue blocked by validation cost",
+        "company sells to consumer",
+        "CAC rises",
+        "retention pressure",
+        "feature breadth over depth",
+        "clinical validation deferred",
+        "payer revenue stays blocked"
+      ],
+      "evidence": "Phase2 F-2.7, Phase5 F-5.4 (churn 11 cos, CAC 11 cos)",
+      "leverage": "Enter via operational budget (no clinical validation required) not consumer wallet"
+    },
+    {
+      "id": "R5",
+      "name": "Trust Compounding Loop",
+      "type": "REINFORCING",
+      "polarity": "virtuous",
+      "nodes": [
+        "honest failure reported",
+        "user calibrates expectations",
+        "user delegates more",
+        "more actions executed",
+        "more provenance accumulated",
+        "audit confidence rises",
+        "more delegation authorised"
+      ],
+      "evidence": "Phase2 F-2.11, Phase7 F-7.4, JARVIS resolution_gate CB-05",
+      "leverage": "THE core Ovexis loop \u2014 honest failure is the entry point to autonomy"
+    },
+    {
+      "id": "R6",
+      "name": "Adapter Coverage Flywheel",
+      "type": "REINFORCING",
+      "polarity": "virtuous",
+      "nodes": [
+        "adapter built for platform",
+        "workflow automated end-to-end",
+        "usage generates failure cases",
+        "adapter hardens",
+        "more platforms viable",
+        "coverage attracts users",
+        "more adapters funded"
+      ],
+      "evidence": "JARVIS 160-adapter audit CB-04; HPID 449 platforms",
+      "leverage": "Depth-first not breadth-first: 149 fabricated adapters produced zero flywheel"
+    },
+    {
+      "id": "B1",
+      "name": "Liability Balancing Loop",
+      "type": "BALANCING",
+      "polarity": "constraining",
+      "nodes": [
+        "automation increases",
+        "liability exposure rises",
+        "human review reinstated",
+        "automation benefit capped",
+        "pressure to automate returns"
+      ],
+      "evidence": "Phase6 F-6.4, Phase7 F-7.5",
+      "leverage": "Graduated autonomy per action class (DL-048) \u2014 raises the cap without raising exposure"
+    },
+    {
+      "id": "B2",
+      "name": "Incumbent Lock-in Balancing Loop",
+      "type": "BALANCING",
+      "polarity": "constraining",
+      "nodes": [
+        "new tool proposed",
+        "requires HMIS change",
+        "switching cost blocks it",
+        "tool adapts around HMIS",
+        "capability ceiling reached"
+      ],
+      "evidence": "Phase5 bot_incumbent_lockin 16 cos 209 hits GREEN",
+      "leverage": "Operate in workflows the HMIS does not own (Phase-6 Tier 1) \u2014 ceiling does not bind there"
+    },
+    {
+      "id": "B3",
+      "name": "Clinical Safety Balancing Loop",
+      "type": "BALANCING",
+      "polarity": "protective",
+      "nodes": [
+        "error occurs",
+        "scrutiny increases",
+        "guardrails tighten",
+        "autonomy reduced",
+        "error rate falls"
+      ],
+      "evidence": "Phase7 F-7.4 (guardrails strengthen under autonomy)",
+      "leverage": "Pre-build the guardrail so the loop never triggers \u2014 cheaper than recovering trust"
+    }
+  ],
+  "leverage_points": [
+    {
+      "rank": 1,
+      "point": "Execute and capture in one loop",
+      "loop": "R1",
+      "why": "Only intervention that creates outcome data; breaks the deepest vicious loop",
+      "cost": "MED",
+      "jarvis": "ODAV loop already does observe-act-verify"
+    },
+    {
+      "rank": 2,
+      "point": "Honest failure as trust entry point",
+      "loop": "R5",
+      "why": "Converts the balancing liability loop into a virtuous delegation loop",
+      "cost": "LOW",
+      "jarvis": "resolution_gate.py exists (174 LOC)"
+    },
+    {
+      "rank": 3,
+      "point": "Enter on operational budget",
+      "loop": "R4+B2",
+      "why": "Bypasses both the subscription trap and incumbent lock-in simultaneously",
+      "cost": "LOW",
+      "jarvis": "n/a - go-to-market"
+    },
+    {
+      "rank": 4,
+      "point": "Depth-first adapters",
+      "loop": "R6",
+      "why": "149 fabricated adapters produced no flywheel; 3 real ones would",
+      "cost": "MED",
+      "jarvis": "directly contradicts existing 160-adapter strategy"
+    },
+    {
+      "rank": 5,
+      "point": "Graduated autonomy per action class",
+      "loop": "B1",
+      "why": "Raises the automation ceiling without raising liability exposure",
+      "cost": "MED",
+      "jarvis": "feature_gate has OFF/SHADOW/SUGGEST/FORCE modes already"
+    },
+    {
+      "rank": 6,
+      "point": "Zero-marginal-cost integration",
+      "loop": "R3",
+      "why": "Breaks the integration avoidance loop for 253 fragmented vendors",
+      "cost": "HIGH",
+      "jarvis": "ui_automation_execution 1747 LOC"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" font-family="Helvetica,Arial,sans-serif"><rect width="1100" height="560" fill="#FFFFFF"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#1F3864">Practo — SWOT</text>
+<rect x="20" y="40" width="520" height="240" rx="6" fill="#C6EFCE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="30" y="62" font-size="14" font-weight="bold" fill="#1F3864">Strengths</text>
+<text x="30" y="82" font-size="11" fill="#404040">• Marketplace liquidity (India) 🟢</text>
+<text x="30" y="100" font-size="11" fill="#404040">• Brand + 16M downloads 🟢</text>
+<text x="30" y="118" font-size="11" fill="#404040">• Enterprise SaaS Ray/Insta 🟢</text>
+<text x="30" y="136" font-size="11" fill="#404040">• Profitability discipline FY25 🟢</text>
+<text x="30" y="154" font-size="11" fill="#404040">• AI narrative + 20k AI/day 🟢</text>
+<text x="30" y="172" font-size="11" fill="#404040">• Strong board / governance 🟢</text>
+<rect x="560" y="40" width="520" height="240" rx="6" fill="#FFC7CE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="570" y="62" font-size="14" font-weight="bold" fill="#1F3864">Weaknesses</text>
+<text x="570" y="82" font-size="11" fill="#404040">• Thin take-rate (~6-7%) 🟡</text>
+<text x="570" y="100" font-size="11" fill="#404040">• &#x27;Scam&#x27;/pricing trust erosion 🟢</text>
+<text x="570" y="118" font-size="11" fill="#404040">• No patient-owned record 🟡</text>
+<text x="570" y="136" font-size="11" fill="#404040">• Tech debt from 5 acquisitions 🟡</text>
+<text x="570" y="154" font-size="11" fill="#404040">• No open API / dev moat 🟢</text>
+<text x="570" y="172" font-size="11" fill="#404040">• Navigation-not-diagnosis AI 🟡</text>
+<rect x="20" y="300" width="520" height="240" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1.2"/>
+<text x="30" y="322" font-size="14" font-weight="bold" fill="#1F3864">Opportunities</text>
+<text x="30" y="342" font-size="11" fill="#404040">• US/UAE GMV arbitrage 🟡</text>
+<text x="30" y="360" font-size="11" fill="#404040">• Payor integration 🟡</text>
+<text x="30" y="378" font-size="11" fill="#404040">• Agentic AI moat 🟡</text>
+<text x="30" y="396" font-size="11" fill="#404040">• IPO uplift 🟡</text>
+<text x="30" y="414" font-size="11" fill="#404040">• Diaspora internationalization 🟢</text>
+<text x="30" y="432" font-size="11" fill="#404040">• PROMs credibility 🟢</text>
+<rect x="560" y="300" width="520" height="240" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.2"/>
+<text x="570" y="322" font-size="14" font-weight="bold" fill="#1F3864">Threats</text>
+<text x="570" y="342" font-size="11" fill="#404040">• Apollo/1mg/MediBuddy rivalry 🟢</text>
+<text x="570" y="360" font-size="11" fill="#404040">• Longitudinal/AI entrants 🟡</text>
+<text x="570" y="378" font-size="11" fill="#404040">• OS health graphs (Apple/Google) 🟡</text>
+<text x="570" y="396" font-size="11" fill="#404040">• DPDP/HIPAA exposure 🟡</text>
+<text x="570" y="414" font-size="11" fill="#404040">• Clinical-harm incidents 🟢</text>
+<text x="570" y="432" font-size="11" fill="#404040">• Platform disintermediation 🟡</text>
+</svg>

@@ -1,0 +1,24 @@
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+content-length: 0
+location: /us/
+content-language: en
+x-frame-options: DENY
+x-cache-status: MISS
+cache-control: max-age=14400
+expires: Sat, 25 Jul 2026 12:38:18 GMT
+date: Sat, 25 Jul 2026 08:38:18 GMT
+set-cookie: csrftoken=3y7JKzUcaDjvyREqkzCffnp8Wc1Cb52h; Domain=.healthifyme.com; expires=Sat, 24 Jul 2027 08:38:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+strict-transport-security: max-age=86400
+
+HTTP/2 200 
+content-type: text/html
+last-modified: Fri, 17 Oct 2025 14:44:42 GMT
+x-amz-version-id: YWq_hrO0meB3ec.PocgblIx3LPu05PrN
+etag: W/"39bd932ece604354dead5f13cfc01053"
+x-amz-cf-pop: SIN2-P3
+x-amz-cf-id: MhaCSHtuBtAQ1-4YkKEP7CrFhbB2NhJjfUMxR4POGpCBJZGEDqH38A==
+date: Sat, 25 Jul 2026 08:38:18 GMT
+content-length: 47743
+strict-transport-security: max-age=86400
+

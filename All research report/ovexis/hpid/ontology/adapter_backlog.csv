@@ -1,0 +1,16 @@
+rank,opportunity_id,name,concept,owners,liability,digital_artifact,jarvis_loc,priority,adapter_needed,status
+1,O05,OT turnover coordination,task_workflow_engine,0,LOW,True,1767,5.86,none - workflow engine,EVIDENCE_GATED
+2,O06,Bed capacity & flow,task_workflow_engine,0,LOW,True,1767,5.86,none - workflow engine,EVIDENCE_GATED
+3,O07,Staff rostering,task_workflow_engine,2,LOW,True,1767,4.69,none - workflow engine,EVIDENCE_GATED
+4,O04,OT scheduling & list building,scheduling_booking,0,LOW,True,0,4.35,ui-automation adapter,EVIDENCE_GATED
+5,O09,Claim validation / scrubbing,billing_claims,0,LOW,True,0,3.98,ui-automation adapter,READY
+6,O13,Claims adjudication liaison,billing_claims,0,LOW,True,0,3.98,ui-automation adapter,READY
+7,O08,Charge capture at point of care,billing_claims,1,LOW,True,0,3.19,ui-automation adapter,READY
+8,O10,Claim submission & tracking,billing_claims,1,LOW,True,0,3.19,ui-automation adapter,READY
+9,O11,Denial management & appeal,billing_claims,1,LOW,True,0,3.19,ui-automation adapter,READY
+10,O12,Pre-authorisation,billing_claims,2,LOW,True,0,3.19,ui-automation adapter,READY
+11,O16,Results inbox triage,task_workflow_engine,2,MED,True,1767,3.05,none - workflow engine,DEFERRED
+12,O03,Nursing care documentation,documentation_scribe,0,MED,False,362,2.56,artifact creation first,DEFERRED
+13,O17,History taking / intake synthesis,documentation_scribe,0,MED,False,362,2.56,artifact creation first,DEFERRED
+14,O25,Cross-system data normalisation,data_normalisation,0,LOW,True,0,1.86,ui-automation adapter,READY
+15,O15,Lab result release & routing,anomaly_alerting,0,MED,True,0,1.58,ui-automation adapter,DEFERRED

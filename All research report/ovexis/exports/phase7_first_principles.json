@@ -1,0 +1,388 @@
+{
+  "schema": "ovexis.hpid.phase7.first_principles/v1",
+  "generated": "2026-07-26",
+  "phase": 7,
+  "status": "CANONICAL",
+  "method": "root-cause interrogation of 32 genome concepts: why does this exist? does the cause survive AI-native design?",
+  "verdicts": {
+    "ARTIFACT OF BILLING": 1,
+    "CONTESTED": 1,
+    "NO": 5,
+    "PARTIAL": 4,
+    "TRANSITIONAL": 1,
+    "YES": 19,
+    "YES while payers exist": 1
+  },
+  "concepts": [
+    {
+      "concept": "documentation_scribe",
+      "root_cause": "billing/legal require a written artifact",
+      "ai_native_verdict": "ARTIFACT OF BILLING",
+      "detail": "ARTIFACT OF BILLING - not of care",
+      "companies": 6,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 8.3,
+      "jarvis_loc": 362
+    },
+    {
+      "concept": "coaching_service",
+      "root_cause": "behaviour change needs a human relationship",
+      "ai_native_verdict": "CONTESTED",
+      "detail": "CONTESTED",
+      "companies": 7,
+      "gap_position": "human_fallback",
+      "strategic_importance": 6.1,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "analytics_dashboard",
+      "root_cause": "humans cannot query data without a pre-built view",
+      "ai_native_verdict": "NO",
+      "detail": "NO - replaced by query",
+      "companies": 16,
+      "gap_position": "before_commit",
+      "strategic_importance": 2.3,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "gamification_habit",
+      "root_cause": "engagement is hard",
+      "ai_native_verdict": "NO",
+      "detail": "NO - crutch for bad value",
+      "companies": 12,
+      "gap_position": "wrapper",
+      "strategic_importance": 2.0,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "conversion_growth_surface",
+      "root_cause": "humans must be persuaded to sign up",
+      "ai_native_verdict": "NO",
+      "detail": "NO - if value is real",
+      "companies": 11,
+      "gap_position": "wrapper",
+      "strategic_importance": 1.9,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "onboarding_flow",
+      "root_cause": "software is hard to start using",
+      "ai_native_verdict": "NO",
+      "detail": "NO - conversation replaces setup",
+      "companies": 7,
+      "gap_position": "wrapper",
+      "strategic_importance": 2.4,
+      "jarvis_loc": 426
+    },
+    {
+      "concept": "provider_discovery",
+      "root_cause": "no way to match need to supply without a directory",
+      "ai_native_verdict": "NO",
+      "detail": "NO - agent negotiates",
+      "companies": 5,
+      "gap_position": "wrapper",
+      "strategic_importance": 2.4,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "content_education",
+      "root_cause": "knowledge was scarce and had to be pre-authored into articles",
+      "ai_native_verdict": "PARTIAL",
+      "detail": "PARTIAL - synthesis on demand",
+      "companies": 13,
+      "gap_position": "before_commit",
+      "strategic_importance": 2.6,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "marketplace_commerce",
+      "root_cause": "transactions need a storefront",
+      "ai_native_verdict": "PARTIAL",
+      "detail": "PARTIAL",
+      "companies": 13,
+      "gap_position": "wrapper",
+      "strategic_importance": 1.9,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "composite_health_score",
+      "root_cause": "humans need one number to act on",
+      "ai_native_verdict": "PARTIAL",
+      "detail": "PARTIAL - compression for humans",
+      "companies": 5,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.8,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "identity_resolution",
+      "root_cause": "no universal patient identifier",
+      "ai_native_verdict": "PARTIAL",
+      "detail": "PARTIAL - solved by ABHA in India",
+      "companies": 3,
+      "gap_position": "before_commit",
+      "strategic_importance": 4.0,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "ui_automation_execution",
+      "root_cause": "systems lack APIs",
+      "ai_native_verdict": "TRANSITIONAL",
+      "detail": "TRANSITIONAL - exists because integration failed",
+      "companies": 7,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.8,
+      "jarvis_loc": 1747
+    },
+    {
+      "concept": "ai_chat_assistant",
+      "root_cause": "interface to knowledge",
+      "ai_native_verdict": "YES",
+      "detail": "YES - but becomes ambient not a feature",
+      "companies": 15,
+      "gap_position": "before_commit",
+      "strategic_importance": 2.8,
+      "jarvis_loc": 1017
+    },
+    {
+      "concept": "task_workflow_engine",
+      "root_cause": "work must be sequenced and tracked",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 15,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 5.1,
+      "jarvis_loc": 1767
+    },
+    {
+      "concept": "safety_guardrails",
+      "root_cause": "autonomous action can harm",
+      "ai_native_verdict": "YES",
+      "detail": "YES - strengthens",
+      "companies": 14,
+      "gap_position": "wrapper",
+      "strategic_importance": 1.9,
+      "jarvis_loc": 852
+    },
+    {
+      "concept": "subscription_billing",
+      "root_cause": "recurring revenue mechanics",
+      "ai_native_verdict": "YES",
+      "detail": "YES - commercial not clinical",
+      "companies": 14,
+      "gap_position": "wrapper",
+      "strategic_importance": 1.7,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "longitudinal_timeline",
+      "root_cause": "record fragmented across providers",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 13,
+      "gap_position": "before_commit",
+      "strategic_importance": 2.9,
+      "jarvis_loc": 684
+    },
+    {
+      "concept": "fhir_api_surface",
+      "root_cause": "machines must exchange data",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 13,
+      "gap_position": "before_commit",
+      "strategic_importance": 2.6,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "security_access_control",
+      "root_cause": "data must be protected",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 13,
+      "gap_position": "wrapper",
+      "strategic_importance": 1.8,
+      "jarvis_loc": 926
+    },
+    {
+      "concept": "rag_grounded_answer",
+      "root_cause": "models hallucinate; corpus is external",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent trust primitive",
+      "companies": 12,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.1,
+      "jarvis_loc": 655
+    },
+    {
+      "concept": "explainability_provenance",
+      "root_cause": "trust requires traceability",
+      "ai_native_verdict": "YES",
+      "detail": "YES - strengthens",
+      "companies": 11,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.0,
+      "jarvis_loc": 815
+    },
+    {
+      "concept": "summarisation",
+      "root_cause": "humans cannot read everything",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 10,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.0,
+      "jarvis_loc": 309
+    },
+    {
+      "concept": "consent_management",
+      "root_cause": "legal requirement for data movement",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent, strengthens",
+      "companies": 10,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.1,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "ehr_record_retrieval",
+      "root_cause": "records locked in silos",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 10,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.3,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "compliance_certification",
+      "root_cause": "trust must be attested",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 10,
+      "gap_position": "wrapper",
+      "strategic_importance": 2.0,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "ordering_eprescribing",
+      "root_cause": "an authorised human must commit an instruction",
+      "ai_native_verdict": "YES",
+      "detail": "YES - liability anchor",
+      "companies": 9,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 6.6,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "clinical_decision_support",
+      "root_cause": "clinician cannot hold all evidence",
+      "ai_native_verdict": "YES",
+      "detail": "YES - but merges into reasoning",
+      "companies": 8,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.4,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "referral_care_coordination",
+      "root_cause": "care spans institutions",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 7,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.1,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "data_normalisation",
+      "root_cause": "systems disagree on meaning",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent chokepoint",
+      "companies": 6,
+      "gap_position": "before_commit",
+      "strategic_importance": 3.6,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "scheduling_booking",
+      "root_cause": "resources are scarce and contended",
+      "ai_native_verdict": "YES",
+      "detail": "YES - permanent",
+      "companies": 6,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 8.4,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "clinician_review_loop",
+      "root_cause": "liability requires a human signature",
+      "ai_native_verdict": "YES",
+      "detail": "YES - liability, not capability",
+      "companies": 5,
+      "gap_position": "human_fallback",
+      "strategic_importance": 6.0,
+      "jarvis_loc": 0
+    },
+    {
+      "concept": "billing_claims",
+      "root_cause": "payer and provider are separate entities with opposed incentives",
+      "ai_native_verdict": "YES while payers exist",
+      "detail": "YES while payers exist",
+      "companies": 8,
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0
+    }
+  ],
+  "ai_native_opportunities": [
+    {
+      "id": "AN01",
+      "opportunity": "Agent-native operational choreography",
+      "replaces": "OT/bed/roster coordination by phone+whiteboard",
+      "why": "State lives in humans; an agent can hold and reconcile it continuously",
+      "liability": "LOW",
+      "jarvis_fit": "HIGH"
+    },
+    {
+      "id": "AN02",
+      "opportunity": "Agent-native claims rule acquisition",
+      "replaces": "Manual per-payer rule learning and claim scrubbing",
+      "why": "Rules are discoverable from denial feedback loops; no static ruleset needed",
+      "liability": "LOW",
+      "jarvis_fit": "HIGH"
+    },
+    {
+      "id": "AN03",
+      "opportunity": "Computer-use adapter for internal HMIS operations",
+      "replaces": "Staff re-keying between modules",
+      "why": "FHIR covers exchange, not internal ops; the screen is the only universal interface",
+      "liability": "LOW",
+      "jarvis_fit": "VERY HIGH"
+    },
+    {
+      "id": "AN04",
+      "opportunity": "Voice-native nursing capture",
+      "replaces": "Verbal handover with no artifact",
+      "why": "Creates the digital artifact that does not exist today (unblocks Phase-6 O01/O03)",
+      "liability": "MED",
+      "jarvis_fit": "MED"
+    },
+    {
+      "id": "AN05",
+      "opportunity": "Knowledge-graph of institutional state",
+      "replaces": "MIS spreadsheets assembled monthly",
+      "why": "Cross-departmental state nobody aggregates; graph is the natural form",
+      "liability": "LOW",
+      "jarvis_fit": "MED"
+    },
+    {
+      "id": "AN06",
+      "opportunity": "Liability-allocating verification layer",
+      "replaces": "Blanket \"clinician must review everything\"",
+      "why": "Graduated autonomy per action class; the actual blocker is legal not technical",
+      "liability": "DESIGN",
+      "jarvis_fit": "HIGH"
+    }
+  ]
+}

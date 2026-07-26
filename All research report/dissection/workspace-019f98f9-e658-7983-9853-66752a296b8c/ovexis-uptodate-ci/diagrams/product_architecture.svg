@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 880" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475b"/></marker>
+<linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf2fb"/><stop offset="1" stop-color="#d7e7f8"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fef3e2"/><stop offset="1" stop-color="#fde7c4"/></linearGradient>
+<linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9f7ef"/><stop offset="1" stop-color="#d3f0e1"/></linearGradient>
+</defs>
+<rect width="1240" height="880" fill="#fbfcfe"/>
+<text x="30" y="42" font-size="24" font-weight="bold" fill="#12263a">UpToDate — Product Architecture (reconstructed)</text>
+<text x="30" y="66" font-size="13" fill="#5a7184">Blue = client surfaces · Orange = legacy .NET/Azure estate · Green = central GenAI platform · Confidence: structure inferred from product docs, app stores, and WK job posts (E20–E25)</text>
+
+<!-- CLIENT LAYER -->
+<rect x="30" y="90" width="1180" height="120" rx="10" fill="url(#g1)" stroke="#9dc3ea"/>
+<text x="50" y="114" font-size="14" font-weight="bold" fill="#1b4f8a">CLIENT SURFACES (blue)</text>
+<g font-size="12" fill="#12263a">
+<rect x="50" y="126" width="180" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="60" y="150" font-weight="bold">Web App (Angular-era)</text><text x="60" y="168">search · topic pages · CME</text>
+<rect x="250" y="126" width="160" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="260" y="150" font-weight="bold">iOS / Android</text><text x="260" y="168">3.6★ flagship app</text>
+<rect x="430" y="126" width="170" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="440" y="150" font-weight="bold">EHR-Embedded</text><text x="440" y="168">Epic · Oracle Health · TrakCare</text>
+<rect x="620" y="126" width="170" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="630" y="150" font-weight="bold">Abridge (partner)</text><text x="630" y="168">ambient documentation CDS</text>
+<rect x="810" y="126" width="180" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="820" y="150" font-weight="bold">Expert AI Chat UI</text><text x="820" y="168">app + enterprise surfaces</text>
+<rect x="1010" y="126" width="180" height="66" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="1020" y="150" font-weight="bold">Store / Account</text><text x="1020" y="168">Salesforce B2B Commerce</text>
+</g>
+
+<!-- EDGE -->
+<rect x="30" y="230" width="1180" height="70" rx="10" fill="#eef1f5" stroke="#c3cdd8"/>
+<text x="50" y="254" font-size="14" font-weight="bold" fill="#33475b">EDGE &amp; IDENTITY</text>
+<g font-size="12" fill="#12263a">
+<rect x="50" y="262" width="240" height="30" rx="5" fill="#fff" stroke="#b0bccb"/><text x="60" y="282">SSO: Microsoft Entra · OpenAthens</text>
+<rect x="310" y="262" width="240" height="30" rx="5" fill="#fff" stroke="#b0bccb"/><text x="320" y="282">Institutional: IP · EZproxy · Referrer</text>
+<rect x="570" y="262" width="220" height="30" rx="5" fill="#fff" stroke="#b0bccb"/><text x="580" y="282">Entitlements (Pro/ProPlus/Ent.)</text>
+<rect x="810" y="262" width="180" height="30" rx="5" fill="#fff" stroke="#b0bccb"/><text x="820" y="282">HL7 Infobutton gateway</text>
+<rect x="1010" y="262" width="180" height="30" rx="5" fill="#fff" stroke="#b0bccb"/><text x="1020" y="282">Seats &amp; device policy</text>
+</g>
+<line x1="620" y1="192" x2="620" y2="230" stroke="#33475b" stroke-width="1.5" marker-end="url(#a)"/>
+
+<!-- LEGACY ESTATE -->
+<rect x="30" y="320" width="720" height="300" rx="10" fill="url(#g2)" stroke="#f0b45c"/>
+<text x="50" y="344" font-size="14" font-weight="bold" fill="#8a5a10">LEGACY PRODUCT ESTATE  ·  C#/.NET · SQL Server · Azure PaaS · Angular (Chennai-centred)</text>
+<g font-size="12" fill="#12263a">
+<rect x="50" y="356" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="60" y="380" font-weight="bold">Search Service</text><text x="60" y="398">autocomplete · Key Points</text>
+<rect x="230" y="356" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="240" y="380" font-weight="bold">Topic Rendering</text><text x="240" y="398">13k+ topics · GRADE chips</text>
+<rect x="410" y="356" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="420" y="380" font-weight="bold">Calculators Engine</text><text x="420" y="398">200+ validated tools</text>
+<rect x="590" y="356" width="140" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="600" y="380" font-weight="bold">Drug Service</text><text x="600" y="398">Lexidrug · interactions</text>
+<rect x="50" y="428" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="60" y="452" font-weight="bold">CME Ledger</text><text x="60" y="470">AMA PRA accrual</text>
+<rect x="230" y="428" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="240" y="452" font-weight="bold">Patient Education</text><text x="240" y="470">19 languages · print</text>
+<rect x="410" y="428" width="160" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="420" y="452" font-weight="bold">Editorial CMS</text><text x="420" y="470">continuous publishing</text>
+<rect x="590" y="428" width="140" height="56" rx="6" fill="#fff" stroke="#e3a94f"/><text x="600" y="452" font-weight="bold">Admin Reports</text><text x="600" y="470">usage counters</text>
+<rect x="50" y="500" width="680" height="44" rx="6" fill="#fff8ee" stroke="#e3a94f" stroke-dasharray="5,3"/>
+<text x="60" y="526" font-size="12" fill="#8a5a10">EDITORIAL PIPELINE: 7,600 authors/editors → deputy editors → grading team → publish (off-platform, human)</text>
+<rect x="50" y="556" width="160" height="48" rx="6" fill="#fff" stroke="#e3a94f"/><text x="60" y="578" font-weight="bold">Corpus DB (SQL)</text><text x="60" y="596">topics · references</text>
+<rect x="230" y="556" width="160" height="48" rx="6" fill="#fff" stroke="#e3a94f"/><text x="240" y="578" font-weight="bold">Lexidrug DB</text><text x="240" y="596">drug truth · PGx</text>
+<rect x="410" y="556" width="160" height="48" rx="6" fill="#fff" stroke="#e3a94f"/><text x="420" y="578" font-weight="bold">Search Index</text><text x="420" y="596">curated ranking</text>
+<rect x="590" y="556" width="140" height="48" rx="6" fill="#fff" stroke="#e3a94f"/><text x="600" y="578" font-weight="bold">User/CME store</text><text x="600" y="596">history · ledger</text>
+</g>
+<line x1="390" y1="300" x2="390" y2="320" stroke="#33475b" stroke-width="1.5" marker-end="url(#a)"/>
+
+<!-- GENAI PLATFORM -->
+<rect x="770" y="320" width="440" height="300" rx="10" fill="url(#g3)" stroke="#4fbf8f"/>
+<text x="790" y="344" font-size="14" font-weight="bold" fill="#146648">CENTRAL GenAI PLATFORM (~100 eng) · TS/Python/Rust</text>
+<g font-size="12" fill="#12263a">
+<rect x="790" y="356" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="800" y="380" font-weight="bold">Agent Orchestration</text><text x="800" y="398">LangChain/LangGraph · MCP/A2A</text>
+<rect x="1000" y="356" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="1010" y="380" font-weight="bold">Retrieval / RAG</text><text x="1010" y="398">OpenSearch · Azure AI Search · KBs</text>
+<rect x="790" y="428" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="800" y="452" font-weight="bold">Model Router</text><text x="800" y="470">Azure OAI · Anthropic · Gemini</text>
+<rect x="1000" y="428" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="1010" y="452" font-weight="bold">Validators</text><text x="1010" y="470">source-support · contraindication</text>
+<rect x="790" y="500" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="800" y="524" font-weight="bold">Evals &amp; Canaries</text><text x="800" y="542">rollout/rollback · telemetry</text>
+<rect x="1000" y="500" width="190" height="56" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="1010" y="524" font-weight="bold">Expert AI APIs</text><text x="1010" y="542">enterprise · Abridge · app</text>
+<rect x="790" y="568" width="400" height="36" rx="6" fill="#eefaf3" stroke="#4fbf8f" stroke-dasharray="5,3"/>
+<text x="800" y="590" fill="#146648">Stores: DocumentDB · DynamoDB  (AWS primary, +Azure/GCP)</text>
+</g>
+<line x1="990" y1="300" x2="990" y2="320" stroke="#33475b" stroke-width="1.5" marker-end="url(#a)"/>
+<line x1="750" y1="470" x2="770" y2="470" stroke="#33475b" stroke-width="1.5" marker-end="url(#a)"/>
+<text x="700" y="452" font-size="11" fill="#33475b" transform="rotate(0)">AI reads</text>
+
+<!-- ABSENCES -->
+<rect x="30" y="640" width="1180" height="120" rx="10" fill="#fdeaea" stroke="#e77"/>
+<text x="50" y="666" font-size="14" font-weight="bold" fill="#a02020">ARCHITECTURALLY ABSENT (verified negative space)</text>
+<g font-size="12.5" fill="#7a1f1f">
+<text x="50" y="694">✗ Patient identity / MPI layer      ✗ FHIR/CCDA ingestion      ✗ Wearables &amp; labs intake      ✗ Persistent patient memory / digital twin</text>
+<text x="50" y="720">✗ Care plans &amp; care-team messaging      ✗ Public API / SDK / webhooks      ✗ Consent primitives (patient-side)      ✗ Referral routing</text>
+</g>
+<rect x="30" y="780" width="1180" height="76" rx="10" fill="#eef3f9" stroke="#9dc3ea"/>
+<text x="50" y="806" font-size="13" font-weight="bold" fill="#1b4f8a">KEY STRUCTURAL FACT</text>
+<text x="50" y="830" font-size="12.5" fill="#33475b">UpToDate is a star-topology around its corpus: every product surface reads from graded content; PHI/transient chart context enters only as query parameters (Infobutton) and is never persisted.</text>
+<text x="50" y="848" font-size="12.5" fill="#33475b">The 2025–26 GenAI platform wraps the same corpus in an agent — extending the star, not changing its topology. Source: WK job post R0052281 + integration docs.</text>
+</svg>

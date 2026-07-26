@@ -1,0 +1,140 @@
+What we test
+FAQs
+Log in
+Become a member
+Menu
+Log in
+Be a member
+Explore
+What we test
+How it works
+FAQ
+About
+Company
+Blog
+Privacy Policy
+
+Last Updated: May 2026
+
+Regacore Technologies Private Limited ("us", "we", or "Regacore", which also includes its affiliates) is the author and publisher of the internet resource www.regacore.com and the mobile application "Regacore" ("Website"). The Website as well as the software, services and applications provided by Regacore (collectively referred to as the "Services").
+
+This privacy policy ("Privacy Policy") explains how we collect, use, share, disclose and protect Personal information about the Users (as defined below) and End User (as defined below) (jointly and severally referred to as "you" or "Users"). Your use of the Services is subject to this Privacy Policy and our Terms of Use. We created this Privacy Policy to demonstrate our commitment to the protection of your privacy and your personal information.
+
+"User" means any individual or entity who accesses, browses or registers on the Website including End User, business partners.
+
+"End User" means a natural person who uses the Services provided by Regacore including but not limited to book appointments, obtain health reports or any other ancillary services.
+
+BY USING THE SERVICES OR BY OTHERWISE GIVING US YOUR INFORMATION, YOU WILL BE DEEMED TO HAVE READ, UNDERSTOOD AND AGREED TO THE PRACTICES AND POLICIES OUTLINED IN THIS PRIVACY POLICY AND AGREE TO BE BOUND BY THE PRIVACY POLICY. YOU HEREBY CONSENT TO OUR COLLECTION, USE AND SHARING, DISCLOSURE OF YOUR INFORMATION AS DESCRIBED IN THIS PRIVACY POLICY.
+
+1. Why This Privacy Policy?
+
+This Privacy Policy is published in compliance with, inter alia:
+
+Section 43A of the Information Technology Act, 2000;
+Regulation 4 of the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Information) Rules, 2011 (the "SPI Rules");
+Regulation 3(1) of the Information Technology (Intermediaries Guidelines) Rules, 2011; and
+The Digital Personal Data Protection Act, 2023 and the rules framed thereunder (the "DPDP Act").
+
+This Privacy Policy states the type of information collected, the purpose, means and modes of collection, usage, processing, retention, and destruction of such information, and how and to whom Regacore will disclose such information.
+
+2. Collection of Personal Information
+
+Information collected by us from you may include (but is not limited to) the following:
+
+Contact data (such as your email address and phone number);
+Demographic data (such as your gender, your date of birth and your pin code);
+Data regarding your usage of the Services and history of the appointments;
+Other information that you voluntarily choose to provide to us;
+Data shared by healthcare providers, laboratory service providers, and other providers of medical services pertaining to the Services availed by you.
+
+The SPI Rules define "Sensitive Personal Data or Information" to mean personal information relating to passwords, financial information, physical, physiological and mental health condition, sexual orientation, medical records and history, and biometric information. Regacore will be free to use, collect and disclose information that is freely available in the public domain without your consent.
+
+3. Privacy Statements
+3.1 All Users Note
+
+All the information provided to Regacore by a User, including Personal Information or any Sensitive Personal Data or Information, is voluntary. You understand that Regacore may use certain information of yours: (a) for the purpose of providing you the Services, (b) for research, statistical analysis and business intelligence purposes in an aggregated or non-personally identifiable form, (c) for communication purposes, (d) debugging customer support related issues, and (e) processing payment instructions.
+
+Right to Withdraw Consent: You may withdraw your consent to the collection and processing of your personal data at any time by contacting us at support@regacore.com or through the account settings. Withdrawal of consent does not affect the lawfulness of any processing carried out prior to the withdrawal.
+
+Data Retention and Erasure: Regacore retains your personal data only for so long as is necessary to fulfil the purpose for which it was collected, or as required or permitted by applicable law. Once the purpose is no longer being served, Regacore will erase or delete your personal data in accordance with the requirements of the DPDP Act.
+
+3.2 End User Note
+
+Regacore may share your personal information or any other information with healthcare providers, laboratory service providers, and other providers of medical and medical adjacent services to the extent necessary to provide you with the Services.
+
+Regacore may also use such information in an aggregated or non-personally identifiable form for research, statistical analysis and business intelligence purposes, and may use, and where applicable transfer to third parties, data that has been irreversibly anonymised. Regacore does not sell, transfer, or otherwise commercialise personal data of End Users.
+
+4. Confidentiality and Security
+
+Your Personal Information is maintained by Regacore in electronic form. Regacore takes all necessary precautions to protect your personal information both online and off-line, and implements reasonable security practices and measures including certain managerial, technical, operational and physical security control measures.
+
+No administrator at Regacore will have knowledge of your password. It is important for you to protect against unauthorized access to your password and your devices.
+
+5. Change to Privacy Policy
+
+Regacore may update this Privacy Policy at any time, with or without advance notice. In the event there are significant changes, Regacore will display a notice on the Website or send an email. If you object to any of the changes, you may contact support@regacore.com to deactivate your account.
+
+6. Artificial Intelligence Features
+
+Regacore uses artificial intelligence (AI) technologies to power certain features of its Services. These AI features are designed to improve the quality and usability of the Services. The following principles govern Regacore's use of AI:
+
+Consent: AI-based processing of your personal data is conducted only with your consent.
+Purpose: Regacore's AI layer generates structured risk reports for preventive screening purposes only — it does not diagnose any medical condition, prescribe treatment, or make clinical decisions.
+Human oversight: No automated decision-making with legal or similarly significant effects is applied without a human review layer.
+Data minimisation: Personal data processed through AI features is limited to what is strictly necessary.
+7. Children Under the Age of 18
+
+Regacore's Website and Services are directed at adults and are not intended for use by persons under the age of 18. Regacore does not knowingly collect personal data from children without the verifiable consent of their parent or legal guardian.
+
+8. Consent to this Policy
+
+You acknowledge that this Privacy Policy is a part of the Terms of Use of the Website, and you unconditionally agree that becoming a User signifies your assent to this Privacy Policy and consent to Regacore using, collecting, processing and/or disclosing your Personal Information in the manner set out herein.
+
+9. Grievance Officer and Contact Details
+
+Should you have questions about this Privacy Policy, please contact our designated Grievance Officer. We will use reasonable efforts to respond to your request in accordance with the timelines prescribed under the DPDP Act.
+
+Name: [Designated Grievance Officer Name]
+
+Email: privacy@regacore.com
+
+10. Personal Data Breach
+
+In the event of a personal data breach that is likely to result in a risk to the rights of any Data Principal, Regacore shall notify the Data Protection Board of India and notify the affected Data Principal(s) in a clear and plain manner, describing the nature of the breach and the measures taken to address it.
+
+11. Rights of Data Principals
+
+As a Data Principal under the DPDP Act, you have the following rights:
+
+Right to Information: Obtain a summary of the personal data held by Regacore.
+Right to Correction and Completion: Request that Regacore correct any inaccurate or misleading personal data.
+Right to Erasure: Request erasure of your personal data where it is no longer necessary.
+Right to Grievance Redressal: Have your grievances addressed by the Grievance Officer.
+Right to Nominate: Nominate any other individual to exercise your rights in the event of your death or incapacity.
+
+To exercise any of the above rights, please contact our Grievance Officer at privacy@regacore.com.
+
+regacore
+
+The premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.
+
+Platform
+How it works
+Biomarkers
+Membership
+Medical Board
+Company
+About Us
+Blog
+Privacy Policy
+Terms of Service
+Stay Updated
+
+Join our newsletter for the latest breakthroughs in preventative longevity medicine.
+
+Subscribe
+Twitter/X
+Instagram
+LinkedIn
+© 2026 regacore All rights reserved.
+Designed for proactive human health.

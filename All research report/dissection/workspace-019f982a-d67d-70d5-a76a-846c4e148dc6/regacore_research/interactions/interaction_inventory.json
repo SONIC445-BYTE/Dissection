@@ -1,0 +1,1991 @@
+[
+  {
+    "label": "waitlist_step1_name",
+    "text": "<\nName\ncontinue",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "<",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "continue",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": "name",
+        "placeholder": null,
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/waitlist"
+  },
+  {
+    "label": "waitlist_step2_after_name",
+    "text": "<\nemail\ncontinue",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "<",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "continue",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "placeholder": null,
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/waitlist"
+  },
+  {
+    "label": "checkout_initial",
+    "text": "Regacore membership\nA health check like never before\n\nSign up to test 100+ biomarkers yearly, visualize health records and get a personalized plan that actually works.\n\nTrusted by thousands of members.\n1\nCreate your account\nEmail\nContinue\n\nAlready have an account? Log in\n\n2\nPayment\nComplete step 1 to continue.\nOrder Summary\nRegacore Membership\n\n100+ biomarkers, results tracked over time, and 24/7 access to your care team.\n\nRegacore Membership\n\u20b910,800 /yr\nTotal\n\u20b910,800",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "Continue",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/checkout"
+  },
+  {
+    "label": "checkout_after_empty_continue",
+    "text": "Regacore membership\nA health check like never before\n\nSign up to test 100+ biomarkers yearly, visualize health records and get a personalized plan that actually works.\n\nTrusted by thousands of members.\n1\nCreate your account\nEmail\nContinue\n\nAlready have an account? Log in\n\n2\nPayment\nComplete step 1 to continue.\nOrder Summary\nRegacore Membership\n\n100+ biomarkers, results tracked over time, and 24/7 access to your care team.\n\nRegacore Membership\n\u20b910,800 /yr\nTotal\n\u20b910,800",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "Continue",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/checkout"
+  },
+  {
+    "label": "checkout_after_invalid_email",
+    "text": "Regacore membership\nA health check like never before\n\nSign up to test 100+ biomarkers yearly, visualize health records and get a personalized plan that actually works.\n\nTrusted by thousands of members.\n1\nCreate your account\nEmail\nContinue\n\nAlready have an account? Log in\n\n2\nPayment\nComplete step 1 to continue.\nOrder Summary\nRegacore Membership\n\n100+ biomarkers, results tracked over time, and 24/7 access to your care team.\n\nRegacore Membership\n\u20b910,800 /yr\nTotal\n\u20b910,800",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "Continue",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Your email",
+        "value": "invalid",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/checkout"
+  },
+  {
+    "label": "concierge_initial",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nNew AI Chat\n\u2318N\nSpecialist Directory\nPINNED\nApoB Level & Lipids Review\nCLINICAL REVIEWS\n\nReview ApoB & LDL ratio\n\nCardiovascular\nREPLIED\n\nKeto diet and thyroid interaction\n\nNutrition\nPENDING\nHEALTH ANALYSES\n\nMethylation Organ Summary\n\nFeb 25, 2026\n\nLipids Risk Discordance\n\nFeb 25, 2026\nCONVERSATIONS\nTODAY\nBiological Age & Cortisol Analysis\nAnti-inflammatory grocery list\nYESTERDAY\nDigital twin sync info\nBiological age accuracy\nGood morning, Anuj.\n\nYour biological age is currently 30.4 years, approximately 5.6 years younger than expected.\n\nHow can we help you today?\n\nImmediate\nAI Concierge\n\nAsk questions about biomarkers, biological age, nutrition, exercise and longevity.\n\nWithin 24h\nSpecialist Review\n\nSubmit your case to a specialist in cardiovascular health, hormones, nutrition or longevity.",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "New AI Chat\n\u2318N",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Specialist Directory",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "Review ApoB & LDL ratio\n\nCardiovascular\nREPLIED",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Keto diet and thyroid interaction\n\nNutrition\nPENDING",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search conversations...",
+        "value": "",
+        "required": false
+      }
+    ],
+    "url": "https://www.regacore.com/concierge"
+  },
+  {
+    "label": "concierge_after_new_chat",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nNew AI Chat\n\u2318N\nSpecialist Directory\nPINNED\nApoB Level & Lipids Review\nCLINICAL REVIEWS\n\nReview ApoB & LDL ratio\n\nCardiovascular\nREPLIED\n\nKeto diet and thyroid interaction\n\nNutrition\nPENDING\nHEALTH ANALYSES\n\nMethylation Organ Summary\n\nFeb 25, 2026\n\nLipids Risk Discordance\n\nFeb 25, 2026\nCONVERSATIONS\nTODAY\nNew AI Chat\nBiological Age & Cortisol Analysis\nAnti-inflammatory grocery list\nYESTERDAY\nDigital twin sync info\nBiological age accuracy\nNew AI Chat\n\nRegacore AI \u00b7 Analyzing your Digital Twin\n\nGood morning, Anuj.\n\nWhat would you like help with today?\n\nExplain ApoB\nReview biological age\nExplain cortisol\nNutrition strategy\nExercise guidance\nHEALTH CONTEXT\nHEALTH SNAPSHOT\nHealth Score\n81\nBiological Age\n30.4\nCURRENT FOCUS\nCardiovascular Health\nRECENT BIOMARKERS\nApoB\n65\nmg/dL\nLDL-C\n85\nmg/dL\nTriglycerides\n110\nmg/dL\nHDL-C\n62\nmg/dL\nRECENT CHANGES\nBiological Age\n\u2193 5.6 years\nCortisol\n\u2191 33%\nRECENT UPLOADS\n\nLabcorp Panel\n\nFeb 2026",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "New AI Chat\n\u2318N",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Specialist Directory",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "Review ApoB & LDL ratio\n\nCardiovascular\nREPLIED",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Keto diet and thyroid interaction\n\nNutrition\nPENDING",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 25,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 26,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 27,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 28,
+        "text": "Explain ApoB",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 29,
+        "text": "Review biological age",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 30,
+        "text": "Explain cortisol",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 31,
+        "text": "Nutrition strategy",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 32,
+        "text": "Exercise guidance",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 33,
+        "text": "",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 34,
+        "text": "",
+        "type": "submit",
+        "disabled": true
+      },
+      {
+        "i": 35,
+        "text": "ApoB\n65\nmg/dL",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 36,
+        "text": "LDL-C\n85\nmg/dL",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 37,
+        "text": "Triglycerides\n110\nmg/dL",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 38,
+        "text": "HDL-C\n62\nmg/dL",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search conversations...",
+        "value": "",
+        "required": false
+      },
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Ask about your biomarkers, biological age, or health strategy...",
+        "value": "",
+        "required": false
+      }
+    ],
+    "url": "https://www.regacore.com/concierge"
+  },
+  {
+    "label": "concierge_after_specialist",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nNew AI Chat\n\u2318N\nSpecialist Directory\nPINNED\nApoB Level & Lipids Review\nCLINICAL REVIEWS\n\nReview ApoB & LDL ratio\n\nCardiovascular\nREPLIED\n\nKeto diet and thyroid interaction\n\nNutrition\nPENDING\nHEALTH ANALYSES\n\nMethylation Organ Summary\n\nFeb 25, 2026\n\nLipids Risk Discordance\n\nFeb 25, 2026\nCONVERSATIONS\nTODAY\nNew AI Chat\nBiological Age & Cortisol Analysis\nAnti-inflammatory grocery list\nYESTERDAY\nDigital twin sync info\nBiological age accuracy\nSpecialist Directory\n\nSelect a specialty to request a detailed clinical review of your health records.\n\nREVIEWED BY\nMD\nRD\nExercise Physiologist\nNurse Practitioner\nCardiovascular\nResponse within 24h\n\nApoB, LDL, inflammation\n\nHormones\nResponse within 24h\n\nThyroid, cortisol, DHEA-S\n\nNutrition\nResponse within 24h\n\nLongevity nutrition review\n\nExercise Physiology\nResponse within 24h\n\nVO2 max, training logs, cardiovascular endurance\n\nBiomarker Interpretation\nResponse within 24h\n\nGranular analysis of lab reports and trends\n\nGeneral Longevity\nResponse within 24h\n\nBiological age and epigenetic management\n\nCare Coordinator\nResponse within 24h\n\nScheduling, lab requests, and referrals\n\nYou have 1 pending review request\nView History \u2192",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "New AI Chat\n\u2318N",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Specialist Directory",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "Review ApoB & LDL ratio\n\nCardiovascular\nREPLIED",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Keto diet and thyroid interaction\n\nNutrition\nPENDING",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 25,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 26,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 27,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 28,
+        "text": "Cardiovascular\nResponse within 24h\n\nApoB, LDL, inflammation",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 29,
+        "text": "Hormones\nResponse within 24h\n\nThyroid, cortisol, DHEA-S",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 30,
+        "text": "Nutrition\nResponse within 24h\n\nLongevity nutrition review",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 31,
+        "text": "Exercise Physiology\nResponse within 24h\n\nVO2 max, training logs, cardiovascular endurance",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 32,
+        "text": "Biomarker Interpretation\nResponse within 24h\n\nGranular analysis of lab reports and trends",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 33,
+        "text": "General Longevity\nResponse within 24h\n\nBiological age and epigenetic management",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 34,
+        "text": "Care Coordinator\nResponse within 24h\n\nScheduling, lab requests, and referrals",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 35,
+        "text": "View History \u2192",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search conversations...",
+        "value": "",
+        "required": false
+      }
+    ],
+    "url": "https://www.regacore.com/concierge"
+  },
+  {
+    "label": "concierge_after_review_apob",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nNew AI Chat\n\u2318N\nSpecialist Directory\nPINNED\nApoB Level & Lipids Review\nCLINICAL REVIEWS\n\nReview ApoB & LDL ratio\n\nCardiovascular\nREPLIED\n\nKeto diet and thyroid interaction\n\nNutrition\nPENDING\nHEALTH ANALYSES\n\nMethylation Organ Summary\n\nFeb 25, 2026\n\nLipids Risk Discordance\n\nFeb 25, 2026\nCONVERSATIONS\nTODAY\nNew AI Chat\nBiological Age & Cortisol Analysis\nAnti-inflammatory grocery list\nYESTERDAY\nDigital twin sync info\nBiological age accuracy\nRequest History\n\nTrack and review your clinical expert consultations. Click any ticket to see details and replies.\n\nConsult Specialists\nPending\n1\nIn Review\n0\nReplied\n1\nNUTRITION\nSubmitted: Jul 24, 2026\nKeto diet and thyroid interaction\nExpected Response: within 24 hours\nView Details\nCARDIOVASCULAR\nReview ApoB & LDL ratio\n\nSubmitted on Jul 23, 2026 at 06:46 AM\n\nExpert Analysis Completed\n\nOur longevity clinical expert has completed their diagnostic review. You can read their recommendations below.\n\nORIGINAL CONCERN DESCRIPTION\nPRIORITY REVIEW\n\nMy ApoB is 65 mg/dL but my LDL-C is 85 mg/dL. Is this ratio optimal? Please advise.\n\nM\nDr. Sarah Jenkins, MD\nClinical Cardiologist, FACC\nVERIFIED ANSWER\n\nYour ApoB of 65 mg/dL is outstanding (optimal range is <90 mg/dL). A lower ApoB is the strongest indicator of a clean cardiovascular profile, indicating a low count of atherogenic particles. Your LDL-C of 85 mg/dL is also good. This ratio is highly protective, and no active lipid-lowering intervention is clinically warranted. Keep doing what you're doing!\n\nDigital signature recorded. Reviewed on Jul 24, 2026 at 06:46 AM.\nMark Closed\nFollow up with AI",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "New AI Chat\n\u2318N",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Specialist Directory",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "Review ApoB & LDL ratio\n\nCardiovascular\nREPLIED",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Keto diet and thyroid interaction\n\nNutrition\nPENDING",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 25,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 26,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 27,
+        "text": "",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 28,
+        "text": "Consult Specialists",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 29,
+        "text": "Pending\n1",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 30,
+        "text": "In Review\n0",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 31,
+        "text": "Replied\n1",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 32,
+        "text": "",
+        "type": "button",
+        "disabled": false
+      },
+      {
+        "i": 33,
+        "text": "Mark Closed",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 34,
+        "text": "Follow up with AI",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search conversations...",
+        "value": "",
+        "required": false
+      }
+    ],
+    "url": "https://www.regacore.com/concierge"
+  },
+  {
+    "label": "data_initial",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nTwin\nRecords\nSummary\nB\nHeart & Vascular Health\nB\nMetabolic Health\nB\nSex Hormones\nA\nThyroid Health\nB\nInflammation\nA\nLiver Health\nA\nKidney Health\nA\nNutrients\nE\nEnergy\nB\nImmune System\nD\nDNA Health\nB\nBrain Health\n-\nGut Health\n-\nToxin Exposure\nSimulate WebGL Error\nCURRENT FOCUS\nHormonal Recovery\n\nElevated cortisol is contributing most strongly to biological age. Focus on circadian timing and stress clearance.\n\nAnuj Tiwari\n\nLast updated Feb 25, 2026\n\nAnuj, you're generally healthy. It seems like you're doing well, but there are some areas that could be improved. Click your **Biological Age** or **Organ Cards** below to explore deep diagnostics.\n\n81\nREGACORE SCORE\nGenerally healthy\nTop 15% in age bracket\nBIOLOGICAL AGE\n30.4 / 36 years\n5.6 years younger than actual age\nORGAN HEALTH GRID\n\nSelect any organ card to highlight its anatomical location on your 3D digital twin.\n\nDIGESTIVE\n25.96 yrs\nOPTIMAL\nRESPIRATORY\n25.73 yrs\nOPTIMAL\nSYSTEMIC\n27.67 yrs\nOPTIMAL\nNERVOUS\n32.88 yrs\nOPTIMAL\nCARDIOVASCULAR\n28.18 yrs\nOPTIMAL\nMUSCULOSKELETAL\n29.81 yrs\nOPTIMAL\nCOGNITIVE\n33.04 yrs\nOPTIMAL\nBIOMARKERS\n144\n\nTOTAL\n\n95\n\nOPTIMAL\n\n37\n\nNORMAL\n\n12\n\nOUT OF RANGE\n\nAll ranges\nOptimal\nNormal\nOut of range\nCategory\nHeart & Vascular Health\nMetabolic Health\nSex Hormones\nThyroid Health\nInflammation\nLiver Health\nKidney Health\nNutrients\nEnergy\nImmune System\nDNA Health\nBrain Health\nGut Health\nToxin Exposure\nNAME\tSTATUS\tVALUE\tHISTORY\nHealth Score\t\nOptimal\n\t81 points\t\n\nApoB\t\nOptimal\n\t65 mg/dL\t\n\nLDL-C\t\nOptimal\n\t85 mg/dL\t\n\nTriglycerides\t\nNormal\n\t110 mg/dL\t\n\nHDL Cholesterol\t\nNormal\n\t49 mg/dL\t\n\nGlucose\t\nNormal\n\t95 mg/dL\t\n\nHbA1c\t\nOptimal\n\t5.1 %\t\n\nInsulin\t\nNormal\n\t7.2 \u03bcIU/mL\t\n\nTestosterone\t\nNormal\n\t650 ng/dL\t\n\nFree Testosterone\t\nOptimal\n\t12.5 pg/mL\t\n\nTSH\t\nOptimal\n\t1.8 mIU/L\t\n\nFree T4\t\nOptimal\n\t1.2 ng/dL\t\n\nhs-CRP\t\nOptimal\n\t0.8 mg/L\t\n\nALT\t\nOptimal\n\t22 U/L\t\n\nAST\t\nOptimal\n\t18 U/L\t\n\nGGT\t\nOptimal\n\t19 U/L\t\n\nCreatinine\t\nOptimal\n\t0.9 mg/dL\t\n\neGFR\t\nOptimal\n\t98 mL/min\t\n\nVitamin D\t\nOptimal\n\t52 ng/mL\t\n\nVitamin B12\t\nNormal\n\t480 pg/mL\t\n\nCortisol\t\nOut of Range\n\t24 mcg/dL\t\n\nDHEA-S\t\nOut of Range\n\t120 mcg/dL\t\n\nWBC\t\nOptimal\n\t5.8 K/\u03bcL\t\n\nRed Blood Cells\t\nOptimal\n\t5.12 M/\u03bcL\t\n\nApoE Genotype\t\nNormal\n\t\u03b53/\u03b54\t\n\nMTHFR\t\nOut of Range\n\tC677T Hetero\t\n\nBDNF\t\nNormal\n\t850 pg/mL\t\nAsk Regacore AI\nregacore\n\nThe premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.\n\nPlatform\nHow it works\nBiomarkers\nMembership\nMedical Board\nCompany\nAbout Us\nBlog\nPrivacy Policy\nTerms of Service\nStay Updated\n\nJoin our newsletter for the latest breakthroughs in preventative longevity medicine.\n\nSubscribe\nTwitter/X\nInstagram\nLinkedIn\n\u00a9 2026 regacore All rights reserved.\nDesigned for proactive human health.",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "Twin",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Records",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "Summary",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "B\nHeart & Vascular Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "B\nMetabolic Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "B\nSex Hormones",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "A\nThyroid Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "B\nInflammation",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "A\nLiver Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "A\nKidney Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "A\nNutrients",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "E\nEnergy",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "B\nImmune System",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "D\nDNA Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "B\nBrain Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "-\nGut Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "-\nToxin Exposure",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "Simulate WebGL Error",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "Ask Regacore AI",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "Subscribe",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "summary",
+        "required": false
+      },
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search biomarkers...",
+        "value": "",
+        "required": false
+      },
+      {
+        "i": 2,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "all",
+        "required": false
+      },
+      {
+        "i": 3,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "all",
+        "required": false
+      },
+      {
+        "i": 4,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Enter your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/data"
+  },
+  {
+    "label": "data_search_cortisol",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nTwin\nRecords\nSummary\nB\nHeart & Vascular Health\nB\nMetabolic Health\nB\nSex Hormones\nA\nThyroid Health\nB\nInflammation\nA\nLiver Health\nA\nKidney Health\nA\nNutrients\nE\nEnergy\nB\nImmune System\nD\nDNA Health\nB\nBrain Health\n-\nGut Health\n-\nToxin Exposure\nSimulate WebGL Error\nCURRENT FOCUS\nHormonal Recovery\n\nElevated cortisol is contributing most strongly to biological age. Focus on circadian timing and stress clearance.\n\nAnuj Tiwari\n\nLast updated Feb 25, 2026\n\nAnuj, you're generally healthy. It seems like you're doing well, but there are some areas that could be improved. Click your **Biological Age** or **Organ Cards** below to explore deep diagnostics.\n\n81\nREGACORE SCORE\nGenerally healthy\nTop 15% in age bracket\nBIOLOGICAL AGE\n30.4 / 36 years\n5.6 years younger than actual age\nORGAN HEALTH GRID\n\nSelect any organ card to highlight its anatomical location on your 3D digital twin.\n\nDIGESTIVE\n25.96 yrs\nOPTIMAL\nRESPIRATORY\n25.73 yrs\nOPTIMAL\nSYSTEMIC\n27.67 yrs\nOPTIMAL\nNERVOUS\n32.88 yrs\nOPTIMAL\nCARDIOVASCULAR\n28.18 yrs\nOPTIMAL\nMUSCULOSKELETAL\n29.81 yrs\nOPTIMAL\nCOGNITIVE\n33.04 yrs\nOPTIMAL\nBIOMARKERS\n144\n\nTOTAL\n\n95\n\nOPTIMAL\n\n37\n\nNORMAL\n\n12\n\nOUT OF RANGE\n\nAll ranges\nOptimal\nNormal\nOut of range\nCategory\nHeart & Vascular Health\nMetabolic Health\nSex Hormones\nThyroid Health\nInflammation\nLiver Health\nKidney Health\nNutrients\nEnergy\nImmune System\nDNA Health\nBrain Health\nGut Health\nToxin Exposure\nNAME\tSTATUS\tVALUE\tHISTORY\nCortisol\t\nOut of Range\n\t24 mcg/dL\t\nAsk Regacore AI\nregacore\n\nThe premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.\n\nPlatform\nHow it works\nBiomarkers\nMembership\nMedical Board\nCompany\nAbout Us\nBlog\nPrivacy Policy\nTerms of Service\nStay Updated\n\nJoin our newsletter for the latest breakthroughs in preventative longevity medicine.\n\nSubscribe\nTwitter/X\nInstagram\nLinkedIn\n\u00a9 2026 regacore All rights reserved.\nDesigned for proactive human health.",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "Twin",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Records",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "Summary",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "B\nHeart & Vascular Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "B\nMetabolic Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "B\nSex Hormones",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "A\nThyroid Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "B\nInflammation",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "A\nLiver Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "A\nKidney Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "A\nNutrients",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "E\nEnergy",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "B\nImmune System",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "D\nDNA Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "B\nBrain Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "-\nGut Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "-\nToxin Exposure",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "Simulate WebGL Error",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "Ask Regacore AI",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "Subscribe",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "summary",
+        "required": false
+      },
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search biomarkers...",
+        "value": "cortisol",
+        "required": false
+      },
+      {
+        "i": 2,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "all",
+        "required": false
+      },
+      {
+        "i": 3,
+        "tag": "SELECT",
+        "type": null,
+        "name": null,
+        "placeholder": null,
+        "value": "all",
+        "required": false
+      },
+      {
+        "i": 4,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Enter your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/data"
+  },
+  {
+    "label": "marketplace_initial",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nMarketplace\nAll Products\nTests\nSupplements\nPrescriptions\nManage Subscriptions\n|\nView Orders\nFilters\nTotal Health\nMetabolic Health\nGut Health\nHeart Health\nTop tests for you\n\nMost recommended\n\nView all\n>\n\u2727\nBest value\nBook now\nRegacore Blood Panel\n\u20b9179\n\nDiagnostic Test\n\nBook now\nAdvanced Blood Panel\n\u20b9359\n\nDiagnostic Test\n\nBook now\nSpecialty Blood Panel\n\u20b9559\n\nDiagnostic Test\n\n\u2713\nBest seller\nBook now\nGut Microbiome Analysis\n\u20b9239\n\nDiagnostic Test\n\nBook now\nEnvironmental Toxin\n\u20b9370\n\nDiagnostic Test\n\nBook now\nMycotoxins\n\u20b9460\n\nDiagnostic Test\n\nTop supplements for you\n\nMost recommended\n\nView all\n>\nBuy now\nVitamin D + K2 Liquid\n\u20b932\n\u20b925.60\n\nThorne\n\n-20%\nBuy now\nO.N.E. Omega - 30 Softgels\n\u20b943\n\u20b934.40\n\nPure Encapsulations\n\n-20%\nBuy now\nCoQ10\n\u20b949\n\u20b939.20\n\nThorne\n\n-20%\nBuy now\nMagnesium Glycinate - 180 Capsules\n\u20b944.60\n\u20b935.68\n\nPure Encapsulations\n\n-20%\nTop prescriptions for you\n\nMost recommended\n\nView all\n>\nBook now\nSemaglutide\n$349\n\nMetabolic Health\n\nBook now\nEnclomiphene\n$189\n\nHormone & Reproductive Health\n\nBook now\nNAD+ Intranasal\n$199\n\nCellular Repair & Healthy Aging\n\nBook now\nSermorelin Injection\n$249\n\nCellular Repair & Healthy Aging\n\nBook now\nNAD+ Injection\n$299\n\nCellular Repair & Healthy Aging\n\nAsk Regacore AI\nregacore\n\nThe premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.\n\nPlatform\nHow it works\nBiomarkers\nMembership\nMedical Board\nCompany\nAbout Us\nBlog\nPrivacy Policy\nTerms of Service\nStay Updated\n\nJoin our newsletter for the latest breakthroughs in preventative longevity medicine.\n\nSubscribe\nTwitter/X\nInstagram\nLinkedIn\n\u00a9 2026 regacore All rights reserved.\nDesigned for proactive human health.",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "All Products",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Tests",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "Supplements",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "Prescriptions",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "Manage Subscriptions",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "View Orders",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Filters",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "Total Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "Metabolic Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "Gut Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "Heart Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 25,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 26,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 27,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 28,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 29,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 30,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 31,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 32,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 33,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 34,
+        "text": "Ask Regacore AI",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 35,
+        "text": "Subscribe",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search anything",
+        "value": "",
+        "required": false
+      },
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Enter your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/marketplace"
+  },
+  {
+    "label": "marketplace_search_nad",
+    "text": "Home\nData\nProtocol\nConcierge\nMarketplace\ninvite friend\nMore\nMarketplace\nAll Products\nTests\nSupplements\nPrescriptions\nManage Subscriptions\n|\nView Orders\nFilters\nTotal Health\nMetabolic Health\nGut Health\nHeart Health\nTop tests for you\n\nMost recommended\n\nView all\n>\n\u2727\nBest value\nBook now\nRegacore Blood Panel\n\u20b9179\n\nDiagnostic Test\n\nBook now\nAdvanced Blood Panel\n\u20b9359\n\nDiagnostic Test\n\nBook now\nSpecialty Blood Panel\n\u20b9559\n\nDiagnostic Test\n\n\u2713\nBest seller\nBook now\nGut Microbiome Analysis\n\u20b9239\n\nDiagnostic Test\n\nBook now\nEnvironmental Toxin\n\u20b9370\n\nDiagnostic Test\n\nBook now\nMycotoxins\n\u20b9460\n\nDiagnostic Test\n\nTop supplements for you\n\nMost recommended\n\nView all\n>\nBuy now\nVitamin D + K2 Liquid\n\u20b932\n\u20b925.60\n\nThorne\n\n-20%\nBuy now\nO.N.E. Omega - 30 Softgels\n\u20b943\n\u20b934.40\n\nPure Encapsulations\n\n-20%\nBuy now\nCoQ10\n\u20b949\n\u20b939.20\n\nThorne\n\n-20%\nBuy now\nMagnesium Glycinate - 180 Capsules\n\u20b944.60\n\u20b935.68\n\nPure Encapsulations\n\n-20%\nTop prescriptions for you\n\nMost recommended\n\nView all\n>\nBook now\nSemaglutide\n$349\n\nMetabolic Health\n\nBook now\nEnclomiphene\n$189\n\nHormone & Reproductive Health\n\nBook now\nNAD+ Intranasal\n$199\n\nCellular Repair & Healthy Aging\n\nBook now\nSermorelin Injection\n$249\n\nCellular Repair & Healthy Aging\n\nBook now\nNAD+ Injection\n$299\n\nCellular Repair & Healthy Aging\n\nAsk Regacore AI\nregacore\n\nThe premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.\n\nPlatform\nHow it works\nBiomarkers\nMembership\nMedical Board\nCompany\nAbout Us\nBlog\nPrivacy Policy\nTerms of Service\nStay Updated\n\nJoin our newsletter for the latest breakthroughs in preventative longevity medicine.\n\nSubscribe\nTwitter/X\nInstagram\nLinkedIn\n\u00a9 2026 regacore All rights reserved.\nDesigned for proactive human health.",
+    "buttons": [
+      {
+        "i": 0,
+        "text": "invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 1,
+        "text": "Open menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 2,
+        "text": "Close menu",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 3,
+        "text": "Invite friend",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 4,
+        "text": "More",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 5,
+        "text": "All Products",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 6,
+        "text": "Tests",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 7,
+        "text": "Supplements",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 8,
+        "text": "Prescriptions",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 9,
+        "text": "Manage Subscriptions",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 10,
+        "text": "View Orders",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 11,
+        "text": "Filters",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 12,
+        "text": "Total Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 13,
+        "text": "Metabolic Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 14,
+        "text": "Gut Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 15,
+        "text": "Heart Health",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 16,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 17,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 18,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 19,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 20,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 21,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 22,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 23,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 24,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 25,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 26,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 27,
+        "text": "Buy now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 28,
+        "text": "View all\n>",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 29,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 30,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 31,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 32,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 33,
+        "text": "Book now",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 34,
+        "text": "Ask Regacore AI",
+        "type": "submit",
+        "disabled": false
+      },
+      {
+        "i": 35,
+        "text": "Subscribe",
+        "type": "submit",
+        "disabled": false
+      }
+    ],
+    "inputs": [
+      {
+        "i": 0,
+        "tag": "INPUT",
+        "type": "text",
+        "name": null,
+        "placeholder": "Search anything",
+        "value": "NAD",
+        "required": false
+      },
+      {
+        "i": 1,
+        "tag": "INPUT",
+        "type": "email",
+        "name": null,
+        "placeholder": "Enter your email",
+        "value": "",
+        "required": true
+      }
+    ],
+    "url": "https://www.regacore.com/marketplace"
+  }
+]

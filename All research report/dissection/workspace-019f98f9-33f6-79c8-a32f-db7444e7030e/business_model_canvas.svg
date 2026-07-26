@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" font-family="Helvetica,Arial,sans-serif">
+<rect width="1120" height="560" fill="#FFFFFF"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#1F3864">Practo — Business Model Canvas</text>
+<rect x="20" y="40" width="180" height="90" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="58" font-size="12" font-weight="bold" fill="#1F3864">Key Partners</text>
+<text x="28" y="74" font-size="10.5" fill="#404040">• Doctors/Clinics/Hospitals</text>
+<text x="28" y="89" font-size="10.5" fill="#404040">• Insurers (Tata AIA)</text>
+<text x="28" y="104" font-size="10.5" fill="#404040">• Pharmacies / Labs</text>
+<text x="28" y="119" font-size="10.5" fill="#404040">• Acquired talent (Genii)</text>
+<rect x="20" y="140" width="180" height="120" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="158" font-size="12" font-weight="bold" fill="#1F3864">Key Activities</text>
+<text x="28" y="174" font-size="10.5" fill="#404040">• Marketplace ops</text>
+<text x="28" y="189" font-size="10.5" fill="#404040">• SaaS Ray/Insta</text>
+<text x="28" y="204" font-size="10.5" fill="#404040">• Teleconsult + AI</text>
+<text x="28" y="219" font-size="10.5" fill="#404040">• Care navigation</text>
+<rect x="20" y="270" width="180" height="90" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="288" font-size="12" font-weight="bold" fill="#1F3864">Key Resources</text>
+<text x="28" y="304" font-size="10.5" fill="#404040">• 700k doctors</text>
+<text x="28" y="319" font-size="10.5" fill="#404040">• 2,400 cities</text>
+<text x="28" y="334" font-size="10.5" fill="#404040">• 40M data points</text>
+<text x="28" y="349" font-size="10.5" fill="#404040">• Brand + ISO27001</text>
+<rect x="20" y="370" width="180" height="90" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="388" font-size="12" font-weight="bold" fill="#1F3864">Value Prop</text>
+<text x="28" y="404" font-size="10.5" fill="#404040">• Verified discovery</text>
+<text x="28" y="419" font-size="10.5" fill="#404040">• Booking + teleconsult</text>
+<text x="28" y="434" font-size="10.5" fill="#404040">• Records + AI nav</text>
+<text x="28" y="449" font-size="10.5" fill="#404040">• Outcomes (PROMs)</text>
+<rect x="20" y="470" width="180" height="70" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="488" font-size="12" font-weight="bold" fill="#1F3864">Customer Rel.</text>
+<text x="28" y="504" font-size="10.5" fill="#404040">• Self-serve app</text>
+<text x="28" y="519" font-size="10.5" fill="#404040">• Field sales B2B</text>
+<rect x="210" y="40" width="180" height="90" rx="6" fill="#FFC7CE" stroke="#1F3864" stroke-width="1"/>
+<text x="218" y="58" font-size="12" font-weight="bold" fill="#1F3864">Cost Structure</text>
+<text x="218" y="74" font-size="10.5" fill="#404040">• Eng / Sales</text>
+<text x="218" y="89" font-size="10.5" fill="#404040">• Support / Cloud</text>
+<text x="218" y="104" font-size="10.5" fill="#404040">• Compliance / Security</text>
+<text x="218" y="119" font-size="10.5" fill="#404040">• Acquisition (M&amp;A)</text>
+<rect x="210" y="140" width="180" height="530" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="218" y="158" font-size="12" font-weight="bold" fill="#1F3864">Channels</text>
+<text x="218" y="174" font-size="10.5" fill="#404040">• App Store / Web</text>
+<text x="218" y="189" font-size="10.5" fill="#404040">• SEO / Health content</text>
+<text x="218" y="204" font-size="10.5" fill="#404040">• SMS app-link</text>
+<text x="218" y="219" font-size="10.5" fill="#404040">• Practo Reach (B2B)</text>
+<rect x="400" y="40" width="320" height="240" rx="6" fill="#C6EFCE" stroke="#1F3864" stroke-width="1"/>
+<text x="408" y="58" font-size="12" font-weight="bold" fill="#1F3864">Revenue Streams</text>
+<text x="408" y="74" font-size="10.5" fill="#404040">• SaaS Ray (1.5-5k/mo)</text>
+<text x="408" y="89" font-size="10.5" fill="#404040">• Insta HMS ($25-40/u/mo)</text>
+<text x="408" y="104" font-size="10.5" fill="#404040">• Consult (per-visit)</text>
+<text x="408" y="119" font-size="10.5" fill="#404040">• Plus/Prime subscription</text>
+<text x="408" y="134" font-size="10.5" fill="#404040">• Practo Reach (sponsored)</text>
+<text x="408" y="149" font-size="10.5" fill="#404040">• Meds/Labs/Surgery GMV</text>
+<text x="408" y="164" font-size="10.5" fill="#404040">• Insurer/corporate tie-ups</text>
+<rect x="400" y="290" width="320" height="140" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="408" y="308" font-size="12" font-weight="bold" fill="#1F3864">Customer Segments</text>
+<text x="408" y="324" font-size="10.5" fill="#404040">• Patients (B2C India+UAE+US)</text>
+<text x="408" y="339" font-size="10.5" fill="#404040">• Doctors / Clinics</text>
+<text x="408" y="354" font-size="10.5" fill="#404040">• Hospitals</text>
+<text x="408" y="369" font-size="10.5" fill="#404040">• Insurers / Corporates</text>
+<rect x="730" y="40" width="370" height="520" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1"/>
+<text x="738" y="58" font-size="12" font-weight="bold" fill="#1F3864">Key Differentiators / Moat</text>
+<text x="738" y="74" font-size="10.5" fill="#404040">• Marketplace liquidity (Strong)</text>
+<text x="738" y="89" font-size="10.5" fill="#404040">• Enterprise SaaS lock-in (Strong)</text>
+<text x="738" y="104" font-size="10.5" fill="#404040">• Brand + 16M downloads (Strong)</text>
+<text x="738" y="119" font-size="10.5" fill="#404040">• Agentic AI narrative (Medium)</text>
+<text x="738" y="134" font-size="10.5" fill="#404040">• Regulatory posture (Medium)</text>
+<text x="738" y="149" font-size="10.5" fill="#404040">• Switching costs B2B (Med-Strong)</text>
+<text x="738" y="164" font-size="10.5" fill="#404040">• GAP: no patient-owned record</text>
+<text x="738" y="179" font-size="10.5" fill="#404040">• GAP: no open API</text>
+<text x="738" y="194" font-size="10.5" fill="#404040">• GAP: navigation-not-diagnosis AI</text>
+<text x="738" y="209" font-size="10.5" fill="#404040">• GAP: thin take-rate ~6-7%</text>
+</svg>

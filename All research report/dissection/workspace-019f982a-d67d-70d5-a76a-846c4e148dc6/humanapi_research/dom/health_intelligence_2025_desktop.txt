@@ -1,0 +1,125 @@
+US - English
+
+Product Sign In
+
+Choose Your Industry
+toggle menu
+Products
+Insights and Resources
+About Us
+toggle menu
+Contact
+Press Room
+Home  About Us  News Room  Press Releases
+LexisNexis Health Intelligence Paves a Path of Innovation to Help U.S. Life Insurers Improve the Underwriting Process
+Digital Health Data Insights are Needed at Scale for Life Insurers to Continue to Reach Underserved Markets, Close the Life Insurance Gap and Reduce Mortality Slippage
+Share
+
+02/20/2025
+
+ATLANTA — LexisNexis® Risk Solutions today announced continued innovation of LexisNexis® Health Intelligence, its digital health data platform for the U.S. life insurance industry. The platform provides information and insights, including a concise and simplified clinical history report; leverages advanced linking, parsing and normalization; and helps life insurers scale their use of electronic health records (EHRs). These new innovations empower life insurance carriers with access to digital health data, sourced from EHRs, and advanced analytics that enable faster, more friction-free interactions for life insurance applicants, helping to streamline the underwriting workflow.
+
+Deriving insights from digital health data is critical to address life insurers’ needs for future transformation and to achieve their objectives to close the coverage gap for un- or under-insured individuals, while minimizing mortality slippage and delivering a simplified buying experience. When LexisNexis Risk Solutions acquired the Human API Health Intelligence platform, it included a robust network of health data sources, a consumer consent management experience, as well as capabilities to ensure a consistent deliverable for life insurers that use EHRs in the underwriting process. Today, LexisNexis Risk Solutions is adding its deep knowledge of the life insurance industry and life underwriting to make EHRs easier to implement, increase digital health data adoption by delivering information through a consumer-mediated process and, most critically, provide actionable insights to reduce mortality slippage and improve the consumer’s experience.
+
+“Life insurers tell us they need the ability to make decisions on an EHR the majority of the time without ordering additional evidence, and this is why LexisNexis Risk Solutions is committed to helping the industry build confidence in both utilizing EHRs broadly and exploring deeper use of consumer-driven digital health data to drive true business transformation,” said Justin Baker, associate vice president of life insurance, LexisNexis Risk Solutions. “Customers asked us for a report that is easier to consume, while addressing the need to derive insights from the data and automate usage of digital health data. This is very important for the industry as mortality slippage and inefficiency can impact the efficacy of life insurers’ accelerated underwriting programs.”
+
+LexisNexis Health Intelligence innovations include:
+
+Clinical History Report. Accelerates decision-making as a report that’s 30% shorter and more intuitive to interpret than an EHR but with all the clinical information underwriters need. Reverse-chronological ordering and date filtering make it easy to identify key insights to determine risk. A Highlights Summary within the report offers the ability to quickly digest an applicant’s health history, such as age, build, social history, key conditions and recent lab results. This report includes the following:
+Advanced Linking of Consumers or Providers. Leverages LexID®, the company’s advanced proprietary linking technology to ingest, sort, cleanse and link together information to improve hit rates for digital health data. Also taps into enhanced provider networks to help insurers access information from more providers as consumers apply for life insurance.  
+Normalization and Parsing. Helps structure the data for consistency and usability to help life insurers save time and resources by eliminating noise and duplication, and helps them make confident decisions with easier-to-digest information.  
+Change Management. Allows life insurance companies to leverage the life insurance experts at LexisNexis Risk Solutions, who have decades of experience using both medical and behavioral data to transform life insurance underwriting. Life insurers can leverage this change management and deep underwriting expertise to support adoption of digital health data within EHRs.
+
+“Our end-to-end solution is designed to help underwriters make faster, informed decisions, while mitigating risk, pricing more accurately and offering a differentiated customer experience,” said Baker. “An effective digital health data strategy helps put life insurance in the hands of more individuals, and as our studies have shown, reach underserved populations and close the insurance gap. We continue to invest in further broadening our networks, validating self-disclosed information, offering more insights from the data and enabling post-issue audit automation.”
+
+LexisNexis Health Intelligence can deliver data and insights to help life insurers along their journey to acceleration and automation. The platform enables sourcing of digital health data from both HIPAA-authorized and consumer-mediated sources. Additionally, its Clinical History Report has numerous benefits:
+
+Assembles and combines data points into a single, comprehensive report
+Extracts, normalizes and enhances the data
+Provides insights into the data included in EHRs
+Correlates data to actual mortality experience
+Enables predictive modeling and high-value insights
+
+Visit LexisNexis Health Intelligence for more information. 
+
+About LexisNexis Risk Solutions
+LexisNexis® Risk Solutions leverages the power of data, advanced analytics platforms and integrated AI solutions to provide insights that help businesses across multiple industries and governmental entities reduce risk and improve decisions to benefit people around the globe. Headquartered in metro Atlanta, Georgia, we have offices throughout the world and are part of RELX (LSE: REL/NYSE: RELX), a global provider of information-based analytics and decision tools for professional and business customers. For more information, please visit LexisNexis Risk Solutions and RELX.
+
+Media Contact Form
+
+Media Contacts
+
+Regina Haas
+Sr. Director, Communications
+Insurance and Connected Car and Coplogic Solutions
+regina.haas@lexisnexisrisk.com
++1.678.896.1463
+
+Industries
+
+Collections and Recovery
+Financial Services
+Government
+Healthcare
+Insurance
+Law Enforcement and Public Safety
+Corporations and Non-Profits
+
+Our Products
+
+View Our Products
+
+Insights and Resources
+
+Article
+Case Study
+Blog
+Infographic
+Podcast
+Research
+Video
+Webinar
+White Paper
+
+About Us
+
+Business Overview
+Executive Leadership
+Our Technology
+Careers
+Press Room
+Experts
+Corporate Service Partnerships
+Government Alliances
+Healthcare Partnerships
+Insurance Partnerships
+Site Map
+
+Contact
+
+Sales
+Customer Support
+Consumer Assistance
+Media Contacts
+Industry Analyst
+Career Opportunities
+Report Security Issue
+Provide Feedback
+
+Policies
+
+Terms and Conditions
+Legal Notices
+Reporting Requirements
+Privacy Policy
+US Privacy Notice
+Cookie Settings
+Cookie Policy
+Consumer and Data Access
+Ad Choices
+Your Privacy Choices 
+LexisNexis® Risk Solutions, part of RELX.
+
+Copyright © 2026 LexisNexis Risk Solutions.
+
+Share

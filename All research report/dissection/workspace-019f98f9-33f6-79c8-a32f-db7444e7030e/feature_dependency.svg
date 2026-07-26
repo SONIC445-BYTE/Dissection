@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="680" viewBox="0 0 820 680" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="680" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Feature Dependency Graph</text>
+<line x1="20" y1="36" x2="800" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="130" y1="91" x2="130" y2="167" stroke="#808080" stroke-width="1.6"/>
+<polygon points="130,167 126,157 134,157" fill="#808080"/>
+<line x1="130" y1="181" x2="130" y2="257" stroke="#808080" stroke-width="1.6"/>
+<polygon points="130,257 126,247 134,247" fill="#808080"/>
+<line x1="136" y1="265" x2="402" y2="265" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,265 392,269 392,261" fill="#808080"/>
+<line x1="410" y1="271" x2="410" y2="347" stroke="#808080" stroke-width="1.6"/>
+<polygon points="410,347 406,337 414,337" fill="#808080"/>
+<line x1="416" y1="355" x2="682" y2="355" stroke="#808080" stroke-width="1.6"/>
+<polygon points="682,355 672,359 672,351" fill="#808080"/>
+<line x1="690" y1="361" x2="690" y2="437" stroke="#808080" stroke-width="1.6"/>
+<polygon points="690,437 686,427 694,427" fill="#808080"/>
+<line x1="690" y1="451" x2="690" y2="527" stroke="#808080" stroke-width="1.6"/>
+<polygon points="690,527 686,517 694,517" fill="#808080"/>
+<line x1="684" y1="447" x2="418" y2="533" stroke="#808080" stroke-width="1.6"/>
+<polygon points="418,533 426,526 428,533" fill="#808080"/>
+<line x1="684" y1="537" x2="418" y2="623" stroke="#808080" stroke-width="1.6"/>
+<polygon points="418,623 426,616 428,623" fill="#808080"/>
+<line x1="410" y1="541" x2="410" y2="617" stroke="#808080" stroke-width="1.6"/>
+<polygon points="410,617 406,607 414,607" fill="#808080"/>
+<line x1="404" y1="625" x2="178" y2="625" stroke="#808080" stroke-width="1.6"/>
+<polygon points="178,625 188,621 188,629" fill="#808080"/>
+<line x1="169" y1="619" x2="131" y2="273" stroke="#808080" stroke-width="1.6"/>
+<polygon points="131,273 136,282 128,283" fill="#808080"/>
+<line x1="416" y1="353" x2="682" y2="267" stroke="#808080" stroke-width="1.6"/>
+<polygon points="682,267 674,274 672,267" fill="#808080"/>
+<line x1="686" y1="269" x2="416" y2="529" stroke="#808080" stroke-width="1.6"/>
+<polygon points="416,529 420,520 426,525" fill="#808080"/>
+<line x1="415" y1="268" x2="683" y2="441" stroke="#808080" stroke-width="1.6"/>
+<polygon points="683,441 673,439 677,432" fill="#808080"/>
+<rect x="40" y="60" width="180" height="50" rx="8" ry="8" fill="Consent & Identity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Consent &amp; Identity</text>
+<rect x="40" y="150" width="180" height="50" rx="8" ry="8" fill="Patient/Doctor Identity (OTP+2FA)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="167.5" font-size="12" text-anchor="middle" fill="#404040">Patient/Doctor Identity</text>
+<text x="130.0" y="182.5" font-size="12" text-anchor="middle" fill="#404040">(OTP+2FA)</text>
+<rect x="40" y="240" width="180" height="50" rx="8" ry="8" fill="Data Collection" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Data Collection</text>
+<rect x="320" y="240" width="180" height="50" rx="8" ry="8" fill="Normalisation (HL7/EMR)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Normalisation (HL7/EMR)</text>
+<rect x="320" y="330" width="180" height="50" rx="8" ry="8" fill="AI Layer" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="355.0" font-size="12" text-anchor="middle" fill="#404040">AI Layer</text>
+<rect x="600" y="330" width="180" height="50" rx="8" ry="8" fill="Reports (PROMs)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="355.0" font-size="12" text-anchor="middle" fill="#404040">Reports (PROMs)</text>
+<rect x="600" y="420" width="180" height="50" rx="8" ry="8" fill="Insights" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="445.0" font-size="12" text-anchor="middle" fill="#404040">Insights</text>
+<rect x="600" y="510" width="180" height="50" rx="8" ry="8" fill="Doctor (Ray/Pro/Insta)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="535.0" font-size="12" text-anchor="middle" fill="#404040">Doctor (Ray/Pro/Insta)</text>
+<rect x="320" y="510" width="180" height="50" rx="8" ry="8" fill="Patient (App/Web)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="535.0" font-size="12" text-anchor="middle" fill="#404040">Patient (App/Web)</text>
+<rect x="320" y="600" width="180" height="50" rx="8" ry="8" fill="Marketplace Liquidity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="625.0" font-size="12" text-anchor="middle" fill="#404040">Marketplace Liquidity</text>
+<rect x="80" y="600" width="180" height="50" rx="8" ry="8" fill="Retention" stroke="#1F3864" stroke-width="1.2"/>
+<text x="170.0" y="625.0" font-size="12" text-anchor="middle" fill="#404040">Retention</text>
+<rect x="600" y="240" width="180" height="50" rx="8" ry="8" fill="Care Companion" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Care Companion</text>
+</svg>

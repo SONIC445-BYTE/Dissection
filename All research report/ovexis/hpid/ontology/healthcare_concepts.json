@@ -1,0 +1,132 @@
+[
+ {
+  "entity": "FHIR:Patient",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "identity_resolution"
+ },
+ {
+  "entity": "FHIR:Encounter",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "scheduling_booking"
+ },
+ {
+  "entity": "FHIR:Observation",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "wearable_biometric_stream"
+ },
+ {
+  "entity": "FHIR:ServiceRequest",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "ordering_eprescribing"
+ },
+ {
+  "entity": "FHIR:Claim",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "billing_claims"
+ },
+ {
+  "entity": "FHIR:Consent",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "consent_management"
+ },
+ {
+  "entity": "FHIR:DiagnosticReport",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "biomarker_lab_panel"
+ },
+ {
+  "entity": "FHIR:MedicationRequest",
+  "entity_type": "fhir_resource",
+  "maps_to_concept": "ordering_eprescribing"
+ },
+ {
+  "entity": "ABDM:ABHA",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "identity_resolution"
+ },
+ {
+  "entity": "ABDM:HFR",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "provider_discovery"
+ },
+ {
+  "entity": "ABDM:HPR",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "identity_resolution"
+ },
+ {
+  "entity": "ABDM:HIE-CM",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "consent_management"
+ },
+ {
+  "entity": "ABDM:NHCX",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "billing_claims"
+ },
+ {
+  "entity": "ABDM:HealthLocker",
+  "entity_type": "abdm_entity",
+  "maps_to_concept": "data_export_portability"
+ },
+ {
+  "entity": "DEPT:OperationTheatre",
+  "entity_type": "department",
+  "maps_to_concept": "scheduling_booking"
+ },
+ {
+  "entity": "DEPT:ICU",
+  "entity_type": "department",
+  "maps_to_concept": "anomaly_alerting"
+ },
+ {
+  "entity": "DEPT:Nursing",
+  "entity_type": "department",
+  "maps_to_concept": "documentation_scribe"
+ },
+ {
+  "entity": "DEPT:Radiology",
+  "entity_type": "department",
+  "maps_to_concept": "imaging_capture"
+ },
+ {
+  "entity": "DEPT:Laboratory",
+  "entity_type": "department",
+  "maps_to_concept": "biomarker_lab_panel"
+ },
+ {
+  "entity": "DEPT:Pharmacy",
+  "entity_type": "department",
+  "maps_to_concept": "inventory_supply"
+ },
+ {
+  "entity": "DEPT:Billing",
+  "entity_type": "department",
+  "maps_to_concept": "billing_claims"
+ },
+ {
+  "entity": "DEPT:Emergency",
+  "entity_type": "department",
+  "maps_to_concept": "clinical_decision_support"
+ },
+ {
+  "entity": "MOD:HMIS",
+  "entity_type": "software_module",
+  "maps_to_concept": "ehr_record_retrieval"
+ },
+ {
+  "entity": "MOD:LIS",
+  "entity_type": "software_module",
+  "maps_to_concept": "biomarker_lab_panel"
+ },
+ {
+  "entity": "MOD:RIS-PACS",
+  "entity_type": "software_module",
+  "maps_to_concept": "imaging_capture"
+ },
+ {
+  "entity": "MOD:Pharmacy",
+  "entity_type": "software_module",
+  "maps_to_concept": "inventory_supply"
+ }
+]

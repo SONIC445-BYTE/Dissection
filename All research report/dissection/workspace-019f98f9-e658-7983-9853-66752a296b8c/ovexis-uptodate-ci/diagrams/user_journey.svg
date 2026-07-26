@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 860" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475b"/></marker>
+<marker id="warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+</defs>
+<rect width="1240" height="860" fill="#fbfcfe"/>
+<text x="30" y="42" font-size="24" font-weight="bold" fill="#12263a">UpToDate — Complete User Journeys (screen-level)</text>
+<text x="30" y="66" font-size="13" fill="#5a7184">Three swimlanes reconstructed from live login/store pages, app-store listings, integration docs, and Reddit threads. Red = verified failure/friction points. Green = retention-reinforcing moments.</text>
+
+<!-- COLUMN HEADERS -->
+<g font-size="11" font-weight="bold" fill="#33475b">
+<text x="200" y="96">1. DISCOVER</text><text x="350" y="96">2. GATE</text><text x="500" y="96">3. ACCESS</text><text x="650" y="96">4. USE</text><text x="800" y="96">5. AI (2026)</text><text x="950" y="96">6. VALUE LOCK</text><text x="1100" y="96">7. RENEW / CHURN</text>
+</g>
+<line x1="30" y1="104" x2="1210" y2="104" stroke="#c3cdd8"/>
+
+<!-- LANE A ANON -->
+<rect x="30" y="116" width="1180" height="130" rx="8" fill="#f1f5f9"/>
+<text x="42" y="140" font-size="13" font-weight="bold" fill="#33475b">A · ANONYMOUS</text>
+<text x="42" y="158" font-size="11" fill="#5a7184">no account</text>
+<g font-size="10.5" fill="#12263a">
+<rect x="180" y="128" width="150" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="190" y="146" font-weight="bold">Brand search /</text><text x="190" y="162">library mention /</text><text x="190" y="178">peer reference</text><text x="190" y="198" fill="#b91c1c">No indexed free value</text>
+<rect x="345" y="128" width="150" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="355" y="146" font-weight="bold">uptodate.com root</text><text x="355" y="162">→ SIGN-IN WALL</text><text x="355" y="178">Microsoft/OpenAthens</text><text x="355" y="198" fill="#b91c1c">"Subscribe" escape only</text>
+<rect x="510" y="128" width="150" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="520" y="146" font-weight="bold">store wizard</text><text x="520" y="162">Country → Role →</text><text x="520" y="178">Profession → Package</text><text x="520" y="198" fill="#0e7c44">segmented pricing</text>
+<rect x="675" y="128" width="150" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="685" y="146" font-weight="bold">(no trial for core app)</text><text x="685" y="162" fill="#b91c1c">Value only post-payment</text><text x="685" y="178">Lexidrug app alone has</text><text x="685" y="194">14–30 day trial</text>
+<rect x="840" y="128" width="150" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="850" y="146" font-weight="bold">—</text><text x="850" y="162">Expert AI visible only</text><text x="850" y="178">in paid tiers /</text><text x="850" y="194">enterprise</text>
+<rect x="1005" y="128" width="90" height="100" rx="6" fill="#fdeaea" stroke="#e77"/><text x="1012" y="146" font-weight="bold" fill="#a02020">BOUNCE</text><text x="1012" y="164">or convert</text><text x="1012" y="182">blind</text>
+<rect x="1110" y="128" width="95" height="100" rx="6" fill="#fff" stroke="#b0bccb"/><text x="1118" y="146" font-weight="bold">Checkout</text><text x="1118" y="162">Salesforce</text><text x="1118" y="178">EzRenew opt</text>
+</g>
+<line x1="330" y1="178" x2="345" y2="178" stroke="#33475b" marker-end="url(#a)"/><line x1="495" y1="178" x2="510" y2="178" stroke="#33475b" marker-end="url(#a)"/><line x1="660" y1="178" x2="675" y2="178" stroke="#33475b" marker-end="url(#a)"/><line x1="825" y1="178" x2="840" y2="178" stroke="#33475b" marker-end="url(#a)"/><line x1="990" y1="178" x2="1005" y2="178" stroke="#b91c1c" marker-end="url(#warn)"/>
+
+<!-- LANE B INSTITUTIONAL -->
+<rect x="30" y="260" width="1180" height="180" rx="8" fill="#eaf2fb"/>
+<text x="42" y="284" font-size="13" font-weight="bold" fill="#1b4f8a">B · INSTITUTIONAL CLINICIAN</text>
+<text x="42" y="302" font-size="11" fill="#5a7184">majority path</text>
+<g font-size="10.5" fill="#12263a">
+<rect x="165" y="272" width="155" height="150" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="175" y="292" font-weight="bold">Provisioned by IT/</text><text x="175" y="308">library: IP, EZproxy,</text><text x="175" y="324">SSO, Epic toolbar link</text><text x="175" y="348" fill="#0e7c44">friction ≈ 0</text>
+<rect x="335" y="272" width="155" height="150" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="345" y="292" font-weight="bold">First use: EHR link</text><text x="345" y="308">Infobutton w/ chart ctx</text><text x="345" y="324">(dx/meds/labs) →</text><text x="345" y="340">results page, no login</text><text x="345" y="364" fill="#0e7c44">workflow grafted</text>
+<rect x="505" y="272" width="155" height="150" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="515" y="292" font-weight="bold">Opt: UpToDate</text><text x="515" y="308">Anywhere registration</text><text x="515" y="324">→ personal login,</text><text x="515" y="340">mobile, remote, CME</text><text x="515" y="364" fill="#b91c1c">90-day revalidate ✗</text>
+<rect x="675" y="272" width="155" height="150" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="685" y="292" font-weight="bold">Daily: search →</text><text x="685" y="308">Key Points → S&amp;R →</text><text x="685" y="324">calc/drug check → done</text><text x="685" y="344" fill="#0e7c44">"remember where</text><text x="685" y="360" fill="#0e7c44">the tables are"</text>
+<rect x="845" y="272" width="140" height="150" rx="6" fill="#fff" stroke="#7fb2e5"/><text x="855" y="292" font-weight="bold">Expert AI (if Ent. </text><text x="855" y="308">Edition): chat +</text><text x="855" y="324">transparency triad</text><text x="855" y="344">governance logs to</text><text x="855" y="360">enterprise admin</text>
+<rect x="1000" y="272" width="95" height="150" rx="6" fill="#e9f7ef" stroke="#4fbf8f"/><text x="1008" y="292" font-weight="bold" fill="#146648">CME ledger</text><text x="1008" y="310">auto-accrued</text><text x="1008" y="328">year-end redeem</text><text x="1008" y="352" fill="#146648">lock-in ✓</text>
+<rect x="1110" y="272" width="95" height="150" rx="6" fill="#fdeaea" stroke="#e77"/><text x="1118" y="292" font-weight="bold" fill="#a02020">Hospital may</text><text x="1118" y="310" fill="#a02020">NON-RENEW:</text><text x="1118" y="328">DynaMed / BMJ /</text><text x="1118" y="346">OpenEvidence</text><text x="1118" y="362">substitution</text><text x="1118" y="386" fill="#b91c1c">"catastrophic"</text>
+</g>
+<line x1="320" y1="347" x2="335" y2="347" stroke="#33475b" marker-end="url(#a)"/><line x1="490" y1="347" x2="505" y2="347" stroke="#33475b" marker-end="url(#a)"/><line x1="660" y1="347" x2="675" y2="347" stroke="#33475b" marker-end="url(#a)"/><line x1="830" y1="347" x2="845" y2="347" stroke="#33475b" marker-end="url(#a)"/><line x1="985" y1="347" x2="1000" y2="347" stroke="#33475b" marker-end="url(#a)"/><line x1="1095" y1="347" x2="1110" y2="347" stroke="#33475b" marker-end="url(#a)"/>
+
+<!-- LANE C INDIVIDUAL -->
+<rect x="30" y="454" width="1180" height="170" rx="8" fill="#e9f7ef"/>
+<text x="42" y="478" font-size="13" font-weight="bold" fill="#146648">C · INDIVIDUAL BUYER (Pro / Pro Plus / trainee)</text>
+<g font-size="10.5" fill="#12263a">
+<rect x="165" y="466" width="155" height="140" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="175" y="486" font-weight="bold">Price discovery:</text><text x="175" y="502">Reddit threads, peers</text><text x="175" y="518">CME-funds decision</text><text x="175" y="538" fill="#b91c1c">$579–699/yr friction</text>
+<rect x="335" y="466" width="155" height="140" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="345" y="486" font-weight="bold">Store wizard →</text><text x="345" y="502">profession verify →</text><text x="345" y="518">payment → account</text><text x="345" y="538" fill="#0e7c44">trainee discounts</text>
+<rect x="505" y="466" width="155" height="140" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="515" y="486" font-weight="bold">Onboard: sign-in,</text><text x="515" y="502">2 mobile devices,</text><text x="515" y="518">start searching</text><text x="515" y="538" fill="#b91c1c">device-limit friction ✗</text>
+<rect x="675" y="466" width="155" height="140" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="685" y="486" font-weight="bold">Habit: bedside lookups</text><text x="685" y="502">What's New digest</text><text x="685" y="518">teaching w/ graphics</text><text x="685" y="538" fill="#0e7c44">CME accrual loop ✓</text>
+<rect x="845" y="466" width="140" height="140" rx="6" fill="#fff" stroke="#4fbf8f"/><text x="855" y="486" font-weight="bold">Pro Plus (US):</text><text x="855" y="502">Expert AI chat</text><text x="855" y="518">upgrade trigger</text><text x="855" y="538" fill="#0e7c44">monetisation layer 2</text>
+<rect x="1000" y="466" width="95" height="140" rx="6" fill="#e9f7ef" stroke="#4fbf8f"/><text x="1008" y="486" font-weight="bold" fill="#146648">EzRenew</text><text x="1008" y="504">auto-renew</text><text x="1008" y="522">emails</text><text x="1008" y="546" fill="#146648">retention ✓</text>
+<rect x="1110" y="466" width="95" height="140" rx="6" fill="#fdeaea" stroke="#e77"/><text x="1118" y="486" font-weight="bold" fill="#a02020">Price triage</text><text x="1118" y="504">at renewal →</text><text x="1118" y="522">free-AI cohort</text><text x="1118" y="540">→ silent habit</text><text x="1118" y="558">substitution</text>
+</g>
+<line x1="320" y1="536" x2="335" y2="536" stroke="#33475b" marker-end="url(#a)"/><line x1="490" y1="536" x2="505" y2="536" stroke="#33475b" marker-end="url(#a)"/><line x1="660" y1="536" x2="675" y2="536" stroke="#33475b" marker-end="url(#a)"/><line x1="830" y1="536" x2="845" y2="536" stroke="#33475b" marker-end="url(#a)"/><line x1="985" y1="536" x2="1000" y2="536" stroke="#33475b" marker-end="url(#a)"/><line x1="1095" y1="536" x2="1110" y2="536" stroke="#33475b" marker-end="url(#a)"/>
+
+<!-- CHURN FLOW -->
+<line x1="1157" y1="422" x2="1157" y2="466" stroke="#b91c1c" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#warn)"/>
+<text x="1120" y="448" font-size="10" fill="#b91c1c" transform="rotate(0)">forces</text>
+
+<!-- OVXIS STRIP -->
+<rect x="30" y="650" width="1180" height="180" rx="10" fill="#fff7ed" stroke="#f59e0b"/>
+<text x="50" y="676" font-size="14" font-weight="bold" fill="#92400e">OVEXIS COUNTER-JOURNEY (recommended wedge — exploit every red box above)</text>
+<g font-size="11.5" fill="#12263a">
+<rect x="50" y="690" width="210" height="120" rx="8" fill="#fff" stroke="#f59e0b"/><text x="62" y="712" font-weight="bold">1 · Indexed free value</text><text x="62" y="732">education library + import-one-</text><text x="62" y="750">record magic moment before any</text><text x="62" y="768">paywall — vs their blind signup</text>
+<rect x="280" y="690" width="210" height="120" rx="8" fill="#fff" stroke="#f59e0b"/><text x="292" y="712" font-weight="bold">2 · Consent ceremony</text><text x="292" y="732">plain-language, progressive, with</text><text x="292" y="750">receipts — conversion moment,</text><text x="292" y="768">not wall</text>
+<rect x="510" y="690" width="210" height="120" rx="8" fill="#fff" stroke="#f59e0b"/><text x="522" y="712" font-weight="bold">3 · Data import = onboarding</text><text x="522" y="732">FHIR/ABDM/Apple Health pull →</text><text x="522" y="750">first insight in &lt;5 min — a stage</text><text x="522" y="768">that does not exist for UpToDate</text>
+<rect x="740" y="690" width="210" height="120" rx="8" fill="#fff" stroke="#f59e0b"/><text x="752" y="712" font-weight="bold">4 · Proactive loop</text><text x="752" y="732">insight digests, trend alerts,</text><text x="752" y="750">pre-visit briefs — habit owned</text><text x="752" y="768">by the platform, not the licence</text>
+<rect x="970" y="690" width="220" height="120" rx="8" fill="#fff" stroke="#f59e0b"/><text x="982" y="712" font-weight="bold">5 · Referral built-in</text><text x="982" y="732">share longitudinal brief w/ doctor →</text><text x="982" y="750">clinician workspace free — viral</text><text x="982" y="768">B2C2B loop they structurally lack</text>
+</g>
+
+<rect x="30" y="838" width="1180" height="14" fill="none"/>
+<text x="30" y="850" font-size="10.5" fill="#5a7184">Red boxes = verified friction/churn events (E17, E31, E19, E34). Green loops = verified retention mechanics (CME, EzRenew, Anywhere). Confidence: Confirmed for all screens shown; relative-weights Strong Inference.</text>
+</svg>

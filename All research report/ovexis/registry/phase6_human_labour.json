@@ -1,0 +1,482 @@
+[
+ {
+  "dossier": "D01",
+  "stmt": "\ud83d\udfe2 **Confirmed:** Reports are generated shortly after authorization and retrieval, then made available manually in portal, via API, or via automated push."
+ },
+ {
+  "dossier": "D01",
+  "stmt": "\ud83d\udfe1 **Strong inference:** Software/report delivery has high potential gross margin, but retrieval costs, APS vendor costs, data network fees, manual support, compliance, and customer success lower margins."
+ },
+ {
+  "dossier": "D01",
+  "stmt": "- There is no manual cancellation in portal; API cancellation is recommended."
+ },
+ {
+  "dossier": "D02",
+  "stmt": "- Privacy policy says human review layer exists for significant automated decisions."
+ },
+ {
+  "dossier": "D02",
+  "stmt": "Use a real backend/CRM, explicit consent, age guardrails, SMS/WhatsApp opt-in, privacy text, and double opt-in email."
+ },
+ {
+  "dossier": "D03",
+  "stmt": "There is **no structured clinical summary, no C-CDA export, no fax/direct messaging** \u2014 the classic coordination primitives are absent."
+ },
+ {
+  "dossier": "D03",
+  "stmt": "**MVP (2023 \u2013 mid 2024)** \u2014 beta membership, manual-heavy ops, basic lab ordering, results display, \"hundreds of testing partners,\" concierge by human."
+ },
+ {
+  "dossier": "D04",
+  "stmt": "**Scheduling system failures confirmed** \u2014 users report system errors, inability to reschedule through app, manual customer service required, state-level regulatory complexity (NY/NJ extra fees \u2014 travel to other states required)."
+ },
+ {
+  "dossier": "D04",
+  "stmt": "**Batch result delivery \u2014 poor experience** \u2014 results delivered over 2+ weeks in batches; no pending status indicator; no new/old result indicator; users must manually compare lists; months mentioned for complete results."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "ng Inference: The operational problem is data fragmentation: CGM data, meals, labs, sleep, activity, documents, and expert guidance historically live in separate tools and require manual synthesis."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "- \ud83d\udfe1 Strong Inference: Design friction is concentrated in three places: dual sensor apps, manual logging burden, and interpretation trust when scores/AI advice conflict with user context."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "| Automatic strenuous detection | Built to detect hr >150 from apple/health connect | Less manual correction | context completeness | Complexity, privacy, and interpretation risk increase as the feature touches health data."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "| Weight import/manual update | Built to track body-weight trend | Progress monitoring | context completeness | Complexity, privacy, and interpretation risk increase as the feature touches health data."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "| AI lab upload extraction | Built to extract lab values from pdfs | Reduces manual entry | lab attach rate | Complexity, privacy, and interpretation risk increase as the feature touches health data."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "| Pro AI summaries | Built to prepare client reviews | Less manual prep | clinician time saved | Complexity, privacy, and interpretation risk increase as the feature touches health data."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "- \ud83d\udfe1 Strong Inference **Distribution:** Start India/South Asia with local foods, labs, doctors, pharmacies, and WhatsApp/voice workflows rather than U."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "- \ud83d\udfe1 Strong Inference: Differentiate with India/South Asia food ontology, local labs, local clinicians, WhatsApp/voice, family accounts, and affordability."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "\ud83d\udfe2 Confirmed: The full spreadsheet is saved as `levels_feature_inventory."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "com/article/173-how-to-log-notes-exercise | Manual exercise logging and automatic exercise sync via Apple Health/Health Connect."
+ },
+ {
+  "dossier": "D05",
+  "stmt": "com/article/485-how-to-add-weight-data | Weight imported from Apple Health/Health Connect or manually updated in profile."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "Its July 2025 release frames traditional evidence databases as fragmented and manual; its Wiley partnership frames the problem as reducing the research-to-practice lag."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe1 **Why it wins psychologically:** The clinician does not merely need a paper search."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\u201d | \ud83d\udfe2 Dialer supports caller-ID selection, calls, messaging, fax, voicemail and optional Visit creation."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Research:** The company announced that the paper *Do We Still Need Clinical Language Models?* won Best Paper at CHIL 2023; the paper was a collaboration with OpenEvidence/Xyla, MIT, Harvard Medical School, SickKids and Brigham and Women\u2019s Hospital."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "| 2023-06 | CHIL Best Paper announcement for *Do We Still Need Clinical Language Models?* | \ud83d\udfe2 Signals early research credibility and a specialty-model thesis."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Observed technical belief:** In public discussion and the CHIL paper announcement, the founding thesis is that domain-specialised medical models can outperform general approaches on in-domain tasks."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "| EvidenceGrade | \ud83d\udfe2 A\u2013D/+/\u2212/U grade based on per-paper quality/certainty/relevance and a GRADE-inspired body-of-evidence phase."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "| Dialer | \ud83d\udfe2 Call, configurable caller ID, secure messaging, fax, straight-to-voicemail, Create Visit, unlimited daily minutes for verified U."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe1 **Review / sign:** A safe clinical workflow requires clinician review, correction, attribution and EHR sign-off."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Communicate:** Call, text, fax or send straight-to-voicemail."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Clinician voice:** Public Reddit discussions include clinicians praising paper discovery and speed while warning that summaries may be wrong, citations can be mismatched, rare/specialist questions are riskier, and source reading remains necessary."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "[E07] \ud83d\udfe2 Carrier/CPaaS vendor, call recording architecture, SMS compliance, fax vendor and data retention are unknown."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Praise themes:** App-store descriptions and clinician quotations emphasise faster paper finding, specificity, current evidence, convenience at bedside and value relative to manual PubMed search."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "ource verification, notes answer quality varies by question phrasing/rarity, cites examples of misinterpretation/mismatched citations, and positions the product as a sophisticated paper-finding tool rather than a final decision-maker."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Unexpected use cases surfaced publicly:** Prior authorisation letters, patient handouts, clinical calculators, medical notes, telephone documentation, fax/voicemail, and trial matching expand the product well beyond literature search."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "| PHI/telecom breach | Security/operational | \ud83d\udfe1 Low\u2013Medium | \ud83d\udfe1 Critical | Misconfigured sharing, transcription/fax incident."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "com/announcements/messaging-faxing-and-voicemail-are-now-live-in-the-openevidence-dialer) | A | Calls, texts, fax, voicemail, Create Visit."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "com/announcements/openevidence-wins-best-paper-award-at-chil-2023) | A | Research paper/award."
+ },
+ {
+  "dossier": "D06",
+  "stmt": "\ud83d\udfe2 **Master Feature Inventory spreadsheet:** Companion workbook `OpenEvidence_Master_Feature_Inventory_2026-07-25."
+ },
+ {
+  "dossier": "D07",
+  "stmt": "Evidence IDs map to the companion spreadsheet\u2019s Evidence Register."
+ },
+ {
+  "dossier": "D07",
+  "stmt": "- **\ud83d\udfe2 Confirmed \u2014 No acquisition, patent portfolio, peer-reviewed company research paper, clinical trial, FDA clearance/authorization, or SOC 2 report was verified in reviewed public material."
+ },
+ {
+  "dossier": "D07",
+  "stmt": "A in API settings; EHR guide advocates minimum FHIR scopes, encryption in transit/at rest, avoiding PHI in logs, retention/deletion/backup planning, access/write-back logging, and human review."
+ },
+ {
+  "dossier": "D07",
+  "stmt": "| FHIR context | **\ud83d\udfe1 Strong Inference:** eliminate manual re-entry and personalize output."
+ },
+ {
+  "dossier": "D07",
+  "stmt": "**\ud83d\udfe1 Strong Inference:** patient-controlled record ingestion (PDF/C-CDA/FHIR where available), labs and manual medicine capture."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "k tolerance is moderate-to-high in product/category expansion but conservative in clinical claims; they launch AI but heavily constrain it as evidence navigation, exclude PHI, and require human judgment."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe1 Recommendation \u2014 Match AMBOSS trust primitives: sources, evidence grades, provenance, human review, disclaimers, no ads/pharma influence."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe1 Recommendation \u2014 Beat AMBOSS in India by integrating ABDM, WhatsApp, local labs, multilingual UX, family/caregiver roles, low-cost pricing, and doctor export workflows."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe1 Recommendation \u2014 MVP data ingestion should support PDF lab uploads, manual medications, conditions, family history, wearable imports, and at least one standards path such as FHIR/ABDM where feasible."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe1 Recommendation \u2014 MVP trust layer should include evidence grade, source links, confidence/uncertainty, freshness, and human review option."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe1 Recommendation \u2014 Build a trust moat with human review, evidence ledger, no-ad/no-supplement-bias policy, and explicit clinical escalation."
+ },
+ {
+  "dossier": "D08",
+  "stmt": "- \ud83d\udfe2 Confirmed \u2014 The complete feature inventory spreadsheet is provided as `AMBOSS_Feature_Inventory."
+ },
+ {
+  "dossier": "D09",
+  "stmt": "\u201d** \ud83d\udfe2 Supported by pharmacy fulfilment, WhatsApp ordering, and app functionality."
+ },
+ {
+  "dossier": "D09",
+  "stmt": "- \ud83d\udfe1 **Replacing:** a sequence of disjointed local pharmacy, call-centre booking, standalone lab, paper prescription/report, and hospital front-desk interactions."
+ },
+ {
+  "dossier": "D09",
+  "stmt": "- \ud83d\udfe2 Current public careers listings include Clinical Product Manager\u2014Symptom Checker, Principal Engineer, React Native roles, QA automation/manual, technical programme/project support and support engineering."
+ },
+ {
+  "dossier": "D09",
+  "stmt": "- \ud83d\udfe2 A compliant next step is a manually documented, consented test account journey with screenshots and no interference; do not intercept APIs or bypass controls."
+ },
+ {
+  "dossier": "D10",
+  "stmt": "| Feature Inventory Spreadsheet | \u2b1c See CSV | tata_1mg_feature_inventory."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "| **Functional (v2)** | Manual logging is so tedious that people abandon it within days."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "| \ud83d\udfe2 Confirmed \u2014 CTO Khasnis: users who switch to photo tracking do **2\u00d7 the tracks** of manual loggers."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "Every new subscriber requires marginal human labour, so gross margin is capped and scaling requires linear headcount growth."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "The value proposition has a **load-bearing wall made of underpaid, over-allocated human labour."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "But the same paper is the best available public evidence that **AI-only coaching produces clinically marginal weight loss (~1."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "\ud83d\udfe2 Validated: photo loggers track **2\u00d7 more** than manual loggers."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "** Representative confirmed complaints: 40+ days for an undelivered Smart Scale with copy-paste responses; *\"The chat is a scam."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "- **Trade-offs:** Enormous manual curation cost; India-specific (delayed globalisation); becomes a maintenance liability."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "** 300:1 is efficient on a spreadsheet and abandonment-inducing in a relationship."
+ },
+ {
+  "dossier": "D11",
+  "stmt": "- **Why:** \ud83d\udfe2 Manual logging friction is the primary churn driver."
+ },
+ {
+  "dossier": "D12",
+  "stmt": "**\ud83d\udfe2:** Reddit users praise central storage and Watch integration but report confusion, poor customisation, gaps in mental-health tracking, inability to print/share cleanly, manual-lab limitations, treadmill/distance inaccuracies and sync issues."
+ },
+ {
+  "dossier": "D12",
+  "stmt": "**Guardrails:** source-ground every generated claim; no diagnosis/medication change; temporal sanity checks; role-based views; hard clinical red-flag routing; human review for clinical outputs; model/version/audit logging; offline evaluation stratified by demographic/source quality; explicit \u201cinsufficient data\u201d state."
+ },
+ {
+  "dossier": "D12",
+  "stmt": "1\u201310: cross-platform support; clearer home narrative; individualised dashboard; explain metric relevance; downloadable visit packet; manual lab/document import; data correction workflow; conflict resolution; source quality badges; data freshness."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe2 **Confirmed:** Public source explicitly states the claim; source IDs in this report map to the Evidence Register spreadsheet."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe2 **Spreadsheet deliverables:** The companion workbook `google_health_feature_inventory."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe2 **Category being replaced in enterprise workflows:** bespoke EHR search, manual chart review, and point-to-point interface layers are being targeted by Cloud Healthcare API + Vertex AI Search for Healthcare."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe1 **Clinical workflow: clinician asks natural-language query \u2192 system retrieves across FHIR/notes/images/charts \u2192 generated answer is grounded/cited \u2192 clinician reviews \u2192 action remains clinician-owned."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe1 **MVP 2008\u20132012:** centralized personal health record, manual/provider data import, medication/lab/pharmacy integrations, basic user-controlled PHR."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "\ud83d\udfe1 Reinvent \u201cAI coach\u201d as **health operating manual for your body**."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "eady data model; problem-oriented timeline; AI summaries with citations and confidence; editable memory; reversible AI actions; weekly review; doctor PDF export; privacy covenant; manual structured nutrition/workout basics."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe1 **MVP integrations:** Apple Health, Health Connect, manual PDF/lab upload, selected wearable APIs through aggregator, FHIR import/export, WhatsApp/email report sharing, ABDM/ABHA when ready for India."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "- \ud83d\udfe2 **The full spreadsheet inventory is in `google_health_feature_inventory."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "| AI hallucination in health advice | High | High | \ud83d\udfe2 E49 | Evidence cards, confidence, human review escalation."
+ },
+ {
+  "dossier": "D13",
+  "stmt": "| Bad data/log edits | Medium | High | \ud83d\udfe2 E47 | Undo/audit/manual correction."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe2 The pharmacy problem includes drug cost pressure, pharmacist burnout, inadequate time for patient care, and laborious manual chart review."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe1 Categories replaced: manual chart review, slow HEOR studies, outsourced RWE analytics, ad hoc SQL analytics, literature-only clinical decision support, and static RWD data purchases."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe2 **Pharmacy JTBD:** Replace manual chart review with comparative effectiveness and cost evidence for formulary decisions."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe1 Atropos\u2019s AI architecture is likely an orchestration architecture combining RAG, ontology/phenotype mapping, RWD study generation, LLM synthesis, evidence evaluation, and human review."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "| AI hallucination | \ud83d\udfe2 High | \ud83d\udfe1 Medium | \ud83d\udfe2 Answered with Evidence, refusal, human review."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe2 **Master Feature Inventory Spreadsheet:** `atropos_master_feature_inventory."
+ },
+ {
+  "dossier": "D15",
+  "stmt": "- \ud83d\udfe2 **Evidence Register Spreadsheet:** `atropos_evidence_register."
+ },
+ {
+  "dossier": "D16",
+  "stmt": "3 more hours of sleep/week, and >10% higher HRV; a 2025 Sensors paper found higher wear frequency associated with lower RHR, higher HRV, longer/more consistent sleep, and more activity."
+ },
+ {
+  "dossier": "D16",
+  "stmt": "- \ud83d\udfe2 PLOS ONE COVID paper: WHOOP-derived respiratory-rate model identified 20% of COVID-positive validation individuals in the two days before symptom onset and 80% by third symptom day."
+ },
+ {
+  "dossier": "D16",
+  "stmt": "| COVID respiratory-rate paper | \ud83d\udfe2 PLOS ONE 2020; 271 individuals; 20% pre-symptomatic two days before symptoms; 80% by third symptom day."
+ },
+ {
+  "dossier": "D17",
+  "stmt": "Founders Shashank ND and Abhinav Lal (NIT Surathkal) started in 2008 after Shashank's father needed a knee-surgery second opinion and his records were on paper, unshareable."
+ },
+ {
+  "dossier": "D17",
+  "stmt": "For doctors: the fear of losing patients to disorganization and the drudgery of paper."
+ },
+ {
+  "dossier": "D17",
+  "stmt": "- **Replaced:** paper-based appointment books, word-of-mouth doctor discovery, phone-booking, and analog clinic ledgers."
+ },
+ {
+  "dossier": "D17",
+  "stmt": "- Guardrails / clinical validation / human review: **not publicly described** \u2014 a material unknown given they operate in clinical contexts."
+ },
+ {
+  "dossier": "D17",
+  "stmt": "Full 60-feature spreadsheet (with Evidence / User Value / Business Value / Engineering / Clinical / Infra / Regulatory complexity, Est."
+ },
+ {
+  "dossier": "D18",
+  "stmt": "\ud83d\udd34 **Regulatory pre-emption** \u2014 position non-device CDS + human review as the compliance standard regulators should require, freezing out ad-supported consumer-grade rivals."
+ },
+ {
+  "dossier": "D18",
+  "stmt": "By the time Ovexis knocks on a CIO's door, it should carry: patient-side DAU, clinician waitlists, privacy certifications, and an evidence-paper portfolio."
+ },
+ {
+  "dossier": "D18",
+  "stmt": "\ud83d\udd34 **Regulatory moat crystallises**: procurement standards require human-validated evidence chains; WK lobbies and wins; ad-supported clinical AI forced to disclose/label."
+ },
+ {
+  "dossier": "D18",
+  "stmt": "Calculators \u2192 **auto-populated** from the record (no manual entry; source-cited values)."
+ },
+ {
+  "dossier": "D19",
+  "stmt": "** The substitute is not only another ring; it is \u201cdo nothing,\u201d annual lab testing, a primary-care visit, a smartwatch, a spreadsheet, or a general AI assistant."
+ },
+ {
+  "dossier": "D19",
+  "stmt": "** Timeline, data-quality dashboard, confidence labels and manual correction."
+ },
+ {
+  "dossier": "D19",
+  "stmt": "** Ultrahuman published a Nature-group paper in March 2024 on M1 metabolic-health tracking in non-diabetic and pre-diabetic Indians."
+ },
+ {
+  "dossier": "D19",
+  "stmt": "** Current workflow is consumer-led: user buys, wears, imports or generates data, receives wellness interpretation, and may share reports manually with a clinician."
+ },
+ {
+  "dossier": "D19",
+  "stmt": "A machine-readable spreadsheet is delivered separately as `ultrahuman_feature_inventory."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "** Requires WhatsApp Web open, 30-second delay, hardcoded numbers, reads from `input."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "\" It positions itself as a \"local-first autonomous assistant\" for desktop automation, voice interaction, web navigation, app launching, WhatsApp messaging, and autonomous coding."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "**Evidence:** The code references a single user (`C:\\Users\\chatu`), local machine execution (`localhost:11434` for Ollama), personal WhatsApp messages, and desktop keyboard automation (`pyautogui."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "8+, Ollama setup, manual environment variables (`JARVIS_WAKE_WORD`, `ALLOW_DESTRUCTIVE`), and running batch/powershell scripts."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "- **Evidence:** The installation requires manual `pip install`, manual `python -m daemon."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "cli start`, manual environment variable configuration (`JARVIS_WAKE_WORD`)."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "- **No error prevented measurement:** There is no clinical error rate baseline, no comparison with manual processes, no safety analysis showing error reduction."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "| Cost reduction | **Negative (cost increase)** | Implementation requires Python environment management, local LLM hardware, manual installation, ongoing maintenance, and introduces liability risk."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "| **Training** | No user manual; no clinical training program; no role-based training (physician vs."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "- **Evidence:** The repository's actual capabilities (open apps, play music, WhatsApp messages, basic chat) align with a personal assistant, not a clinical tool."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "The only capabilities demonstrated (opening websites, playing music, basic chat, WhatsApp messaging) are personal productivity tasks with negligible economic value in healthcare settings."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "The repository may rely on manual `pip install` instructions (`README."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "py`) reduces manual opening of websites/applications; `Automation/playmusic_Sfy."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "py` automates media control | User frequently performs these tasks; automation is faster than manual execution; no errors introduced by automation | **Currently unvalidated."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "py`) allows hands-free operation; wake service (`WakeService/`) allows ambient interaction | User prefers voice over manual input; voice recognition is accurate; wake word detection is reliable; ambient listening does not interfere with work | **Currently unvalidated."
+ },
+ {
+  "dossier": "G01",
+  "stmt": "py`) creates structured execution plans | User has repetitive preferences; planning improves action reliability; memory retrieval is faster than manual configuration | **Currently unvalidated."
+ }
+]

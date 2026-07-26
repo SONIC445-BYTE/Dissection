@@ -1,0 +1,98 @@
+{
+ "patient": {
+  "stages": 16,
+  "avg_owners": 12.2,
+  "breaks": 0,
+  "break_rate": 0.0
+ },
+ "doctor": {
+  "stages": 12,
+  "avg_owners": 7.3,
+  "breaks": 2,
+  "break_rate": 0.18
+ },
+ "nurse": {
+  "stages": 6,
+  "avg_owners": 3.2,
+  "breaks": 3,
+  "break_rate": 0.6
+ },
+ "reception": {
+  "stages": 3,
+  "avg_owners": 8.7,
+  "breaks": 0,
+  "break_rate": 0.0
+ },
+ "billing": {
+  "stages": 6,
+  "avg_owners": 4.0,
+  "breaks": 4,
+  "break_rate": 0.8
+ },
+ "insurance": {
+  "stages": 3,
+  "avg_owners": 2.7,
+  "breaks": 1,
+  "break_rate": 0.5
+ },
+ "radiology": {
+  "stages": 4,
+  "avg_owners": 2.5,
+  "breaks": 1,
+  "break_rate": 0.33
+ },
+ "laboratory": {
+  "stages": 5,
+  "avg_owners": 1.2,
+  "breaks": 3,
+  "break_rate": 0.75
+ },
+ "operation_theatre": {
+  "stages": 4,
+  "avg_owners": 0.5,
+  "breaks": 2,
+  "break_rate": 0.67
+ },
+ "icu": {
+  "stages": 3,
+  "avg_owners": 4.0,
+  "breaks": 2,
+  "break_rate": 1.0
+ },
+ "emergency": {
+  "stages": 2,
+  "avg_owners": 4.5,
+  "breaks": 1,
+  "break_rate": 1.0
+ },
+ "pharmacy": {
+  "stages": 5,
+  "avg_owners": 6.2,
+  "breaks": 0,
+  "break_rate": 0.0
+ },
+ "administration": {
+  "stages": 4,
+  "avg_owners": 4.2,
+  "breaks": 3,
+  "break_rate": 1.0
+ },
+ "quality": {
+  "stages": 3,
+  "avg_owners": 3.7,
+  "breaks": 0,
+  "break_rate": 0.0
+ },
+ "compliance": {
+  "stages": 5,
+  "avg_owners": 7.2,
+  "breaks": 3,
+  "break_rate": 0.75
+ },
+ "management": {
+  "stages": 3,
+  "avg_owners": 6.7,
+  "breaks": 2,
+  "break_rate": 1.0
+ }
+}

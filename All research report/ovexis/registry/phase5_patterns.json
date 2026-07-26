@@ -1,0 +1,2130 @@
+{
+ "arch_mobile_first_app": {
+  "companies": [
+   "D04",
+   "D05",
+   "D06",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18"
+  ],
+  "n": 13,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17"
+  ],
+  "us": [
+   "D04",
+   "D05",
+   "D06",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 153,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_cloud_saas_multitenant": {
+  "companies": [
+   "D03",
+   "D04",
+   "D08",
+   "D10",
+   "D11",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 12,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D03",
+   "D04",
+   "D08",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 258,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_api_platform": {
+  "companies": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 17,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 188,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_rag_over_corpus": {
+  "companies": [
+   "D01",
+   "D02",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D11",
+   "D13",
+   "D15",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 14,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D13",
+   "D15",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 164,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_llm_wrapper": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D07",
+   "D08",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 18,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 357,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_agentic_multistep": {
+  "companies": [
+   "D01",
+   "D03",
+   "D04",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 18,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D04",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 586,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_data_lake_longitudinal": {
+  "companies": [
+   "D01",
+   "D06",
+   "D08",
+   "D10",
+   "D11",
+   "D16",
+   "D17",
+   "D19"
+  ],
+  "n": 8,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D06",
+   "D08",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 54,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "arch_on_device_local": {
+  "companies": [
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D16",
+   "D18",
+   "G01"
+  ],
+  "n": 7,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D12",
+   "D13",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 73,
+  "cross_geo": false,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "arch_human_in_loop": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D11",
+   "D13",
+   "D15",
+   "D16",
+   "D17",
+   "D19"
+  ],
+  "n": 13,
+  "india": [
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D13",
+   "D15",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 114,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ux_single_score": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D10",
+   "D11",
+   "D14",
+   "D19"
+  ],
+  "n": 8,
+  "india": [
+   "D10",
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D14"
+  ],
+  "primary": [],
+  "total_hits": 113,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ux_dashboard_home": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 19,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 461,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ux_traffic_light": {
+  "companies": [
+   "D04"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D04"
+  ],
+  "primary": [],
+  "total_hits": 5,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ux_conversational": {
+  "companies": [
+   "D14",
+   "D18"
+  ],
+  "n": 2,
+  "india": [],
+  "us": [
+   "D14",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 14,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ux_progressive_onboarding": {
+  "companies": [
+   "D03",
+   "D05",
+   "D11",
+   "D18"
+  ],
+  "n": 4,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D03",
+   "D05",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 32,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ux_streak_habit": {
+  "companies": [
+   "D02",
+   "D04",
+   "D05",
+   "D10",
+   "D11",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18"
+  ],
+  "n": 10,
+  "india": [
+   "D10",
+   "D11",
+   "D17"
+  ],
+  "us": [
+   "D02",
+   "D04",
+   "D05",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 139,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ux_explainer_drilldown": {
+  "companies": [
+   "D06"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D06"
+  ],
+  "primary": [],
+  "total_hits": 15,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_annual_membership": {
+  "companies": [
+   "D02",
+   "D04",
+   "D05",
+   "D13",
+   "D16"
+  ],
+  "n": 5,
+  "india": [],
+  "us": [
+   "D02",
+   "D04",
+   "D05",
+   "D13",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 76,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_monthly_sub": {
+  "companies": [
+   "D04",
+   "D05",
+   "D07",
+   "D11"
+  ],
+  "n": 4,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D04",
+   "D05",
+   "D07"
+  ],
+  "primary": [],
+  "total_hits": 24,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_freemium": {
+  "companies": [
+   "D11",
+   "D14",
+   "D18"
+  ],
+  "n": 3,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D14",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 51,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_hardware_plus_sub": {
+  "companies": [
+   "D13",
+   "D14",
+   "D16",
+   "D18",
+   "D19"
+  ],
+  "n": 5,
+  "india": [
+   "D19"
+  ],
+  "us": [
+   "D13",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 41,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_enterprise_seat": {
+  "companies": [
+   "D08",
+   "D14",
+   "D18"
+  ],
+  "n": 3,
+  "india": [],
+  "us": [
+   "D08",
+   "D14",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 55,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_transparent_flat": {
+  "companies": [
+   "D04",
+   "D16",
+   "D17"
+  ],
+  "n": 3,
+  "india": [
+   "D17"
+  ],
+  "us": [
+   "D04",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 31,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "pri_usage_based": {
+  "companies": [
+   "D04",
+   "D18"
+  ],
+  "n": 2,
+  "india": [],
+  "us": [
+   "D04",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 20,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ai_citation_grounding": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D11",
+   "D12",
+   "D13",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "I01"
+  ],
+  "n": 17,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "I01"
+  ],
+  "total_hits": 376,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ai_safety_disclaimer": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 11,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ai_personalisation_context": {
+  "companies": [
+   "D02",
+   "D04",
+   "D05",
+   "D06",
+   "D14",
+   "D18"
+  ],
+  "n": 6,
+  "india": [],
+  "us": [
+   "D02",
+   "D04",
+   "D05",
+   "D06",
+   "D14",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 40,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "ai_confidence_calibration": {
+  "companies": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D11",
+   "D12",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 16,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 196,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "ai_red_team_eval": {
+  "companies": [
+   "D03",
+   "D05",
+   "D06",
+   "D08",
+   "D11",
+   "D18"
+  ],
+  "n": 6,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D03",
+   "D05",
+   "D06",
+   "D08",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 37,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "int_wearable_sdk": {
+  "companies": [
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 14,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D12",
+   "D13",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 436,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "int_ehr_fhir": {
+  "companies": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01",
+   "I01"
+  ],
+  "n": 20,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01",
+   "I01"
+  ],
+  "total_hits": 814,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "int_lab_network": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 19,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 688,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "int_pharmacy_network": {
+  "companies": [
+   "D04",
+   "D09",
+   "D10",
+   "D11"
+  ],
+  "n": 4,
+  "india": [
+   "D09",
+   "D10",
+   "D11"
+  ],
+  "us": [
+   "D04"
+  ],
+  "primary": [],
+  "total_hits": 38,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "int_abdm_national": {
+  "companies": [
+   "D08",
+   "D09",
+   "D11",
+   "D12",
+   "D13",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "I01"
+  ],
+  "n": 11,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D08",
+   "D12",
+   "D13",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "I01"
+  ],
+  "total_hits": 150,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "int_payment_gateway": {
+  "companies": [
+   "D02",
+   "D03",
+   "D05",
+   "D15"
+  ],
+  "n": 4,
+  "india": [],
+  "us": [
+   "D02",
+   "D03",
+   "D05",
+   "D15"
+  ],
+  "primary": [],
+  "total_hits": 35,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_billing_cancellation": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D16",
+   "D17",
+   "D18"
+  ],
+  "n": 12,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D08",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 206,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "fail_support_slow": {
+  "companies": [
+   "D16"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 13,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_accuracy_trust": {
+  "companies": [
+   "D12",
+   "D16"
+  ],
+  "n": 2,
+  "india": [],
+  "us": [
+   "D12",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 15,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_price_value": {
+  "companies": [
+   "D18"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 5,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_hardware_compat": {
+  "companies": [
+   "D13",
+   "D14",
+   "D16",
+   "D17",
+   "D18",
+   "G01"
+  ],
+  "n": 6,
+  "india": [
+   "D17"
+  ],
+  "us": [
+   "D13",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 74,
+  "cross_geo": false,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "fail_data_privacy": {
+  "companies": [
+   "D04",
+   "D06",
+   "D11",
+   "D14",
+   "D19",
+   "G01"
+  ],
+  "n": 6,
+  "india": [
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D04",
+   "D06",
+   "D14"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 48,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "fail_clinical_boundary": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 2,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_engagement_dropoff": {
+  "companies": [
+   "D03",
+   "D04",
+   "D05",
+   "D08",
+   "D11",
+   "D13",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 11,
+  "india": [
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D03",
+   "D04",
+   "D05",
+   "D08",
+   "D13",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 109,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "bot_data_acquisition": {
+  "companies": [
+   "D01"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D01"
+  ],
+  "primary": [],
+  "total_hits": 12,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_clinician_time": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 2,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_integration_cost": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 7,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_regulatory_delay": {
+  "companies": [
+   "D18"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 5,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_cac_distribution": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D06",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 11,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D06",
+   "D12",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 91,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "sec_hipaa_baa": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 20,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 391,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "sec_soc2_iso": {
+  "companies": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D11",
+   "D14",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 16,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D14",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 200,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "sec_encryption": {
+  "companies": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D14",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 17,
+  "india": [
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D14",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 273,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "sec_consent_granular": {
+  "companies": [
+   "D01",
+   "D04",
+   "D05",
+   "D11",
+   "D19"
+  ],
+  "n": 5,
+  "india": [
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D04",
+   "D05"
+  ],
+  "primary": [],
+  "total_hits": 37,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "sec_dpdp_gdpr": {
+  "companies": [
+   "D02",
+   "D04",
+   "D08",
+   "D09",
+   "D11",
+   "D12",
+   "D14",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 11,
+  "india": [
+   "D09",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D04",
+   "D08",
+   "D12",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 143,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "onb_quiz_intake": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 0,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "onb_free_trial": {
+  "companies": [
+   "D08",
+   "D16"
+  ],
+  "n": 2,
+  "india": [],
+  "us": [
+   "D08",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 22,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "onb_concierge_white_glove": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D13",
+   "D17"
+  ],
+  "n": 6,
+  "india": [
+   "D17"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D13"
+  ],
+  "primary": [],
+  "total_hits": 89,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "adopt_clinician_champion": {
+  "companies": [
+   "D18"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 7,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "adopt_employer_channel": {
+  "companies": [
+   "D03",
+   "D04",
+   "D11",
+   "D17"
+  ],
+  "n": 4,
+  "india": [
+   "D11",
+   "D17"
+  ],
+  "us": [
+   "D03",
+   "D04"
+  ],
+  "primary": [],
+  "total_hits": 53,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "adopt_land_expand": {
+  "companies": [
+   "D01",
+   "D03",
+   "D07",
+   "D08",
+   "D11",
+   "D15",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 10,
+  "india": [
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D01",
+   "D03",
+   "D07",
+   "D08",
+   "D15",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 63,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "adopt_content_seo": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D07",
+   "D10",
+   "D11",
+   "D17",
+   "D18"
+  ],
+  "n": 9,
+  "india": [
+   "D10",
+   "D11",
+   "D17"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D05",
+   "D07",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 129,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "adopt_influencer": {
+  "companies": [
+   "D03",
+   "D04",
+   "D05",
+   "D14",
+   "D16"
+  ],
+  "n": 5,
+  "india": [],
+  "us": [
+   "D03",
+   "D04",
+   "D05",
+   "D14",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 155,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_retention_churn": {
+  "companies": [
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D08",
+   "D11",
+   "D13",
+   "D16",
+   "D17",
+   "D18",
+   "D19"
+  ],
+  "n": 11,
+  "india": [
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D03",
+   "D04",
+   "D05",
+   "D06",
+   "D08",
+   "D13",
+   "D16",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 94,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "GREEN"
+ },
+ "fail_support_responsiveness": {
+  "companies": [
+   "D03",
+   "D11",
+   "D16"
+  ],
+  "n": 3,
+  "india": [
+   "D11"
+  ],
+  "us": [
+   "D03",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 32,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_accuracy_interpretation": {
+  "companies": [
+   "D04",
+   "D08",
+   "D12",
+   "D16"
+  ],
+  "n": 4,
+  "india": [],
+  "us": [
+   "D04",
+   "D08",
+   "D12",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 26,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_price_value_perception": {
+  "companies": [
+   "D04",
+   "D18"
+  ],
+  "n": 2,
+  "india": [],
+  "us": [
+   "D04",
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 15,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_hardware_compat_backlash": {
+  "companies": [
+   "D13",
+   "D14",
+   "D16",
+   "D17",
+   "D18",
+   "G01"
+  ],
+  "n": 6,
+  "india": [
+   "D17"
+  ],
+  "us": [
+   "D13",
+   "D14",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 91,
+  "cross_geo": false,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "fail_privacy_consent_trust": {
+  "companies": [
+   "D04",
+   "D06",
+   "D11",
+   "D14",
+   "D19",
+   "G01"
+  ],
+  "n": 6,
+  "india": [
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D04",
+   "D06",
+   "D14"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 52,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "fail_clinical_regulatory_boundary": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D10",
+   "D11",
+   "D19"
+  ],
+  "n": 6,
+  "india": [
+   "D10",
+   "D11",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04"
+  ],
+  "primary": [],
+  "total_hits": 37,
+  "cross_geo": true,
+  "cross_class": false,
+  "corroborated": true,
+  "label": "YELLOW"
+ },
+ "fail_manual_burden": {
+  "companies": [
+   "D03",
+   "D05",
+   "D16"
+  ],
+  "n": 3,
+  "india": [],
+  "us": [
+   "D03",
+   "D05",
+   "D16"
+  ],
+  "primary": [],
+  "total_hits": 20,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "fail_trust_conflict": {
+  "companies": [
+   "D04",
+   "D10",
+   "D17"
+  ],
+  "n": 3,
+  "india": [
+   "D10",
+   "D17"
+  ],
+  "us": [
+   "D04"
+  ],
+  "primary": [],
+  "total_hits": 28,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_clinician_capacity": {
+  "companies": [],
+  "n": 0,
+  "india": [],
+  "us": [],
+  "primary": [],
+  "total_hits": 2,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_integration_effort": {
+  "companies": [
+   "D15"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D15"
+  ],
+  "primary": [],
+  "total_hits": 14,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_regulatory_burden": {
+  "companies": [
+   "D18"
+  ],
+  "n": 1,
+  "india": [],
+  "us": [
+   "D18"
+  ],
+  "primary": [],
+  "total_hits": 6,
+  "cross_geo": false,
+  "cross_class": false,
+  "corroborated": false,
+  "label": "WEAK"
+ },
+ "bot_incumbent_lockin": {
+  "companies": [
+   "D02",
+   "D03",
+   "D04",
+   "D06",
+   "D07",
+   "D08",
+   "D09",
+   "D10",
+   "D11",
+   "D12",
+   "D13",
+   "D16",
+   "D17",
+   "D18",
+   "D19",
+   "G01"
+  ],
+  "n": 16,
+  "india": [
+   "D09",
+   "D10",
+   "D11",
+   "D17",
+   "D19"
+  ],
+  "us": [
+   "D02",
+   "D03",
+   "D04",
+   "D06",
+   "D07",
+   "D08",
+   "D12",
+   "D13",
+   "D16",
+   "D18"
+  ],
+  "primary": [
+   "G01"
+  ],
+  "total_hits": 209,
+  "cross_geo": true,
+  "cross_class": true,
+  "corroborated": true,
+  "label": "GREEN"
+ }
+}

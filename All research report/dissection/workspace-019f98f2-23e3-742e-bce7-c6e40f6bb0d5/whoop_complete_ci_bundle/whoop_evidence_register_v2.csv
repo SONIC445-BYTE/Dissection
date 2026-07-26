@@ -1,0 +1,26 @@
+SourceID,Source,URL,Evidence,Screenshot,Observed vs inferred,Confidence
+S1,WHOOP homepage,https://www.whoop.com/us/en/,See report sections referencing this source ID,not captured,Observed public source,High
+S2,WHOOP 5.0/MG launch,https://www.whoop.com/us/en/press-center/whoop-unveils-5.0-MG/,See report sections referencing this source ID,not captured,Observed public source,High
+S3,Advanced Labs,https://www.whoop.com/us/en/advanced-labs/,See report sections referencing this source ID,not captured,Observed public source,High
+S4,Feature availability,https://www.whoop.com/us/en/feature-availability/,See report sections referencing this source ID,not captured,Observed public source,High
+S5,Privacy policy,https://www.whoop.com/us/en/full-privacy-policy/,See report sections referencing this source ID,not captured,Observed public source,High
+S6,Privacy principles,https://www.whoop.com/us/en/whoop-privacy-policies/,See report sections referencing this source ID,not captured,Observed public source,High
+S7,Terms of Use,https://www.whoop.com/us/en/whoop-terms-of-use/,See report sections referencing this source ID,not captured,Observed public source,High
+S8,Trial page,https://www.whoop.com/us/en/whoop-trials/,See report sections referencing this source ID,not captured,Observed public source,High
+S9,Tier pages,https://www.whoop.com/us/en/one/,See report sections referencing this source ID,not captured,Observed public source,High
+S10,Support pages,https://support.whoop.com/s/article/Calibration-Timeline?language=en_US,See report sections referencing this source ID,not captured,Observed public source,High
+S11,WHOOP Coach/OpenAI press,https://www.whoop.com/us/en/press-center/whoop-unveils-the-new-whoop-coach-powered-by-openai/,See report sections referencing this source ID,not captured,Observed public source,High
+S12,Developer API docs,https://developer.whoop.com/api/,See report sections referencing this source ID,not captured,Observed public source,High
+S13,OAuth/rate-limit/webhook docs,https://developer.whoop.com/docs/developing/oauth/,See report sections referencing this source ID,not captured,Observed public source,High
+S14,Series G,https://www.whoop.com/us/en/press-center/whoop-announces-series-g-funding/,See report sections referencing this source ID,not captured,Observed public source,High
+S15,Health OS essay,https://www.whoop.com/us/en/thelocker/what-is-the-health-operating-system/,See report sections referencing this source ID,not captured,Observed public source,High
+S16,Hiring surge,https://www.whoop.com/us/en/press-center/whoop-announces-2026-hiring-surge-adding-more-than-600-roles/,See report sections referencing this source ID,not captured,Observed public source,High
+S17,Careers/job postings,https://jobs.ashbyhq.com/whoop,See report sections referencing this source ID,not captured,Observed public source,High
+S18,AI Studio,https://engineering.prod.whoop.com/ai-studio/,See report sections referencing this source ID,not captured,Observed public source,High
+S19,Funding releases,https://www.whoop.com/us/en/press-center/200-million-financing-3-6-billion-valuation/,See report sections referencing this source ID,not captured,Observed public source,High
+S20,PUSH acquisition,https://www.whoop.com/us/en/press-center/acquires-push-velocity-based-training-solution/,See report sections referencing this source ID,not captured,Observed public source,High
+S21,Global expansion,https://www.whoop.com/us/en/press-center/whoop-announces-significant-global-expansion/,See report sections referencing this source ID,not captured,Observed public source,High
+S22,FDA ECG,https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243236,See report sections referencing this source ID,not captured,Observed public source,High
+S23,FDA BPI,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/whoop-inc-709755-07142025,See report sections referencing this source ID,not captured,Observed public source,High
+S24,Research papers,PLOS ONE / Sensors / Sleep,See report sections referencing this source ID,not captured,Observed public source,High
+S25,Public reviews,Apple App Store / Reddit / Trustpilot,See report sections referencing this source ID,not captured,Observed public review snippets,Medium
