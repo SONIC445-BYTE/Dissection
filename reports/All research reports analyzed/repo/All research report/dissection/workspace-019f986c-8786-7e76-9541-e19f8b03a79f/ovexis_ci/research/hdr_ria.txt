@@ -1,0 +1,10 @@
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-language: en
+x-frame-options: DENY
+x-frame-options: SAMEORIGIN
+date: Sat, 25 Jul 2026 08:38:19 GMT
+content-length: 15597
+set-cookie: csrftoken=1RjeGKOoxjT9MfsCMi6yVzSZpSHMG771; Domain=.healthifyme.com; expires=Sat, 24 Jul 2027 08:38:18 GMT; Max-Age=31449600; Path=/; SameSite=Lax
+strict-transport-security: max-age=86400
+

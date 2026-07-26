@@ -1,0 +1,18 @@
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+content-length: 0
+location: /terms-of-use/
+content-language: en
+x-frame-options: DENY
+x-frame-options: SAMEORIGIN
+date: Sat, 25 Jul 2026 08:38:20 GMT
+strict-transport-security: max-age=86400
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-language: en
+x-frame-options: DENY
+x-frame-options: SAMEORIGIN
+date: Sat, 25 Jul 2026 08:38:20 GMT
+strict-transport-security: max-age=86400
+

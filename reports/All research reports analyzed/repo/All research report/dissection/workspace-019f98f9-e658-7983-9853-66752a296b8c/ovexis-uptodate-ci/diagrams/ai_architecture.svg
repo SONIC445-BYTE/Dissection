@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 900" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+<linearGradient id="in1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecfdf5"/><stop offset="1" stop-color="#d1fae5"/></linearGradient>
+</defs>
+<rect width="1240" height="900" fill="#fbfcfe"/>
+<text x="30" y="42" font-size="24" font-weight="bold" fill="#12263a">UpToDate Expert AI — AI Architecture Reconstruction</text>
+<text x="30" y="66" font-size="13" fill="#5a7184">Evidence-anchored: WK launch releases (Sep/Nov 2025) + engineering job post R0052281 (verbatim stack/KPIs). Layers marked † are strong inference.</text>
+
+<!-- INPUT -->
+<rect x="30" y="90" width="200" height="160" rx="10" fill="#eaf2fb" stroke="#7fb2e5"/>
+<text x="45" y="116" font-size="13" font-weight="bold" fill="#1b4f8a">CLINICIAN QUERY</text>
+<text x="45" y="140" font-size="11.5" fill="#12263a">App chat · enterprise UI</text>
+<text x="45" y="158" font-size="11.5" fill="#12263a">EHR context params†</text>
+<text x="45" y="176" font-size="11.5" fill="#12263a">Abridge session context</text>
+<text x="45" y="194" font-size="11.5" fill="#12263a">(no chart data persisted)</text>
+<text x="45" y="216" font-size="11.5" fill="#1b4f8a" font-weight="bold">Identity: SSO/entitlement</text>
+<text x="45" y="232" font-size="11.5" fill="#1b4f8a">governance policy attached</text>
+
+<!-- GUARDRAIL TRIAGE -->
+<rect x="280" y="90" width="180" height="160" rx="10" fill="#fef9c3" stroke="#eab308"/>
+<text x="295" y="116" font-size="13" font-weight="bold" fill="#854d0e">GUARDRAIL TRIAGE†</text>
+<text x="295" y="140" font-size="11.5" fill="#12263a">scope gate (clinical?)</text>
+<text x="295" y="158" font-size="11.5" fill="#12263a">emergent / red-flag detect</text>
+<text x="295" y="176" font-size="11.5" fill="#12263a">policy check (enterprise)</text>
+<text x="295" y="194" font-size="11.5" fill="#12263a">abuse / injection filter†</text>
+<text x="295" y="216" font-size="11.5" fill="#854d0e">refusal if insufficient</text>
+<text x="295" y="232" font-size="11.5" fill="#854d0e">grounding available</text>
+
+<!-- RETRIEVAL -->
+<rect x="500" y="90" width="230" height="160" rx="10" fill="#fdf2f8" stroke="#ec4899"/>
+<text x="515" y="116" font-size="13" font-weight="bold" fill="#9d174d">RETRIEVAL (RAG)</text>
+<text x="515" y="140" font-size="11.5" fill="#12263a">OpenSearch / Azure AI Search</text>
+<text x="515" y="158" font-size="11.5" fill="#12263a">Bedrock Knowledge Bases</text>
+<text x="515" y="176" font-size="11.5" fill="#12263a">chunks: graded topics (13k+)</text>
+<text x="515" y="194" font-size="11.5" fill="#12263a">Lexidrug KB (~3,000 topics)</text>
+<text x="515" y="212" font-size="11.5" fill="#12263a">terminology resolver†</text>
+<text x="515" y="230" font-size="11.5" fill="#9d174d" font-weight="bold">GRADE-weighted spans†</text>
+
+<!-- ROUTER -->
+<rect x="770" y="90" width="200" height="160" rx="10" fill="#f3e8ff" stroke="#a855f7"/>
+<text x="785" y="116" font-size="13" font-weight="bold" fill="#6b21a8">MODEL ROUTER</text>
+<text x="785" y="140" font-size="11.5" fill="#12263a">Azure OpenAI</text>
+<text x="785" y="158" font-size="11.5" fill="#12263a">Anthropic (AWS Bedrock)</text>
+<text x="785" y="176" font-size="11.5" fill="#12263a">Google Gemini</text>
+<text x="785" y="194" font-size="11.5" fill="#12263a">Intelligent Prompt Routing</text>
+<text x="785" y="212" font-size="11.5" fill="#12263a">distilled small models†</text>
+<text x="785" y="230" font-size="11.5" fill="#6b21a8" font-weight="bold">KPIs: cost/Query · latency</text>
+
+<!-- REASONER -->
+<rect x="1010" y="90" width="200" height="160" rx="10" fill="#eff6ff" stroke="#3b82f6"/>
+<text x="1025" y="116" font-size="13" font-weight="bold" fill="#1d4ed8">REASONER AGENT</text>
+<text x="1025" y="140" font-size="11.5" fill="#12263a">LangChain / LangGraph</text>
+<text x="1025" y="158" font-size="11.5" fill="#12263a">MCP / A2A tool calls†</text>
+<text x="1025" y="176" font-size="11.5" fill="#12263a">planner: assumptions†</text>
+<text x="1025" y="194" font-size="11.5" fill="#12263a">stepwise rationale†</text>
+<text x="1025" y="212" font-size="11.5" fill="#12263a">Python/Rust services</text>
+<text x="1025" y="230" font-size="11.5" fill="#1d4ed8" font-weight="bold">grounded generation</text>
+
+<line x1="230" y1="170" x2="280" y2="170" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+<line x1="460" y1="170" x2="500" y2="170" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+<line x1="500" y1="130" x2="460" y2="130" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#r)" transform="translate(0,-8)"/>
+<text x="420" y="108" font-size="10.5" fill="#b91c1c">refuse</text>
+<line x1="730" y1="170" x2="770" y2="170" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+<line x1="970" y1="170" x2="1010" y2="170" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- VALIDATORS -->
+<rect x="280" y="310" width="440" height="150" rx="10" fill="url(#in1)" stroke="#10b981"/>
+<text x="295" y="336" font-size="13" font-weight="bold" fill="#065f46">MULTI-LAYER VALIDATION FRAMEWORK ("Clinical Intelligence")</text>
+<text x="295" y="360" font-size="11.5" fill="#12263a">V1 claim→source support check†        V2 drug-contradiction check (Lexidrug harmonised)</text>
+<text x="295" y="380" font-size="11.5" fill="#12263a">V3 red-flag/emergent escalation†      V4 policy &amp; tone enforcement†</text>
+<text x="295" y="400" font-size="11.5" fill="#12263a">V5 human oversight loop (7,600-expert network, editorial owners)</text>
+<text x="295" y="424" font-size="11.5" fill="#065f46">Output blocked if any validator fails → clinician-safe fallback</text>
+<line x1="1110" y1="250" x2="1110" y2="385" stroke="#14532d" stroke-width="2"/>
+<line x1="1110" y1="385" x2="720" y2="385" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- OUTPUT -->
+<rect x="770" y="310" width="440" height="150" rx="10" fill="#fff7ed" stroke="#f59e0b"/>
+<text x="785" y="336" font-size="13" font-weight="bold" fill="#92400e">RESPONSE + TRANSPARENCY TRIAD (verified, launch materials)</text>
+<text x="785" y="360" font-size="11.5" fill="#12263a">• Answer (context-rich, streamed)</text>
+<text x="785" y="380" font-size="11.5" fill="#12263a">• ASSUMPTIONS panel — what the AI inferred from your question</text>
+<text x="785" y="400" font-size="11.5" fill="#12263a">• SOURCES panel — which UpToDate topics/Lexidrug entries grounded it</text>
+<text x="785" y="420" font-size="11.5" fill="#12263a">• REASONING panel — step-by-step rationale used to generate it</text>
+<line x1="720" y1="385" x2="770" y2="385" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- DOWNSTREAM -->
+<rect x="30" y="520" width="1180" height="120" rx="10" fill="#eef1f5" stroke="#c3cdd8"/>
+<text x="50" y="546" font-size="13" font-weight="bold" fill="#33475b">DOWNSTREAM SINKS</text>
+<g font-size="11.5" fill="#12263a">
+<rect x="50" y="556" width="220" height="66" rx="6" fill="#fff" stroke="#b0bccb"/><text x="60" y="580" font-weight="bold">Clinician UI</text><text x="60" y="598">tap-through to topic pages</text><text x="60" y="614">(classic product loop)</text>
+<rect x="290" y="556" width="220" height="66" rx="6" fill="#fff" stroke="#b0bccb"/><text x="300" y="580" font-weight="bold">Enterprise Governance</text><text x="300" y="598">policy logs · audit trail</text><text x="300" y="614">compliance dashboards</text>
+<rect x="530" y="556" width="220" height="66" rx="6" fill="#fff" stroke="#b0bccb"/><text x="540" y="580" font-weight="bold">CME ledger</text><text x="540" y="598">AI sessions still accrue†</text><text x="540" y="614">retention mechanics intact</text>
+<rect x="770" y="556" width="220" height="66" rx="6" fill="#fff" stroke="#b0bccb"/><text x="780" y="580" font-weight="bold">Partner surfaces</text><text x="780" y="598">Abridge notes · EHR cards</text><text x="780" y="614">evidence-at-documentation</text>
+<rect x="1010" y="556" width="180" height="66" rx="6" fill="#fff" stroke="#b0bccb"/><text x="1020" y="580" font-weight="bold">Editorial analytics</text><text x="1020" y="598">query gaps → commissioning†</text><text x="1020" y="614">corpus improvement loop</text>
+</g>
+<line x1="990" y1="460" x2="990" y2="520" stroke="#14532d" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- OPS -->
+<rect x="30" y="670" width="1180" height="100" rx="10" fill="#f0f9ff" stroke="#38bdf8"/>
+<text x="50" y="696" font-size="13" font-weight="bold" fill="#075985">AI OPERATIONS (verbatim from WK job post evidence)</text>
+<text x="50" y="718" font-size="11.5" fill="#12263a">eval harness in CI/CD · canary rollouts · rollout/rollback · per-query cost &amp; quality telemetry · hallucination-reduction SLOs · latency SLOs · threat modeling · least privilege · privacy by design</text>
+<text x="50" y="740" font-size="11.5" fill="#075985">Team: ~100-engineer remote-first platform org, sub-teams &lt;10, serving "hundreds of product teams"; 20+ agents launched across WK divisions</text>
+
+<rect x="30" y="800" width="1180" height="80" rx="10" fill="#fdeaea" stroke="#e77"/>
+<text x="50" y="826" font-size="13" font-weight="bold" fill="#a02020">CRITICAL ABSENCE (the Ovexis seam)</text>
+<text x="50" y="848" font-size="12" fill="#7a1f1f">No patient memory, no longitudinal state, no FHIR ingestion, no digital twin: the corpus is the only "world model" the agent can condition on. Patient context enters as text in a prompt and vanishes.</text>
+<text x="50" y="868" font-size="12" fill="#7a1f1f">Ovexis inversion: patient twin = primary context; corpus = citation layer. Confidence in this read: High (verified by absence across all public materials).</text>
+</svg>

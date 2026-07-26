@@ -1,0 +1,130 @@
+# JARVIS Stage Model — machine-readable blueprint
+# Source: owner's staged development blueprint (2026-07-23, commit 31939c8)
+#         + phase-R-repo-dissection verified capability ledger
+#
+# THIS FILE IS THE STAGE-DISCIPLINE ENFORCEMENT MECHANISM.
+# route.py refuses to emit a Stage-N recommendation while Stage-(N-1)
+# prerequisites remain incomplete. That refusal is computed from here.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  source: owner-blueprint + phase-R
+  current_stage: 0
+  current_stage_completion: 0.72        # computed from prerequisites below
+
+# ── The discipline rule, stated once ─────────────────────────────────────
+# A recommendation targeting stage N is ADMISSIBLE only if every
+# blocking prerequisite of stages < N is status: complete.
+# Otherwise it is PARKED as a future-stage idea — never discarded,
+# never promoted early.
+discipline:
+  rule: "no stage-N work while stage-(N-1) blocking prerequisites are open"
+  violation_action: park                 # park | reject
+  park_destination: design-intelligence/parked/
+  rationale: >
+    Every failed healthtech company in the corpus died from expanding stages
+    before the current one was solid. Olive AI is the canonical case. The
+    blueprint exists to make premature expansion visible BEFORE it happens.
+
+stages:
+
+  - id: 0
+    name: Reliable execution layer
+    definition: "Voice/text command in, verified action out, honest about failure."
+    status: in-progress
+    completion: 0.72
+    exit_criteria:
+      - id: S0-E1
+        name: "3-engine + installed-app audit formally closed"
+        status: open
+        blocking: true
+        note: "perpetually in-progress hides real state"
+      - id: S0-E2
+        name: "Desktop adapter launch-fallback independently verified"
+        status: open
+        blocking: true
+      - id: S0-E3
+        name: "Knowledge-retrieval reliability fix (API tiers + failover)"
+        status: open
+        blocking: true
+        note: "live fragility; Google HTML scraping; ToS exposure"
+      - id: S0-E4
+        name: "Command routing verified across bug classes"
+        status: complete
+      - id: S0-E5
+        name: "Resolution gate + honest failure discipline"
+        status: complete
+      - id: S0-E6
+        name: "Level6 approval-gated apply with rollback"
+        status: complete
+      - id: S0-E7
+        name: "Persistent memory storage + boundary tests"
+        status: complete
+      - id: S0-E8
+        name: "OPD queue / patient-flow module"
+        status: open
+        blocking: true
+        note: >
+          Blueprint's own words: "Stage 0/1's actual missing centerpiece —
+          the one thing that makes JARVIS a hospital tool rather than a
+          generic automation tool." Currently filed under deferred.
+      - id: S0-E9
+        name: "Local STT (removes external-URL dependency)"
+        status: open
+        blocking: true
+        note: "thesis-critical: T3 local-first is contradicted by current STT path"
+
+  - id: 0.5
+    name: One real clinical workflow, end to end
+    definition: "One workflow, one physician, real use. Proposed by phase-R review."
+    status: proposed
+    completion: 0.0
+    proposed_by: phase-R-blueprint-review
+    rationale: >
+      Stage 0 as defined contains no healthcare. The blueprint is armoured
+      against horizontal scope creep (Olive AI's death) and undefended against
+      vertical drift (Forward Health's death). This inserts validation before
+      three more stages of build compound unvalidated assumptions.
+    exit_criteria:
+      - id: S05-E1
+        name: "OPD queue usable by one physician in real clinic conditions"
+        status: open
+        blocking: true
+      - id: S05-E2
+        name: "Physician feedback captured and reshapes Stage 1 priorities"
+        status: open
+        blocking: true
+
+  - id: 1
+    name: Presence, not just response
+    definition: "Remote reachability + ambient usefulness within the encounter."
+    status: designed-not-started
+    completion: 0.0
+    substages:
+      - id: 1a
+        name: Remote access
+        scope: "WhatsApp/Telegram inbound, existing pipeline, no new command surface"
+        hard_prerequisites: [auth-second-factor, session-timeout, audit-trail]
+      - id: 1b
+        name: Ambient mode
+        scope: "Proactive suggestions first; recording+Rhinal handoff consent-blocked"
+        hard_prerequisites: [explicit-activation, visible-indicator, auto-timeout]
+        blocked_on: "meaningful consent under DPDP + medical council + hospital policy"
+
+  - id: 2
+    name: Department/OPD-level coordination
+    definition: "Multi-physician, multi-staff, shared queue/state."
+    status: not-designed
+    completion: 0.0
+    do_not_design_until: "Stage 1 has real physician usage behind it"
+
+  - id: 3
+    name: Hospital-wide operational control
+    definition: "Triage dispatch, ambulance coordination. Critical infrastructure."
+    status: not-designed
+    completion: 0.0
+    do_not_design_until: "Stages 1 and 2 proven"
+    note: >
+      Different category of system. Needs domain expertise, safety engineering
+      and regulatory engagement the project does not yet have.

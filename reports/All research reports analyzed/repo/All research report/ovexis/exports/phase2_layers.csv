@@ -1,0 +1,13 @@
+layer,definition,corpus_attention_hits,artifacts_engaging
+ai,"models, RAG, agents, inference, grounding",2762,20
+hospital,"provider-side systems: HMIS/EMR, departments",1170,19
+patient,"consumer apps, portals, wearables, engagement",1081,16
+workflow,"scheduling, queues, orders, referrals, handoffs, discharge",1017,18
+data,"FHIR/HL7, terminology, normalisation, longitudinal record",704,12
+infrastructure,"compute, hosting, uptime, deployment substrate",593,9
+insurance,"payers, claims, pre-auth, reimbursement",590,12
+identity,"who is this patient/clinician; ABHA, HPR, HFR, MRN, consent identity",536,8
+clinical,"diagnosis, treatment, prescribing, care plans, protocols",491,10
+government,"ABDM/NHA/ONC policy, mandates, regulation",475,10
+decision,"CDS, risk scores, alerts, recommendations",473,6
+automation,"doing the work: scribing, RPA, autonomous execution",208,4

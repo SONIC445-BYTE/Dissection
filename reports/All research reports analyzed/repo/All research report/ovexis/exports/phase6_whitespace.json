@@ -1,0 +1,539 @@
+{
+  "schema": "ovexis.hpid.phase6.whitespace/v1",
+  "generated": "2026-07-26",
+  "phase": 6,
+  "status": "CANONICAL",
+  "framing": "Not \"what features are missing\" but \"what important healthcare work still requires humans because software has failed\"",
+  "method": "25 units of human-performed work derived from Phase-4 true gaps + 120 unique human-labour statements; scored on strategic importance x unownedness x liability x JARVIS-readiness x digital-artifact-existence; ranking stress-tested across 5 weighting scenarios including one that removes JARVIS-readiness entirely",
+  "evidence": {
+    "human_labour_statements": 127,
+    "unique": 120,
+    "artifacts_carrying": 19,
+    "nhcx_live_probe": {
+      "total_partners": 38,
+      "insurance_companies": 12,
+      "TPAs": 4,
+      "connectors": 6,
+      "digital_solution": 13,
+      "verified": "2026-07-26"
+    }
+  },
+  "gap_categories": {
+    "operational": 4,
+    "automation": 2,
+    "decision": 4,
+    "data": 4,
+    "integration": 2,
+    "workflow": 3,
+    "communication": 3,
+    "knowledge": 1,
+    "clinical": 2
+  },
+  "tiers": {
+    "T1_ROBUST": 6,
+    "T2_CONDITIONAL": 3,
+    "T3_DEFERRED": 12,
+    "T4_BLOCKED_BY_LIABILITY": 4
+  },
+  "opportunities": [
+    {
+      "id": "O05",
+      "name": "OT turnover coordination",
+      "gap_category": "operational",
+      "owners": 0,
+      "concept": "task_workflow_engine",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 5.1,
+      "jarvis_loc": 1767,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Cross-team choreography; nobody owns the clock",
+      "stages": [
+        "operation_theatre|turnover_room"
+      ],
+      "priority_score": 5.86,
+      "rank": 1,
+      "robustness_top8_of_5": 4,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O06",
+      "name": "Bed capacity & flow",
+      "gap_category": "operational",
+      "owners": 0,
+      "concept": "task_workflow_engine",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 5.1,
+      "jarvis_loc": 1767,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "State lives in whiteboards and phone calls",
+      "stages": [
+        "administration|bed_capacity"
+      ],
+      "priority_score": 5.86,
+      "rank": 2,
+      "robustness_top8_of_5": 3,
+      "tier": "T2_CONDITIONAL"
+    },
+    {
+      "id": "O07",
+      "name": "Staff rostering",
+      "gap_category": "operational",
+      "owners": 2,
+      "concept": "task_workflow_engine",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 5.1,
+      "jarvis_loc": 1767,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Constraint solving + human negotiation; spreadsheets win",
+      "stages": [
+        "administration|staff_roster"
+      ],
+      "priority_score": 4.69,
+      "rank": 3,
+      "robustness_top8_of_5": 2,
+      "tier": "T2_CONDITIONAL"
+    },
+    {
+      "id": "O04",
+      "name": "OT scheduling & list building",
+      "gap_category": "operational",
+      "owners": 0,
+      "concept": "scheduling_booking",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 8.4,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Multi-constraint (surgeon, anaesthetist, room, kit, bed) \u2014 no single system holds all constraints",
+      "stages": [
+        "operation_theatre|schedule_slot"
+      ],
+      "priority_score": 4.35,
+      "rank": 4,
+      "robustness_top8_of_5": 5,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O09",
+      "name": "Claim validation / scrubbing",
+      "gap_category": "automation",
+      "owners": 0,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Rules change per payer; no shared rule substrate",
+      "stages": [
+        "billing|validate_claim"
+      ],
+      "priority_score": 3.98,
+      "rank": 5,
+      "robustness_top8_of_5": 5,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O13",
+      "name": "Claims adjudication liaison",
+      "gap_category": "decision",
+      "owners": 0,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Opaque payer logic; provider cannot see rules",
+      "stages": [
+        "insurance|adjudicate"
+      ],
+      "priority_score": 3.98,
+      "rank": 6,
+      "robustness_top8_of_5": 5,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O08",
+      "name": "Charge capture at point of care",
+      "gap_category": "data",
+      "owners": 1,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Requires clinician action at the moment of least attention",
+      "stages": [
+        "billing|capture_charges"
+      ],
+      "priority_score": 3.19,
+      "rank": 7,
+      "robustness_top8_of_5": 5,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O10",
+      "name": "Claim submission & tracking",
+      "gap_category": "integration",
+      "owners": 1,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Per-payer portals; NHCX exists but adoption partial",
+      "stages": [
+        "billing|submit_claim"
+      ],
+      "priority_score": 3.19,
+      "rank": 8,
+      "robustness_top8_of_5": 5,
+      "tier": "T1_ROBUST"
+    },
+    {
+      "id": "O11",
+      "name": "Denial management & appeal",
+      "gap_category": "workflow",
+      "owners": 1,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Long-tail reasons, unstructured payer replies",
+      "stages": [
+        "billing|track_denial"
+      ],
+      "priority_score": 3.19,
+      "rank": 9,
+      "robustness_top8_of_5": 3,
+      "tier": "T2_CONDITIONAL"
+    },
+    {
+      "id": "O12",
+      "name": "Pre-authorisation",
+      "gap_category": "communication",
+      "owners": 2,
+      "concept": "billing_claims",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.7,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Phone/fax/portal triad; payer-specific; latency measured in days",
+      "stages": [
+        "insurance|pre_authorise"
+      ],
+      "priority_score": 3.19,
+      "rank": 10,
+      "robustness_top8_of_5": 1,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O16",
+      "name": "Results inbox triage",
+      "gap_category": "decision",
+      "owners": 2,
+      "concept": "task_workflow_engine",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 5.1,
+      "jarvis_loc": 1767,
+      "liability": "MED",
+      "digital_artifact": true,
+      "why_software_failed": "Volume overwhelms; no prioritisation substrate",
+      "stages": [
+        "doctor|review_inbox_results"
+      ],
+      "priority_score": 3.05,
+      "rank": 11,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O03",
+      "name": "Nursing care documentation",
+      "gap_category": "workflow",
+      "owners": 0,
+      "concept": "documentation_scribe",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 8.3,
+      "jarvis_loc": 362,
+      "liability": "MED",
+      "digital_artifact": false,
+      "why_software_failed": "High-volume, low-status; nurses hold no budget authority",
+      "stages": [
+        "nurse|document_care"
+      ],
+      "priority_score": 2.56,
+      "rank": 12,
+      "robustness_top8_of_5": 1,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O17",
+      "name": "History taking / intake synthesis",
+      "gap_category": "knowledge",
+      "owners": 0,
+      "concept": "documentation_scribe",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 8.3,
+      "jarvis_loc": 362,
+      "liability": "MED",
+      "digital_artifact": false,
+      "why_software_failed": "Patient narrative is unstructured; no reusable artifact",
+      "stages": [
+        "doctor|take_history"
+      ],
+      "priority_score": 2.56,
+      "rank": 13,
+      "robustness_top8_of_5": 1,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O25",
+      "name": "Cross-system data normalisation",
+      "gap_category": "data",
+      "owners": 0,
+      "concept": "data_normalisation",
+      "gap_position": "before_commit",
+      "strategic_importance": 3.6,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "FHIR:terminology 4.8:1 \u2014 transport solved, meaning is not",
+      "stages": [],
+      "priority_score": 1.86,
+      "rank": 14,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O15",
+      "name": "Lab result release & routing",
+      "gap_category": "workflow",
+      "owners": 0,
+      "concept": "anomaly_alerting",
+      "gap_position": "before_commit",
+      "strategic_importance": 4.7,
+      "jarvis_loc": 0,
+      "liability": "MED",
+      "digital_artifact": true,
+      "why_software_failed": "Validation + routing + acknowledgement chain",
+      "stages": [
+        "laboratory|release_result"
+      ],
+      "priority_score": 1.58,
+      "rank": 15,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O01",
+      "name": "Nursing shift handover",
+      "gap_category": "communication",
+      "owners": 0,
+      "concept": "referral_care_coordination",
+      "gap_position": "AT_COMMIT",
+      "strategic_importance": 7.1,
+      "jarvis_loc": 0,
+      "liability": "MED",
+      "digital_artifact": false,
+      "why_software_failed": "Verbal/paper SBAR; no structured artifact exists to automate against",
+      "stages": [
+        "nurse|give_handover"
+      ],
+      "priority_score": 1.31,
+      "rank": 16,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O20",
+      "name": "Operational MIS reporting",
+      "gap_category": "data",
+      "owners": 0,
+      "concept": "analytics_dashboard",
+      "gap_position": "before_commit",
+      "strategic_importance": 2.3,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Data scattered across modules; manual spreadsheet assembly",
+      "stages": [
+        "administration|mis_reporting"
+      ],
+      "priority_score": 1.19,
+      "rank": 17,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O21",
+      "name": "Capacity planning",
+      "gap_category": "decision",
+      "owners": 0,
+      "concept": "analytics_dashboard",
+      "gap_position": "before_commit",
+      "strategic_importance": 2.3,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Requires cross-departmental state nobody aggregates",
+      "stages": [
+        "management|capacity_plan"
+      ],
+      "priority_score": 1.19,
+      "rank": 18,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O22",
+      "name": "Consent capture & lifecycle",
+      "gap_category": "data",
+      "owners": 0,
+      "concept": "consent_management",
+      "gap_position": "before_commit",
+      "strategic_importance": 3.1,
+      "jarvis_loc": 0,
+      "liability": "MED",
+      "digital_artifact": true,
+      "why_software_failed": "Legal precondition; discussed by 4, built by ~0",
+      "stages": [
+        "compliance|consent_capture"
+      ],
+      "priority_score": 1.04,
+      "rank": 19,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O23",
+      "name": "Regulatory / statutory reporting",
+      "gap_category": "automation",
+      "owners": 0,
+      "concept": "compliance_certification",
+      "gap_position": "wrapper",
+      "strategic_importance": 2.0,
+      "jarvis_loc": 0,
+      "liability": "LOW",
+      "digital_artifact": true,
+      "why_software_failed": "Format churn; manual assembly each cycle",
+      "stages": [
+        "compliance|regulatory_report"
+      ],
+      "priority_score": 1.03,
+      "rank": 20,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O14",
+      "name": "Critical result communication",
+      "gap_category": "communication",
+      "owners": 0,
+      "concept": "anomaly_alerting",
+      "gap_position": "before_commit",
+      "strategic_importance": 4.7,
+      "jarvis_loc": 0,
+      "liability": "HIGH",
+      "digital_artifact": true,
+      "why_software_failed": "Closed-loop acknowledgement required; phone tag; medico-legal",
+      "stages": [
+        "radiology|communicate_critical",
+        "laboratory|flag_critical"
+      ],
+      "priority_score": 0.73,
+      "rank": 21,
+      "robustness_top8_of_5": 0,
+      "tier": "T4_BLOCKED_BY_LIABILITY"
+    },
+    {
+      "id": "O19",
+      "name": "ICU ventilator/drug titration",
+      "gap_category": "clinical",
+      "owners": 0,
+      "concept": "anomaly_alerting",
+      "gap_position": "before_commit",
+      "strategic_importance": 4.7,
+      "jarvis_loc": 0,
+      "liability": "HIGH",
+      "digital_artifact": true,
+      "why_software_failed": "Continuous, high-acuity, regulated as device",
+      "stages": [
+        "icu|ventilator_manage"
+      ],
+      "priority_score": 0.73,
+      "rank": 22,
+      "robustness_top8_of_5": 0,
+      "tier": "T4_BLOCKED_BY_LIABILITY"
+    },
+    {
+      "id": "O18",
+      "name": "ED disposition decision support",
+      "gap_category": "decision",
+      "owners": 0,
+      "concept": "clinical_decision_support",
+      "gap_position": "before_commit",
+      "strategic_importance": 3.4,
+      "jarvis_loc": 0,
+      "liability": "HIGH",
+      "digital_artifact": true,
+      "why_software_failed": "Highest-stakes decision; liability blocks automation",
+      "stages": [
+        "emergency|disposition_decide"
+      ],
+      "priority_score": 0.53,
+      "rank": 23,
+      "robustness_top8_of_5": 0,
+      "tier": "T4_BLOCKED_BY_LIABILITY"
+    },
+    {
+      "id": "O24",
+      "name": "Record retrieval & synthesis",
+      "gap_category": "integration",
+      "owners": 9,
+      "concept": "ehr_record_retrieval",
+      "gap_position": "before_commit",
+      "strategic_importance": 3.3,
+      "jarvis_loc": 0,
+      "liability": "MED",
+      "digital_artifact": true,
+      "why_software_failed": "Fragmented across systems; manual chart review named 3x in corpus",
+      "stages": [
+        "doctor|review_prior_record"
+      ],
+      "priority_score": 0.44,
+      "rank": 24,
+      "robustness_top8_of_5": 0,
+      "tier": "T3_DEFERRED"
+    },
+    {
+      "id": "O02",
+      "name": "Nursing continuous observation",
+      "gap_category": "clinical",
+      "owners": 0,
+      "concept": "anomaly_alerting",
+      "gap_position": "before_commit",
+      "strategic_importance": 4.7,
+      "jarvis_loc": 0,
+      "liability": "HIGH",
+      "digital_artifact": false,
+      "why_software_failed": "Interstitial, unstructured, no discrete event to trigger on",
+      "stages": [
+        "nurse|monitor_response"
+      ],
+      "priority_score": 0.4,
+      "rank": 25,
+      "robustness_top8_of_5": 0,
+      "tier": "T4_BLOCKED_BY_LIABILITY"
+    }
+  ]
+}

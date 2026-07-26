@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1100" height="420" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — AI Architecture (stated + inferred)</text>
+<line x1="20" y1="36" x2="1080" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="126" y1="85" x2="402" y2="90" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,90 392,94 392,86" fill="#808080"/>
+<line x1="416" y1="90" x2="692" y2="90" stroke="#808080" stroke-width="1.6"/>
+<polygon points="692,90 682,94 682,86" fill="#808080"/>
+<line x1="700" y1="96" x2="700" y2="192" stroke="#808080" stroke-width="1.6"/>
+<polygon points="700,192 696,182 704,182" fill="#808080"/>
+<line x1="700" y1="206" x2="700" y2="302" stroke="#808080" stroke-width="1.6"/>
+<polygon points="700,302 696,292 704,292" fill="#808080"/>
+<line x1="695" y1="94" x2="446" y2="305" stroke="#808080" stroke-width="1.6"/>
+<polygon points="446,305 451,295 456,301" fill="#808080"/>
+<line x1="706" y1="200" x2="962" y2="200" stroke="#808080" stroke-width="1.6"/>
+<polygon points="962,200 952,204 952,196" fill="#808080"/>
+<line x1="706" y1="308" x2="963" y2="203" stroke="#808080" stroke-width="1.6"/>
+<polygon points="963,203 955,210 952,203" fill="#808080"/>
+<line x1="446" y1="309" x2="962" y2="202" stroke="#808080" stroke-width="1.6"/>
+<polygon points="962,202 953,208 952,200" fill="#808080"/>
+<rect x="20" y="60" width="200" height="50" rx="8" ry="8" fill="Ingest: Records/Labs/Wearables/Consults" stroke="#1F3864" stroke-width="1.2"/>
+<text x="120.0" y="77.5" font-size="12" text-anchor="middle" fill="#404040">Ingest:</text>
+<text x="120.0" y="92.5" font-size="12" text-anchor="middle" fill="#404040">Records/Labs/Wearables/Consults</text>
+<rect x="300" y="60" width="220" height="60" rx="8" ry="8" fill="Normalisation + Vector Store (FHIR-style)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Normalisation + Vector Store</text>
+<text x="410.0" y="97.5" font-size="12" text-anchor="middle" fill="#404040">(FHIR-style)</text>
+<rect x="600" y="60" width="200" height="60" rx="8" ry="8" fill="Clinical Intelligence (layer 1)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Clinical Intelligence (layer</text>
+<text x="700.0" y="97.5" font-size="12" text-anchor="middle" fill="#404040">1)</text>
+<rect x="600" y="170" width="200" height="60" rx="8" ry="8" fill="Consultation Intelligence (layer 2)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="192.5" font-size="12" text-anchor="middle" fill="#404040">Consultation Intelligence</text>
+<text x="700.0" y="207.5" font-size="12" text-anchor="middle" fill="#404040">(layer 2)</text>
+<rect x="600" y="280" width="200" height="60" rx="8" ry="8" fill="Care Companion (layer 3)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="310.0" font-size="12" text-anchor="middle" fill="#404040">Care Companion (layer 3)</text>
+<rect x="330" y="280" width="220" height="60" rx="8" ry="8" fill="Evaluation / Guardrails / HITL ?" stroke="#1F3864" stroke-width="1.2"/>
+<text x="440.0" y="310.0" font-size="12" text-anchor="middle" fill="#404040">Evaluation / Guardrails / HITL ?</text>
+<rect x="870" y="170" width="200" height="60" rx="8" ry="8" fill="Patient + Doctor" stroke="#1F3864" stroke-width="1.2"/>
+<text x="970.0" y="200.0" font-size="12" text-anchor="middle" fill="#404040">Patient + Doctor</text>
+</svg>

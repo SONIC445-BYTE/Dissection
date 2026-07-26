@@ -1,0 +1,92 @@
+schema: ovexis.hpid.phase9.market_laws/v1
+generated: '2026-07-26'
+phase: 9
+status: CANONICAL
+rule: each law requires evidence from multiple independent reports or primary datasets
+count: 12
+laws:
+- id: LAW01
+  law: Hospitals rarely replace their core system of record
+  evidence: Phase5 bot_incumbent_lockin GREEN 16 cos/209 hits both axes; Phase2 F-2.4
+    0/19 occupy SoR; Phase8 B2
+  sources: 16
+  confidence: HIGH
+  implication: Build beside the HMIS, never against it (DL-020)
+- id: LAW02
+  law: Software that cannot complete an action cannot learn from it
+  evidence: Phase8 R1 self-sealing loop; Phase3 52.4% before-commit vs 12.9% at; Phase8
+    F-8.2 149 fabricated adapters, zero flywheel
+  sources: 21
+  confidence: HIGH
+  implication: Execution is the precondition for improvement, not its reward
+- id: LAW03
+  law: Attention follows data availability, not labour intensity
+  evidence: Phase2 F-2.13 radiology 234 vs nursing 10; Phase4 0/449 platforms mention
+    nursing; Phase6 F-6.3
+  sources: 21
+  confidence: HIGH
+  implication: The biggest gaps are where no digital artifact exists (DL-040)
+- id: LAW04
+  law: Liability, not capability, bounds automation in healthcare
+  evidence: Phase6 F-6.4 all 4 highest-stakes units score bottom on liability alone;
+    Phase7 F-7.5; Phase8 B1
+  sources: 19
+  confidence: HIGH
+  implication: Liability allocation is a design variable (DL-041)
+- id: LAW05
+  law: Standards govern exchange between institutions, never operations inside them
+  evidence: 'Phase7 F-7.3: 409/449 FHIR-certified yet 0 coverage of OT/bed/roster/charge-capture;
+    ABDM M1-M3 scope'
+  sources: 449
+  confidence: HIGH
+  implication: Internal operations are permanently API-poor (DL-046)
+- id: LAW06
+  law: Consumer subscription is the fallback of companies blocked from institutional
+    revenue
+  evidence: Phase2 F-2.7 19/21 discuss reimbursement but bill consumers; Phase5 churn+CAC
+    both GREEN 11 cos; Phase8 R4
+  sources: 19
+  confidence: MEDIUM-HIGH
+  implication: Enter on operational budget, not consumer wallet
+- id: LAW07
+  law: Trust is manufactured by traceability, not by accuracy claims
+  evidence: Phase2 F-2.11 provenance 55/citation 55/editorial 50 dominate; Phase5
+    ai_citation_grounding GREEN 17 cos; Phase7 F-7.4
+  sources: 17
+  confidence: HIGH
+  implication: Provenance is product, not overhead (DL-047)
+- id: LAW08
+  law: Every layer above the clinician can approve a purchase; only the clinician
+    creates value
+  evidence: Phase2 F-2.10 CIO 13/CFO 9/committee 8 vs CMIO 1; G01 panel on CMIO requirements
+  sources: 19
+  confidence: MEDIUM
+  implication: Procurement is necessary and insufficient
+- id: LAW09
+  law: Workflow continuity is inversely proportional to institutional depth
+  evidence: Phase4 F-4.7 patient journey break rate 0.00 at 12.2 owners vs ICU/ED/admin/mgmt
+    1.00
+  sources: 21
+  confidence: MEDIUM-HIGH
+  implication: Opportunity is measured by break rate, not participant count (DL-029)
+- id: LAW10
+  law: The most crowded capability is usually the least defensible
+  evidence: Phase7 F-7.1 analytics_dashboard 16 cos = legacy artifact; gamification
+    12; onboarding 7; conversion 11
+  sources: 17
+  confidence: MEDIUM-HIGH
+  implication: Crowding signals a compensating mechanism for a pre-AI limitation
+- id: LAW11
+  law: Fragmentation of supply raises the value of the interface layer
+  evidence: Phase2 253 HMIS vendors India vs ~5 US; Phase2 F-2.9 UI automation claimed
+    by 2/21; Phase8 R3
+  sources: 449
+  confidence: MEDIUM-HIGH
+  implication: India structurally favours adapter strategies (DL-018)
+- id: LAW12
+  law: Government rails create counterparty networks before products exist
+  evidence: Phase6 live probe NHCX 38 partners incl 12 insurers + 4 TPAs; ABDM 445
+    partners, free API
+  sources: 449
+  confidence: HIGH
+  implication: In India the network precedes the product; in the US it must be bought

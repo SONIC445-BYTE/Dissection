@@ -1,0 +1,516 @@
+# Pain Point Index — verbatim document titles
+
+Duplicates are intentionally retained. Entries are titles/headings only; headings that are merely `Problem` are preserved rather than renamed.
+
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- A. The "Hygiene & Safety" Trust Deficit
+- D. The Credibility Crisis in Alternative Medicine
+- **2. Recurring Themes & Pain Points**
+- **C. The Home-Care Knowledge Gap**
+- 4. SYSTEMIC FAILURE LOOPS
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 1) FlowOps AI: Predictive ER Bottleneck & Offload Router — Score: 88/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 1) TriageFlow AI: Autonomous Backlog & Capacity Engine — Score: 85/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 2) FlowOS: Predictive Patient Routing to Eliminate ED Bottlenecks — Score: 88/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 2) Lumina Diagnostics: AI Triage for Diagnostic Backlogs — Score: 85/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 2) ClearQueue: Asynchronous Triage & Backlog Clearance — Score: 84/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 2) FiscalCare: LLM-Driven Claims Auditing & Deficit Prevention — Score: 90/100
+- Problem
+- Problem
+- Problem
+- Problem
+- Problem
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- **2. Recurring Themes & Pain Points**
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 2. Recurring Themes & Pain Points
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- Executive Summary & Top Pain Points
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. Systemic Failure Loops
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 15. Doctor (Physician/Consultant) Pain Intensity: 10/10 (Critical Crisis)
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- TOP PAIN POINTS (RANKED)
+- SECTION 4 — SYSTEMIC FAILURE LOOPS
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- SECTION 4 — SYSTEMIC FAILURE LOOPS
+- 4. SYSTEMIC FAILURE LOOPS
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- Top Pain Points (Ranked)
+- SECTION 4 — SYSTEMIC FAILURE LOOPS

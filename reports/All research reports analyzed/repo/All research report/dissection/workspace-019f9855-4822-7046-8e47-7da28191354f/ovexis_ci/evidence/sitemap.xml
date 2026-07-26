@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <sitemap>
+      <loc>https://superpower.com/sitemap-webflow.xml</loc>
+    </sitemap>
+  
+    <sitemap>
+      <loc>https://superpower.com/marketplace/sitemap.xml</loc>
+    </sitemap>
+  
+    <sitemap>
+      <loc>https://superpower.com/locations/sitemap.xml</loc>
+    </sitemap>
+  
+    <sitemap>
+      <loc>https://superpower.com/biomarker-testing-companies/sitemap.xml</loc>
+    </sitemap>
+  
+</sitemapindex>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1100" height="720" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Product Architecture</text>
+<line x1="20" y1="36" x2="1080" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="126" y1="85" x2="402" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,85 392,89 392,81" fill="#808080"/>
+<line x1="416" y1="85" x2="672" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="672,85 662,89 662,81" fill="#808080"/>
+<line x1="674" y1="87" x2="383" y2="183" stroke="#808080" stroke-width="1.6"/>
+<polygon points="383,183 391,176 393,183" fill="#808080"/>
+<line x1="675" y1="89" x2="551" y2="180" stroke="#808080" stroke-width="1.6"/>
+<polygon points="551,180 557,171 562,178" fill="#808080"/>
+<line x1="682" y1="91" x2="712" y2="177" stroke="#808080" stroke-width="1.6"/>
+<polygon points="712,177 705,169 713,167" fill="#808080"/>
+<line x1="685" y1="88" x2="878" y2="181" stroke="#808080" stroke-width="1.6"/>
+<polygon points="878,181 867,181 871,174" fill="#808080"/>
+<line x1="680" y1="91" x2="680" y2="282" stroke="#808080" stroke-width="1.6"/>
+<polygon points="680,282 676,272 684,272" fill="#808080"/>
+<line x1="885" y1="191" x2="885" y2="277" stroke="#808080" stroke-width="1.6"/>
+<polygon points="885,277 881,267 889,267" fill="#808080"/>
+<line x1="674" y1="291" x2="408" y2="324" stroke="#808080" stroke-width="1.6"/>
+<polygon points="408,324 417,319 418,327" fill="#808080"/>
+<line x1="376" y1="191" x2="409" y2="417" stroke="#808080" stroke-width="1.6"/>
+<polygon points="409,417 403,408 411,407" fill="#808080"/>
+<line x1="542" y1="190" x2="414" y2="418" stroke="#808080" stroke-width="1.6"/>
+<polygon points="414,418 415,407 422,411" fill="#808080"/>
+<line x1="710" y1="189" x2="416" y2="420" stroke="#808080" stroke-width="1.6"/>
+<polygon points="416,420 422,411 427,417" fill="#808080"/>
+<line x1="880" y1="188" x2="417" y2="421" stroke="#808080" stroke-width="1.6"/>
+<polygon points="417,421 424,413 428,420" fill="#808080"/>
+<rect x="20" y="60" width="200" height="50" rx="8" ry="8" fill="Users: Patients/Doctors/Hospitals/Payors" stroke="#1F3864" stroke-width="1.2"/>
+<text x="120.0" y="77.5" font-size="12" text-anchor="middle" fill="#404040">Users:</text>
+<text x="120.0" y="92.5" font-size="12" text-anchor="middle" fill="#404040">Patients/Doctors/Hospitals/Payors</text>
+<rect x="300" y="60" width="220" height="50" rx="8" ry="8" fill="Web + Mobile App" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Web + Mobile App</text>
+<rect x="580" y="60" width="200" height="50" rx="8" ry="8" fill="API Gateway / Services" stroke="#1F3864" stroke-width="1.2"/>
+<text x="680.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">API Gateway / Services</text>
+<rect x="300" y="160" width="150" height="50" rx="8" ry="8" fill="Discovery + Booking" stroke="#1F3864" stroke-width="1.2"/>
+<text x="375.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Discovery + Booking</text>
+<rect x="470" y="160" width="150" height="50" rx="8" ry="8" fill="Teleconsult + Rx" stroke="#1F3864" stroke-width="1.2"/>
+<text x="545.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Teleconsult + Rx</text>
+<rect x="640" y="160" width="150" height="50" rx="8" ry="8" fill="Commerce: Meds/Labs/Surg" stroke="#1F3864" stroke-width="1.2"/>
+<text x="715.0" y="177.5" font-size="12" text-anchor="middle" fill="#404040">Commerce:</text>
+<text x="715.0" y="192.5" font-size="12" text-anchor="middle" fill="#404040">Meds/Labs/Surg</text>
+<rect x="810" y="160" width="150" height="50" rx="8" ry="8" fill="Enterprise: Ray/Insta" stroke="#1F3864" stroke-width="1.2"/>
+<text x="885.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Enterprise: Ray/Insta</text>
+<rect x="580" y="260" width="200" height="60" rx="8" ry="8" fill="AI Brain: Clinical+Consult+Care" stroke="#1F3864" stroke-width="1.2"/>
+<text x="680.0" y="282.5" font-size="12" text-anchor="middle" fill="#404040">AI Brain:</text>
+<text x="680.0" y="297.5" font-size="12" text-anchor="middle" fill="#404040">Clinical+Consult+Care</text>
+<rect x="810" y="260" width="150" height="50" rx="8" ry="8" fill="HL7 / API Integration" stroke="#1F3864" stroke-width="1.2"/>
+<text x="885.0" y="285.0" font-size="12" text-anchor="middle" fill="#404040">HL7 / API Integration</text>
+<rect x="300" y="300" width="200" height="50" rx="8" ry="8" fill="40M structured data points" stroke="#1F3864" stroke-width="1.2"/>
+<text x="400.0" y="325.0" font-size="12" text-anchor="middle" fill="#404040">40M structured data points</text>
+<rect x="300" y="400" width="220" height="50" rx="8" ry="8" fill="Marketplace Liquidity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="425.0" font-size="12" text-anchor="middle" fill="#404040">Marketplace Liquidity</text>
+</svg>

@@ -1,0 +1,122 @@
+# Failure Pattern Library — Module 6
+# Harvested from every dossier's section 13 (Failure Analysis) and 14 (Attack Plan).
+# Post-mortems (Olive AI, Forward Health, Pear Therapeutics) will yield the richest entries.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  promotion_threshold: 3
+
+failures:
+
+  - id: FAIL-003
+    name: Differentiator gated above the evaluation threshold
+    category: business-model
+    status: OBSERVED
+    instances: 1
+    mechanism: "The capability that proves the product's value sits behind a price
+      step large enough to convert a technical evaluation into a procurement
+      decision. Evaluation stalls; the deal is lost before the product is judged
+      on merit."
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-025, MEM0-C-039, MEM0-C-040]}
+    leading_indicators:
+      - "community reports of blocked evaluation"
+      - "price step > 5x between adjacent tiers"
+      - "differentiating capability absent from free/entry tier"
+    severity: high
+    reversibility: reversible
+    jarvis_exposure: low
+    jarvis_exposure_note: "No pricing exists yet — which is exactly when this is cheap to avoid"
+    jarvis_guard: "Any future pricing must keep the differentiating capability
+      inside the evaluation tier. Bound to DEC-003."
+    related_patterns: [PAT-013]
+    related_decisions: [DEC-003]
+
+  - id: FAIL-004
+    name: Rented moat mistaken for owned moat
+    category: strategy
+    status: OBSERVED
+    instances: 1
+    mechanism: "A distribution deal, platform placement or vendor exclusivity
+      produces defensibility that reads as structural but is contractual. It ends
+      on someone else's decision, on their timetable, and the dependent company
+      typically has no notice."
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-021, MEM0-C-043], note: "AWS Agent SDK exclusivity is the primary moat; terms undisclosed"}
+    leading_indicators:
+      - "single-partner concentration in the distribution channel"
+      - "moat strength scores high while technology moat scores low"
+      - "exclusivity terms and duration undisclosed"
+    severity: high
+    reversibility: irreversible-once-lost
+    jarvis_exposure: medium
+    jarvis_guard: "moat-register.yaml requires rented_or_owned on every entry."
+    open_questions: [OQ-05]
+
+  - id: FAIL-005
+    name: Compliance posture deferred until market entry blocked
+    category: regulatory
+    status: OBSERVED
+    instances: 1
+    mechanism: "A horizontal infrastructure product names a regulated vertical as a
+      target market but ships no compliance posture. Discovery of the barrier
+      happens at the first enterprise deal, by which time architecture decisions
+      that make compliance expensive are already frozen."
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-042, MEM0-C-044], note: "healthcare named as target; zero FHIR/HIPAA/DPDP posture"}
+    leading_indicators:
+      - "regulated vertical in marketing, absent from engineering"
+      - "no data residency controls"
+      - "no audit trail in the write path"
+    severity: critical
+    reversibility: costly
+    jarvis_exposure: high
+    jarvis_exposure_note: "JARVIS has zero healthcare code today. Same starting position
+      as the observed failure — but with the failure now documented in advance."
+    jarvis_guard: "DEC-002 (audit trail) and DEC-004 (residency) must be decided
+      before any clinical write path exists."
+    related_decisions: [DEC-002, DEC-004]
+
+  - id: FAIL-006
+    name: Benchmark-led positioning on a contested benchmark
+    category: go-to-market
+    status: OBSERVED
+    instances: 1
+    mechanism: "A product's positioning rests on a benchmark result that competitors
+      dispute and re-run with different numbers. Buyer confidence drops below the
+      level it would have had with no benchmark claim at all, because the dispute
+      itself signals unreliability."
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-034, MEM0-C-035]}
+    leading_indicators:
+      - "benchmark figures revised by multiple parties"
+      - "score varies materially by who runs it"
+      - "benchmark clustering near saturation"
+    severity: medium
+    reversibility: reversible
+    jarvis_exposure: low
+    jarvis_guard: "Prefer task-level production metrics on real workflows over
+      leaderboard positioning."
+
+  - id: FAIL-007
+    name: Unbounded memory growth degrading retrieval
+    category: technical
+    status: OBSERVED
+    instances: 1
+    mechanism: "Without consolidation or forgetting, stored memories accumulate
+      until searching them costs more than reprocessing the original context.
+      The memory layer becomes net-negative for the workload it was added to serve."
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-041], note: "reported as category-wide, not vendor-specific"}
+    leading_indicators:
+      - "no described consolidation mechanism"
+      - "retrieval latency growing with account age"
+      - "relevance complaints from long-tenured users"
+    severity: high
+    reversibility: costly
+    jarvis_exposure: high
+    jarvis_exposure_note: "Persistence exists; consolidation does not. Same trajectory."
+    jarvis_guard: "Consolidation must be designed with the storage layer under
+      DEC-001, not bolted on afterward."
+    related_decisions: [DEC-001]

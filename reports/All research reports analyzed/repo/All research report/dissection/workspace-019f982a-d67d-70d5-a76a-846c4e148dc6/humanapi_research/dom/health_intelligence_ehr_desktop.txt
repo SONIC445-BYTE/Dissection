@@ -1,0 +1,469 @@
+US - English
+
+Product Sign In
+
+Choose Your Industry
+toggle menu
+Products
+Insights and Resources
+About Us
+toggle menu
+Contact
+Home  Our Products  Health Intelligence EHR
+LexisNexis® Health Intelligence
+Fast-track underwriting decisions with the EHR for life insurance platform built for adoption at scale
+Contact Us
+Make faster, more informed underwriting decisions—at scale
+Electronic health records (EHRs) are critical to the future of life insurance underwriting. However, many life insurance carriers struggle to adopt EHRs at scale. Consequently, they don’t achieve their desired business outcomes. Why?
+
+Two main hurdles keep carriers from leveraging EHRs at scale. One, underwriters don’t use them as often as possible. Two, it requires work to integrate EHRs into underwriting workflows. Neither obstacle is insurmountable. However, trying to solve them in-house requires time, resources and expertise that you may not have.
+Download brochure: Health Intelligence
+
+
+
+You don’t have to do it alone. LexisNexis® Health Intelligence, formerly Human API Health Intelligence, can help you jump those hurdles and break away from the pack. Our easy-to-read EHRs for life insurance carriers means underwriters actually use them. We’ve learned from experience what it takes to integrate EHRs at scale and have built those capabilities into our end-to-end solution. That means you don’t have to think about the intricacies of integrating EHRs—you can just get to work.
+
+Leading carriers are taking the fast track with LexisNexis® Health Intelligence. Wouldn’t you like to join them?
+
+The future of life insurance underwriting starts here
+Accelerate underwriting decisions
+Easy-to-read EHRs help underwriters make faster, informed decisions, with access to more data than you can get anywhere else.
+Mitigate mortality slippage
+Mitigate risk and price more accurately by leveraging clinical data elements such as tobacco use, BMI or other key conditions.
+Improve the customer experience
+
+Carve out a competitive advantage by offering a differentiated customer
+experience—one that’s faster and less invasive.
+
+Transform your underwriting function
+Build confidence in deploying EHRs at scale—and explore other use cases to drive true business transformation.
+79%
+Carriers make decisions on an EHR up to 79% of the time, without ordering additional evidence
+2x
+Access to twice the data available from other vendors
+9 days
+Reduced cycle times by nine days for a top 10 global life insurance carrier
+10%
+Increased placement rates by up to 10% for a top 10 global life insurance carrier
+
+LexisNexis® Risk Solutions, Internal Study, 2024.
+
+If you are looking for LexisNexis® Human API for healthcare or life sciences
+
+Click Here
+
+What makes the LexisNexis Health Intelligence platform different?
+
+We’ve seen first-hand what it takes to adopt EHRs at scale. We've spent years solving the problems that get in the way, so you can get moving at speed. For example:
+
+We can leverage both HIPAA-authorized and consumer-mediated consent paths. Our ability to source EHRs more broadly results in higher quality, broader data than leveraging a HIPAA-authorized network alone.
+Traditional EHRs are long, duplicative and tedious to review. Our EHR is up to 30% shorter, while retaining all the clinical information underwriters need for quick, confident risk decisions.
+EHRs from other vendors may not include the data you want. Before we close your order, our platform scans the data to ensure it meets your specific needs.
+Distributors can’t be as effective if they don’t have visibility into the process. Our platform enables carriers to provide transparency and streamlined communication to their distribution partners.
+Administrative tasks distract underwriters from value-added activities. If an EHR isn’t available, an underwriter would have to manually order an attending physician statement (APS). Our solution automatically fulfills the request for an APS through our affiliate, Human API, Inc., saving time and administrative burden.
+More than just EHRs. By combining medical data with our unparalleled identity resolution and behavioral data assets, you can unlock more sophisticated risk assessment capabilities to help you more effectively manage risk.
+ 
+
+Built for life insurance carriers. Built for scale.
+EHRs are critical to many carriers’ long-term business goals, but achieving those goals requires much more than the ability to access EHRs. LexisNexis Health Intelligence provides the capabilities and expertise that life insurance carriers need to adopt EHRs at scale. That means they can accelerate risk decisions, mitigate mortality risk and deliver a differentiated customer experience—and ultimately, carve out a competitive advantage.
+Purpose-built output for underwriters
+Partnership you can rely on
+Unparalleled data network
+
+Purpose-built outputs drive underwriter adoption 
+
+Underwriter adoption is critical to adopting EHRs at scale.Join the elite group of carriers using our purpose-built outputs to make it easy for underwriters to make confident, informed decisions.
+
+LexisNexis® Health Intelligence – Medical Insights. Receive targeted health attributes extracted directly from the EHR. Get vitals, labs, material impairments and more useful information aligned with life underwriting guidelines and risk factors.
+Clinical History Report. Accelerate decision-making with an EHR output that’s 30% shorter while retaining all the clinical information underwriters need. Reverse-chronological ordering and date filtering make it easy to find key insights to determine risk.
+Highlights Summary. Quickly digest an applicant’s health history, such as age, build, social history, key conditions and recent lab results. The Highlights Summary is provided at the start of the Clinical History Report, so the full EHR is available if an underwriter needs it.
+Don’t let hurdles trip you up. Join leading carriers on the fast track to adopting
+EHRs at scale.
+Contact Us
+Insights and Resources
+Life Insurance Applicants are Ready to Share Health Data Digitally
+Learn how customers are ready to share digital health data through patient portals to reduce friction and shorten their...
+Download white paper
+How to Leverage Combined Data Analytics for Life Insurance Success
+Learn how combined medical and non-medical data analytics helps life insurers improve segmentation, quantify impact...
+Watch the webinar
+Digital Health Data for the Future of Life Underwriting
+Learn how digital health data is changing life underwriting with LexisNexis® Health Intelligence, with streamlined risk...
+Watch the webinar
+Insurance Mortality Insights using Medical and Non-Medical Data
+Uncover hidden risks and opportunities in life insurance by combining medical and non-medical data. Watch our webinar...
+Watch the webinar
+Future-proof your underwriting program
+Keep pace with leading carriers by leveraging a hybrid strategy for EHRs that includes HIPAA-enabled and...
+Download the white paper
+Mortality Risk Management Study
+Make more informed mortality risk management decisions by combining medical and non-medical data...
+Download the white paper
+Seven questions about consumer-mediated EHR networks
+Can I make underwriting decisions with data from consumer-mediated EHR networks? Will affluent buyers...
+Read the blog post
+End user terms of service
+Developer terms of service
+Products
+Health Intelligence – Medical Insights
+
+Get key medical data insights from EHRs with Medical Insights from LexisNexis® Health Intelligence to catch misrepresentations early, reduce slippage, and accelerate underwriting decisions.
+
+Risk Classifier
+
+Classify risks more quickly- while minimizing costly underwriting requirements
+
+Drive Optics
+
+Our LexisNexis® Drive Optics comprehensive solution suite helps you better assess every aspect of driving risk.
+
+Life Data Prefill
+
+Streamline your life insurance application process at the point of contact, reducing the time and cost of capturing the data necessary to properly evaluate your submissions.
+
+Contact Us
+
+Please fill out the form below and we'll be in touch shortly. For more information about how we may use your information, please review our privacy policy.
+
+* Indicates required field
+First Name *
+Last Name *
+Work Phone *
+Work Email *
+Company *
+Country / Region *
+Country / Region *
+ 
+Country / Region *
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Ascension Island
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Chad
+Channel Islands
+Chile
+China
+Colombia
+Comoros
+Congo
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curacao
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Fiji
+Finland
+France
+French Polynesia
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hong Kong SAR
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Korea
+Korea, Democratic People's Rep
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau SAR
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mexico
+Moldova, Republic of
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nepal
+Netherlands
+Netherlands Antilles
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Authority
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+St. Kitts and Nevis
+St. Lucia
+St. Pierre and Miquelon
+St. Vincent and Grenadines
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+US Minor Outlying Islands
+Uzbekistan
+Vanuatu
+Venezuela
+Vietnam
+Virgin Islands (British)
+Virgin Islands (U.S.)
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Zip Code *
+Industry *
+Insurance
+ 
+Industry *
+Automobiles & Parts
+Collection Agency/Debt Buyer
+Cryptocurrency
+Education
+Financial Services
+Food & Beverage
+Gaming and gambling
+Government - Federal
+Government - State/Local
+Healthcare
+Insurance
+Law Enforcement & Public safety
+Legal
+Manufacturing
+Media
+Mining
+Oil, Gas & Chemicals
+Professional Services
+Real Estate
+Receivables Management
+Retail
+Security & Private Investigation
+Technology
+Telecommunications
+Travel & Leisure
+Utilities
+Other
+Sub Sector *
+Insurance Sub Sector *
+ 
+Insurance Sub Sector *
+Acquisition and Retention
+Auto
+Claims
+Commercial
+Home
+Life
+Telematics
+Job Title *
+How Can We Help You
+LexisNexis Risk Solutions Inc. and its entities may also contact you regarding our products and services as well as the latest industry insights. You can opt-out of our communications at any time via our preference center.
+Submit
+
+Industries
+
+Collections and Recovery
+Financial Services
+Government
+Healthcare
+Insurance
+Law Enforcement and Public Safety
+Corporations and Non-Profits
+
+Our Products
+
+View Our Products
+
+Insights and Resources
+
+Article
+Case Study
+Blog
+Infographic
+Podcast
+Research
+Video
+Webinar
+White Paper
+
+About Us
+
+Business Overview
+Executive Leadership
+Our Technology
+Careers
+Press Room
+Experts
+Corporate Service Partnerships
+Government Alliances
+Healthcare Partnerships
+Insurance Partnerships
+Site Map
+
+Contact
+
+Sales
+Customer Support
+Consumer Assistance
+Media Contacts
+Industry Analyst
+Career Opportunities
+Report Security Issue
+Provide Feedback
+
+Policies
+
+Terms and Conditions
+Legal Notices
+Reporting Requirements
+Privacy Policy
+US Privacy Notice
+Cookie Settings
+Cookie Policy
+Consumer and Data Access
+Ad Choices
+Your Privacy Choices 
+LexisNexis® Risk Solutions, part of RELX.
+
+Copyright © 2026 LexisNexis Risk Solutions.
+
+Share

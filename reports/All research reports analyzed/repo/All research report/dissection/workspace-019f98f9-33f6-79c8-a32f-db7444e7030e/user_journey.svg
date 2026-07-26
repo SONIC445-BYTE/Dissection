@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="500" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Complete User Journey (Patient)</text>
+<line x1="20" y1="36" x2="740" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="110" y1="88" x2="110" y2="134" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,134 106,124 114,124" fill="#808080"/>
+<line x1="110" y1="148" x2="110" y2="194" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,194 106,184 114,184" fill="#808080"/>
+<line x1="110" y1="208" x2="110" y2="254" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,254 106,244 114,244" fill="#808080"/>
+<line x1="110" y1="268" x2="110" y2="314" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,314 106,304 114,304" fill="#808080"/>
+<line x1="110" y1="328" x2="110" y2="374" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,374 106,364 114,364" fill="#808080"/>
+<line x1="110" y1="388" x2="110" y2="434" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,434 106,424 114,424" fill="#808080"/>
+<line x1="116" y1="442" x2="362" y2="442" stroke="#808080" stroke-width="1.6"/>
+<polygon points="362,442 352,446 352,438" fill="#808080"/>
+<line x1="370" y1="436" x2="370" y2="390" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,390 374,400 366,400" fill="#808080"/>
+<line x1="370" y1="376" x2="370" y2="330" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,330 374,340 366,340" fill="#808080"/>
+<line x1="370" y1="316" x2="370" y2="270" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,270 374,280 366,280" fill="#808080"/>
+<line x1="370" y1="256" x2="370" y2="210" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,210 374,220 366,220" fill="#808080"/>
+<line x1="370" y1="196" x2="370" y2="150" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,150 374,160 366,160" fill="#808080"/>
+<line x1="374" y1="147" x2="625" y2="436" stroke="#808080" stroke-width="1.6"/>
+<polygon points="625,436 615,432 621,426" fill="#808080"/>
+<line x1="630" y1="436" x2="630" y2="390" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,390 634,400 626,400" fill="#808080"/>
+<line x1="630" y1="376" x2="630" y2="330" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,330 634,340 626,340" fill="#808080"/>
+<line x1="630" y1="316" x2="630" y2="270" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,270 634,280 626,280" fill="#808080"/>
+<line x1="630" y1="256" x2="630" y2="210" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,210 634,220 626,220" fill="#808080"/>
+<line x1="630" y1="208" x2="630" y2="434" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,434 626,424 634,424" fill="#808080"/>
+<line x1="116" y1="442" x2="622" y2="442" stroke="#808080" stroke-width="1.6"/>
+<polygon points="622,442 612,446 612,438" fill="#808080"/>
+<rect x="20" y="60" width="180" height="45" rx="8" ry="8" fill="Anonymous Visitor" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Anonymous Visitor</text>
+<rect x="20" y="120" width="180" height="45" rx="8" ry="8" fill="Marketing (SEO/App)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="142.5" font-size="12" text-anchor="middle" fill="#404040">Marketing (SEO/App)</text>
+<rect x="20" y="180" width="180" height="45" rx="8" ry="8" fill="Signup (OTP)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Signup (OTP)</text>
+<rect x="20" y="240" width="180" height="45" rx="8" ry="8" fill="Verification" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Verification</text>
+<rect x="20" y="300" width="180" height="45" rx="8" ry="8" fill="Consent" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Consent</text>
+<rect x="20" y="360" width="180" height="45" rx="8" ry="8" fill="Permissions" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Permissions</text>
+<rect x="20" y="420" width="180" height="45" rx="8" ry="8" fill="Data Import (history)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">Data Import (history)</text>
+<rect x="280" y="420" width="180" height="45" rx="8" ry="8" fill="AI (triage)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">AI (triage)</text>
+<rect x="280" y="360" width="180" height="45" rx="8" ry="8" fill="Recommendations" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Recommendations</text>
+<rect x="280" y="300" width="180" height="45" rx="8" ry="8" fill="Booking / Payment" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Booking / Payment</text>
+<rect x="280" y="240" width="180" height="45" rx="8" ry="8" fill="Consultation" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Consultation</text>
+<rect x="280" y="180" width="180" height="45" rx="8" ry="8" fill="Prescription + Records" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Prescription + Records</text>
+<rect x="280" y="120" width="180" height="45" rx="8" ry="8" fill="Fulfilment (meds/labs)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="142.5" font-size="12" text-anchor="middle" fill="#404040">Fulfilment (meds/labs)</text>
+<rect x="540" y="420" width="180" height="45" rx="8" ry="8" fill="Retention (reminders)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">Retention (reminders)</text>
+<rect x="540" y="360" width="180" height="45" rx="8" ry="8" fill="Subscription (Plus)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Subscription (Plus)</text>
+<rect x="540" y="300" width="180" height="45" rx="8" ry="8" fill="Support" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Support</text>
+<rect x="540" y="240" width="180" height="45" rx="8" ry="8" fill="Renewal" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Renewal</text>
+<rect x="540" y="180" width="180" height="45" rx="8" ry="8" fill="Referral (weak)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Referral (weak)</text>
+</svg>

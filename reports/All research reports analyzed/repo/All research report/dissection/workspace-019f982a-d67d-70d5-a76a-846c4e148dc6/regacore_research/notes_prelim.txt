@@ -1,0 +1,6 @@
+Regacore competitive intelligence workspace.
+Generated on 2026-07-25.
+Raw crawls: regacore_raw/
+Screenshots: regacore_research/screenshots/
+Capture inventory: regacore_research/capture_inventory.json
+Interaction inventory: regacore_research/interactions/

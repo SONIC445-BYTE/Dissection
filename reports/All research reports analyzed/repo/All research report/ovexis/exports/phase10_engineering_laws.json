@@ -1,0 +1,106 @@
+{
+  "schema": "ovexis.hpid.phase10.engineering_laws/v1",
+  "generated": "2026-07-26",
+  "phase": 10,
+  "status": "CANONICAL",
+  "note": "Per DL-035 the corpus is a go-to-market instrument and cannot supply engineering constraints. These laws are sourced from JARVIS code ground truth and prior-phase measured findings.",
+  "count": 12,
+  "laws": [
+    {
+      "id": "ENG01",
+      "law": "Protocol over platform",
+      "statement": "Define the action contract first; let adapters satisfy it. Never let a platform-specific detail reach the planner.",
+      "evidence": "JARVIS base_adapter.py defines detect_ui/build_plan/verify_action_result as an abstract contract; the 149 fabricated adapters failed because they satisfied the SHAPE of the contract without the substance",
+      "tradeoff": "Contract rigidity slows one-off integrations",
+      "failure_case": "A contract too abstract to verify produces verify_action_result(): return True \u2014 exactly what 144/160 adapters did"
+    },
+    {
+      "id": "ENG02",
+      "law": "Verification over automation",
+      "statement": "An action is not done until independently observed as done. No verification = no action.",
+      "evidence": "CB-06 144/160 adapters return True unconditionally; docs/adapter_audit.md: first step real, last step missing; ODAV loop already has a verify stage",
+      "tradeoff": "Verification can cost more than the action itself",
+      "failure_case": "Verifying the wrong signal (URL changed) instead of the outcome (message sent)"
+    },
+    {
+      "id": "ENG03",
+      "law": "Honest failure over silent success",
+      "statement": "Report inability explicitly and specifically. Never no-op silently.",
+      "evidence": "resolution_gate.py: \"I do not know how to control [platform] yet\"; Phase8 R5 shows this is the entry condition to the only virtuous loop",
+      "tradeoff": "Surfaces incompleteness to users; feels worse in demos",
+      "failure_case": "Honest failure without a path forward becomes learned helplessness"
+    },
+    {
+      "id": "ENG04",
+      "law": "Policy over prompts",
+      "statement": "Safety constraints belong in deterministic code, not in model instructions.",
+      "evidence": "JARVIS policy_manager.py 338 LOC + permission_engine.py 301 LOC + feature_gate modes; prompts cannot be audited or diffed",
+      "tradeoff": "Less flexible than natural-language policy",
+      "failure_case": "Policy engine that can be bypassed by the planner defeats its own purpose"
+    },
+    {
+      "id": "ENG05",
+      "law": "Adapters over replacements",
+      "statement": "Integrate with the incumbent; never attempt to replace the system of record.",
+      "evidence": "LAW01 (incumbent lock-in GREEN 16 cos); Phase2 0/19 occupy SoR; B2 balancing loop",
+      "tradeoff": "Ceiling on capability set by the host system",
+      "failure_case": "Adapter coupling to an unstable UI creates permanent maintenance debt"
+    },
+    {
+      "id": "ENG06",
+      "law": "Graduated autonomy per action class",
+      "statement": "Autonomy is granted per action type by reversibility and blast radius, never globally.",
+      "evidence": "feature_gate.py implements OFF/SHADOW/SUGGEST/FORCE; Phase7 F-7.5 human review is liability allocation; B1 loop",
+      "tradeoff": "Complex permission matrix",
+      "failure_case": "Uniform autonomy setting forces the whole system to the safety level of its riskiest action"
+    },
+    {
+      "id": "ENG07",
+      "law": "Local reasoning for PHI, cloud reasoning for general intelligence",
+      "statement": "Split inference by data sensitivity, not by capability need.",
+      "evidence": "JARVIS local-first Ollama; Phase5 arch_on_device_local is the ONE non-converged architecture (7 cos); DPDP/HIPAA localisation pressure",
+      "tradeoff": "Local models are weaker; hybrid routing adds complexity",
+      "failure_case": "memory_store.py XOR encryption shows local != secure (CB-08)"
+    },
+    {
+      "id": "ENG08",
+      "law": "Depth-first over breadth-first",
+      "statement": "One workflow completed end-to-end beats one hundred declared.",
+      "evidence": "CB-04 3 real/8 defective/149 fabricated; Phase8 R6 flywheel requires completion to generate failure signal",
+      "tradeoff": "Slower apparent coverage; worse for marketing",
+      "failure_case": "Depth in the wrong workflow wastes the entire budget"
+    },
+    {
+      "id": "ENG09",
+      "law": "State must live in the system, not in the human",
+      "statement": "If a workflow requires a human to remember it, the software has failed.",
+      "evidence": "Phase6: bed state \"lives in whiteboards and phone calls\"; Phase4 break rate 1.00 in ICU/ED/admin",
+      "tradeoff": "Requires durable state model and reconciliation",
+      "failure_case": "System state diverging from reality is worse than no state"
+    },
+    {
+      "id": "ENG10",
+      "law": "Provenance is a first-class output",
+      "statement": "Every action emits an auditable record of what, why, on whose authority, with what evidence.",
+      "evidence": "audit_log.py 307 LOC + execution_logger.py 225; LAW07 trust via traceability; Phase7 F-7.4 strengthens under autonomy",
+      "tradeoff": "Storage and performance overhead",
+      "failure_case": "Logs nobody can query are compliance theatre"
+    },
+    {
+      "id": "ENG11",
+      "law": "The orphaned-module rule: unreachable code is not capability",
+      "statement": "A module nothing imports does not exist. Measure reachability, not lines.",
+      "evidence": "CB-09 MemoryStore orphaned - imported only by feedback_engine/optimizer which nothing imports; 10515 LOC across 13 concepts but reachability unverified (G-3.4)",
+      "tradeoff": "Reachability analysis is extra work",
+      "failure_case": "Counting orphaned LOC as progress - the exact error both G01 panels made"
+    },
+    {
+      "id": "ENG12",
+      "law": "Merge before you build",
+      "statement": "Unmerged work is negative value: it decays, conflicts, and hides the true baseline.",
+      "evidence": "CB-02 9713 unmerged lines on phase-2-adapter-wiring; default branch = README cosmetics with 7 passing tests vs 325 on the branch",
+      "tradeoff": "Merging costs time that feels unproductive",
+      "failure_case": "Merging without CI reproduces the same divergence next cycle"
+    }
+  ]
+}

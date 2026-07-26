@@ -1,0 +1,701 @@
+schema: ovexis.hpid.phase1.validation/v1
+generated: '2026-07-26'
+engagement: OISE
+canon:
+  phase: 1
+  status: CANONICAL
+  supersedes: null
+artifacts:
+- id: G01
+  target: JARVIS-Automation (engineering ground truth)
+  artifact_class: ground_truth
+  category: Internal repo due-diligence — 2 independent panels
+  geo: IN
+  path: workspace-019f99a1-5ba7-7a10-b769-47b4aa1afe81/assessment
+  words: 23276
+  files: 2
+  evidence_profile:
+    confirmed: 0
+    inference: 0
+    speculation: 0
+    pct_confirmed: null
+    citations_per_1k_words: 0.2
+    url_refs: 4
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 0
+  scores:
+    research_quality: 3.4
+    evidence_quality: 4.0
+    strategic_value: 2.7
+    technical_depth: 5.9
+    healthcare_accuracy: 3.8
+    commercial_accuracy: 1.2
+    regulatory_accuracy: 9.9
+    engineering_accuracy: 7.9
+    hallucination_safety: 8.7
+    overall_confidence: 4.9
+  fit_for_objective: 10
+  adjusted_priority: 7.27
+  canon_coverage_of_27: 12
+- id: D18
+  target: UpToDate (Wolters Kluwer)
+  artifact_class: competitor_dossier
+  category: Clinical reference / evidence platform
+  geo: US/NL
+  path: workspace-019f98f9-e658-7983-9853-66752a296b8c/ovexis-uptodate-ci
+  words: 54638
+  files: 34
+  evidence_profile:
+    confirmed: 913
+    inference: 913
+    speculation: 149
+    pct_confirmed: 46.2
+    citations_per_1k_words: 0.0
+    url_refs: 0
+    bracket_cites: 0
+    raw_captures: 0
+    images: 4
+    structured_rows: 137
+  scores:
+    research_quality: 8.4
+    evidence_quality: 4.0
+    strategic_value: 8.7
+    technical_depth: 9.8
+    healthcare_accuracy: 10
+    commercial_accuracy: 5.4
+    regulatory_accuracy: 7.2
+    engineering_accuracy: 8.9
+    hallucination_safety: 3.2
+    overall_confidence: 7.8
+  fit_for_objective: 8
+  adjusted_priority: 7.14
+  canon_coverage_of_27: 27
+- id: D01
+  target: Human API / LexisNexis Health Intelligence
+  artifact_class: competitor_dossier
+  category: Consumer health-data aggregation API / EHR data network
+  geo: US
+  path: workspace-019f982a-d67d-70d5-a76a-846c4e148dc6/humanapi_research
+  words: 9141
+  files: 49
+  evidence_profile:
+    confirmed: 127
+    inference: 71
+    speculation: 9
+    pct_confirmed: 61.4
+    citations_per_1k_words: 2.8
+    url_refs: 26
+    bracket_cites: 0
+    raw_captures: 4
+    images: 20
+    structured_rows: 118
+  scores:
+    research_quality: 5.4
+    evidence_quality: 4.6
+    strategic_value: 4.7
+    technical_depth: 10
+    healthcare_accuracy: 4.3
+    commercial_accuracy: 1.4
+    regulatory_accuracy: 2.7
+    engineering_accuracy: 6.2
+    hallucination_safety: 8.9
+    overall_confidence: 4.9
+  fit_for_objective: 9
+  adjusted_priority: 6.89
+  canon_coverage_of_27: 24
+- id: I01
+  target: HPID Phase-0 registry (449 platforms)
+  artifact_class: infrastructure
+  category: Machine-readable ecosystem registry
+  geo: IN
+  path: workspace-019f99e7-ea8f-7117-857e-30b5e9a2a7a9/hpid
+  words: 2572
+  files: 12
+  evidence_profile:
+    confirmed: 0
+    inference: 0
+    speculation: 0
+    pct_confirmed: null
+    citations_per_1k_words: 1.6
+    url_refs: 4
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 449
+  scores:
+    research_quality: 3.1
+    evidence_quality: 4.2
+    strategic_value: 1.0
+    technical_depth: 1.4
+    healthcare_accuracy: 8.1
+    commercial_accuracy: 1.0
+    regulatory_accuracy: 1
+    engineering_accuracy: 1.2
+    hallucination_safety: 9.0
+    overall_confidence: 2.6
+  fit_for_objective: 10
+  adjusted_priority: 6.62
+  canon_coverage_of_27: 5
+- id: D11
+  target: HealthifyMe / Healthify
+  artifact_class: competitor_dossier
+  category: AI nutrition & behaviour change
+  geo: IN/US
+  path: workspace-019f986c-8786-7e76-9541-e19f8b03a79f/ovexis_ci
+  words: 41437
+  files: 31
+  evidence_profile:
+    confirmed: 684
+    inference: 392
+    speculation: 94
+    pct_confirmed: 58.5
+    citations_per_1k_words: 1.2
+    url_refs: 49
+    bracket_cites: 0
+    raw_captures: 12
+    images: 0
+    structured_rows: 146
+  scores:
+    research_quality: 7.7
+    evidence_quality: 4.9
+    strategic_value: 8.0
+    technical_depth: 7.5
+    healthcare_accuracy: 8.9
+    commercial_accuracy: 6.7
+    regulatory_accuracy: 7.1
+    engineering_accuracy: 6.2
+    hallucination_safety: 4.8
+    overall_confidence: 7.1
+  fit_for_objective: 7
+  adjusted_priority: 6.61
+  canon_coverage_of_27: 27
+- id: D06
+  target: OpenEvidence
+  artifact_class: competitor_dossier
+  category: Clinical AI answer engine / CDS
+  geo: US
+  path: workspace-019f9858-be62-7019-9698-2ca9db15e647/openevidence_ci
+  words: 15765
+  files: 12
+  evidence_profile:
+    confirmed: 249
+    inference: 539
+    speculation: 6
+    pct_confirmed: 31.4
+    citations_per_1k_words: 29.0
+    url_refs: 64
+    bracket_cites: 393
+    raw_captures: 0
+    images: 6
+    structured_rows: 217
+  scores:
+    research_quality: 6.7
+    evidence_quality: 6.6
+    strategic_value: 7.0
+    technical_depth: 2.7
+    healthcare_accuracy: 1.8
+    commercial_accuracy: 1.5
+    regulatory_accuracy: 3.9
+    engineering_accuracy: 2.2
+    hallucination_safety: 9.0
+    overall_confidence: 4.0
+  fit_for_objective: 8
+  adjusted_priority: 6.52
+  canon_coverage_of_27: 27
+- id: D17
+  target: Practo
+  artifact_class: competitor_dossier
+  category: Discovery + teleconsult + clinic/hospital software
+  geo: IN
+  path: workspace-019f98f9-33f6-79c8-a32f-db7444e7030e
+  words: 16611
+  files: 14
+  evidence_profile:
+    confirmed: 390
+    inference: 111
+    speculation: 76
+    pct_confirmed: 67.6
+    citations_per_1k_words: 1.8
+    url_refs: 30
+    bracket_cites: 0
+    raw_captures: 1
+    images: 8
+    structured_rows: 214
+  scores:
+    research_quality: 6.8
+    evidence_quality: 4.2
+    strategic_value: 6.5
+    technical_depth: 4.7
+    healthcare_accuracy: 9.5
+    commercial_accuracy: 3.2
+    regulatory_accuracy: 4.7
+    engineering_accuracy: 3.1
+    hallucination_safety: 8.0
+    overall_confidence: 5.3
+  fit_for_objective: 8
+  adjusted_priority: 6.43
+  canon_coverage_of_27: 27
+- id: D03
+  target: Superpower Health
+  artifact_class: competitor_dossier
+  category: Preventive/longevity AI health OS
+  geo: US
+  path: workspace-019f9855-4822-7046-8e47-7da28191354f/ovexis_ci
+  words: 20983
+  files: 59
+  evidence_profile:
+    confirmed: 253
+    inference: 85
+    speculation: 35
+    pct_confirmed: 67.8
+    citations_per_1k_words: 0.2
+    url_refs: 5
+    bracket_cites: 0
+    raw_captures: 41
+    images: 0
+    structured_rows: 227
+  scores:
+    research_quality: 7.1
+    evidence_quality: 4.7
+    strategic_value: 6.4
+    technical_depth: 4.6
+    healthcare_accuracy: 8.7
+    commercial_accuracy: 4.3
+    regulatory_accuracy: 2.6
+    engineering_accuracy: 3.8
+    hallucination_safety: 4.6
+    overall_confidence: 5.3
+  fit_for_objective: 7
+  adjusted_priority: 6.03
+  canon_coverage_of_27: 27
+- id: D12
+  target: Apple Health / HealthKit
+  artifact_class: competitor_dossier
+  category: Device-native personal health data substrate
+  geo: US
+  path: workspace-019f986d-411a-7dec-bf31-83329604686a
+  words: 7176
+  files: 3
+  evidence_profile:
+    confirmed: 128
+    inference: 92
+    speculation: 4
+    pct_confirmed: 57.1
+    citations_per_1k_words: 27.6
+    url_refs: 19
+    bracket_cites: 179
+    raw_captures: 0
+    images: 0
+    structured_rows: 89
+  scores:
+    research_quality: 5.3
+    evidence_quality: 5.5
+    strategic_value: 4.4
+    technical_depth: 2.2
+    healthcare_accuracy: 6.0
+    commercial_accuracy: 1.0
+    regulatory_accuracy: 2.2
+    engineering_accuracy: 1.7
+    hallucination_safety: 9
+    overall_confidence: 3.5
+  fit_for_objective: 7
+  adjusted_priority: 5.65
+  canon_coverage_of_27: 25
+- id: D15
+  target: Atropos Health
+  artifact_class: competitor_dossier
+  category: Real-world evidence generation OS
+  geo: US
+  path: workspace-019f98f0-ca7e-79be-b776-4b422bfcc4d6
+  words: 9131
+  files: 13
+  evidence_profile:
+    confirmed: 271
+    inference: 159
+    speculation: 12
+    pct_confirmed: 61.3
+    citations_per_1k_words: 22.9
+    url_refs: 209
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 131
+  scores:
+    research_quality: 6.0
+    evidence_quality: 4.8
+    strategic_value: 5.7
+    technical_depth: 3.6
+    healthcare_accuracy: 4.4
+    commercial_accuracy: 1.3
+    regulatory_accuracy: 1.8
+    engineering_accuracy: 3.2
+    hallucination_safety: 9.0
+    overall_confidence: 3.9
+  fit_for_objective: 7
+  adjusted_priority: 5.63
+  canon_coverage_of_27: 27
+- id: D04
+  target: Function Health
+  artifact_class: competitor_dossier
+  category: Biomarker testing membership
+  geo: US
+  path: workspace-019f9856-35b9-7f24-bb00-3d70028e73f3/function_health_report
+  words: 35322
+  files: 23
+  evidence_profile:
+    confirmed: 215
+    inference: 113
+    speculation: 12
+    pct_confirmed: 63.2
+    citations_per_1k_words: 0.5
+    url_refs: 17
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 0
+  scores:
+    research_quality: 6.7
+    evidence_quality: 2.5
+    strategic_value: 8.5
+    technical_depth: 9.7
+    healthcare_accuracy: 2.5
+    commercial_accuracy: 7.4
+    regulatory_accuracy: 10
+    engineering_accuracy: 7.2
+    hallucination_safety: 3.3
+    overall_confidence: 6.8
+  fit_for_objective: 6
+  adjusted_priority: 5.54
+  canon_coverage_of_27: 27
+- id: D13
+  target: Google Health
+  artifact_class: competitor_dossier
+  category: Platform + cloud healthcare AI
+  geo: US
+  path: workspace-019f986e-104d-7ad2-bdfc-1a680c5b4af2
+  words: 13841
+  files: 3
+  evidence_profile:
+    confirmed: 353
+    inference: 337
+    speculation: 6
+    pct_confirmed: 50.7
+    citations_per_1k_words: 0.1
+    url_refs: 2
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 172
+  scores:
+    research_quality: 6.4
+    evidence_quality: 1.9
+    strategic_value: 5.4
+    technical_depth: 5.3
+    healthcare_accuracy: 9.7
+    commercial_accuracy: 1.6
+    regulatory_accuracy: 2.1
+    engineering_accuracy: 3.3
+    hallucination_safety: 8.0
+    overall_confidence: 4.5
+  fit_for_objective: 7
+  adjusted_priority: 5.23
+  canon_coverage_of_27: 27
+- id: D08
+  target: AMBOSS
+  artifact_class: competitor_dossier
+  category: Medical knowledge / CDS / med-ed
+  geo: DE/US
+  path: workspace-019f985d-6d82-78b6-852d-53b695a00bef
+  words: 12957
+  files: 7
+  evidence_profile:
+    confirmed: 246
+    inference: 405
+    speculation: 39
+    pct_confirmed: 35.7
+    citations_per_1k_words: 29.7
+    url_refs: 385
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 124
+  scores:
+    research_quality: 6.0
+    evidence_quality: 4.8
+    strategic_value: 5.3
+    technical_depth: 2.3
+    healthcare_accuracy: 4.1
+    commercial_accuracy: 1.4
+    regulatory_accuracy: 2.2
+    engineering_accuracy: 3.4
+    hallucination_safety: 9.0
+    overall_confidence: 3.7
+  fit_for_objective: 6
+  adjusted_priority: 5.07
+  canon_coverage_of_27: 26
+- id: D19
+  target: Ultrahuman
+  artifact_class: competitor_dossier
+  category: Wearable ring / metabolic + longevity
+  geo: IN
+  path: workspace-019f98fa-4428-70ec-a24f-d48d08f48db7
+  words: 14158
+  files: 17
+  evidence_profile:
+    confirmed: 174
+    inference: 282
+    speculation: 21
+    pct_confirmed: 36.5
+    citations_per_1k_words: 21.6
+    url_refs: 202
+    bracket_cites: 104
+    raw_captures: 0
+    images: 0
+    structured_rows: 40
+  scores:
+    research_quality: 5.8
+    evidence_quality: 5.0
+    strategic_value: 6.2
+    technical_depth: 2.7
+    healthcare_accuracy: 4.2
+    commercial_accuracy: 1.8
+    regulatory_accuracy: 2.2
+    engineering_accuracy: 5.1
+    hallucination_safety: 9.0
+    overall_confidence: 4.1
+  fit_for_objective: 5
+  adjusted_priority: 4.73
+  canon_coverage_of_27: 27
+- id: D16
+  target: WHOOP
+  artifact_class: competitor_dossier
+  category: Wearable membership / performance intelligence
+  geo: US
+  path: workspace-019f98f2-23e3-742e-bce7-c6e40f6bb0d5
+  words: 21655
+  files: 23
+  evidence_profile:
+    confirmed: 641
+    inference: 259
+    speculation: 23
+    pct_confirmed: 69.4
+    citations_per_1k_words: 3.0
+    url_refs: 66
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 160
+  scores:
+    research_quality: 6.8
+    evidence_quality: 3.0
+    strategic_value: 6.1
+    technical_depth: 4.4
+    healthcare_accuracy: 7.2
+    commercial_accuracy: 3.0
+    regulatory_accuracy: 8.8
+    engineering_accuracy: 3.5
+    hallucination_safety: 8.3
+    overall_confidence: 5.3
+  fit_for_objective: 5
+  adjusted_priority: 4.69
+  canon_coverage_of_27: 27
+- id: D07
+  target: Glass Health
+  artifact_class: competitor_dossier
+  category: AI clinical decision support / DDx
+  geo: US
+  path: workspace-019f9859-a691-7a2d-9a99-02c5ff5b429f
+  words: 6597
+  files: 3
+  evidence_profile:
+    confirmed: 83
+    inference: 92
+    speculation: 4
+    pct_confirmed: 46.4
+    citations_per_1k_words: 11.4
+    url_refs: 16
+    bracket_cites: 59
+    raw_captures: 0
+    images: 0
+    structured_rows: 57
+  scores:
+    research_quality: 5.0
+    evidence_quality: 3.5
+    strategic_value: 4.9
+    technical_depth: 3.6
+    healthcare_accuracy: 2.3
+    commercial_accuracy: 1.5
+    regulatory_accuracy: 2.4
+    engineering_accuracy: 3.3
+    hallucination_safety: 9.0
+    overall_confidence: 3.3
+  fit_for_objective: 6
+  adjusted_priority: 4.69
+  canon_coverage_of_27: 24
+- id: D09
+  target: Apollo 24|7
+  artifact_class: competitor_dossier
+  category: Integrated care + e-pharmacy + telehealth
+  geo: IN
+  path: workspace-019f9869-f00d-755a-be1b-6720d95fa6f1
+  words: 6776
+  files: 2
+  evidence_profile:
+    confirmed: 110
+    inference: 138
+    speculation: 13
+    pct_confirmed: 42.1
+    citations_per_1k_words: 31.6
+    url_refs: 32
+    bracket_cites: 182
+    raw_captures: 0
+    images: 0
+    structured_rows: 50
+  scores:
+    research_quality: 5.1
+    evidence_quality: 5.1
+    strategic_value: 4.5
+    technical_depth: 2.2
+    healthcare_accuracy: 2.2
+    commercial_accuracy: 1.1
+    regulatory_accuracy: 1.5
+    engineering_accuracy: 1.7
+    hallucination_safety: 9.0
+    overall_confidence: 2.9
+  fit_for_objective: 5
+  adjusted_priority: 4.39
+  canon_coverage_of_27: 25
+- id: D05
+  target: Levels Health
+  artifact_class: competitor_dossier
+  category: CGM / metabolic health
+  geo: US
+  path: workspace-019f9857-dbe9-7499-b2f0-5687420a8382
+  words: 17013
+  files: 4
+  evidence_profile:
+    confirmed: 266
+    inference: 392
+    speculation: 26
+    pct_confirmed: 38.9
+    citations_per_1k_words: 7.6
+    url_refs: 129
+    bracket_cites: 1
+    raw_captures: 0
+    images: 0
+    structured_rows: 485
+  scores:
+    research_quality: 8.0
+    evidence_quality: 2.3
+    strategic_value: 6.5
+    technical_depth: 2.0
+    healthcare_accuracy: 3.0
+    commercial_accuracy: 3.0
+    regulatory_accuracy: 2.5
+    engineering_accuracy: 5.9
+    hallucination_safety: 8.8
+    overall_confidence: 4.2
+  fit_for_objective: 5
+  adjusted_priority: 4.22
+  canon_coverage_of_27: 27
+- id: D10
+  target: Tata 1mg
+  artifact_class: competitor_dossier
+  category: E-pharmacy + diagnostics + teleconsult
+  geo: IN
+  path: workspace-019f986b-7d0e-796a-867b-7e058a736936
+  words: 13006
+  files: 2
+  evidence_profile:
+    confirmed: 227
+    inference: 51
+    speculation: 41
+    pct_confirmed: 71.2
+    citations_per_1k_words: 0.0
+    url_refs: 0
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 64
+  scores:
+    research_quality: 5.9
+    evidence_quality: 2.4
+    strategic_value: 6.4
+    technical_depth: 3.1
+    healthcare_accuracy: 1.7
+    commercial_accuracy: 3.2
+    regulatory_accuracy: 1.2
+    engineering_accuracy: 2.3
+    hallucination_safety: 4.7
+    overall_confidence: 3.3
+  fit_for_objective: 5
+  adjusted_priority: 3.97
+  canon_coverage_of_27: 27
+- id: D14
+  target: Oura Health
+  artifact_class: competitor_dossier
+  category: Wearable ring / longitudinal biometrics
+  geo: FI/US
+  path: workspace-019f986f-2ffa-706d-a1e5-9740ced74056
+  words: 13399
+  files: 2
+  evidence_profile:
+    confirmed: 246
+    inference: 39
+    speculation: 9
+    pct_confirmed: 83.7
+    citations_per_1k_words: 9.6
+    url_refs: 129
+    bracket_cites: 0
+    raw_captures: 0
+    images: 0
+    structured_rows: 0
+  scores:
+    research_quality: 5.4
+    evidence_quality: 3.9
+    strategic_value: 6.3
+    technical_depth: 1.9
+    healthcare_accuracy: 2.4
+    commercial_accuracy: 3.8
+    regulatory_accuracy: 4.9
+    engineering_accuracy: 1.8
+    hallucination_safety: 8.6
+    overall_confidence: 3.8
+  fit_for_objective: 4
+  adjusted_priority: 3.92
+  canon_coverage_of_27: 26
+- id: D02
+  target: Regacore
+  artifact_class: competitor_dossier
+  category: Longevity / regenerative clinic platform
+  geo: US
+  path: workspace-019f982a-d67d-70d5-a76a-846c4e148dc6/regacore_research
+  words: 10274
+  files: 82
+  evidence_profile:
+    confirmed: 0
+    inference: 0
+    speculation: 0
+    pct_confirmed: null
+    citations_per_1k_words: 4.0
+    url_refs: 41
+    bracket_cites: 0
+    raw_captures: 0
+    images: 44
+    structured_rows: 0
+  scores:
+    research_quality: 4.9
+    evidence_quality: 4.4
+    strategic_value: 4.6
+    technical_depth: 1.1
+    healthcare_accuracy: 2.1
+    commercial_accuracy: 1.5
+    regulatory_accuracy: 1.7
+    engineering_accuracy: 1.5
+    hallucination_safety: 9.0
+    overall_confidence: 2.7
+  fit_for_objective: 3
+  adjusted_priority: 3.19
+  canon_coverage_of_27: 24

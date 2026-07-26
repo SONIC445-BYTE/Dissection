@@ -1,0 +1,113 @@
+{
+  "schema": "ovexis.hpid.phase14.blueteam/v1",
+  "generated": "2026-07-26",
+  "phase": 14,
+  "status": "CANONICAL",
+  "surviving": [
+    {
+      "id": "BT01",
+      "recommendation": "Stage 0: wire the safety stack, merge the branch, add CI",
+      "status": "FULLY SURVIVES",
+      "defence": "Not attacked by any red-team vector. Zero capital, zero market risk, pure downside removal. Value is independent of whether the beachhead thesis holds.",
+      "conditions": "None",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "BT02",
+      "recommendation": "Operational scope only, no clinical decisions for 24 months",
+      "status": "FULLY SURVIVES",
+      "defence": "RT08 attacked the commit-gap thesis and in surviving RESTRICTED it to exactly this scope. RT07 attacked it as unambitious; LAW04 shows clinical entry is unsafe for a solo builder. Two independent attacks converged on confirming it.",
+      "conditions": "None",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "BT03",
+      "recommendation": "JARVIS as technical foundation, with Stage 0 mandatory",
+      "status": "SURVIVES CONDITIONALLY",
+      "defence": "RT05 correctly notes 76% unreachable and orphaned safety. But the REACHABLE execution stack (ui_executor 567, odav_loop 355, command_router 347, resolution_gate 174, validation_engine 286) is the exact capability the market lacks and is genuinely hard to rebuild.",
+      "conditions": "Stage 0 completed first; XOR replaced before any PHI",
+      "confidence": "MEDIUM-HIGH"
+    },
+    {
+      "id": "BT04",
+      "recommendation": "SHADOW-mode entry into every hospital",
+      "status": "STRENGTHENED BY ATTACK",
+      "defence": "Emerged as the defence to the highest-severity threat (CIO rejection). Simultaneously the R5 trust-loop entry condition and the procurement objection handler. Already implemented in feature_gate.",
+      "conditions": "None",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "BT05",
+      "recommendation": "India-first sequencing",
+      "status": "SURVIVES ON STRUCTURE, UNVALIDATED ON ECONOMICS",
+      "defence": "LAW11 (fragmentation favours interface layer) and LAW12 (NHCX network verified live: 38 partners, 12 insurers, 4 TPAs) are strong. It is also the structural defence against Epic (NICHE tier in India).",
+      "conditions": "RT06 unit economics must be validated with one real hospital before scaling",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "BT06",
+      "recommendation": "Depth-first adapters, freeze at 14, quarantine 149",
+      "status": "FULLY SURVIVES",
+      "defence": "Code-backed (CB-04) and loop-backed (R6). The repository already reached this conclusion independently in its own adapter_audit.md. No attack contests it.",
+      "conditions": "None",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "BT07",
+      "recommendation": "Moat = domain adapters + policy + provenance (NOT automation)",
+      "status": "REFRAMED BY ATTACK, NOW STRONGER",
+      "defence": "RT02 correctly showed coverage alone is not defensible and OpenAI commoditises clicking. The reframe to domain+policy+provenance is more defensible than the original and aligns with LAW07 and ENG10.",
+      "conditions": "Accept there is no moat for 12+ months",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "BT08",
+      "recommendation": "Beachhead: OT turnover / claim validation in Indian hospitals",
+      "status": "CONDITIONALLY SURVIVES - EVIDENCE GATED",
+      "defence": "Robust across all 5 weighting scenarios including one that deletes JARVIS-readiness. Break-rate evidence (1.00 in admin/ICU/ED) suggests that even where HMIS modules exist they do not connect.",
+      "conditions": "BLOCKED until 82 ABDM demo videos reviewed (DL-066). If modules exist and connect, pivot to the claim chain which has a verified external rail.",
+      "confidence": "MEDIUM-LOW until evidence closes"
+    },
+    {
+      "id": "BT09",
+      "recommendation": "Flat pilot fee, outcome pricing later",
+      "status": "REPLACED BY ATTACK",
+      "defence": "RT04 correctly identified circular dependency. Flat pilot fee removes it. Weaker but executable.",
+      "conditions": "Outcome pricing only after measurement infrastructure exists",
+      "confidence": "MEDIUM"
+    },
+    {
+      "id": "BT10",
+      "recommendation": "No hires until one workflow completes end-to-end",
+      "status": "FULLY SURVIVES",
+      "defence": "Unattacked. Consistent with DL-007 and with the pivotal unknown being domain knowledge rather than engineering capacity.",
+      "conditions": "None",
+      "confidence": "HIGH"
+    }
+  ],
+  "abandoned": [
+    {
+      "item": "Per-completed-workflow pricing as the entry model",
+      "why": "RT04 circular dependency: cannot measure before deploying, cannot deploy without price"
+    },
+    {
+      "item": "\"Unowned workflow\" as the marketing claim",
+      "why": "RT01: not evidenced. Claim must become \"disconnected workflow\" which IS evidenced by break rate 1.00"
+    },
+    {
+      "item": "Adapter coverage as the stated moat",
+      "why": "RT02 + OpenAI commoditisation. Replaced by domain+policy+provenance"
+    },
+    {
+      "item": "Inventing a new budget category",
+      "why": "RT03: no CFO can code an invoice for a category that does not exist"
+    }
+  ],
+  "summary": {
+    "fully_survives": 4,
+    "conditional": 2,
+    "strengthened_or_reframed": 2,
+    "replaced": 1,
+    "abandoned": 4
+  }
+}

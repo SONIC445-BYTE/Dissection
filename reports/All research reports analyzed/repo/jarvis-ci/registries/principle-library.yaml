@@ -1,0 +1,68 @@
+# Strategic Principle Library — Module 8
+# Principles, not features. Every entry MUST have fails_when and durability_5yr.
+# A principle without stated failure conditions is a slogan.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+
+principles:
+
+  - id: PRIN-001
+    statement: "Overlap of capability is not overlap of buyer."
+    derived_from: [Mem0]
+    evidence: [MEM0-C-030]
+    underlying_assumption: "Competition is defined by substitutable purchase decisions, not by feature similarity."
+    fails_when: "Two products converge on the same buyer over time, e.g. when a developer tool grows into an end-user product."
+    durability_5yr: HIGH
+    durability_rationale: "A definitional truth about markets, not a market condition."
+    jarvis_verdict: adopt
+    jarvis_application: "Encoded as the three-part contested-layer test. Prevented a wrong Direct Competitor call on the first dossier."
+    conflicts_with: []
+
+  - id: PRIN-002
+    statement: "Neutrality is a wedge against incumbents who lack the incentive to make their layer portable."
+    derived_from: [Mem0]
+    evidence: [MEM0-C-008]
+    underlying_assumption: "Incumbent incentives remain misaligned with portability."
+    fails_when: "An incumbent concludes portability grows their market, or a regulator mandates it. Both are outside the wedge-holder's control."
+    durability_5yr: MEDIUM
+    durability_rationale: "Depends on a competitor's choice, not on anything you own."
+    jarvis_verdict: adopt-modified
+    jarvis_application: "Applies directly in healthcare: EMR vendors have no incentive to make clinical workflow portable across systems. Same wedge, different layer — and with regulatory tailwind (ABDM) rather than regulatory risk."
+    conflicts_with: []
+
+  - id: PRIN-003
+    statement: "Owning a layer whose technology moat is weak means owning a commodity."
+    derived_from: [Mem0]
+    evidence: [MEM0-C-043]
+    underlying_assumption: "Layer ownership and defensibility are independent properties."
+    fails_when: "A layer's economics shift — e.g. regulation or scale requirements raise the entry cost."
+    durability_5yr: HIGH
+    jarvis_verdict: adopt
+    jarvis_application: "Reframes 'own L3' as meaningless without specifying WHICH L3 capabilities. Storage is commodity; consolidation is contested. Own the contested subset only."
+    conflicts_with: []
+
+  - id: PRIN-004
+    statement: "Integration friction, not architectural quality, determines adoption."
+    derived_from: [Mem0]
+    evidence: [MEM0-C-009, MEM0-C-037]
+    underlying_assumption: "Developers choose on time-to-first-success, then rationalise."
+    fails_when: "The buyer is an institution with a procurement process rather than a developer with an afternoon."
+    durability_5yr: MEDIUM
+    durability_rationale: "True for developer tools; inverts for enterprise clinical sales where compliance review dominates."
+    jarvis_verdict: adopt-modified
+    jarvis_application: "Holds for any developer SDK. Does NOT hold for hospital sales — do not generalise across both motions."
+    conflicts_with: []
+
+  - id: PRIN-005
+    statement: "Regulatory and safety posture is a moat precisely because it is unglamorous."
+    derived_from: [Mem0]
+    evidence: [MEM0-C-044]
+    underlying_assumption: "Fast-moving competitors underinvest in work that demos do not reward."
+    fails_when: "Compliance becomes commoditised by tooling, or a well-capitalised incumbent decides to buy its way in."
+    durability_5yr: HIGH
+    durability_rationale: "Slow, expensive to retrofit, and structurally unattractive to velocity-driven teams."
+    jarvis_verdict: adopt
+    jarvis_application: "The clearest available differentiation. Bound to DEC-002 and DEC-004 — both must be decided early or the moat becomes a retrofit cost."
+    conflicts_with: []

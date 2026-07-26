@@ -1,0 +1,38 @@
+# Value Chain Intelligence — Module 9
+# Answers the six economic questions 01-canonical-taxonomy.md §4 poses but never records.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  layers_assessed: 1
+  layers_total: 16
+
+layers:
+
+  - layer: L3
+    name: Memory
+    value_created_by: "persistence enabling continuity across sessions"
+    value_captured_by: "whoever owns the agent loop — not whoever owns the memory box"
+    value_capture_evidence: [MEM0-C-043]
+    margin_concentration: low
+    margin_note: "Technology moat scores 2/5 for the category leader. Storage is commodity."
+    lock_in_source: accumulated-user-memories
+    lock_in_strength: 4
+    lock_in_ceiling: "Apache-2.0 self-host escapes it entirely"
+    network_effects: none
+    network_effects_note: "No cross-customer benefit. Each account's memories help only that account."
+    switching_cost: 4
+    commoditising: [storage, llm-fact-extraction, vector-retrieval]
+    contested: [memory-consolidation, temporal-validity, procedural-memory, confidence-estimation]
+    new_categories_forming: [portable-cross-app-memory, compliance-grade-memory]
+    commoditisation_velocity: high
+    capital_intensity: low
+    standardisation_exposure: medium
+    standardisation_note: "MCP-native memory could erase bespoke integration advantage"
+    distribution_dependence: high
+    distribution_note: "Category leader's primary moat is a single vendor exclusivity"
+    data_compounding: none
+    good_layer_to_own: "ONLY the contested subset. The commodity subset is value-destroying to build."
+    jarvis_position: "Own consolidation/temporal/procedural. Integrate storage/extraction/retrieval."
+    last_reviewed: 2026-07-26
+    evidence: [MEM0-C-030, MEM0-C-032, MEM0-C-041, MEM0-C-043]

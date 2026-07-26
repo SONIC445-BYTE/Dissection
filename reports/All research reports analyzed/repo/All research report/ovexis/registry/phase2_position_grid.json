@@ -1,0 +1,212 @@
+{
+  "D01": {
+    "system_of_record": 0.11,
+    "system_of_engagement": 3.17,
+    "system_of_intelligence": 0.22,
+    "data_pipe": 0.44,
+    "knowledge_corpus": 2.73,
+    "sensor": 0.77,
+    "service_delivery": 0.22,
+    "marketplace": 0.33
+  },
+  "D02": {
+    "system_of_record": 0.1,
+    "system_of_engagement": 0.1,
+    "system_of_intelligence": 0.0,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.29,
+    "sensor": 0.68,
+    "service_delivery": 1.65,
+    "marketplace": 4.09
+  },
+  "D03": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.38,
+    "system_of_intelligence": 0.19,
+    "data_pipe": 0.14,
+    "knowledge_corpus": 0.38,
+    "sensor": 1.19,
+    "service_delivery": 0.62,
+    "marketplace": 2.0
+  },
+  "D04": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.23,
+    "system_of_intelligence": 0.0,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.91,
+    "sensor": 2.04,
+    "service_delivery": 0.03,
+    "marketplace": 0.45
+  },
+  "D05": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 1.35,
+    "system_of_intelligence": 0.29,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.18,
+    "sensor": 7.76,
+    "service_delivery": 1.0,
+    "marketplace": 0.94
+  },
+  "D06": {
+    "system_of_record": 0.06,
+    "system_of_engagement": 0.25,
+    "system_of_intelligence": 0.44,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 2.54,
+    "sensor": 0.57,
+    "service_delivery": 0.0,
+    "marketplace": 0.51
+  },
+  "D07": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.0,
+    "system_of_intelligence": 0.61,
+    "data_pipe": 0.91,
+    "knowledge_corpus": 1.67,
+    "sensor": 1.06,
+    "service_delivery": 0.0,
+    "marketplace": 0.15
+  },
+  "D08": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.0,
+    "system_of_intelligence": 0.62,
+    "data_pipe": 0.08,
+    "knowledge_corpus": 2.32,
+    "sensor": 0.85,
+    "service_delivery": 0.15,
+    "marketplace": 0.62
+  },
+  "D09": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.59,
+    "system_of_intelligence": 0.44,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.59,
+    "sensor": 0.3,
+    "service_delivery": 0.59,
+    "marketplace": 2.21
+  },
+  "D10": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.15,
+    "system_of_intelligence": 0.38,
+    "data_pipe": 0.08,
+    "knowledge_corpus": 0.38,
+    "sensor": 0.85,
+    "service_delivery": 0.15,
+    "marketplace": 1.54
+  },
+  "D11": {
+    "system_of_record": 0.05,
+    "system_of_engagement": 0.24,
+    "system_of_intelligence": 0.89,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.22,
+    "sensor": 2.7,
+    "service_delivery": 3.6,
+    "marketplace": 0.77
+  },
+  "D12": {
+    "system_of_record": 0.14,
+    "system_of_engagement": 0.28,
+    "system_of_intelligence": 0.14,
+    "data_pipe": 0.28,
+    "knowledge_corpus": 0.28,
+    "sensor": 2.51,
+    "service_delivery": 0.0,
+    "marketplace": 0.7
+  },
+  "D13": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.79,
+    "system_of_intelligence": 0.29,
+    "data_pipe": 0.22,
+    "knowledge_corpus": 0.14,
+    "sensor": 2.38,
+    "service_delivery": 5.27,
+    "marketplace": 0.58
+  },
+  "D14": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.0,
+    "system_of_intelligence": 0.07,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.15,
+    "sensor": 11.72,
+    "service_delivery": 0.3,
+    "marketplace": 0.9
+  },
+  "D15": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 5.15,
+    "system_of_intelligence": 1.31,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.11,
+    "sensor": 0.66,
+    "service_delivery": 0.11,
+    "marketplace": 3.29
+  },
+  "D16": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.65,
+    "system_of_intelligence": 0.05,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.0,
+    "sensor": 4.66,
+    "service_delivery": 4.43,
+    "marketplace": 0.55
+  },
+  "D17": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.12,
+    "system_of_intelligence": 0.3,
+    "data_pipe": 0.06,
+    "knowledge_corpus": 0.06,
+    "sensor": 0.24,
+    "service_delivery": 1.2,
+    "marketplace": 5.12
+  },
+  "D18": {
+    "system_of_record": 0.04,
+    "system_of_engagement": 0.51,
+    "system_of_intelligence": 0.11,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 6.44,
+    "sensor": 0.59,
+    "service_delivery": 0.07,
+    "marketplace": 0.59
+  },
+  "D19": {
+    "system_of_record": 0.14,
+    "system_of_engagement": 0.57,
+    "system_of_intelligence": 0.28,
+    "data_pipe": 0.14,
+    "knowledge_corpus": 0.14,
+    "sensor": 12.64,
+    "service_delivery": 0.0,
+    "marketplace": 0.42
+  },
+  "G01": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.26,
+    "system_of_intelligence": 1.2,
+    "data_pipe": 0.0,
+    "knowledge_corpus": 0.43,
+    "sensor": 0.0,
+    "service_delivery": 0.0,
+    "marketplace": 0.04
+  },
+  "I01": {
+    "system_of_record": 0.0,
+    "system_of_engagement": 0.39,
+    "system_of_intelligence": 0.0,
+    "data_pipe": 0.78,
+    "knowledge_corpus": 0.0,
+    "sensor": 0.0,
+    "service_delivery": 0.0,
+    "marketplace": 1.56
+  }
+}

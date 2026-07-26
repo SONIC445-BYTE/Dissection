@@ -1,0 +1,77 @@
+Feature,Purpose,Evidence,User Value,Business Value,Engineering Complexity,Estimated Build Time,AI Dependency,Clinical Dependency,Strategic Importance,Copy,Improve,Ignore,Reinvent,Priority,Confidence
+B2B enterprise product landing page,Explain Human API value and collect demo leads,risk.lexisnexis.com/products/humanapi,Helps buyers understand use cases,Enterprise lead gen,Low,1-2 weeks,No,Low,High,Yes,Yes,No,No,High,High
+Life-insurance EHR landing page,Position Health Intelligence for underwriting,risk.lexisnexis.com/products/health-intelligence-ehr,Clarifies underwriting ROI,Carrier pipeline,Low,1-2 weeks,No,Medium,High,Yes,Yes,No,No,High,High
+Contact/demo form,Capture enterprise leads,Product pages contact forms,Lets enterprise buyer request demo,Sales qualification,Medium,2-4 weeks,No,Low,High,Yes,Improve,No,No,High,High
+Global country selector,Collect geographic sales context,Contact form country list,Local routing,Sales ops,Low,1 week,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Industry/subsector fields,Qualify use case,Contact form fields,Less back-and-forth,Lead scoring,Low,1 week,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Consumer consent interface,Allow patient/applicant to authorize records,"Human API docs: Connect widget, consumerLink",User controls sharing,Core data acquisition,High,3-6 months,No,High,Critical,Yes,Yes,No,No,P0,High
+Human API Connect JS client,Embed consent widget in customer apps,v2.3 web guide; humanapi-connect-client,Fast integration,Developer adoption,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+NPM package,Install Connect in React/web apps,v2.3 web guide npm install humanapi-connect-client,Developer convenience,Integration velocity,Medium,1 month,No,Medium,Medium,Yes,Improve,No,No,Medium,High
+CDN script,Load Connect from cdn.humanapi.co,v2.3 web guide CDN snippets,Low setup friction,Adoption,Medium,2-4 weeks,No,Medium,Medium,Yes,Improve,No,No,Medium,High
+Lifecycle hooks,Emit connect/disconnect/close events,v2.3 web guide lifecycle hooks,Host app knows session outcome,Integration quality,Medium,2-4 weeks,No,Low,High,Yes,Improve,No,No,High,High
+Session token endpoint,Generate Connect session tokens,/v1/connect/token docs,Secure launch of consent flow,Access control,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Admin client token endpoint,Generate Admin API token,/v1/admin/token docs,Server-to-server auth,API monetization,Medium,1 month,No,High,High,Yes,Improve,No,No,High,High
+Create user/order API,Create applicant/user and order evidence,/api/v1/users docs,Starts data retrieval,Core transaction volume,High,2-4 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Order type configuration,Bundle retrieval channels/timeouts/outputs,Configuring order types docs,Workflow flexibility,Enterprise customization,High,2-4 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Order type API,List configured order types,/api/v1/order-types docs,Customer system knows options,Integration reliability,Medium,1 month,No,Medium,High,Yes,Improve,No,No,High,High
+Consumer-mediated retrieval channel,Portal/patient-mediated EHR access,Order types and product page,Patient-controlled data access,Higher hit rate,Very High,6-18 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Digital HIPAA authorization channel,HIPAA-authorized EHR/HIE retrieval,Order types docs,No consumer portal dependency,Carrier automation,Very High,6-18 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Traditional HIPAA/APS channel,Retrieve APS when EHR unavailable,Order types/docs,Fallback evidence,Completion revenue,High,6-12 months,Maybe,High,Critical,Yes,Improve,No,No,P0,High
+Smart evidence orchestration,Select retrieval path based on data/constraints,Official acquisition/product pages,Less friction,Cost/hit-rate optimization,Very High,9-18 months,Maybe,High,Critical,Yes,Reinvent,No,Yes,P0,High
+APS delay logic,Delay APS to allow digital channels first,Order type docs recommend 7 days,Lower unnecessary APS friction,Cost savings,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Order sufficiency logic,Keep searching until required data found,Order type docs,Data completeness,Better underwriting decisions,High,3-6 months,Maybe,High,Critical,Yes,Reinvent,No,Yes,High,High
+Custom outputs,Generate outputs by use case,Order type docs,Fit workflow needs,Enterprise upsell,High,3-6 months,Maybe,High,High,Yes,Improve,No,No,High,High
+Clinical History report,"Shortened, readable EHR report",Reports docs; Health Intelligence page,Underwriters review faster,Differentiation,Very High,6-12 months,Maybe,High,Critical,Yes,Reinvent,No,Yes,P0,High
+Highlights Summary,"Summary of profile, health measurements, social history, labs",Reports docs; product page,Fast triage,Adoption by underwriters,High,3-6 months,Maybe,High,Critical,Yes,Reinvent,No,Yes,P0,High
+HealthCheck report,Targeted labs/vitals alternative to labs,Reports docs/order types,Less invasive evidence,Faster decisions,High,3-6 months,Maybe,High,High,Yes,Improve,No,No,High,High
+FHIR R4 report,Structured zip ndjson output,Reports docs,Analytics ingestion,Developer/data product value,High,4-8 months,No,High,Critical,Yes,Improve,No,No,P0,High
+CCD/CCDA report,Legacy XML medical record payload,Epic docs and reports docs,Standards compatibility,Legacy integrations,Medium,2-4 months,No,High,Medium,Maybe,Improve,No,No,Medium,High
+API Data JSON report,Bulk export of clinical endpoints,Reports docs,Programmatic modeling,Decision automation,High,3-6 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Report download API,Fetch available report list and content,/api/v1/user/reports docs,Automated retrieval,Integration value,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Automated report push,Push outputs automatically at completion,Reports delivery docs,No polling,Enterprise integration,Medium,2-3 months,No,Medium,High,Yes,Improve,No,No,High,High
+HTTP multipart delivery,Push report over HTTP,Reports delivery docs,Flexible delivery,Integration value,Medium,1-2 months,No,Medium,Medium,Yes,Improve,No,No,Medium,High
+SFTP delivery,Push reports to SFTP,Reports delivery docs,Legacy enterprise compatibility,Enterprise adoption,Medium,1-2 months,No,Medium,Medium,Yes,Improve,No,No,Medium,High
+Pre-signed URL delivery,Ask customer for URL then push file,Shipment docs,Handles large files/cloud storage,Modern integration,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Webhook order summary,Notify terminal order state and reports,Order summary notification docs,Automated case workflow,Integration reliability,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+APS status note webhook,Notify vendor notes,APS status docs,Operational transparency,Case management value,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Pended task model,Consolidate blocking issues into tasks,Integration best practices docs,Clear next action,Reduced support friction,High,3-6 months,No,Medium,High,Yes,Improve,No,No,High,High
+Task Manager link,Hosted UI to resolve tasks,consumer-link docs,User/underwriter action path,Completion rate,Medium,1-3 months,No,Medium,High,Yes,Improve,No,No,High,High
+Order cancellation API,Abort/resync user/order,/api/v1/users/actions docs,Control workflow,Support reduction,Medium,1 month,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Resync action,Trigger fresh data sync,users/actions enum resync,Current data,Retention/usefulness,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Provider search,Search/select provider/location,Product page: Provider Search,Less manual input,Better hit rate,High,3-6 months,No,High,High,Yes,Improve,No,No,High,High
+Suggested sources,Pass likely providers to API,Submitting orders docs,Faster selection,Hit-rate lift,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Provider object with NPI/MRN/fax,Supply provider details,Create user schema,Precise retrieval,APS success,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Demographic validation,"Validate DOB, SSN, phone, address",Create user schema/order guidelines,Fewer failures,Retrieval quality,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Medical API: allergies,Normalized allergies endpoint,v2.3 allergies docs,Clinical context,Data completeness,Medium,1-2 months,No,High,Medium,Yes,Improve,No,No,Medium,High
+Medical API: problems/issues,Normalized problems endpoint,v2.3 problems docs,Condition history,Risk models,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Medical API: medications,Normalized meds endpoint,v2.3 medications docs,Medication history,Risk/clinical value,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Medical API: test results,Normalized lab/test endpoint,v2.3 test-results docs,Lab history,Risk/clinical value,High,2-4 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Medical API: encounters,Clinical encounters,v2.3 endpoint list,Longitudinal care history,Completeness,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,Medium
+Medical API: procedures,Procedure history,v2.3 endpoint list,Clinical history,Risk value,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,Medium
+Medical API: immunizations,Vaccine history,v2.3 endpoint list,Preventive history,Use-case expansion,Medium,1-2 months,No,High,Medium,Yes,Improve,No,No,Medium,Medium
+Medical API: vitals,Vitals endpoint,v2.3 endpoint list,Objective measures,Underwriting/clinical value,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,Medium
+Wellness API: activities,Activity segments endpoint,v2.3 activities docs,Lifestyle data,Personalization/use cases,Medium,1-2 months,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Wellness API: sleep,Sleep/sleep summary endpoint,v2.3 endpoint list,Recovery context,Personalization,Medium,1-2 months,No,Low,Medium,Yes,Improve,No,No,Medium,Medium
+Wellness API: heart rate,HR/HR summary endpoint,v2.3 endpoint list,Physiology context,Risk/engagement,Medium,1-2 months,No,Low,Medium,Yes,Improve,No,No,Medium,Medium
+Sources endpoint,List connected external accounts and sync status,v2.3 sources docs,Transparency,Debuggability,Medium,1-2 months,No,Medium,High,Yes,Improve,No,No,High,High
+Human summary endpoint,Latest normalized summary profile,v2.3 human-summary docs,Quick overview,App efficiency,Medium,1-2 months,No,Medium,Medium,Yes,Improve,No,No,Medium,High
+MyHumanAPI patient app,Patient aggregation/view/download,Epic docs,User self-service,Trust/compliance,High,3-6 months,No,High,High,Yes,Improve,No,No,High,High
+Enterprise Portal,Hosted portal to view/manage consumer data,Product page; v2.3 overview,Ops/admin visibility,Enterprise stickiness,High,4-8 months,Maybe,Medium,High,Yes,Improve,No,No,High,High
+Interactive timeline,Timeline view of health data sources,v2.3 overview portal description,Comprehension,Workflow adoption,High,3-6 months,Maybe,Medium,Medium,Maybe,Improve,No,No,Medium,High
+Subscriptions for agents/producers,Notify case stakeholders,Subscriptions docs,Distribution visibility,Carrier/broker adoption,Medium,2-4 months,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Role-based producer subscription,Subscribe producer role to case,Subscriptions API docs,Agent experience,Distribution partner value,Medium,2-3 months,No,Low,Medium,Yes,Improve,No,No,Medium,High
+Medical Insights extraction,Targeted attributes from EHR,Health Intelligence page,Faster risk review,High-margin insights,Very High,6-12 months,Yes,High,Critical,Yes,Reinvent,No,Yes,P0,High
+Mortality management output,Select mortality predictors,Order type docs,Risk assessment,Carrier differentiation,Very High,6-12 months,Yes,High,Critical,Maybe,Reinvent,No,Yes,High,High
+APS summarization,Summarize long APS records,Order type docs,Less reading burden,Underwriter productivity,High,3-6 months,Yes,High,High,Yes,Reinvent,No,Yes,High,High
+Conditional summarization logic,Summarize based on pages/face amount,Order type docs,Cost-aware UX,Margin protection,High,2-4 months,Yes,Medium,Medium,Yes,Improve,No,No,Medium,High
+Advanced linking of consumers/providers,Link/cleanse identities and providers,2025 Lexis release,Higher hit rate,Lexis moat,Very High,12-24 months,Maybe,Medium,Critical,No,Reinvent,No,Yes,P0,High
+Identity resolution integration,Combine health data with Lexis identity data,Health Intelligence page and 2025 release,Better matching,Major moat,Very High,12-24 months,Maybe,Medium,Critical,No,Reinvent,No,Yes,P0,High
+Consent deletion/revocation,Patients can request deletion; connections active until revoked,Epic docs,Trust/control,Compliance,High,2-4 months,No,High,Critical,Yes,Improve,No,No,P0,High
+Audit logging,Log API calls/user/system events,Security/Epic docs,Accountability,Compliance,High,2-4 months,No,High,Critical,Yes,Improve,No,No,P0,High
+AES-256 at-rest encryption,Encrypt stored data,Security docs,Privacy/security,Enterprise trust,High,1-3 months,No,High,Critical,Yes,Improve,No,No,P0,High
+HTTPS/TLS everywhere,Encrypt transport,Security docs/headers,Security,Compliance,Medium,1 month,No,High,Critical,Yes,Improve,No,No,P0,High
+BAA support,Business Associate Agreements where appropriate,Security docs,Enterprise compliance,Sales enablement,High legal,1-3 months,No,High,Critical,Yes,Improve,No,No,P0,High
+ONC/Epic developer documentation,Show compliance with Epic guidelines/ONC criteria,Epic docs,Provider trust,Network access,Medium,1-2 months,No,High,High,Yes,Improve,No,No,High,High
+Consumer-mediated COVID credential use case,Support Health Pass/COVID results,CLEAR partnership public release,Safe access verification,Adjacent market expansion,High,3-6 months,No,High,Temporary,Maybe,Ignore,Yes,No,Low,High
+Sales resources and webinars,Educate enterprise buyers,Risk resources pages,Buyer education,Demand generation,Low,1-2 months,No,Low,Medium,Yes,Improve,No,No,Medium,High
+ROI stats/proof points,"Quantify decisions, cycle time, placement",Health Intelligence page internal study,Buyer confidence,Conversion,Low,2-4 weeks,No,Low,High,Yes,Improve,No,No,High,High

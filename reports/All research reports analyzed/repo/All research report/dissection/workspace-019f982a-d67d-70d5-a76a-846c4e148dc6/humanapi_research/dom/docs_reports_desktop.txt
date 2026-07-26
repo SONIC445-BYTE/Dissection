@@ -1,0 +1,135 @@
+Jump to Content
+Guides
+API Reference
+Portal
+Support and Knowledge base
+Integration Status
+HIP
+Guides
+Report Types
+Search
+CTRL-K
+HUMAN API OVERVIEW
+Health Intelligence Platform
+Security
+GETTING STARTED
+Integration Overview
+Configuring "Order Types"
+Integration Best Practices
+Brand Guidelines
+API
+Overview
+Authentication
+Issue an authenticated call
+API Reference
+ORDERS
+Submitting Orders
+Cancelling Orders
+Order Attributes
+Order Guidelines
+ORDER LIFECYCLE
+Order Fulfillment Lifecycle
+UNIFIED EVENTS PIPELINE
+Order Summary Notification
+APS Status Notes Notification
+TASK MANAGER INTEGRATED FLOW
+Task Manager
+Callback
+Consumer Link
+REPORTS
+Report Types
+Reports API
+Reports Delivery
+Shipment to Pre-signed URLs
+PRODUCER SUBSCRIPTIONS
+Create Subscription
+Get Subscribers
+Report Types
+Overview
+
+Reports are distinct representations of electronic health records. Different reports are designed to serve different use cases. Human readable reports are available in PDF or HTML while reports for programmatic use cases are available as JSON.
+
+Reports are compiled shortly after we get an authorization from an individual and retrieve the data from their healthcare providers.
+
+There are different ways to download a report. Either manually from our Enterprise Portal or automatically, using the API or an automated ”push” delivery system.
+
+Types of available reports and formats
+
+You may want the data to be organized and presented differently to meet your use case. You may need to see the entirety of a patient’s medical record or a concise version. You may want to have the data organized historically or grouped by types. You may want to surface specific details only, such as lab results.
+
+We provide a set of standard reports representing the same underlying patient medical record. You can download the reports in JSON, HTML or PDF.
+
+Below, a list of the standard reports that we can make available.
+
+Code	Description	Available Formats
+clinicalhistory	
+
+Clinical History
+Clinical History is a complete medical record meant for full medical underwriting. Duplicate sections are removed resulting in significantly shorter records compared to the ccdraw Complete Medical Record report.
+
+It is grouped into 2 major sections:
+- The Clinical Timeline that shows encounter specific entries grouped by day
+- The Summary Records section that shows summary entries that frequently span multiple days or years
+
+This report is built to combine all available healthcare providers. Each provider authorized by the end consumer will be included in this report.
+
+The Clinical History and Complete Medical Record reports both include the full health history available but Human API recommends the Clinical History Report for all use cases requiring a full medical record as it is significantly shorter without any data loss and offers much improved data formatting.
+
+	HTML
+PDF
+highlights	Highlights Summary
+
+Provides a summary of profile and health measurements. Organizes results by test results, social history and key conditions.	JSON
+HTML
+PDF
+healthcheck	Health Check Summary
+
+Provides a summary of profile and health measurements related to test results. Organizes results by chemistries, cardiovascular risk, BMI, blood pressure, lipid panel.	JSON
+HTML
+PDF
+aps	
+
+APS report
+
+Attending Physician Statement. These range between a few dozen and several hundred pages of a patient’s medical history, including diagnoses, prescribed medications, and notes.
+
+	PDF
+fhir	
+
+FHIR report
+
+Structured data output that follows the industry standard FHIR R4 schema. Output is a zip file containing a set of ndjson files containing problems, procedures, vitals, etc. This comprehensive output includes all the data available in the record, and is intended to be ingested into a database for programmatic and analytical use cases.
+
+	ZIP
+
+Legacy Reports (available, but have been replaced by improved options)
+
+Code	Description	Available Formats
+ccdraw	
+
+Complete medical record
+
+Superseded by the Clinical History report.
+The entire medical record of a patient , directly rendered from the CCD-A documents. This report renders the data as close as it can get to the original charts retrieved from the source EHR.
+
+This report is generated only when the user connects a data source that provides CCDA files. It’s typically not available from pharmacies or independent lab networks.
+
+This report is built separately for each healthcare provider. Each provider authorized by the end consumer may have their own report.
+
+	HTML
+PDF
+apidata	
+
+Bulk export of the clinical API
+
+This report aggregates the output of the main clinical API endpoints for a given individual. It’s equivalent to calling all the ​Clinical API​ endpoints (except ccd and narratives) and concatenating the responses together.
+
+	JSON
+
+Updated 5 months ago
+
+Consumer Link
+Reports API
+Copy Page
+Overview
+Types of available reports and formats

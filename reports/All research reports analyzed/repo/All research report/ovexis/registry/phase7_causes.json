@@ -1,0 +1,130 @@
+{
+ "analytics_dashboard": [
+  "humans cannot query data without a pre-built view",
+  "NO - replaced by query"
+ ],
+ "content_education": [
+  "knowledge was scarce and had to be pre-authored into articles",
+  "PARTIAL - synthesis on demand"
+ ],
+ "provider_discovery": [
+  "no way to match need to supply without a directory",
+  "NO - agent negotiates"
+ ],
+ "ai_chat_assistant": [
+  "interface to knowledge",
+  "YES - but becomes ambient not a feature"
+ ],
+ "summarisation": [
+  "humans cannot read everything",
+  "YES - permanent"
+ ],
+ "rag_grounded_answer": [
+  "models hallucinate; corpus is external",
+  "YES - permanent trust primitive"
+ ],
+ "clinical_decision_support": [
+  "clinician cannot hold all evidence",
+  "YES - but merges into reasoning"
+ ],
+ "composite_health_score": [
+  "humans need one number to act on",
+  "PARTIAL - compression for humans"
+ ],
+ "longitudinal_timeline": [
+  "record fragmented across providers",
+  "YES - permanent"
+ ],
+ "data_normalisation": [
+  "systems disagree on meaning",
+  "YES - permanent chokepoint"
+ ],
+ "identity_resolution": [
+  "no universal patient identifier",
+  "PARTIAL - solved by ABHA in India"
+ ],
+ "consent_management": [
+  "legal requirement for data movement",
+  "YES - permanent, strengthens"
+ ],
+ "ehr_record_retrieval": [
+  "records locked in silos",
+  "YES - permanent"
+ ],
+ "fhir_api_surface": [
+  "machines must exchange data",
+  "YES - permanent"
+ ],
+ "documentation_scribe": [
+  "billing/legal require a written artifact",
+  "ARTIFACT OF BILLING - not of care"
+ ],
+ "billing_claims": [
+  "payer and provider are separate entities with opposed incentives",
+  "YES while payers exist"
+ ],
+ "scheduling_booking": [
+  "resources are scarce and contended",
+  "YES - permanent"
+ ],
+ "ordering_eprescribing": [
+  "an authorised human must commit an instruction",
+  "YES - liability anchor"
+ ],
+ "referral_care_coordination": [
+  "care spans institutions",
+  "YES - permanent"
+ ],
+ "task_workflow_engine": [
+  "work must be sequenced and tracked",
+  "YES - permanent"
+ ],
+ "ui_automation_execution": [
+  "systems lack APIs",
+  "TRANSITIONAL - exists because integration failed"
+ ],
+ "safety_guardrails": [
+  "autonomous action can harm",
+  "YES - strengthens"
+ ],
+ "explainability_provenance": [
+  "trust requires traceability",
+  "YES - strengthens"
+ ],
+ "clinician_review_loop": [
+  "liability requires a human signature",
+  "YES - liability, not capability"
+ ],
+ "coaching_service": [
+  "behaviour change needs a human relationship",
+  "CONTESTED"
+ ],
+ "gamification_habit": [
+  "engagement is hard",
+  "NO - crutch for bad value"
+ ],
+ "onboarding_flow": [
+  "software is hard to start using",
+  "NO - conversation replaces setup"
+ ],
+ "marketplace_commerce": [
+  "transactions need a storefront",
+  "PARTIAL"
+ ],
+ "subscription_billing": [
+  "recurring revenue mechanics",
+  "YES - commercial not clinical"
+ ],
+ "conversion_growth_surface": [
+  "humans must be persuaded to sign up",
+  "NO - if value is real"
+ ],
+ "security_access_control": [
+  "data must be protected",
+  "YES - permanent"
+ ],
+ "compliance_certification": [
+  "trust must be attested",
+  "YES - permanent"
+ ]
+}

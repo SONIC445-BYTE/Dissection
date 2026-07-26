@@ -1,0 +1,21 @@
+layer,component,status,law,action,why
+01 Core Architecture,Kernel: intent -> plan -> policy -> execute -> verify -> audit,PARTIAL (agent_brain 487 + odav_loop 355 REACHABLE),"ENG01,ENG02",Keep. This is the asset.,"ODAV is already the R1-breaking shape: it verifies, which is what generates outcome data"
+02 Agent Architecture,Single planner + typed tool calls; no multi-agent,"PARTIAL (task_planner 352 REACH, task_graph 338 ORPHAN)",ENG08,Wire task_graph or delete it,Multi-agent adds coordination failure modes a solo builder cannot debug
+03 Policy Engine,Deterministic pre-execution constraint check,"ORPHANED (policy_manager 338 + permission_engine 301, ZERO non-test importers)",ENG04,WIRE IMMEDIATELY - highest priority,Safety code that never executes is worse than none: it creates false confidence
+04 Adapter Framework,BaseAdapter contract + registry + resolution gate,"REACHABLE (command_router 347, resolution_gate 174, registry wired for 14)","ENG01,ENG05,ENG08",Freeze at 14 wired; delete or quarantine the 149 fabricated,149 fabricated adapters produce no flywheel and poison the catalog
+05 Workflow Engine,"Durable state machine for multi-step, resumable workflows",ABSENT (task_graph orphaned; no persistence),ENG09,BUILD - this is protocol_commitment (Phase3 SI 9.6),State must live in the system; every Tier-1 opportunity is a state problem
+06 Knowledge Graph,"Institutional state graph: beds, theatres, staff, claims",ABSENT,ENG09,BUILD after workflow engine,Phase7 AN05; cross-departmental state nobody aggregates
+07 Memory System,Session + longitudinal store,"ORPHANED + INSECURE (memory_store 315, XOR hardcoded key; session_memory 113 zero importers)",ENG07,Wire session_memory; replace XOR with AES-GCM before ANY PHI,CB-08: local != secure
+08 Conversation Engine,Multi-turn with resumable pending state,"REACHABLE (conversation_loop, turn_manager, command_router)",ENG03,Keep,Already handles pending/resume - the substrate for human confirmation
+09 Verification Engine,Independent post-condition observation,REACHABLE (validation_engine 286) but 144/160 adapters return True,ENG02,Make verify_action_result non-optional; fail closed,Unverified action = no action (LAW02)
+10 Safety Layer,Graduated autonomy OFF/SHADOW/SUGGEST/FORCE per action class,PARTIAL (feature_gate 39 REACH; modes exist but global not per-action),ENG06,Extend to per-action-class,B1 loop: uniform autonomy forces system to riskiest action safety level
+11 Observability,Structured audit of what/why/authority/evidence,"ORPHANED (audit_log 307, 3 importers all themselves orphaned)",ENG10,WIRE - second priority after policy,Provenance is product (LAW07); required for R5 trust loop
+12 Integration Layer,ABDM/FHIR client + NHCX claims client,"ABSENT (zero healthcare code, all branches CB-07)",ENG05,BUILD - ABDM sandbox first,LAW12: counterparty network already exists (38 NHCX partners)
+13 Vision Layer,Screen perception for internal HMIS ops,"PARTIAL (ui_perception 342, element_selector 259 REACH)",ENG05,Keep; retarget from consumer apps to HMIS screens,LAW05/DL-046: internal ops are permanently API-poor
+14 Voice Layer,STT/TTS,"PARTIAL (local_stt 213, listen 76, TTS 73)",-,Defer,Phase7 AN04 nursing capture is Tier-3; not the beachhead
+15 Reasoning Layer,"Local model for PHI, cloud for general",PARTIAL (llm_engine 309 via subprocess curl to Ollama),ENG07,Replace subprocess curl with a proper client; add routing,Fragile transport for the systems core dependency
+16 Planner,Intent -> ordered verifiable steps,"REACHABLE (task_planner 352, intent_router)",ENG01,Keep,Works; contract is sound
+17 Execution Layer,Adapter dispatch with dry-run,"REACHABLE (ui_executor 567, action_executor)",ENG02,Keep; enforce dry-run default in clinical contexts,Largest single asset; 1747 LOC of the markets thinnest layer
+18 Validation Layer,Pre and post condition assertions,REACHABLE (validation_engine 286),ENG02,Keep; extend to workflow-level invariants,Step validation exists; workflow validation does not
+19 Audit Layer,Immutable append-only action ledger,ORPHANED (audit_log 307),ENG10,Wire + make append-only,Mutable audit is not audit
+20 Deployment,Single-tenant on-prem agent per hospital,"PARTIAL (daemon, installers, pyproject on branch)",ENG07,Merge branch; add CI,"ENG12: 9713 lines unmerged, 325 vs 7 passing tests"

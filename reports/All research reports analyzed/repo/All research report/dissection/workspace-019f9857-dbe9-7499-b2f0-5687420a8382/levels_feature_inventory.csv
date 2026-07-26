@@ -1,0 +1,64 @@
+Feature,Purpose,Evidence,User Value,Business Value,Engineering Complexity,Clinical Complexity,Infrastructure Complexity,Regulatory Complexity,Estimated Team,Estimated Months,Priority,Category,Copy,Improve,Ignore,Reinvent,Moat,Confidence
+Homepage value proposition,Explain metabolic health and drive quiz/start conversion,S01,Clear problem framing and trust cues,Top-of-funnel conversion,2,1,1,2,Growth+Design,1,High,Marketing,False,True,False,False,Brand,High
+Personalized plan quiz,Route users to plan/package,"S01,S06",Reduces plan ambiguity,Lead capture and conversion,3,1,2,2,Growth+Eng,2,High,Onboarding,True,False,False,False,Distribution,Med
+App-only membership,Separate software from hardware,S03,Low entry price and non-CGM use,Expands TAM and retention after CGM sprint,3,1,2,2,Product+Billing,2,High,Business model,True,False,False,False,Pricing,High
+Stelo add-on/subscription,Provide OTC CGM access,"S03,S07,S43",Easy glucose monitoring without prescription,Add-on revenue and data generation,4,2,3,3,Ops+Eng,3,High,CGM,True,False,False,False,Data,High
+Dexcom G7 prescription pathway,Support users who prefer prescription G7,S08,More sensor choice,Coverage of advanced users and pharmacy flow,5,4,4,5,Clinical Ops+Eng,4,Medium,CGM,False,True,False,False,Regulatory,High
+Bring your own CGM,Let members use external sensors,"S03,S07,S08",Reduces lock-in and cost,Reduces hardware ops burden,4,2,3,3,Mobile+Partner,3,High,Integration,True,False,False,False,Switching,High
+Stelo direct connection,Pull Stelo data into Levels,S07,Simpler direct data flow,Better experience than Apple/Health Connect delay,5,2,4,3,Mobile+Backend,4,High,Integration,False,True,False,False,Data,High
+Glucose timeline,Show CGM trace alongside logs,"S01,S06,S10",Causal understanding,Core engagement loop,5,2,4,2,Mobile+Data,4,High,Visualization,True,False,False,False,Data,High
+Current glucose home card,Show recent/current glucose,S06,Immediate feedback,Daily active usage,3,2,3,2,Mobile,2,High,Visualization,True,False,False,False,Engagement,High
+Meal logging by text/voice,Fast natural-language input,S10,Lower logging friction,More food logs and model training data,5,1,4,2,AI+Mobile,4,High,Nutrition AI,True,False,False,False,Data,High
+Meal logging by photo,AI recognizes plate contents,S10,Lower cognitive burden,High-frequency user-generated data,6,1,5,2,AI+Mobile,5,High,Nutrition AI,False,True,False,False,Data,High
+Barcode scanner,Log packaged foods,S10,Accuracy for labeled items,Food database enrichment,4,1,3,1,Mobile+Data,3,High,Food logging,True,False,False,False,Data,High
+Food search,Find foods/brands/history,S10,Completes meal logging,Retention through utility,4,1,4,1,Mobile+Data,3,High,Food logging,True,False,False,False,Data,High
+Custom foods,Allow unknown/local foods,S10,Coverage for real-world diets,Fewer failed logs,3,1,3,1,Mobile+Data,2,Medium,Food logging,True,False,False,False,Data,High
+Recents/re-log,Speed repeated meals,S10,Less repetitive input,More adherence,3,1,2,1,Mobile,2,High,Food logging,True,False,False,False,Engagement,High
+Retroactive logging from graph,Timestamp events on glucose curve,S10,Corrects missed logs,Improves data-label accuracy,5,1,3,1,Mobile+Data,3,Medium,UX,True,False,False,False,Data quality,High
+Meal macro breakdown,Display protein/fat/carbs/fiber/sugar,"S01,S10",Turns meals into actionable nutrition,Keeps app useful without CGM,5,2,4,2,AI+Nutrition,4,High,Nutrition,True,False,False,False,Data,High
+Food quality feedback,Score/assess meal quality,"S01,S10",Simple decision cue,Behavior-change loop,5,3,4,3,Nutrition+AI,4,High,Behavior,False,True,False,False,Clinical,High
+Meal/Zone score,Rate glucose response to meal/event,"S04,S31",Easy interpretation,Signature feature,5,4,4,3,Data Science,4,High,Scoring,True,False,False,False,Brand,High
+Daily Stability/Metabolic score,Summarize day glucose stability,"S04,S35",At-a-glance score,Gamified retention,5,4,4,3,Data Science,4,High,Scoring,False,True,False,False,Behavior,High
+Ignore glucose for strenuous exercise,Avoid penalizing exercise glucose rise,S35,More fair scores for athletes,Reduces churn from false negatives,4,3,3,2,Data+Mobile,3,High,Scoring,False,True,False,False,Personalization,High
+Automatic strenuous detection,Detect HR >150 from Apple/Health Connect,S35,Less manual correction,Better score trust,5,3,4,2,Mobile+Data,4,Medium,Wearables,False,True,False,False,Data quality,High
+Exercise logging,Add exercise context,S34,Explains glucose movement,Richer behavior dataset,3,1,2,1,Mobile,2,High,Lifestyle,True,False,False,False,Data,High
+Sleep import,Add sleep context,S36,See sleep-glucose relation,Non-CGM retention via habits,4,2,3,1,Mobile+Data,3,High,Wearables,True,False,False,False,Data,High
+Weight import/manual update,Track body-weight trend,S37,Progress monitoring,Weight-loss program retention,3,1,2,1,Mobile,2,Medium,Wearables,True,False,False,False,Data,High
+Mindful time import,Track mindfulness behavior,"S11,S12",Stress context,Holistic positioning,3,1,2,1,Mobile,2,Low,Lifestyle,False,True,False,False,Data,Med
+Notes,Capture user context,S38,Explain anomalies,Improves AI context,2,1,2,1,Mobile,1,Medium,Lifestyle,True,False,False,False,Data,High
+Lifestyle events,Log sauna/cold plunge/etc,S39,Context beyond food/exercise,Biohacker engagement,3,1,2,1,Mobile,2,Medium,Lifestyle,False,True,False,False,Community,High
+Habit loops,Convert goals into daily actions,S11,Daily accountability,Retention and habit formation,5,3,4,2,Product+Mobile,4,High,Habit,True,False,False,False,Behavior,High
+Custom habit targets,Personalize loop goals,S11,Fits starting point,Improves adherence,4,2,3,1,Product+Mobile,3,High,Habit,False,True,False,False,Personalization,High
+Programs,Structured paths for heart/weight/glucose/metabolic goals,"S03,S06",Guided next steps,Retains users beyond raw data,6,4,4,3,Product+Clinical,5,High,Programs,True,False,False,False,Clinical,High
+AI Guide chat bubble,Conversational support and proactive feedback,"S05,S17",Ask about own data,AI-led engagement,7,4,5,4,AI+Product,6,High,AI,False,True,False,False,AI,High
+AI food deconstruction,Break meal text/photo into items,S10,Saves logging effort,More complete nutrition dataset,7,2,5,3,AI+Data,6,High,AI,False,True,False,False,Data,High
+AI health insights,Surface personalized patterns,"S01,S03,S17,S28",Personalized guidance,Differentiation and retention,8,5,5,5,AI+Clinical,8,High,AI,False,False,False,True,AI+Data,High
+LevelsAI blog search,RAG over content library,S27,Instant education,SEO-to-product conversion,5,2,3,2,AI+Content,4,Medium,AI Search,True,False,False,False,Content,High
+Document Center,Store health-related documents,"S17,S28",Central health record,AI health record roadmap,7,4,5,5,Product+AI,8,High,Records,False,False,False,True,Data,Med
+AI lab upload extraction,Extract lab values from PDFs,S14,Reduces manual entry,Acquire non-Levels lab data,7,4,5,4,AI+Data,6,High,Labs,True,False,False,False,Data,High
+AI lab interpretation,Plain-English summary/actions,S14,Makes labs understandable,Converts lab upload to engagement,7,5,4,5,AI+Clinical,7,High,Labs,False,True,False,False,Clinical,High
+Basic Labs,28-marker metabolic/cardiovascular panel,S13,Objective health baseline,Add-on revenue,4,5,4,5,Ops+Clinical,4,High,Labs,True,False,False,False,Clinical,High
+Comprehensive Labs,100+ marker panel,S13,Broad health optimization,High-ARPU add-on,4,6,4,5,Ops+Clinical,4,High,Labs,True,False,False,False,Clinical,High
+Clinician review written note,Review data 2x annually in Core/Complete,S03,Professional guidance,Trust and upsell,4,6,4,6,Clinical Ops,4,High,Clinical,False,True,False,False,Clinical,High
+Functional nutritionist session,50-min 1:1 guidance,S03,Human accountability,High-touch upsell,3,4,2,4,Care Ops,3,Medium,Coaching,False,True,False,False,Clinical,High
+Concierge support,SMS/email support on Complete,S03,Reduced friction,Premium retention,3,1,2,2,Support,2,Medium,Support,True,False,False,False,Service,High
+CSV data export,Download data,S31,User control and portability,Trust/compliance,4,1,3,3,Backend,3,High,Privacy,True,False,False,False,Trust,High
+Share data with doctor,Grant access by email,S32,Clinical conversations,Bridge to care system,5,3,4,4,Portal+Security,4,High,Sharing,False,True,False,False,Trust,High
+Delete data request,Privacy deletion workflow,S33,Control and trust,Compliance risk reduction,3,2,4,5,Privacy Ops,3,High,Privacy,True,False,False,False,Trust,High
+Privacy opt-out for research/product improvement,Let users control data contribution,S17,Trust,Legitimizes data moat,3,2,4,5,Privacy+Legal,3,High,Privacy,True,False,False,False,Trust,High
+No data sale principle,Assure users on monetization,"S01,S17",Trust,Brand differentiation,2,1,2,3,Legal+Brand,1,High,Trust,True,False,False,False,Trust,High
+AI provider pseudonymization,Remove direct identifiers before model calls,S17,AI privacy assurance,Enables AI features,6,3,5,5,AI+Security,5,High,Security,False,True,False,False,Trust,High
+Langfuse monitoring,Trace/debug AI prompts/responses,S17,More reliable AI,AI ops quality,5,2,4,4,AI Platform,3,Medium,AI Ops,True,False,False,False,AI,High
+Levels Pro roster,Manage clients in practices,S19,Practitioner scale,B2B revenue,7,5,5,5,B2B Product,8,High,Provider,False,False,False,True,Distribution,High
+Pro AI summaries,Prepare client reviews,S19,Less manual prep,Provider adoption,8,5,5,5,AI+B2B,8,High,Provider AI,False,True,False,False,AI+Workflow,High
+Pro recommendations/targets,Turn review into plan,S19,Care follow-through,Sticky workflows,7,6,5,6,B2B+Clinical,8,High,Provider,False,False,False,True,Workflow,High
+Pro cohorts/challenges,Group programs,S19,Accountability,Scalable practice revenue,6,4,4,4,B2B Product,6,Medium,Provider,True,False,False,False,Network,High
+International waitlist,Capture non-U.S. demand,S09,Future access,Expansion pipeline,2,1,1,2,Growth,1,Low,Expansion,False,True,False,False,Distribution,High
+Research study,Build glucose reference dataset,"S23,S24,S25",Citizen-science participation,Data/clinical credibility,6,6,5,6,Research+Data,12,Medium,Research,True,False,False,False,Data,High
+Biomarker outcome report,Show member improvements,S26,Social proof,Conversion and trust,4,5,3,4,Data+Content,3,High,Evidence,False,True,False,False,Clinical,High
+Content library,Educate on metabolism/nutrition,"S01,S27,S42",Self-service learning,SEO acquisition,3,4,2,2,Content,1,High,Growth,True,False,False,False,Brand,High
+YouTube/podcast ecosystem,Founder/advisor-led education,"S20,S42",Trust and motivation,Low-CAC growth,2,3,1,1,Content+Growth,1,High,Growth,True,False,False,False,Brand,Med
+HSA/FSA TrueMed checkout,Use pre-tax dollars,"S03,S17",Effective price reduction,Conversion,4,3,3,4,Growth+Payments,3,High,Payments,True,False,False,False,Pricing,High
+Affirm financing,Pay over time,S03,Lower upfront friction,Conversion,3,1,2,2,Payments,2,Medium,Payments,True,False,False,False,Pricing,High
+Member portal Shop,Buy add-ons from portal,"S03,S08,S14",Self-serve expansion,ARPU expansion,5,2,4,3,Product+Billing,4,High,Commerce,True,False,False,False,Revenue,High
+Support/help center,Answer setup/product questions,"S05,S06,S07",Reduces confusion,Support leverage,3,1,2,1,Support+Content,2,High,Support,True,False,False,False,Service,High

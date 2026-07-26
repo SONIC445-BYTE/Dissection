@@ -1,0 +1,73 @@
+# Moat Register — Module 12 output, feeds Phase 8
+# state: seed | building | moat | eroding | lost
+# rented_or_owned operationalises the Phase 6 §9 distinction — the one most often missed.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  source: phase-R capability-ledger
+
+moats:
+
+  - id: MOAT-001
+    name: Honest-failure discipline
+    type: technology
+    state: seed
+    current_strength: 2
+    target_strength: 4
+    compounds: true
+    compounding_mechanism: "Every failure mode encoded becomes permanent behaviour. The library of known-honest failures grows with usage and cannot be reconstructed by reading the code."
+    copy_resistance: moderate
+    time_to_copy_months: 12
+    copy_rationale: "Copyable in principle. Requires sustained discipline that demo-driven competitors have no incentive to maintain."
+    rented_or_owned: owned
+    evidence: [phase-R:capability-ledger:2.1]
+    jarvis_note: "CONTESTED-underserved ecosystem-wide. In clinical settings this is the licence to operate, not a feature."
+    depends_on: []
+
+  - id: MOAT-002
+    name: Approval gates with rollback
+    type: technology
+    state: seed
+    current_strength: 3
+    target_strength: 4
+    compounds: false
+    compounding_mechanism: null
+    compounds_note: "Does NOT compound — it is a durable property, not a growing one. Correctly a strong feature rather than a moat."
+    copy_resistance: moderate
+    time_to_copy_months: 9
+    copy_rationale: "Snapshot-first, refuses-without-snapshot, reverts-on-partial-failure is real engineering, but a competent team can replicate it."
+    rented_or_owned: owned
+    evidence: [phase-R:capability-ledger:2.2]
+    depends_on: []
+
+  - id: MOAT-003
+    name: Clinical compliance posture
+    type: regulatory
+    state: seed
+    current_strength: 0
+    target_strength: 5
+    compounds: true
+    compounding_mechanism: "Certifications, audit history and clinical relationships accumulate and cannot be bought quickly."
+    copy_resistance: strong
+    time_to_copy_months: 24
+    copy_rationale: "Slow, expensive, unglamorous. Precisely why velocity-driven competitors skip it."
+    rented_or_owned: owned
+    evidence: [MEM0-C-044, PRIN-005]
+    jarvis_note: "Currently zero. Highest-leverage moat available, and the one most damaged by delay."
+    depends_on: [DEC-002, DEC-004]
+
+  - id: MOAT-004
+    name: Clinical workflow encoding
+    type: workflow
+    state: seed
+    current_strength: 0
+    target_strength: 5
+    compounds: true
+    compounding_mechanism: "Each encoded workflow makes the next cheaper and the product harder to leave. Requires domain access competitors lack."
+    copy_resistance: strong
+    time_to_copy_months: 30
+    rented_or_owned: owned
+    evidence: [phase-R:gap-register:G1]
+    jarvis_note: "Zero today. Cannot be built without physician contact — which is the validation gap Phase R identified."
+    depends_on: [MOAT-003]

@@ -1,0 +1,16 @@
+department,corpus_hits,artifacts_covering
+radiology,234,16
+quality_compliance,210,18
+billing_rcm,190,9
+admin_management,141,15
+ipd_ward,107,15
+emergency,103,16
+reception_front_desk,80,14
+discharge_followup,56,11
+laboratory,27,6
+pharmacy_dept,27,5
+nursing,10,2
+opd_consult,8,2
+icu,4,1
+insurance_preauth,4,1
+ot_surgery,2,1

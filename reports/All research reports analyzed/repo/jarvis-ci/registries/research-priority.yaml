@@ -1,0 +1,27 @@
+# Research Priority Engine — G16
+# Closes the loop Phase 1 opened. Phase 1 ordered by tier BEFORE any research existed.
+# After N dossiers the system knows more; this re-ranks the remainder.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  recompute_every_n_dossiers: 10
+  last_recompute_at_dossier: 1
+
+factors:
+  - {name: decision_blocking, weight: 4, note: "research that unblocks an open one-way decision is worth most"}
+  - {name: capability_gap_severity, weight: 3}
+  - {name: unresolved_open_questions_touching, weight: 3}
+  - {name: layer_coverage_deficit, weight: 2}
+  - {name: contradiction_resolution, weight: 2}
+  - {name: original_tier, weight: 1, note: "Phase 1's pre-research guess — now the least informed input"}
+
+current_ranking:
+  - {rank: 1, company: "Zep / Graphiti", score: 9.4, why: "answers OQ-01 and unblocks DEC-001 (one-way, open)"}
+  - {rank: 2, company: "Letta", score: 8.1, why: "closest whole-loop analogue; tests Agent Core hypothesis"}
+  - {rank: 3, company: "Epic", score: 7.8, why: "unblocks DEC-002 audit-trail expectations for clinical write paths"}
+  - {rank: 4, company: "ABDM / NHA", score: 7.6, why: "unblocks DEC-004 residency; DQ-06 transaction volume"}
+  - {rank: 5, company: "Olive AI", score: 7.2, why: "post-mortem; richest failure-library yield; validates FAIL-005"}
+  - {rank: 6, company: "MCP / AAIF", score: 6.9, why: "UNK-003 standards-wave probe"}
+  - {rank: 7, company: "Cognee", score: 6.4, why: "graph-native comparison for DEC-001"}
+  - {rank: 8, company: "Abridge", score: 6.2, why: "clinical AI GTM; nearest funded healthcare analogue"}

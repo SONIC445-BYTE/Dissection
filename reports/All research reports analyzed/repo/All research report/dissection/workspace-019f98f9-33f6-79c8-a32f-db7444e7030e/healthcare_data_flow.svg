@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="460" viewBox="0 0 920 460" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="460" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Healthcare Data Flow (gap highlighted)</text>
+<line x1="20" y1="36" x2="900" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="111" y1="85" x2="327" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="327,85 317,89 317,81" fill="#808080"/>
+<line x1="111" y1="185" x2="327" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="327,185 317,189 317,181" fill="#808080"/>
+<line x1="341" y1="185" x2="557" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="557,185 547,189 547,181" fill="#808080"/>
+<line x1="565" y1="91" x2="565" y2="177" stroke="#808080" stroke-width="1.6"/>
+<polygon points="565,177 561,167 569,167" fill="#808080"/>
+<line x1="341" y1="86" x2="792" y2="183" stroke="#808080" stroke-width="1.6"/>
+<polygon points="792,183 782,185 783,177" fill="#808080"/>
+<line x1="571" y1="185" x2="792" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="792,185 782,189 782,181" fill="#808080"/>
+<line x1="800" y1="191" x2="800" y2="277" stroke="#808080" stroke-width="1.6"/>
+<polygon points="800,277 796,267 804,267" fill="#808080"/>
+<line x1="800" y1="291" x2="800" y2="377" stroke="#808080" stroke-width="1.6"/>
+<polygon points="800,377 796,367 804,367" fill="#808080"/>
+<line x1="794" y1="385" x2="573" y2="385" stroke="#808080" stroke-width="1.6"/>
+<polygon points="573,385 583,381 583,389" fill="#808080"/>
+<line x1="560" y1="382" x2="112" y2="89" stroke="#808080" stroke-width="1.6"/>
+<polygon points="112,89 122,91 118,98" fill="#808080"/>
+<line x1="795" y1="187" x2="342" y2="387" stroke="#FFC7CE" stroke-width="1.6"/>
+<polygon points="342,387 350,379 353,386" fill="#FFC7CE"/>
+<rect x="542.4150246374415" y="278.09660204155807" width="52" height="16" rx="3" fill="#FFFFFF" stroke="#FFC7CE" stroke-width="0.8"/>
+<text x="568.4150246374415" y="290.09660204155807" font-size="10" text-anchor="middle" fill="#404040">GAP</text>
+<line x1="331" y1="385" x2="110" y2="91" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,91 119,97 113,102" fill="#808080"/>
+<rect x="20" y="60" width="170" height="50" rx="8" ry="8" fill="Patient" stroke="#1F3864" stroke-width="1.2"/>
+<text x="105.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Patient</text>
+<rect x="250" y="60" width="170" height="50" rx="8" ry="8" fill="Booking / Consult" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Booking / Consult</text>
+<rect x="20" y="160" width="170" height="50" rx="8" ry="8" fill="Doctor / Clinic" stroke="#1F3864" stroke-width="1.2"/>
+<text x="105.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Doctor / Clinic</text>
+<rect x="250" y="160" width="170" height="50" rx="8" ry="8" fill="Ray / Insta EMR" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Ray / Insta EMR</text>
+<rect x="480" y="160" width="170" height="50" rx="8" ry="8" fill="HL7 / API" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">HL7 / API</text>
+<rect x="480" y="60" width="170" height="50" rx="8" ry="8" fill="Labs / Imaging" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Labs / Imaging</text>
+<rect x="710" y="160" width="180" height="50" rx="8" ry="8" fill="Provider-scoped Records" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Provider-scoped Records</text>
+<rect x="710" y="260" width="180" height="50" rx="8" ry="8" fill="AI Insights" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="285.0" font-size="12" text-anchor="middle" fill="#404040">AI Insights</text>
+<rect x="710" y="360" width="180" height="50" rx="8" ry="8" fill="Recommendations" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="385.0" font-size="12" text-anchor="middle" fill="#404040">Recommendations</text>
+<rect x="480" y="360" width="170" height="50" rx="8" ry="8" fill="Meds/Labs/Surgery" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="385.0" font-size="12" text-anchor="middle" fill="#404040">Meds/Labs/Surgery</text>
+<rect x="250" y="360" width="170" height="60" rx="8" ry="8" fill="Longitudinal PHR = OVEXIS GAP" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Longitudinal PHR = OVEXIS</text>
+<text x="335.0" y="397.5" font-size="12" text-anchor="middle" fill="#404040">GAP</text>
+</svg>

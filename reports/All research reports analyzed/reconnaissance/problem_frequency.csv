@@ -1,0 +1,39 @@
+Normalized problem,Documents mentioning (keyword-based),Family distribution
+"Claims denial, rejection & appeal backlog",245,Market intelligence: 108; ELITE/workforce: 25; Blueprint: 112
+Prior authorisation friction,92,Blueprint: 69; Market intelligence: 16; ELITE/workforce: 7
+"Billing opacity, overcharging & medical debt",149,Market intelligence: 32; Other: 1; Blueprint: 96; ELITE/workforce: 20
+Coding/charge-capture & documentation defects,130,ELITE/workforce: 13; Blueprint: 93; Market intelligence: 24
+Cash-flow delay & revenue leakage,181,Other: 1; ELITE/workforce: 12; Blueprint: 106; Market intelligence: 62
+"Workforce shortage, retention & brain drain",236,ELITE/workforce: 26; Blueprint: 98; Market intelligence: 112
+"Clinician burnout, mental health & administrative burden",231,Market intelligence: 127; Other: 1; ELITE/workforce: 26; Blueprint: 77
+Workplace violence & staff security,160,Market intelligence: 130; ELITE/workforce: 25; Blueprint: 5
+"Patient wait, queues & access delays",175,ELITE/workforce: 26; Blueprint: 115; Market intelligence: 33; Other: 1
+"ED triage, crowding & routing",225,Market intelligence: 84; Other: 3; ELITE/workforce: 26; Blueprint: 112
+"Bed, ICU & capacity management",55,Blueprint: 44; Market intelligence: 7; ELITE/workforce: 4
+"Documentation, notes & medical-records burden",183,Other: 1; ELITE/workforce: 26; Blueprint: 109; Market intelligence: 47
+Diagnostic delay/error & clinical decision support,118,Blueprint: 90; Market intelligence: 7; ELITE/workforce: 21
+Lab/pathology quality & workflow,38,ELITE/workforce: 26; Blueprint: 11; Market intelligence: 1
+Radiology/imaging workflow,68,ELITE/workforce: 26; Blueprint: 33; Market intelligence: 6; Other: 3
+"Medication safety, pharmacy & access",188,Market intelligence: 72; Other: 3; ELITE/workforce: 25; Blueprint: 88
+Medicine/consumable stock-out & procurement,150,Market intelligence: 40; Blueprint: 99; Other: 1; ELITE/workforce: 10
+Equipment maintenance & biomedical readiness,60,ELITE/workforce: 26; Blueprint: 1; Market intelligence: 32; Other: 1
+Ambulance/transport & emergency readiness,90,ELITE/workforce: 26; Blueprint: 24; Market intelligence: 39; Other: 1
+"Referral, transfer & care navigation",64,Market intelligence: 11; Blueprint: 48; ELITE/workforce: 5
+"Discharge, post-discharge & home-care gap",44,Other: 2; Blueprint: 37; Market intelligence: 1; ELITE/workforce: 4
+"Chronic care, population health & follow-up",44,Other: 2; Market intelligence: 4; Blueprint: 37; ELITE/workforce: 1
+"Surgical consent, audit trail & clinical governance",80,Blueprint: 13; Market intelligence: 66; ELITE/workforce: 1
+"Patient trust, communication & grievances",196,Market intelligence: 122; Other: 2; ELITE/workforce: 24; Blueprint: 48
+"Credentialing, scope-of-practice & quackery",91,Other: 1; Blueprint: 10; Market intelligence: 67; ELITE/workforce: 13
+"Hygiene, infection control & housekeeping",30,Other: 2; ELITE/workforce: 26; Market intelligence: 2
+HIS/EHR fragmentation & interoperability,218,Market intelligence: 81; ELITE/workforce: 20; Blueprint: 115; Other: 2
+Unstructured documents/OCR & data quality,102,Blueprint: 94; Market intelligence: 1; Other: 1; ELITE/workforce: 6
+"Privacy, consent, data localisation & security",200,Market intelligence: 79; Blueprint: 113; Other: 1; ELITE/workforce: 7
+"AI reliability, validation & governance",127,Blueprint: 114; Market intelligence: 8; Other: 1; ELITE/workforce: 4
+Rural/primary-care access & offline delivery,202,Market intelligence: 108; Other: 1; ELITE/workforce: 21; Blueprint: 72
+Government scheme/admin friction,145,Blueprint: 18; Market intelligence: 123; ELITE/workforce: 4
+"Salary, payroll & workforce exploitation",27,ELITE/workforce: 22; Market intelligence: 5
+"Scheduling, handover & task coordination",105,Other: 4; ELITE/workforce: 18; Blueprint: 76; Market intelligence: 7
+Security/crowd control incident response,56,ELITE/workforce: 16; Blueprint: 1; Market intelligence: 39
+Reputation/medico-legal defence,113,Market intelligence: 89; Other: 1; ELITE/workforce: 18; Blueprint: 5
+Public health surveillance & reporting,109,ELITE/workforce: 6; Blueprint: 81; Market intelligence: 20; Other: 2
+Medical education/training workflow,91,ELITE/workforce: 26; Blueprint: 9; Market intelligence: 55; Other: 1

@@ -1,0 +1,185 @@
+{
+  "schema": "ovexis.hpid.phase11.jarvis_architecture/v1",
+  "generated": "2026-07-26",
+  "phase": 11,
+  "status": "CANONICAL",
+  "reachability": {
+    "production_modules": 602,
+    "reachable": 147,
+    "reachable_pct": 24,
+    "orphaned": 455,
+    "orphaned_pct": 76,
+    "reachable_loc": 20171,
+    "orphaned_loc": 18558,
+    "critical_orphans": [
+      "policy_manager(338, 0 importers)",
+      "permission_engine(301)",
+      "audit_log(307)",
+      "memory_store(315)",
+      "session_memory(113, 0 importers)",
+      "task_graph(338)"
+    ]
+  },
+  "layers": [
+    {
+      "layer": "01 Core Architecture",
+      "component": "Kernel: intent -> plan -> policy -> execute -> verify -> audit",
+      "status": "PARTIAL (agent_brain 487 + odav_loop 355 REACHABLE)",
+      "law": "ENG01,ENG02",
+      "action": "Keep. This is the asset.",
+      "why": "ODAV is already the R1-breaking shape: it verifies, which is what generates outcome data"
+    },
+    {
+      "layer": "02 Agent Architecture",
+      "component": "Single planner + typed tool calls; no multi-agent",
+      "status": "PARTIAL (task_planner 352 REACH, task_graph 338 ORPHAN)",
+      "law": "ENG08",
+      "action": "Wire task_graph or delete it",
+      "why": "Multi-agent adds coordination failure modes a solo builder cannot debug"
+    },
+    {
+      "layer": "03 Policy Engine",
+      "component": "Deterministic pre-execution constraint check",
+      "status": "ORPHANED (policy_manager 338 + permission_engine 301, ZERO non-test importers)",
+      "law": "ENG04",
+      "action": "WIRE IMMEDIATELY - highest priority",
+      "why": "Safety code that never executes is worse than none: it creates false confidence"
+    },
+    {
+      "layer": "04 Adapter Framework",
+      "component": "BaseAdapter contract + registry + resolution gate",
+      "status": "REACHABLE (command_router 347, resolution_gate 174, registry wired for 14)",
+      "law": "ENG01,ENG05,ENG08",
+      "action": "Freeze at 14 wired; delete or quarantine the 149 fabricated",
+      "why": "149 fabricated adapters produce no flywheel and poison the catalog"
+    },
+    {
+      "layer": "05 Workflow Engine",
+      "component": "Durable state machine for multi-step, resumable workflows",
+      "status": "ABSENT (task_graph orphaned; no persistence)",
+      "law": "ENG09",
+      "action": "BUILD - this is protocol_commitment (Phase3 SI 9.6)",
+      "why": "State must live in the system; every Tier-1 opportunity is a state problem"
+    },
+    {
+      "layer": "06 Knowledge Graph",
+      "component": "Institutional state graph: beds, theatres, staff, claims",
+      "status": "ABSENT",
+      "law": "ENG09",
+      "action": "BUILD after workflow engine",
+      "why": "Phase7 AN05; cross-departmental state nobody aggregates"
+    },
+    {
+      "layer": "07 Memory System",
+      "component": "Session + longitudinal store",
+      "status": "ORPHANED + INSECURE (memory_store 315, XOR hardcoded key; session_memory 113 zero importers)",
+      "law": "ENG07",
+      "action": "Wire session_memory; replace XOR with AES-GCM before ANY PHI",
+      "why": "CB-08: local != secure"
+    },
+    {
+      "layer": "08 Conversation Engine",
+      "component": "Multi-turn with resumable pending state",
+      "status": "REACHABLE (conversation_loop, turn_manager, command_router)",
+      "law": "ENG03",
+      "action": "Keep",
+      "why": "Already handles pending/resume - the substrate for human confirmation"
+    },
+    {
+      "layer": "09 Verification Engine",
+      "component": "Independent post-condition observation",
+      "status": "REACHABLE (validation_engine 286) but 144/160 adapters return True",
+      "law": "ENG02",
+      "action": "Make verify_action_result non-optional; fail closed",
+      "why": "Unverified action = no action (LAW02)"
+    },
+    {
+      "layer": "10 Safety Layer",
+      "component": "Graduated autonomy OFF/SHADOW/SUGGEST/FORCE per action class",
+      "status": "PARTIAL (feature_gate 39 REACH; modes exist but global not per-action)",
+      "law": "ENG06",
+      "action": "Extend to per-action-class",
+      "why": "B1 loop: uniform autonomy forces system to riskiest action safety level"
+    },
+    {
+      "layer": "11 Observability",
+      "component": "Structured audit of what/why/authority/evidence",
+      "status": "ORPHANED (audit_log 307, 3 importers all themselves orphaned)",
+      "law": "ENG10",
+      "action": "WIRE - second priority after policy",
+      "why": "Provenance is product (LAW07); required for R5 trust loop"
+    },
+    {
+      "layer": "12 Integration Layer",
+      "component": "ABDM/FHIR client + NHCX claims client",
+      "status": "ABSENT (zero healthcare code, all branches CB-07)",
+      "law": "ENG05",
+      "action": "BUILD - ABDM sandbox first",
+      "why": "LAW12: counterparty network already exists (38 NHCX partners)"
+    },
+    {
+      "layer": "13 Vision Layer",
+      "component": "Screen perception for internal HMIS ops",
+      "status": "PARTIAL (ui_perception 342, element_selector 259 REACH)",
+      "law": "ENG05",
+      "action": "Keep; retarget from consumer apps to HMIS screens",
+      "why": "LAW05/DL-046: internal ops are permanently API-poor"
+    },
+    {
+      "layer": "14 Voice Layer",
+      "component": "STT/TTS",
+      "status": "PARTIAL (local_stt 213, listen 76, TTS 73)",
+      "law": "-",
+      "action": "Defer",
+      "why": "Phase7 AN04 nursing capture is Tier-3; not the beachhead"
+    },
+    {
+      "layer": "15 Reasoning Layer",
+      "component": "Local model for PHI, cloud for general",
+      "status": "PARTIAL (llm_engine 309 via subprocess curl to Ollama)",
+      "law": "ENG07",
+      "action": "Replace subprocess curl with a proper client; add routing",
+      "why": "Fragile transport for the systems core dependency"
+    },
+    {
+      "layer": "16 Planner",
+      "component": "Intent -> ordered verifiable steps",
+      "status": "REACHABLE (task_planner 352, intent_router)",
+      "law": "ENG01",
+      "action": "Keep",
+      "why": "Works; contract is sound"
+    },
+    {
+      "layer": "17 Execution Layer",
+      "component": "Adapter dispatch with dry-run",
+      "status": "REACHABLE (ui_executor 567, action_executor)",
+      "law": "ENG02",
+      "action": "Keep; enforce dry-run default in clinical contexts",
+      "why": "Largest single asset; 1747 LOC of the markets thinnest layer"
+    },
+    {
+      "layer": "18 Validation Layer",
+      "component": "Pre and post condition assertions",
+      "status": "REACHABLE (validation_engine 286)",
+      "law": "ENG02",
+      "action": "Keep; extend to workflow-level invariants",
+      "why": "Step validation exists; workflow validation does not"
+    },
+    {
+      "layer": "19 Audit Layer",
+      "component": "Immutable append-only action ledger",
+      "status": "ORPHANED (audit_log 307)",
+      "law": "ENG10",
+      "action": "Wire + make append-only",
+      "why": "Mutable audit is not audit"
+    },
+    {
+      "layer": "20 Deployment",
+      "component": "Single-tenant on-prem agent per hospital",
+      "status": "PARTIAL (daemon, installers, pyproject on branch)",
+      "law": "ENG07",
+      "action": "Merge branch; add CI",
+      "why": "ENG12: 9713 lines unmerged, 325 vs 7 passing tests"
+    }
+  ]
+}

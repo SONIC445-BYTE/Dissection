@@ -1,0 +1,6 @@
+period,theme,items,gate
+Month 0-1,Stage 0 - Recover the baseline,Merge branch; CI; wire policy/permission/audit; AES-GCM; quarantine 149 adapters; watch 82 demo videos,Test suite green in CI; G-4.2 answered
+Month 2-4,Workflow engine + one workflow,Build durable workflow engine (protocol_commitment); per-action-class autonomy; mandatory fail-closed verification,One workflow runs end-to-end in dry-run
+Month 5-8,"One hospital, shadow mode",Design-partner hospital; SHADOW observation; measure break points; ABDM sandbox M1-M3,Shadow data proves the disconnection thesis
+Month 9-12,First completions,Move from SHADOW to SUGGEST to FORCE on the single lowest-risk action class; NHCX claims client,First verified completed workflow; R6 flywheel starts
+Month 13-18,"Second workflow, second hospital",Only after the first completes; institutional knowledge graph; first hire (hospital ops),"Two workflows, two hospitals, outcome data accumulating"

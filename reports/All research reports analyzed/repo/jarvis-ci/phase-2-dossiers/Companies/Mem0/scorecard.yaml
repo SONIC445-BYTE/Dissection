@@ -1,0 +1,58 @@
+# Scorecard — Mem0
+# Indices computed by tools/score.py — do not hand-edit.
+
+company: "Mem0"
+id: "mem0"
+layer_primary: "L3"
+layer_secondary: ["L13"]
+entity_type: "oss-commercial"
+
+stage:
+  - product: "Mem0 OSS"
+    stage: "S3"
+    justification: "Production deployments at scale, versioned releases, named enterprise users, 58K stars"
+  - product: "Mem0 Platform (hosted)"
+    stage: "S3"
+    justification: "AWS Agent SDK exclusivity implies production SLAs and support"
+  - product: "Graph memory (Mem0g)"
+    stage: "S2"
+    justification: "GA but paywall-gated; limited independent production evidence"
+
+strategic_role_primary: "Technology Supplier"
+strategic_role_secondary: ["Market Signal"]
+
+# Registry hypothesised Direct Competitor. Test applied in dossier 11.3 and FAILED
+# on buyer_substitution: Mem0 sells to developers building agents; JARVIS serves
+# clinicians. No buyer chooses between them. Demoted per 07-strategic-role §V.3.
+contested_layer_proof:
+  layer: "L3 — contested, but see below"
+  jarvis_capability: "persistent cross-session memory — genuinely overlapping"
+  buyer_substitution: "FAILS — no shared buyer. Clinicians do not evaluate memory APIs. Demoted to Technology Supplier."
+
+scores:
+  D1:  {value: 3, justification: "Top-tier L3 player by adoption but not dominant; multiple credible alternatives hold real share. Named in most shortlists, defines no category.", claims: [MEM0-C-037, MEM0-C-038]}
+  D2:  {value: 2, justification: "Hybrid vector+graph+KV store is sound engineering but replicable by a good team in months. Vector-first design caps temporal reasoning architecturally.", claims: [MEM0-C-031, MEM0-C-032]}
+  D3:  {value: 4, justification: "AWS Agent SDK exclusivity plus native CrewAI/Flowise/Langflow integration places it in default paths. Compounding channels; strong developer brand pull.", claims: [MEM0-C-021, MEM0-C-037]}
+  D4:  {value: 1, justification: "Customer memories belong to customers. No cross-customer corpus, no compounding data asset.", claims: [MEM0-C-030]}
+  D5:  {value: 4, justification: "58K stars, 13-14M downloads, native adoption by multiple agent frameworks, AWS dependency. Large ecosystem with commercial dependents.", claims: [MEM0-C-037, MEM0-C-021]}
+  D6:  {value: 4, justification: "Accumulated memories create genuine migration cost — months of data plus workflow rebuild. Capped by Apache 2.0 self-host escape hatch.", claims: [MEM0-C-030, MEM0-C-028]}
+  D7:  {value: 2, justification: "Healthcare named as a target vertical but zero FHIR/HL7/ABDM support and no located compliance posture. Opportunistic, not specialised.", claims: [MEM0-C-042, MEM0-C-044]}
+  D8:  {value: 4, justification: "30% monthly API growth through 2025, April 2026 algorithm rewrite, continuous backend expansion. Rapid and category-shaping.", claims: [MEM0-C-038, MEM0-C-013]}
+  D9:  {value: 2, justification: "Overlaps L3 which JARVIS intends to OWN, so nonzero. But no shared buyer and JARVIS could consume it as a component. Could overlap if JARVIS pursued a developer-platform play; no current signal.", claims: [MEM0-C-030]}
+  D10: {value: 4, justification: "Self-hostable Apache 2.0 memory layer working with local models removes an entire workstream from any roadmap. Consumable directly.", claims: [MEM0-C-028, MEM0-C-005]}
+
+indices:
+  threat: null
+  partnership: null
+  dependency_risk: null
+  priority: null
+
+flags: ["CONTESTED"]
+
+uncomfortable_findings: 3
+
+thesis_test:
+  T1: "weakened"
+  T2: "strengthened"
+  T3: "neutral"
+  T4: "not-tested"

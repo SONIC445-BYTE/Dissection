@@ -1,0 +1,46 @@
+# Contradiction Ledger — G14
+# Cross-dossier conflicts as persistent, resolvable first-class objects.
+# Phase 2.5 check C10 requires all blocks_synthesis:true entries resolved.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  unresolved: 3
+  blocking_synthesis: 0
+
+contradictions:
+
+  - id: CON-001
+    subject: "Mem0 total funding raised"
+    claims:
+      - {claim_id: MEM0-C-012, value: "$24M", tier: E1, source_type: company-release, date: 2025-10-28}
+      - {claim_id: MEM0-C-017, value: "$24.5M", tier: E2, source_type: aggregator, date: 2026-06-27}
+      - {claim_id: MEM0-C-018, value: "$20.5M", tier: E2, source_type: aggregator, date: 2026-04-15}
+    scope: intra-dossier
+    status: partially-resolved
+    resolution: "$24M adopted — E1 primary source outranks E2 aggregators."
+    resolution_rationale: "Aggregator disagreement is itself a finding: consistent with the seed being partially unannounced before Oct 2025, as the release itself states."
+    blocks_synthesis: false
+
+  - id: CON-002
+    subject: "Mem0 founding date"
+    claims:
+      - {claim_id: MEM0-C-019, value: "2023", tier: E2, source_type: aggregator}
+      - {claim_id: MEM0-C-019, value: "January 2024", tier: E2, source_type: press}
+    scope: intra-dossier
+    status: unresolved
+    resolution: null
+    resolution_rationale: "Likely incorporation vs product-launch dates. Confidence UNKNOWN. Low strategic consequence."
+    blocks_synthesis: false
+
+  - id: CON-003
+    subject: "LOCOMO benchmark scores"
+    claims:
+      - {claim_id: MEM0-C-034, value: "+26% over OpenAI Memory", tier: E2, source_type: vendor}
+      - {claim_id: MEM0-C-035, value: "figures revised by multiple parties", tier: E2, source_type: third-party}
+    scope: intra-dossier
+    status: unresolved-by-design
+    resolution: null
+    resolution_rationale: "A benchmark whose score depends on who runs it has stopped measuring the system. Recorded as a contest; no figure adopted. Phase 3 L3 report to assess the benchmark itself."
+    blocks_synthesis: false
+    deferred_to: phase-3-L3

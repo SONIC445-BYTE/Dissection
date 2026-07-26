@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Mon May 09 2016 18:13:36 GMT+0000 (UTC) -->
+<html data-wf-site="57308b88fa657b1405d7df7c" data-wf-page="57308b88fa657b1405d7df7e" ng-app="medicalWebsiteApp">
+<head>
+  <meta charset="utf-8">
+  <title>Healthifyme Care</title>
+  <meta property="og:title" content="HealthifyMe Care "/>
+  <meta property="og:description" content="Extending Care beyond hospitals. HealthifyMe Nutritionists work with patients on critical areas of diet adherence to bring medical conditions under control, post consultation." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.healthifyme.com/healthcare/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="shortcut icon" href="/static/img/favicon.74aa152ff6f5.png" type="image/x-icon"/>
+  
+<!-- Google Tag Manager -->
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+      'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.defer = true; j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-PMWZ638');</script>
+<!-- End Google Tag Manager -->
+
+  <link rel="stylesheet" type="text/css" href="/static/css/normalize.4ae12ec0c497.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/webflow.e7918695777c.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/healthifyme-medical-page.webflow.71f5bf587383.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Roboto:300,regular,500","Roboto Condensed:300,regular,700","Roboto Slab:300,regular,700","Arbutus Slab:regular"]
+      }
+    });
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular-cookies.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.4/angular-material.min.js"></script>
+  <script type="text/javascript" src="/static/js/angular/common/main.f208ec2eba4a.js"></script>
+  <script type="text/javascript" src="/static/js/angular/common/services.14e513eacb34.js"></script>
+  <script type="text/javascript" src="/static/js/angular/common/urls.46a4a97e3157.js"></script>
+  <script type="text/javascript" src="/static/js/angular/common/directives.5556f5c751f7.js"></script>
+  <script type="text/javascript" src="/static/js/angular/medical/urls.08dbbd8fd855.js"></script>
+  <script type="text/javascript" src="/static/js/angular/medical/services.2dad0f0b8496.js"></script>
+  <script type="text/javascript" src="/static/js/angular/medical/controllers.227ca8b68d3b.js"></script>
+  <script type="text/javascript" src="/static/js/angular/medical/app.c0482de64b21.js"></script>
+  <!-- Chuknu Pixel Code -->
+<script type="text/javascript"> 
+(function() {
+var a = document.createElement('script');a.type = 'text/javascript'; a.async = true; 
+a.src=('https:'==document.location.protocol?'https://':'http://cdn.')+'chuknu.sokrati.com/16710/tracker.js'; 
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(a, s);
+     })();
+</script>
+<!-- END Chuknu Pixel Code -->
+  <!-- Segment Pixel - Healthifyme Website Remarketing Pixel - DO NOT MODIFY -->
+<img src="https://secure.adnxs.com/seg?add=4704689&t=2" width="1" height="1" />
+<!-- End of Segment Pixel -->
+
+  <!-- Hotjar Tracking Code for https://www.healthifyme.com -->
+<script defer>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:240088,hjsv:5};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+<body ng-controller="medicalWebsiteController">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWZ638" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-contain="1" class="w-nav navigation">
+    <div class="w-container">
+      <a href="/" class="w-nav-brand w-clearfix brand-link"><img src="/static/images/Hme-logo1.8dd8b23cd2bb.png" class="nav-logo">
+        <div class="logo-text">| Care</div>
+      </a>
+      <nav role="navigation" class="w-nav-menu nav-menu"><a href="#features" class="w-nav-link nav-link">How it Works?</a><a href="#pricing" class="w-nav-link nav-link">Offerings</a><a href="#customers" class="w-nav-link nav-link">Customers</a><a href="#wf-form-newsletter" class="w-nav-link nav-link demo">Demo</a>
+      </nav>
+      <div class="w-nav-button nav-link menu">
+        <div class="w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div data-animation="slide" data-duration="500" data-infinite="1" class="w-slider slider">
+    <div class="w-slider-mask">
+      <div class="w-slide slide _1">
+        <div class="w-container"></div>
+      </div>
+      <div class="w-slide slide _2">
+        <div class="w-container"></div>
+      </div>
+      <div class="w-slide slide _3">
+        <div class="w-container"></div>
+      </div>
+    </div>
+    <div class="w-slider-arrow-left">
+      <div class="w-icon-slider-left"></div>
+    </div>
+    <div class="w-slider-arrow-right">
+      <div class="w-icon-slider-right"></div>
+    </div>
+    <div class="w-slider-nav w-round"></div>
+  </div>
+  <div id="top" class="w-section section main">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <h1 class="main-heading">Extending care<br>beyond the Hospital</h1>
+          <p class="main-subtitle">Get your organisation on board
+            <br>India's Leading Digital Lifestyle Modification Platform
+            <br>Powered by <a class="link" target="_blank" href="https://www.healthifyme.com">HealthifyMe</a>.</p><a href="#wf-form-newsletter" class="button">Request a Demo</a><a href="#features" class="button two">Learn More</a>
+        </div>
+        <div class="w-col w-col-6"></div>
+      </div>
+    </div>
+  </div>
+  <div id="features" class="w-section section">
+    <div class="w-container">
+      <div class="w-row feature-row">
+        <div class="w-col w-col-6"><img src="/static/images/messagin-pic.2853d3d0fc29.jpg" alt="In-App Messaging Screen" data-ix="fade-in-on-scroll">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="main-feature-group">
+            <h3 class="section-title">How it works ?</h3>
+            <p class="section-body">HealthifyMe Nutritionists work with patients on critical
+              <br> areas of diet adherence and patient motivation once the
+              <br> patient leaves the consultation room</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-row feature-row">
+        <div class="w-col w-col-6">
+          <div class="main-feature-group">
+            <h3 class="section-title">Empower Digitally</h3>
+            <p class="section-body">Nutritionist get daily insights into patients lifestyles via&nbsp;
+              <br>the application and hence enable sustainable changes&nbsp;
+              <br>one step at a time.
+              <br>
+              <br>Patients get macronutrient and calorie budget based on
+              <br>condition and patient characteristics</p>
+          </div>
+        </div>
+        <div class="w-col w-col-6"><img src="/static/images/doctor-on-comp.9820ffb9601c.jpg" alt="Doctors" data-ix="fade-in-on-scroll">
+        </div>
+      </div>
+      <div class="w-row feature-row">
+        <div class="w-col w-col-6"><img src="/static/images/medical-image.d47930968f64.jpg" alt="Medical Image" data-ix="fade-in-on-scroll">
+        </div>
+        <div class="w-col w-col-6">
+          <div class="main-feature-group">
+            <h3 class="section-title">Deliver Measurable Impact</h3>
+            <div class="w-row">
+              <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4"><img src="/static/images/hme-medical-facts-01.42e9969d13f7.png" class="fact-image">
+              </div>
+              <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4"><img src="/static/images/hme-medical-facts-02.1ecec9c36b51.png" class="fact-image">
+              </div>
+              <div class="w-col w-col-4 w-col-small-4 w-col-tiny-4"><img src="/static/images/hme-medical-facts-03.63f3f2a492c6.png" class="fact-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section picture"></div>
+  <div id="pricing" class="w-section section purple">
+    <div class="w-container">
+      <h2 class="heading2">Offering</h2>
+      <!-- <div class="description">We have a 3 pillar strategy to fulfil all your corporate health &amp; wellness requirements.</div> -->
+      <div class="w-row">
+        <div class="w-col w-col-6">
+          <div data-ix="fade-in-on-scroll" class="plan-wrapper"><img height="30" src="/static/images/stethoscope.d4a2f59e4362.png" class="feature-icon">
+            <h3 class="header">For Physicians</h3>
+            <ul>
+              <li>
+                <div class="price-point">Best in class digital experts mapped to doctors</div>
+              </li>
+              <li>
+                <div class="price-point">Clinical dietitians, diabetes educators and internationally certified exercise yoga coaches</div>
+              </li>
+              <li>
+                <div class="price-point">Regular lifestyle reports give greater visibility and patient connect post consultation</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-col w-col-6">
+          <div data-ix="fade-in-on-scroll" class="plan-wrapper"><img height="30" src="/static/images/hospital-building.ee69a7f60695.png" class="feature-icon">
+            <h3 class="header">For Institutions</h3>
+            <ul>
+              <li>
+                <div class="price-point">Power up your health check and OPD with the latest in nutrition science</div>
+              </li>
+              <li>
+                <div class="price-point">Set a new benchmark for patient engagement post OPD / Discharge</div>
+              </li>
+              <li>
+                <div class="price-point">Achieve better clinical outcomes and higher standard of care for patients</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section picturetwo"></div>
+  <div id="customers" class="w-section section">
+    <div class="w-container">
+      <h2 class="testimonialstext"><span class="testimonials">Testimonials</span></h2>
+      <div data-animation="slide" data-duration="500" data-infinite="1" class="w-slider testimonial-slider">
+        <div class="w-slider-mask">
+          <div class="w-slide testimony-slide">
+            <p class="testimony-text">I married early and delivered a baby soon after. My weight breached the 100 kg mark and needed some serious intervention. Now, my diabetes condition has been managed and I have lost about 17 kgs.</p>
+            <div class="name">Rashmi Sudarshan</div>
+            <div class="title">Lost 17 Kgs post bariatric surgery</div>
+          </div>
+          <div class="w-slide testimony-slide">
+            <p class="testimony-text">HealthifyMe not only helped me lose weight, but helped me move to a healthier lifestyle for good.</p>
+            <div class="name">Dr. Anu Jain</div>
+            <div class="title">Lost 8 kg in 7 months</div>
+          </div>
+          <div class="w-slide testimony-slide">
+            <p class="testimony-text">After being adviced by a doctor to lose weight, I took up HealthifyMe. I lose 6.2 kgs in 2 months and my thyroid levels are back to normal.</p>
+            <div class="name">Manoj Kumar Acharya</div>
+            <div class="title">Lost 10.2 kgs in three months</div>
+          </div>
+        </div>
+        <div class="w-slider-arrow-left slider-arrow">
+          <div class="w-icon-slider-left"></div>
+        </div>
+        <div class="w-slider-arrow-right slider-arrow">
+          <div class="w-icon-slider-right"></div>
+        </div>
+        <div class="w-slider-nav w-round slide-nav"></div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section section clients">
+    <div class="w-container partners-row"><img width="160" src="/static/images/partners-03.cdbc60940469.png" class="client-logo"><img width="162" src="/static/images/partners-01.1560d8b150a0.png" class="client-logo"><img width="162" src="/static/images/partners-02.ca15126500ed.png" class="client-logo">
+    </div>
+  </div>
+  <div class="w-section section footer">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-9">
+          <div class="logo-text footer">Request a Demo</div>
+          <div class="w-form newsletter-form">
+            <div id="wf-form-newsletter" name="wf-form-newsletter" data-name="Newsletter" class="w-clearfix" ng-hide="savedEmail">
+              <input id="email" type="email" placeholder="Email Address" name="email" data-name="Email" required="required" class="w-input newsletter-field" ng-model="requestEmail">
+              <input type="submit" value="Submit" data-wait="Wait..." wait="Wait..." class="w-button newsletter-button" ng-click="saveRequestEmailId()">
+            </div>
+            <div ng-show="savedEmail" class="success-message">
+              <p>Thank you! We’ll get back to you shortly.</p>
+            </div>
+            <div class="w-form-fail">
+              <p>Oops! Something went wrong while submitting the form :(</p>
+            </div>
+          </div>
+
+          <div class="social-icon-group">
+            <a href="https://www.facebook.com/HealthifyMe/" target="_blank" class="w-inline-block social-icon"><img src="/static/images/facebook-icon.40fa40f61029.svg" class="social">
+            </a>
+            <a href="https://twitter.com/HealthifyMe/" target="_blank" class="w-inline-block social-icon"><img src="/static/images/twitter-icon.6a5f315b0089.svg">
+            </a>
+            <a href="https://www.linkedin.com/company/healthifyme" target="_blank" class="w-inline-block social-icon"><img src="/static/images/linkdin-icon-white.6540af31d536.svg">
+            </a>
+          </div>
+        </div>
+        <div class="w-col w-col-3">
+          <h4 class="footer-title">HealthifyMe</h4><a href="#features" class="page-link in-footer">How it Works</a><a href="#pricing" class="page-link in-footer">Offerings</a><a href="#customers" class="page-link in-footer">Customers</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w-section section footer copyright">
+    <div class="w-container">
+      <div>Copyright 2016 HealthifyMe Wellness Products and Services Pvt. Ltd. All Rights Reserved.<a href="https://healthifyme.com/terms-and-conditions/">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+  
+
+<link rel="stylesheet" type="text/css" href="/static/css/privacy-info-popup.bcbd2d40c147.css" defer>
+
+<div id="popup-wrapper">
+  <p id="popup-text">
+    We use cookies and other tracking technologies to improve your browsing experience on our website
+    <b id="read-more">Read More</b>
+  </p>
+  <button id="accept-btn">CLOSE AND ACCEPT</button>
+</div>
+
+  <script src="/static/js/home/jquery.min.4b57cf46dc8c.js" defer></script>
+<script src="/static/js/home/privacy_popup.3c52f45960bc.js" defer></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/static/js/modernizr.a89f4997162b.js"></script>
+  <script type="text/javascript" src="/static/js/webflow.d1895235f791.js"></script>
+  <!-- intercom -->
+  <script type="text/javascript" src="/static/js/intercom.b8ce66a31b44.js"></script>
+  <!-- intercom END -->
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <!-- Google Code for Remarketing Tag -->
+<script type="text/javascript" defer>
+  /* <![CDATA[ */
+  var google_conversion_id = 945018217;
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/945018217/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+  <!-- Start of Leadin Embed -->
+<script type="text/javascript" src="//js.leadin.com/js/v1/2381077.js" id="LeadinEmbed-2381077" crossorigin="use-credentials" async defer></script>
+<!-- End of Leadin Embed -->
+</body>
+</html>

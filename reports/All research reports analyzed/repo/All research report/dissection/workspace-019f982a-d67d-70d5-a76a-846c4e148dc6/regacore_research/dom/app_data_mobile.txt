@@ -1,0 +1,241 @@
+Menu
+NAVIGATE
+Home
+Data
+Protocol
+Concierge
+Marketplace
+ACCOUNT
+Invite friend
+More
+Twin
+Records
+Select Category
+Summary
+Heart & Vascular Health (Grade B)
+Metabolic Health (Grade B)
+Sex Hormones (Grade B)
+Thyroid Health (Grade A)
+Inflammation (Grade B)
+Liver Health (Grade A)
+Kidney Health (Grade A)
+Nutrients (Grade A)
+Energy (Grade E)
+Immune System (Grade B)
+DNA Health (Grade D)
+Brain Health (Grade B)
+Gut Health (Grade -)
+Toxin Exposure (Grade -)
+Simulate WebGL Error
+CURRENT FOCUS
+Hormonal Recovery
+
+Elevated cortisol is contributing most strongly to biological age. Focus on circadian timing and stress clearance.
+
+Anuj Tiwari
+
+Last updated Feb 25, 2026
+
+Anuj, you're generally healthy. It seems like you're doing well, but there are some areas that could be improved. Click your **Biological Age** or **Organ Cards** below to explore deep diagnostics.
+
+81
+REGACORE SCORE
+Generally healthy
+Top 15% in age bracket
+BIOLOGICAL AGE
+30.4 / 36 years
+5.6 years younger than actual age
+ORGAN HEALTH GRID
+
+Select any organ card to highlight its anatomical location on your 3D digital twin.
+
+DIGESTIVE
+25.96 yrs
+OPTIMAL
+RESPIRATORY
+25.73 yrs
+OPTIMAL
+SYSTEMIC
+27.67 yrs
+OPTIMAL
+NERVOUS
+32.88 yrs
+OPTIMAL
+CARDIOVASCULAR
+28.18 yrs
+OPTIMAL
+MUSCULOSKELETAL
+29.81 yrs
+OPTIMAL
+COGNITIVE
+33.04 yrs
+OPTIMAL
+BIOMARKERS
+144
+
+TOTAL
+
+95
+
+OPTIMAL
+
+37
+
+NORMAL
+
+12
+
+OUT OF RANGE
+
+All ranges
+Optimal
+Normal
+Out of range
+Category
+Heart & Vascular Health
+Metabolic Health
+Sex Hormones
+Thyroid Health
+Inflammation
+Liver Health
+Kidney Health
+Nutrients
+Energy
+Immune System
+DNA Health
+Brain Health
+Gut Health
+Toxin Exposure
+NAME	STATUS	VALUE	HISTORY
+Health Score	
+Optimal
+	81 points	
+
+ApoB	
+Optimal
+	65 mg/dL	
+
+LDL-C	
+Optimal
+	85 mg/dL	
+
+Triglycerides	
+Normal
+	110 mg/dL	
+
+HDL Cholesterol	
+Normal
+	49 mg/dL	
+
+Glucose	
+Normal
+	95 mg/dL	
+
+HbA1c	
+Optimal
+	5.1 %	
+
+Insulin	
+Normal
+	7.2 μIU/mL	
+
+Testosterone	
+Normal
+	650 ng/dL	
+
+Free Testosterone	
+Optimal
+	12.5 pg/mL	
+
+TSH	
+Optimal
+	1.8 mIU/L	
+
+Free T4	
+Optimal
+	1.2 ng/dL	
+
+hs-CRP	
+Optimal
+	0.8 mg/L	
+
+ALT	
+Optimal
+	22 U/L	
+
+AST	
+Optimal
+	18 U/L	
+
+GGT	
+Optimal
+	19 U/L	
+
+Creatinine	
+Optimal
+	0.9 mg/dL	
+
+eGFR	
+Optimal
+	98 mL/min	
+
+Vitamin D	
+Optimal
+	52 ng/mL	
+
+Vitamin B12	
+Normal
+	480 pg/mL	
+
+Cortisol	
+Out of Range
+	24 mcg/dL	
+
+DHEA-S	
+Out of Range
+	120 mcg/dL	
+
+WBC	
+Optimal
+	5.8 K/μL	
+
+Red Blood Cells	
+Optimal
+	5.12 M/μL	
+
+ApoE Genotype	
+Normal
+	ε3/ε4	
+
+MTHFR	
+Out of Range
+	C677T Hetero	
+
+BDNF	
+Normal
+	850 pg/mL	
+Ask Regacore AI
+regacore
+
+The premium operating system for human longevity. Quantify your biomarkers, outsmart aging, and unlock peak performance.
+
+Platform
+How it works
+Biomarkers
+Membership
+Medical Board
+Company
+About Us
+Blog
+Privacy Policy
+Terms of Service
+Stay Updated
+
+Join our newsletter for the latest breakthroughs in preventative longevity medicine.
+
+Subscribe
+Twitter/X
+Instagram
+LinkedIn
+© 2026 regacore All rights reserved.
+Designed for proactive human health.

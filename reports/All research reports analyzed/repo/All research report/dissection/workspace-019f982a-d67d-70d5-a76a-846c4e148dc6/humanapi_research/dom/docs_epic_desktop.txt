@@ -1,0 +1,166 @@
+Jump to Content
+Guides
+API Reference
+Portal
+Support and Knowledge base
+Integration Status
+HIP
+Search
+CTRL-K
+Epic Community Member Documentation
+What is Human API?
+
+Human API is the first patient-centric platform to allow users to transfer their medical data from anywhere to anywhere. Our goal is to power a wide range of healthcare applications to help patients on their healthcare journey by allowing them to share their medical history and context with trusted applications and organizations of their choice.
+
+In addition to facilitating medical data transfer, we also have a patient-facing web application, MyHumanAPI, where patients are able to aggregate, view, and download their medical information from all of their healthcare providers and devices. Furthermore, we provide data processing and normalization services. Patients/users can share and access their medical information via Human API free of charge and our customers are the developers and organizations that integrate and make Human API available as a method of medical data import within their applications and systems.
+
+Security
+
+All data systems at Human API are HIPAA compliant. We take our user's privacy seriously and make sure even device and other data not covered under HIPAA guidelines is also held up to the same standards for security and privacy.
+
+Data Encryption
+
+Our database servers encrypt data using the standard AES 256bit encryption. The encryption keys are rotated and managed in a network separated from the database and application servers. They are stored in a fault-tolerant key management cluster with limited access. The master key is kept in a secure vault to ensure a maximum level of security.
+
+Transmission Security
+
+All data served over our REST API uses HTTPS. We regularly audit our security setup to ensure that the certificates we serve are up to date. We force HTTPS for all connections to our API server to ensure that data is always encrypted during the transport from our server to the third-party applications that end users share their data with.
+
+Logging
+
+We log all records of information system activity such as user access and activity, systems and network events, and employee activity. These records are used to maintain performance, reliability, quality, and security through continuous monitoring, audits, and investigations into specific incidents. Logs may also be used to assist customers with evaluating and diagnosing end-user issues, investigating incidents, and facilitating records adjustments or other updates.
+
+Policies
+
+Our Terms of Service and Privacy Policies are all publicly available on our main website:
+
+LexisNexis Health Intelligence Platform
+Details for Epic Community Members
+
+This section details how we comply with Epic's Developer Guidelines and ONC Certification Criteria when interacting with FHIR interfaces of Epic Community Members. Specific details on each point are listed below for quick reference.
+
+If you have specific questions about any of the above or below, please reach out to support@humanapi.co.
+
+Epic Developer Guidelines
+Transparency
+
+Our primary marketing materials can be found on our main website: humanapi.co Additionally, for every transaction, the user is made aware that their data is being transacted using Human API systems, from which they may request the deletion of their data at any time.
+
+See the Policies section above for more details on our explicit user policies.
+
+Safety
+
+At no point do we knowingly put users at risk of harm. Primarily, we uphold stringent internal security policies and protocols put in place to ensure that user data remains safe and secure. Further, we design user interfaces to be accessible and transparent to users with wide ranges of technical capability and are looking into how to ensure they are also compatible with accessibility devices, such as screen readers.
+
+Security
+
+Data exchanged between Epic's APIs and the Human API system is always encrypted via HTTPS while in transit, utilizing supplied authentication protocols. Additionally, data is encrypted at rest according to the AES 256-bit encryption standard. All data accessed from Human API is also requires HTTPS. We keep all client credentials confidential and utilize them solely to aid our users in authenticating access to their medical information.
+
+For more information on system security, see the Security section above.
+
+Privacy
+
+Human API’s patient-centric approach means that all data transactions at Human API are initiated by the patient who owns the data. Thus, the patient is always the consenting party. Furthermore, patients may request that their data be removed from Human API at any time. We will always leverage OAuth 2.0 mechanisms for authentication when made available by Epic Community Members.
+
+We believe that, in order to build the best patient-focused health data network and the Human API brand, we must be transparent with patients and end users about their data and how it may be accessed. You can find our most up to date policies on our main website:
+
+LexisNexis Health Intelligence Platform
+Sharing
+
+When a user authorizes Human API access to their data, they do so in the context of the specific application for which they would like to share it with. Furthermore, Human API never shares user data with any other third party without their express permission to do so.
+
+Not only will a user often be able to visualize and better understand their medical data in the application with which they have shared it with, Human API provides an additional service "MyHumanAPI", which allows users to directly manage their data connections, view their data, and download it for offline use.
+
+Reliability
+
+We uphold high standards of internal code quality and performance, such that we can maintain a near constant uptime to service API requests of our customers and keep all applications on the platform in sync with the most recently available data for a user.
+
+We track all user and customer requests involving complaints, defects, or bugs with an internal ticketing tool such that we can ensure to address all issues that we are made aware of.
+
+Efficiency
+
+Our synchronization infrastructure is optimized to request data as efficiently as possible. We work with a wide variety of data sources, including many consumer device companies and various medical systems. Further, we will always utilize the best methods for retrieving data, including subscription and notification systems when available.
+
+Data Integrity
+
+Medical data retrieved by Human API is always retrieved and stored in its raw form. We do provide a standard data API and some data normalization services to our customers to help them to more easily access, better correlate, and understand their user's data. However, when possible, the raw data is also made available to customers as well.
+
+Verifiability
+
+Human API is a component of many health applications. Please reach out to support@humanapi if you have specific questions or would like to better undesrtand the product.
+
+Reciprocity
+
+When a user authenticates and shares their data via Human API, it is accessible via our Medical API, which is modeled after the data types available via FHIR. We are also currently working on producing a separate API or adapter system such that data may be exported exactly according to the FHIR spec.
+
+ONC Certification Criteria
+
+While we are not formally certified by the ONC, please use this document to understand how our product and systems retain equivalent functionality.
+
+45 CFR 170.315 (b)(6) (Data Export)
+
+Human API provides a patient-facing service, MyHumanAPI, where users can create an account to assimilate, view, and download their medical records from their healthcare providers. In addition to data export, we are currently upgrading this interface to provide more comprehensive web-based data visualizations and privacy controls, including surfacing value-added health insights based on data point correlation with proprietary Human API algorithms.
+
+45 CFR 170.315 (d)(1) (Authentication, Access Control, Authorization)
+
+All user data transacted via Human API is authorized by the user themselves, via their access credentials granted by a medical provider. As such, a user's access to data is governed by the policies of the health provider where the data originates.
+
+45 CFR 170.315 (d)(2) (Auditable Events and Tamper-resistance)
+
+We log all API calls and track the interactions with Human API such that we can monitor the system and conduct necessary audits for HIPAA compliance.
+
+45 CFR 170.315 (d)(3) (Audit Report(s))
+
+Audit reports can be generated when necessary to better understand activity during specific time frames or involving specific data connections.
+
+45 CFR 170.315 (d)(5) (Automatic Access Time-out)
+
+When a user logs into a Human API property, their authentication to the application is time-bounded and will expire. When a user authentications the transmission of their data to a customer or developer utilizing the Human API platform, the connection remains active until such time as the user decides to revoke access.
+
+45 CFR 170.315 (d)(7) (End-user Device Encryption)
+
+We do not currently maintain any applications that store medical data on end user devices.
+
+45 CFR 170.315 (d)(8) (Integrity)
+
+See Data Integrity for more details.
+
+45 CFR 170.315 (d)(9) (Trusted Connection)
+
+All health data is encrypted in transit and at rest. See Security above for more details.
+
+45 CFR 170.315 (d)(11) (Accounting of Disclosures)
+
+No data is disclosed to any third party without a user's express authorization.
+
+45 CFR 170.315 (g)(3) (Safety-enhanced Design)
+
+Our user-facing properties go through user-centered design process such that they are transparent and approachable to anyone who wishes to utilize the service.
+
+45 CFR 170.315 (g)(4) (Quality Management System)
+
+See Reliability for more details.
+
+45 CFR 170.315 (g)(5) (Accessibility-centered Design)
+
+See Safety for more details.
+
+45 CFR 170.315 (g)(7) (Application Access - Patient Selection)
+
+Whenever a user authenticates a data transaction from an external source to an application, that connection is associated with a unique user ID. Furthermore, the application can retrieve an API access token unique to that user, valid for retrieving the user's data from any of the medical API endpoints.
+
+45 CFR 170.315 (g)(8) (Application Access - Data Category Request)
+
+A user's data can be retrieved, per data type, utilizing an access token that an application retrieves during the authentication process. Our Medical API endpoints are detailed here.
+
+45 CFR 170.315 (g)(9) (Application Access - All Data Request)
+
+To receive all of a user's data, an application may query any or all of the Medical API endpoints, in addition to a CCD endpoint which delivers XML CCD payloads.
+
+45 CFR 170.523 (k)(1) (Pricing Transparency)
+
+Human API is not currently a service that providers utilize to attest to Meaningful Use.
+
+45 CFR 170.523 (n) (Complaint Process)
+
+Any and all complaints are logged in an internal ticketing system and may be accessed or aggregated at any time.

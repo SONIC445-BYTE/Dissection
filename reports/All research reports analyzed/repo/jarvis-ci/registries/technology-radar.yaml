@@ -1,0 +1,123 @@
+# Technology Radar — Module 2
+# rings: emerging | growing | mature | commodity | declining
+# ring_history is the point — movement between rings is the forecast (G17).
+# Seeded from 06-technology-ontology.md §2 + Mem0 harvest.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  default_review_days: 180
+
+technologies:
+
+  - id: vector-retrieval
+    name: Vector retrieval
+    ring: commodity
+    ring_history:
+      - {ring: growing, date: 2024-06, basis: prior}
+      - {ring: mature, date: 2025-06, basis: prior}
+      - {ring: commodity, date: 2026-04, basis: evidence, evidence: [MEM0-C-027]}
+    movement: inward
+    adoption_trend: universal
+    strategic_importance: low
+    risk: low
+    expected_lifespan_years: 10
+    replacement_candidates: [hybrid-graph-vector]
+    jarvis_recommendation: integrate
+    recommendation_rationale: "Commodity with many free implementations. Building is value-destroying."
+    review_interval_days: 180
+
+  - id: llm-fact-extraction
+    name: LLM-based fact extraction
+    ring: commodity
+    ring_history:
+      - {ring: growing, date: 2025-01, basis: prior}
+      - {ring: commodity, date: 2026-07, basis: evidence, evidence: [MEM0-C-023, MEM0-C-005]}
+    movement: inward
+    adoption_trend: universal
+    strategic_importance: low
+    risk: low
+    expected_lifespan_years: 8
+    jarvis_recommendation: integrate
+    recommendation_rationale: "Apache-2.0 implementations exist and work with local models."
+    review_interval_days: 180
+
+  - id: temporal-knowledge-graphs
+    name: Temporal knowledge graphs
+    ring: growing
+    ring_history:
+      - {ring: emerging, date: 2025-01, basis: prior}
+      - {ring: growing, date: 2026-04, basis: evidence, evidence: [MEM0-C-032]}
+    movement: inward
+    adoption_trend: rising
+    strategic_importance: high
+    risk: medium
+    risk_note: "Operational complexity; contested benchmarks make evaluation hard"
+    expected_lifespan_years: 7
+    jarvis_recommendation: evaluate
+    recommendation_rationale: "The contested capability in L3. Where differentiation is possible."
+    review_interval_days: 90
+
+  - id: memory-consolidation
+    name: Memory consolidation & forgetting
+    ring: emerging
+    ring_history:
+      - {ring: emerging, date: 2026-07, basis: evidence, evidence: [MEM0-C-041]}
+    movement: static
+    adoption_trend: none
+    strategic_importance: critical
+    risk: high
+    risk_note: "Unclaimed in a well-funded category = likely genuinely hard. May consume effort without yielding."
+    expected_lifespan_years: unknown
+    jarvis_recommendation: research
+    recommendation_rationale: "Highest-value negative space, but size the difficulty first."
+    review_interval_days: 60
+
+  - id: mcp
+    name: Model Context Protocol
+    ring: mature
+    ring_history:
+      - {ring: emerging, date: 2024-11, basis: prior}
+      - {ring: growing, date: 2025-06, basis: prior}
+      - {ring: mature, date: 2026-03, basis: prior}
+    movement: inward
+    adoption_trend: universal
+    strategic_importance: high
+    risk: low
+    risk_note: "Linux Foundation AAIF governance removes single-vendor risk"
+    expected_lifespan_years: 10
+    jarvis_recommendation: adopt
+    recommendation_rationale: "Consolidated cross-vendor standard. Conform early."
+    review_interval_days: 120
+
+  - id: open-core-graph-paywall
+    name: Open-core with differentiator paywalled
+    ring: declining
+    ring_history:
+      - {ring: mature, date: 2025-01, basis: prior}
+      - {ring: declining, date: 2026-07, basis: evidence, evidence: [MEM0-C-039, MEM0-C-040]}
+    movement: outward
+    adoption_trend: contested
+    strategic_importance: low
+    risk: high
+    risk_note: "Blocks evaluation at the moment of differentiation"
+    expected_lifespan_years: 3
+    jarvis_recommendation: avoid
+    recommendation_rationale: "Documented failure mode FAIL-003."
+    review_interval_days: 180
+
+  - id: vendor-exclusive-distribution
+    name: Vendor-exclusive infrastructure deals
+    ring: growing
+    ring_history:
+      - {ring: growing, date: 2026-07, basis: evidence, evidence: [MEM0-C-021, MEM0-C-043]}
+    movement: static
+    adoption_trend: rising
+    strategic_importance: medium
+    risk: high
+    risk_note: "A RENTED moat that reads as owned. Terms undisclosed, duration unknown."
+    expected_lifespan_years: 2
+    jarvis_recommendation: caution
+    recommendation_rationale: "Powerful while it lasts; not a durable position."
+    open_questions: [OQ-05]
+    review_interval_days: 90

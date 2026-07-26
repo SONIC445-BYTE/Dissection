@@ -1,0 +1,52 @@
+# Scorecard — {{COMPANY}}
+# Every dimension needs a justification citing claim IDs. Bare numbers fail lint.
+# Indices are COMPUTED by tools/score.py — do not hand-edit.
+
+company: "{{COMPANY}}"
+id: "{{ID}}"
+layer_primary: "{{LAYER}}"
+layer_secondary: []
+entity_type: ""
+
+stage:
+  - product: ""
+    stage: ""          # S0 | S1 | S2 | S3 | S4
+    justification: ""
+
+strategic_role_primary: ""     # one of the six
+strategic_role_secondary: []
+
+# REQUIRED only if strategic_role_primary == "Direct Competitor".
+# All three fields must be non-empty or validate.py fails the dossier.
+contested_layer_proof:
+  layer: ""
+  jarvis_capability: ""
+  buyer_substitution: ""
+
+scores:
+  D1:  {value: null, justification: "", claims: []}   # Layer Ownership Strength
+  D2:  {value: null, justification: "", claims: []}   # Technical Depth
+  D3:  {value: null, justification: "", claims: []}   # Distribution Power
+  D4:  {value: null, justification: "", claims: []}   # Data Advantage
+  D5:  {value: null, justification: "", claims: []}   # Ecosystem Gravity
+  D6:  {value: null, justification: "", claims: []}   # Switching Cost Imposed
+  D7:  {value: null, justification: "", claims: []}   # Healthcare Relevance
+  D8:  {value: null, justification: "", claims: []}   # Velocity
+  D9:  {value: null, justification: "", claims: []}   # Strategic Threat  (contested layers ONLY)
+  D10: {value: null, justification: "", claims: []}   # Leverage Value
+
+indices:            # computed — do not hand-edit
+  threat: null
+  partnership: null
+  dependency_risk: null
+  priority: null
+
+flags: []           # COMPLEX | STALE | CONTESTED | LOW-EVIDENCE
+
+uncomfortable_findings: 0    # must be >= 1 (>= 3 for direct JARVIS analogues)
+
+thesis_test:
+  T1: ""            # strengthened | weakened | neutral | not-tested
+  T2: ""
+  T3: ""
+  T4: ""

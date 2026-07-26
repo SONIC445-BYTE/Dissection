@@ -1,0 +1,407 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Practo CI — Diagram Dashboard</title>
+<style>body{font-family:Helvetica,Arial,sans-serif;margin:30px;background:#fff;color:#222}
+h1{color:#1F3864} .card{border:1px solid #ccc;border-radius:8px;margin:18px 0;padding:10px;box-shadow:0 1px 3px #ddd}
+h2{color:#2E5C9E;font-size:16px;margin:6px 0} .toc a{margin-right:14px}</style></head>
+<body><h1>Practo — Competitive Intelligence Diagram Dashboard</h1>
+<p>Companion to <b>practo_competitive_intelligence.md</b> and <b>practo_feature_inventory.xlsx</b>.
+Confidence: 🟢 Confirmed · 🟡 Strong Inference · 🔴 Speculation.</p>
+<div class="toc"><a href="#d1">1. product architecture</a><a href="#d2">2. ai architecture</a><a href="#d3">3. healthcare data flow</a><a href="#d4">4. user journey</a><a href="#d5">5. feature dependency</a><a href="#d6">6. business model canvas</a><a href="#d7">7. swot</a><a href="#d8">8. porters five forces</a></div><div class="card" id="d1"><h2>1. product_architecture</h2><svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1100" height="720" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Product Architecture</text>
+<line x1="20" y1="36" x2="1080" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="126" y1="85" x2="402" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,85 392,89 392,81" fill="#808080"/>
+<line x1="416" y1="85" x2="672" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="672,85 662,89 662,81" fill="#808080"/>
+<line x1="674" y1="87" x2="383" y2="183" stroke="#808080" stroke-width="1.6"/>
+<polygon points="383,183 391,176 393,183" fill="#808080"/>
+<line x1="675" y1="89" x2="551" y2="180" stroke="#808080" stroke-width="1.6"/>
+<polygon points="551,180 557,171 562,178" fill="#808080"/>
+<line x1="682" y1="91" x2="712" y2="177" stroke="#808080" stroke-width="1.6"/>
+<polygon points="712,177 705,169 713,167" fill="#808080"/>
+<line x1="685" y1="88" x2="878" y2="181" stroke="#808080" stroke-width="1.6"/>
+<polygon points="878,181 867,181 871,174" fill="#808080"/>
+<line x1="680" y1="91" x2="680" y2="282" stroke="#808080" stroke-width="1.6"/>
+<polygon points="680,282 676,272 684,272" fill="#808080"/>
+<line x1="885" y1="191" x2="885" y2="277" stroke="#808080" stroke-width="1.6"/>
+<polygon points="885,277 881,267 889,267" fill="#808080"/>
+<line x1="674" y1="291" x2="408" y2="324" stroke="#808080" stroke-width="1.6"/>
+<polygon points="408,324 417,319 418,327" fill="#808080"/>
+<line x1="376" y1="191" x2="409" y2="417" stroke="#808080" stroke-width="1.6"/>
+<polygon points="409,417 403,408 411,407" fill="#808080"/>
+<line x1="542" y1="190" x2="414" y2="418" stroke="#808080" stroke-width="1.6"/>
+<polygon points="414,418 415,407 422,411" fill="#808080"/>
+<line x1="710" y1="189" x2="416" y2="420" stroke="#808080" stroke-width="1.6"/>
+<polygon points="416,420 422,411 427,417" fill="#808080"/>
+<line x1="880" y1="188" x2="417" y2="421" stroke="#808080" stroke-width="1.6"/>
+<polygon points="417,421 424,413 428,420" fill="#808080"/>
+<rect x="20" y="60" width="200" height="50" rx="8" ry="8" fill="Users: Patients/Doctors/Hospitals/Payors" stroke="#1F3864" stroke-width="1.2"/>
+<text x="120.0" y="77.5" font-size="12" text-anchor="middle" fill="#404040">Users:</text>
+<text x="120.0" y="92.5" font-size="12" text-anchor="middle" fill="#404040">Patients/Doctors/Hospitals/Payors</text>
+<rect x="300" y="60" width="220" height="50" rx="8" ry="8" fill="Web + Mobile App" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Web + Mobile App</text>
+<rect x="580" y="60" width="200" height="50" rx="8" ry="8" fill="API Gateway / Services" stroke="#1F3864" stroke-width="1.2"/>
+<text x="680.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">API Gateway / Services</text>
+<rect x="300" y="160" width="150" height="50" rx="8" ry="8" fill="Discovery + Booking" stroke="#1F3864" stroke-width="1.2"/>
+<text x="375.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Discovery + Booking</text>
+<rect x="470" y="160" width="150" height="50" rx="8" ry="8" fill="Teleconsult + Rx" stroke="#1F3864" stroke-width="1.2"/>
+<text x="545.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Teleconsult + Rx</text>
+<rect x="640" y="160" width="150" height="50" rx="8" ry="8" fill="Commerce: Meds/Labs/Surg" stroke="#1F3864" stroke-width="1.2"/>
+<text x="715.0" y="177.5" font-size="12" text-anchor="middle" fill="#404040">Commerce:</text>
+<text x="715.0" y="192.5" font-size="12" text-anchor="middle" fill="#404040">Meds/Labs/Surg</text>
+<rect x="810" y="160" width="150" height="50" rx="8" ry="8" fill="Enterprise: Ray/Insta" stroke="#1F3864" stroke-width="1.2"/>
+<text x="885.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Enterprise: Ray/Insta</text>
+<rect x="580" y="260" width="200" height="60" rx="8" ry="8" fill="AI Brain: Clinical+Consult+Care" stroke="#1F3864" stroke-width="1.2"/>
+<text x="680.0" y="282.5" font-size="12" text-anchor="middle" fill="#404040">AI Brain:</text>
+<text x="680.0" y="297.5" font-size="12" text-anchor="middle" fill="#404040">Clinical+Consult+Care</text>
+<rect x="810" y="260" width="150" height="50" rx="8" ry="8" fill="HL7 / API Integration" stroke="#1F3864" stroke-width="1.2"/>
+<text x="885.0" y="285.0" font-size="12" text-anchor="middle" fill="#404040">HL7 / API Integration</text>
+<rect x="300" y="300" width="200" height="50" rx="8" ry="8" fill="40M structured data points" stroke="#1F3864" stroke-width="1.2"/>
+<text x="400.0" y="325.0" font-size="12" text-anchor="middle" fill="#404040">40M structured data points</text>
+<rect x="300" y="400" width="220" height="50" rx="8" ry="8" fill="Marketplace Liquidity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="425.0" font-size="12" text-anchor="middle" fill="#404040">Marketplace Liquidity</text>
+</svg></div><div class="card" id="d2"><h2>2. ai_architecture</h2><svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1100" height="420" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — AI Architecture (stated + inferred)</text>
+<line x1="20" y1="36" x2="1080" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="126" y1="85" x2="402" y2="90" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,90 392,94 392,86" fill="#808080"/>
+<line x1="416" y1="90" x2="692" y2="90" stroke="#808080" stroke-width="1.6"/>
+<polygon points="692,90 682,94 682,86" fill="#808080"/>
+<line x1="700" y1="96" x2="700" y2="192" stroke="#808080" stroke-width="1.6"/>
+<polygon points="700,192 696,182 704,182" fill="#808080"/>
+<line x1="700" y1="206" x2="700" y2="302" stroke="#808080" stroke-width="1.6"/>
+<polygon points="700,302 696,292 704,292" fill="#808080"/>
+<line x1="695" y1="94" x2="446" y2="305" stroke="#808080" stroke-width="1.6"/>
+<polygon points="446,305 451,295 456,301" fill="#808080"/>
+<line x1="706" y1="200" x2="962" y2="200" stroke="#808080" stroke-width="1.6"/>
+<polygon points="962,200 952,204 952,196" fill="#808080"/>
+<line x1="706" y1="308" x2="963" y2="203" stroke="#808080" stroke-width="1.6"/>
+<polygon points="963,203 955,210 952,203" fill="#808080"/>
+<line x1="446" y1="309" x2="962" y2="202" stroke="#808080" stroke-width="1.6"/>
+<polygon points="962,202 953,208 952,200" fill="#808080"/>
+<rect x="20" y="60" width="200" height="50" rx="8" ry="8" fill="Ingest: Records/Labs/Wearables/Consults" stroke="#1F3864" stroke-width="1.2"/>
+<text x="120.0" y="77.5" font-size="12" text-anchor="middle" fill="#404040">Ingest:</text>
+<text x="120.0" y="92.5" font-size="12" text-anchor="middle" fill="#404040">Records/Labs/Wearables/Consults</text>
+<rect x="300" y="60" width="220" height="60" rx="8" ry="8" fill="Normalisation + Vector Store (FHIR-style)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Normalisation + Vector Store</text>
+<text x="410.0" y="97.5" font-size="12" text-anchor="middle" fill="#404040">(FHIR-style)</text>
+<rect x="600" y="60" width="200" height="60" rx="8" ry="8" fill="Clinical Intelligence (layer 1)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Clinical Intelligence (layer</text>
+<text x="700.0" y="97.5" font-size="12" text-anchor="middle" fill="#404040">1)</text>
+<rect x="600" y="170" width="200" height="60" rx="8" ry="8" fill="Consultation Intelligence (layer 2)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="192.5" font-size="12" text-anchor="middle" fill="#404040">Consultation Intelligence</text>
+<text x="700.0" y="207.5" font-size="12" text-anchor="middle" fill="#404040">(layer 2)</text>
+<rect x="600" y="280" width="200" height="60" rx="8" ry="8" fill="Care Companion (layer 3)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="700.0" y="310.0" font-size="12" text-anchor="middle" fill="#404040">Care Companion (layer 3)</text>
+<rect x="330" y="280" width="220" height="60" rx="8" ry="8" fill="Evaluation / Guardrails / HITL ?" stroke="#1F3864" stroke-width="1.2"/>
+<text x="440.0" y="310.0" font-size="12" text-anchor="middle" fill="#404040">Evaluation / Guardrails / HITL ?</text>
+<rect x="870" y="170" width="200" height="60" rx="8" ry="8" fill="Patient + Doctor" stroke="#1F3864" stroke-width="1.2"/>
+<text x="970.0" y="200.0" font-size="12" text-anchor="middle" fill="#404040">Patient + Doctor</text>
+</svg></div><div class="card" id="d3"><h2>3. healthcare_data_flow</h2><svg xmlns="http://www.w3.org/2000/svg" width="920" height="460" viewBox="0 0 920 460" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="460" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Healthcare Data Flow (gap highlighted)</text>
+<line x1="20" y1="36" x2="900" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="111" y1="85" x2="327" y2="85" stroke="#808080" stroke-width="1.6"/>
+<polygon points="327,85 317,89 317,81" fill="#808080"/>
+<line x1="111" y1="185" x2="327" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="327,185 317,189 317,181" fill="#808080"/>
+<line x1="341" y1="185" x2="557" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="557,185 547,189 547,181" fill="#808080"/>
+<line x1="565" y1="91" x2="565" y2="177" stroke="#808080" stroke-width="1.6"/>
+<polygon points="565,177 561,167 569,167" fill="#808080"/>
+<line x1="341" y1="86" x2="792" y2="183" stroke="#808080" stroke-width="1.6"/>
+<polygon points="792,183 782,185 783,177" fill="#808080"/>
+<line x1="571" y1="185" x2="792" y2="185" stroke="#808080" stroke-width="1.6"/>
+<polygon points="792,185 782,189 782,181" fill="#808080"/>
+<line x1="800" y1="191" x2="800" y2="277" stroke="#808080" stroke-width="1.6"/>
+<polygon points="800,277 796,267 804,267" fill="#808080"/>
+<line x1="800" y1="291" x2="800" y2="377" stroke="#808080" stroke-width="1.6"/>
+<polygon points="800,377 796,367 804,367" fill="#808080"/>
+<line x1="794" y1="385" x2="573" y2="385" stroke="#808080" stroke-width="1.6"/>
+<polygon points="573,385 583,381 583,389" fill="#808080"/>
+<line x1="560" y1="382" x2="112" y2="89" stroke="#808080" stroke-width="1.6"/>
+<polygon points="112,89 122,91 118,98" fill="#808080"/>
+<line x1="795" y1="187" x2="342" y2="387" stroke="#FFC7CE" stroke-width="1.6"/>
+<polygon points="342,387 350,379 353,386" fill="#FFC7CE"/>
+<rect x="542.4150246374415" y="278.09660204155807" width="52" height="16" rx="3" fill="#FFFFFF" stroke="#FFC7CE" stroke-width="0.8"/>
+<text x="568.4150246374415" y="290.09660204155807" font-size="10" text-anchor="middle" fill="#404040">GAP</text>
+<line x1="331" y1="385" x2="110" y2="91" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,91 119,97 113,102" fill="#808080"/>
+<rect x="20" y="60" width="170" height="50" rx="8" ry="8" fill="Patient" stroke="#1F3864" stroke-width="1.2"/>
+<text x="105.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Patient</text>
+<rect x="250" y="60" width="170" height="50" rx="8" ry="8" fill="Booking / Consult" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Booking / Consult</text>
+<rect x="20" y="160" width="170" height="50" rx="8" ry="8" fill="Doctor / Clinic" stroke="#1F3864" stroke-width="1.2"/>
+<text x="105.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Doctor / Clinic</text>
+<rect x="250" y="160" width="170" height="50" rx="8" ry="8" fill="Ray / Insta EMR" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Ray / Insta EMR</text>
+<rect x="480" y="160" width="170" height="50" rx="8" ry="8" fill="HL7 / API" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">HL7 / API</text>
+<rect x="480" y="60" width="170" height="50" rx="8" ry="8" fill="Labs / Imaging" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Labs / Imaging</text>
+<rect x="710" y="160" width="180" height="50" rx="8" ry="8" fill="Provider-scoped Records" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="185.0" font-size="12" text-anchor="middle" fill="#404040">Provider-scoped Records</text>
+<rect x="710" y="260" width="180" height="50" rx="8" ry="8" fill="AI Insights" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="285.0" font-size="12" text-anchor="middle" fill="#404040">AI Insights</text>
+<rect x="710" y="360" width="180" height="50" rx="8" ry="8" fill="Recommendations" stroke="#1F3864" stroke-width="1.2"/>
+<text x="800.0" y="385.0" font-size="12" text-anchor="middle" fill="#404040">Recommendations</text>
+<rect x="480" y="360" width="170" height="50" rx="8" ry="8" fill="Meds/Labs/Surgery" stroke="#1F3864" stroke-width="1.2"/>
+<text x="565.0" y="385.0" font-size="12" text-anchor="middle" fill="#404040">Meds/Labs/Surgery</text>
+<rect x="250" y="360" width="170" height="60" rx="8" ry="8" fill="Longitudinal PHR = OVEXIS GAP" stroke="#1F3864" stroke-width="1.2"/>
+<text x="335.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Longitudinal PHR = OVEXIS</text>
+<text x="335.0" y="397.5" font-size="12" text-anchor="middle" fill="#404040">GAP</text>
+</svg></div><div class="card" id="d4"><h2>4. user_journey</h2><svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="500" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Complete User Journey (Patient)</text>
+<line x1="20" y1="36" x2="740" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="110" y1="88" x2="110" y2="134" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,134 106,124 114,124" fill="#808080"/>
+<line x1="110" y1="148" x2="110" y2="194" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,194 106,184 114,184" fill="#808080"/>
+<line x1="110" y1="208" x2="110" y2="254" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,254 106,244 114,244" fill="#808080"/>
+<line x1="110" y1="268" x2="110" y2="314" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,314 106,304 114,304" fill="#808080"/>
+<line x1="110" y1="328" x2="110" y2="374" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,374 106,364 114,364" fill="#808080"/>
+<line x1="110" y1="388" x2="110" y2="434" stroke="#808080" stroke-width="1.6"/>
+<polygon points="110,434 106,424 114,424" fill="#808080"/>
+<line x1="116" y1="442" x2="362" y2="442" stroke="#808080" stroke-width="1.6"/>
+<polygon points="362,442 352,446 352,438" fill="#808080"/>
+<line x1="370" y1="436" x2="370" y2="390" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,390 374,400 366,400" fill="#808080"/>
+<line x1="370" y1="376" x2="370" y2="330" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,330 374,340 366,340" fill="#808080"/>
+<line x1="370" y1="316" x2="370" y2="270" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,270 374,280 366,280" fill="#808080"/>
+<line x1="370" y1="256" x2="370" y2="210" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,210 374,220 366,220" fill="#808080"/>
+<line x1="370" y1="196" x2="370" y2="150" stroke="#808080" stroke-width="1.6"/>
+<polygon points="370,150 374,160 366,160" fill="#808080"/>
+<line x1="374" y1="147" x2="625" y2="436" stroke="#808080" stroke-width="1.6"/>
+<polygon points="625,436 615,432 621,426" fill="#808080"/>
+<line x1="630" y1="436" x2="630" y2="390" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,390 634,400 626,400" fill="#808080"/>
+<line x1="630" y1="376" x2="630" y2="330" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,330 634,340 626,340" fill="#808080"/>
+<line x1="630" y1="316" x2="630" y2="270" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,270 634,280 626,280" fill="#808080"/>
+<line x1="630" y1="256" x2="630" y2="210" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,210 634,220 626,220" fill="#808080"/>
+<line x1="630" y1="208" x2="630" y2="434" stroke="#808080" stroke-width="1.6"/>
+<polygon points="630,434 626,424 634,424" fill="#808080"/>
+<line x1="116" y1="442" x2="622" y2="442" stroke="#808080" stroke-width="1.6"/>
+<polygon points="622,442 612,446 612,438" fill="#808080"/>
+<rect x="20" y="60" width="180" height="45" rx="8" ry="8" fill="Anonymous Visitor" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="82.5" font-size="12" text-anchor="middle" fill="#404040">Anonymous Visitor</text>
+<rect x="20" y="120" width="180" height="45" rx="8" ry="8" fill="Marketing (SEO/App)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="142.5" font-size="12" text-anchor="middle" fill="#404040">Marketing (SEO/App)</text>
+<rect x="20" y="180" width="180" height="45" rx="8" ry="8" fill="Signup (OTP)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Signup (OTP)</text>
+<rect x="20" y="240" width="180" height="45" rx="8" ry="8" fill="Verification" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Verification</text>
+<rect x="20" y="300" width="180" height="45" rx="8" ry="8" fill="Consent" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Consent</text>
+<rect x="20" y="360" width="180" height="45" rx="8" ry="8" fill="Permissions" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Permissions</text>
+<rect x="20" y="420" width="180" height="45" rx="8" ry="8" fill="Data Import (history)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="110.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">Data Import (history)</text>
+<rect x="280" y="420" width="180" height="45" rx="8" ry="8" fill="AI (triage)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">AI (triage)</text>
+<rect x="280" y="360" width="180" height="45" rx="8" ry="8" fill="Recommendations" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Recommendations</text>
+<rect x="280" y="300" width="180" height="45" rx="8" ry="8" fill="Booking / Payment" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Booking / Payment</text>
+<rect x="280" y="240" width="180" height="45" rx="8" ry="8" fill="Consultation" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Consultation</text>
+<rect x="280" y="180" width="180" height="45" rx="8" ry="8" fill="Prescription + Records" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Prescription + Records</text>
+<rect x="280" y="120" width="180" height="45" rx="8" ry="8" fill="Fulfilment (meds/labs)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="370.0" y="142.5" font-size="12" text-anchor="middle" fill="#404040">Fulfilment (meds/labs)</text>
+<rect x="540" y="420" width="180" height="45" rx="8" ry="8" fill="Retention (reminders)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="442.5" font-size="12" text-anchor="middle" fill="#404040">Retention (reminders)</text>
+<rect x="540" y="360" width="180" height="45" rx="8" ry="8" fill="Subscription (Plus)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="382.5" font-size="12" text-anchor="middle" fill="#404040">Subscription (Plus)</text>
+<rect x="540" y="300" width="180" height="45" rx="8" ry="8" fill="Support" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="322.5" font-size="12" text-anchor="middle" fill="#404040">Support</text>
+<rect x="540" y="240" width="180" height="45" rx="8" ry="8" fill="Renewal" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="262.5" font-size="12" text-anchor="middle" fill="#404040">Renewal</text>
+<rect x="540" y="180" width="180" height="45" rx="8" ry="8" fill="Referral (weak)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="630.0" y="202.5" font-size="12" text-anchor="middle" fill="#404040">Referral (weak)</text>
+</svg></div><div class="card" id="d5"><h2>5. feature_dependency</h2><svg xmlns="http://www.w3.org/2000/svg" width="820" height="680" viewBox="0 0 820 680" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="680" fill="#FFFFFF"/>
+<text x="20" y="28" font-size="16" font-weight="bold" fill="#1F3864">Practo — Feature Dependency Graph</text>
+<line x1="20" y1="36" x2="800" y2="36" stroke="#1F3864" stroke-width="1.5"/>
+<line x1="130" y1="91" x2="130" y2="167" stroke="#808080" stroke-width="1.6"/>
+<polygon points="130,167 126,157 134,157" fill="#808080"/>
+<line x1="130" y1="181" x2="130" y2="257" stroke="#808080" stroke-width="1.6"/>
+<polygon points="130,257 126,247 134,247" fill="#808080"/>
+<line x1="136" y1="265" x2="402" y2="265" stroke="#808080" stroke-width="1.6"/>
+<polygon points="402,265 392,269 392,261" fill="#808080"/>
+<line x1="410" y1="271" x2="410" y2="347" stroke="#808080" stroke-width="1.6"/>
+<polygon points="410,347 406,337 414,337" fill="#808080"/>
+<line x1="416" y1="355" x2="682" y2="355" stroke="#808080" stroke-width="1.6"/>
+<polygon points="682,355 672,359 672,351" fill="#808080"/>
+<line x1="690" y1="361" x2="690" y2="437" stroke="#808080" stroke-width="1.6"/>
+<polygon points="690,437 686,427 694,427" fill="#808080"/>
+<line x1="690" y1="451" x2="690" y2="527" stroke="#808080" stroke-width="1.6"/>
+<polygon points="690,527 686,517 694,517" fill="#808080"/>
+<line x1="684" y1="447" x2="418" y2="533" stroke="#808080" stroke-width="1.6"/>
+<polygon points="418,533 426,526 428,533" fill="#808080"/>
+<line x1="684" y1="537" x2="418" y2="623" stroke="#808080" stroke-width="1.6"/>
+<polygon points="418,623 426,616 428,623" fill="#808080"/>
+<line x1="410" y1="541" x2="410" y2="617" stroke="#808080" stroke-width="1.6"/>
+<polygon points="410,617 406,607 414,607" fill="#808080"/>
+<line x1="404" y1="625" x2="178" y2="625" stroke="#808080" stroke-width="1.6"/>
+<polygon points="178,625 188,621 188,629" fill="#808080"/>
+<line x1="169" y1="619" x2="131" y2="273" stroke="#808080" stroke-width="1.6"/>
+<polygon points="131,273 136,282 128,283" fill="#808080"/>
+<line x1="416" y1="353" x2="682" y2="267" stroke="#808080" stroke-width="1.6"/>
+<polygon points="682,267 674,274 672,267" fill="#808080"/>
+<line x1="686" y1="269" x2="416" y2="529" stroke="#808080" stroke-width="1.6"/>
+<polygon points="416,529 420,520 426,525" fill="#808080"/>
+<line x1="415" y1="268" x2="683" y2="441" stroke="#808080" stroke-width="1.6"/>
+<polygon points="683,441 673,439 677,432" fill="#808080"/>
+<rect x="40" y="60" width="180" height="50" rx="8" ry="8" fill="Consent & Identity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="85.0" font-size="12" text-anchor="middle" fill="#404040">Consent &amp; Identity</text>
+<rect x="40" y="150" width="180" height="50" rx="8" ry="8" fill="Patient/Doctor Identity (OTP+2FA)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="167.5" font-size="12" text-anchor="middle" fill="#404040">Patient/Doctor Identity</text>
+<text x="130.0" y="182.5" font-size="12" text-anchor="middle" fill="#404040">(OTP+2FA)</text>
+<rect x="40" y="240" width="180" height="50" rx="8" ry="8" fill="Data Collection" stroke="#1F3864" stroke-width="1.2"/>
+<text x="130.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Data Collection</text>
+<rect x="320" y="240" width="180" height="50" rx="8" ry="8" fill="Normalisation (HL7/EMR)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Normalisation (HL7/EMR)</text>
+<rect x="320" y="330" width="180" height="50" rx="8" ry="8" fill="AI Layer" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="355.0" font-size="12" text-anchor="middle" fill="#404040">AI Layer</text>
+<rect x="600" y="330" width="180" height="50" rx="8" ry="8" fill="Reports (PROMs)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="355.0" font-size="12" text-anchor="middle" fill="#404040">Reports (PROMs)</text>
+<rect x="600" y="420" width="180" height="50" rx="8" ry="8" fill="Insights" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="445.0" font-size="12" text-anchor="middle" fill="#404040">Insights</text>
+<rect x="600" y="510" width="180" height="50" rx="8" ry="8" fill="Doctor (Ray/Pro/Insta)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="535.0" font-size="12" text-anchor="middle" fill="#404040">Doctor (Ray/Pro/Insta)</text>
+<rect x="320" y="510" width="180" height="50" rx="8" ry="8" fill="Patient (App/Web)" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="535.0" font-size="12" text-anchor="middle" fill="#404040">Patient (App/Web)</text>
+<rect x="320" y="600" width="180" height="50" rx="8" ry="8" fill="Marketplace Liquidity" stroke="#1F3864" stroke-width="1.2"/>
+<text x="410.0" y="625.0" font-size="12" text-anchor="middle" fill="#404040">Marketplace Liquidity</text>
+<rect x="80" y="600" width="180" height="50" rx="8" ry="8" fill="Retention" stroke="#1F3864" stroke-width="1.2"/>
+<text x="170.0" y="625.0" font-size="12" text-anchor="middle" fill="#404040">Retention</text>
+<rect x="600" y="240" width="180" height="50" rx="8" ry="8" fill="Care Companion" stroke="#1F3864" stroke-width="1.2"/>
+<text x="690.0" y="265.0" font-size="12" text-anchor="middle" fill="#404040">Care Companion</text>
+</svg></div><div class="card" id="d6"><h2>6. business_model_canvas</h2><svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560" font-family="Helvetica,Arial,sans-serif">
+<rect width="1120" height="560" fill="#FFFFFF"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#1F3864">Practo — Business Model Canvas</text>
+<rect x="20" y="40" width="180" height="90" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="58" font-size="12" font-weight="bold" fill="#1F3864">Key Partners</text>
+<text x="28" y="74" font-size="10.5" fill="#404040">• Doctors/Clinics/Hospitals</text>
+<text x="28" y="89" font-size="10.5" fill="#404040">• Insurers (Tata AIA)</text>
+<text x="28" y="104" font-size="10.5" fill="#404040">• Pharmacies / Labs</text>
+<text x="28" y="119" font-size="10.5" fill="#404040">• Acquired talent (Genii)</text>
+<rect x="20" y="140" width="180" height="120" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="158" font-size="12" font-weight="bold" fill="#1F3864">Key Activities</text>
+<text x="28" y="174" font-size="10.5" fill="#404040">• Marketplace ops</text>
+<text x="28" y="189" font-size="10.5" fill="#404040">• SaaS Ray/Insta</text>
+<text x="28" y="204" font-size="10.5" fill="#404040">• Teleconsult + AI</text>
+<text x="28" y="219" font-size="10.5" fill="#404040">• Care navigation</text>
+<rect x="20" y="270" width="180" height="90" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="288" font-size="12" font-weight="bold" fill="#1F3864">Key Resources</text>
+<text x="28" y="304" font-size="10.5" fill="#404040">• 700k doctors</text>
+<text x="28" y="319" font-size="10.5" fill="#404040">• 2,400 cities</text>
+<text x="28" y="334" font-size="10.5" fill="#404040">• 40M data points</text>
+<text x="28" y="349" font-size="10.5" fill="#404040">• Brand + ISO27001</text>
+<rect x="20" y="370" width="180" height="90" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="388" font-size="12" font-weight="bold" fill="#1F3864">Value Prop</text>
+<text x="28" y="404" font-size="10.5" fill="#404040">• Verified discovery</text>
+<text x="28" y="419" font-size="10.5" fill="#404040">• Booking + teleconsult</text>
+<text x="28" y="434" font-size="10.5" fill="#404040">• Records + AI nav</text>
+<text x="28" y="449" font-size="10.5" fill="#404040">• Outcomes (PROMs)</text>
+<rect x="20" y="470" width="180" height="70" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="28" y="488" font-size="12" font-weight="bold" fill="#1F3864">Customer Rel.</text>
+<text x="28" y="504" font-size="10.5" fill="#404040">• Self-serve app</text>
+<text x="28" y="519" font-size="10.5" fill="#404040">• Field sales B2B</text>
+<rect x="210" y="40" width="180" height="90" rx="6" fill="#FFC7CE" stroke="#1F3864" stroke-width="1"/>
+<text x="218" y="58" font-size="12" font-weight="bold" fill="#1F3864">Cost Structure</text>
+<text x="218" y="74" font-size="10.5" fill="#404040">• Eng / Sales</text>
+<text x="218" y="89" font-size="10.5" fill="#404040">• Support / Cloud</text>
+<text x="218" y="104" font-size="10.5" fill="#404040">• Compliance / Security</text>
+<text x="218" y="119" font-size="10.5" fill="#404040">• Acquisition (M&amp;A)</text>
+<rect x="210" y="140" width="180" height="530" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="218" y="158" font-size="12" font-weight="bold" fill="#1F3864">Channels</text>
+<text x="218" y="174" font-size="10.5" fill="#404040">• App Store / Web</text>
+<text x="218" y="189" font-size="10.5" fill="#404040">• SEO / Health content</text>
+<text x="218" y="204" font-size="10.5" fill="#404040">• SMS app-link</text>
+<text x="218" y="219" font-size="10.5" fill="#404040">• Practo Reach (B2B)</text>
+<rect x="400" y="40" width="320" height="240" rx="6" fill="#C6EFCE" stroke="#1F3864" stroke-width="1"/>
+<text x="408" y="58" font-size="12" font-weight="bold" fill="#1F3864">Revenue Streams</text>
+<text x="408" y="74" font-size="10.5" fill="#404040">• SaaS Ray (1.5-5k/mo)</text>
+<text x="408" y="89" font-size="10.5" fill="#404040">• Insta HMS ($25-40/u/mo)</text>
+<text x="408" y="104" font-size="10.5" fill="#404040">• Consult (per-visit)</text>
+<text x="408" y="119" font-size="10.5" fill="#404040">• Plus/Prime subscription</text>
+<text x="408" y="134" font-size="10.5" fill="#404040">• Practo Reach (sponsored)</text>
+<text x="408" y="149" font-size="10.5" fill="#404040">• Meds/Labs/Surgery GMV</text>
+<text x="408" y="164" font-size="10.5" fill="#404040">• Insurer/corporate tie-ups</text>
+<rect x="400" y="290" width="320" height="140" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1"/>
+<text x="408" y="308" font-size="12" font-weight="bold" fill="#1F3864">Customer Segments</text>
+<text x="408" y="324" font-size="10.5" fill="#404040">• Patients (B2C India+UAE+US)</text>
+<text x="408" y="339" font-size="10.5" fill="#404040">• Doctors / Clinics</text>
+<text x="408" y="354" font-size="10.5" fill="#404040">• Hospitals</text>
+<text x="408" y="369" font-size="10.5" fill="#404040">• Insurers / Corporates</text>
+<rect x="730" y="40" width="370" height="520" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1"/>
+<text x="738" y="58" font-size="12" font-weight="bold" fill="#1F3864">Key Differentiators / Moat</text>
+<text x="738" y="74" font-size="10.5" fill="#404040">• Marketplace liquidity (Strong)</text>
+<text x="738" y="89" font-size="10.5" fill="#404040">• Enterprise SaaS lock-in (Strong)</text>
+<text x="738" y="104" font-size="10.5" fill="#404040">• Brand + 16M downloads (Strong)</text>
+<text x="738" y="119" font-size="10.5" fill="#404040">• Agentic AI narrative (Medium)</text>
+<text x="738" y="134" font-size="10.5" fill="#404040">• Regulatory posture (Medium)</text>
+<text x="738" y="149" font-size="10.5" fill="#404040">• Switching costs B2B (Med-Strong)</text>
+<text x="738" y="164" font-size="10.5" fill="#404040">• GAP: no patient-owned record</text>
+<text x="738" y="179" font-size="10.5" fill="#404040">• GAP: no open API</text>
+<text x="738" y="194" font-size="10.5" fill="#404040">• GAP: navigation-not-diagnosis AI</text>
+<text x="738" y="209" font-size="10.5" fill="#404040">• GAP: thin take-rate ~6-7%</text>
+</svg></div><div class="card" id="d7"><h2>7. swot</h2><svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560" font-family="Helvetica,Arial,sans-serif"><rect width="1100" height="560" fill="#FFFFFF"/>
+<text x="20" y="26" font-size="16" font-weight="bold" fill="#1F3864">Practo — SWOT</text>
+<rect x="20" y="40" width="520" height="240" rx="6" fill="#C6EFCE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="30" y="62" font-size="14" font-weight="bold" fill="#1F3864">Strengths</text>
+<text x="30" y="82" font-size="11" fill="#404040">• Marketplace liquidity (India) 🟢</text>
+<text x="30" y="100" font-size="11" fill="#404040">• Brand + 16M downloads 🟢</text>
+<text x="30" y="118" font-size="11" fill="#404040">• Enterprise SaaS Ray/Insta 🟢</text>
+<text x="30" y="136" font-size="11" fill="#404040">• Profitability discipline FY25 🟢</text>
+<text x="30" y="154" font-size="11" fill="#404040">• AI narrative + 20k AI/day 🟢</text>
+<text x="30" y="172" font-size="11" fill="#404040">• Strong board / governance 🟢</text>
+<rect x="560" y="40" width="520" height="240" rx="6" fill="#FFC7CE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="570" y="62" font-size="14" font-weight="bold" fill="#1F3864">Weaknesses</text>
+<text x="570" y="82" font-size="11" fill="#404040">• Thin take-rate (~6-7%) 🟡</text>
+<text x="570" y="100" font-size="11" fill="#404040">• &#x27;Scam&#x27;/pricing trust erosion 🟢</text>
+<text x="570" y="118" font-size="11" fill="#404040">• No patient-owned record 🟡</text>
+<text x="570" y="136" font-size="11" fill="#404040">• Tech debt from 5 acquisitions 🟡</text>
+<text x="570" y="154" font-size="11" fill="#404040">• No open API / dev moat 🟢</text>
+<text x="570" y="172" font-size="11" fill="#404040">• Navigation-not-diagnosis AI 🟡</text>
+<rect x="20" y="300" width="520" height="240" rx="6" fill="#FFEB9C" stroke="#1F3864" stroke-width="1.2"/>
+<text x="30" y="322" font-size="14" font-weight="bold" fill="#1F3864">Opportunities</text>
+<text x="30" y="342" font-size="11" fill="#404040">• US/UAE GMV arbitrage 🟡</text>
+<text x="30" y="360" font-size="11" fill="#404040">• Payor integration 🟡</text>
+<text x="30" y="378" font-size="11" fill="#404040">• Agentic AI moat 🟡</text>
+<text x="30" y="396" font-size="11" fill="#404040">• IPO uplift 🟡</text>
+<text x="30" y="414" font-size="11" fill="#404040">• Diaspora internationalization 🟢</text>
+<text x="30" y="432" font-size="11" fill="#404040">• PROMs credibility 🟢</text>
+<rect x="560" y="300" width="520" height="240" rx="6" fill="#D9E1F2" stroke="#1F3864" stroke-width="1.2"/>
+<text x="570" y="322" font-size="14" font-weight="bold" fill="#1F3864">Threats</text>
+<text x="570" y="342" font-size="11" fill="#404040">• Apollo/1mg/MediBuddy rivalry 🟢</text>
+<text x="570" y="360" font-size="11" fill="#404040">• Longitudinal/AI entrants 🟡</text>
+<text x="570" y="378" font-size="11" fill="#404040">• OS health graphs (Apple/Google) 🟡</text>
+<text x="570" y="396" font-size="11" fill="#404040">• DPDP/HIPAA exposure 🟡</text>
+<text x="570" y="414" font-size="11" fill="#404040">• Clinical-harm incidents 🟢</text>
+<text x="570" y="432" font-size="11" fill="#404040">• Platform disintermediation 🟡</text>
+</svg></div><div class="card" id="d8"><h2>8. porters_five_forces</h2><svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="Helvetica,Arial,sans-serif"><rect width="900" height="620" fill="#FFFFFF"/><text x="20" y="26" font-size="16" font-weight="bold" fill="#1F3864">Practo — Porter's Five Forces</text>
+<rect x="330" y="250" width="240" height="60" rx="8" ry="8" fill="#FFC7CE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="450.0" y="280.0" font-size="12" text-anchor="middle" fill="#404040">Rivalry: HIGH</text>
+<rect x="330" y="60" width="240" height="55" rx="8" ry="8" fill="#FFEB9C" stroke="#1F3864" stroke-width="1.2"/>
+<text x="450.0" y="87.5" font-size="12" text-anchor="middle" fill="#404040">New Entrants: MEDIUM</text>
+<rect x="330" y="440" width="240" height="55" rx="8" ry="8" fill="#FFC7CE" stroke="#1F3864" stroke-width="1.2"/>
+<text x="450.0" y="467.5" font-size="12" text-anchor="middle" fill="#404040">Substitutes: HIGH</text>
+<rect x="40" y="250" width="240" height="60" rx="8" ry="8" fill="#FFEB9C" stroke="#1F3864" stroke-width="1.2"/>
+<text x="160.0" y="280.0" font-size="12" text-anchor="middle" fill="#404040">Supplier Power (doctors): MED</text>
+<rect x="620" y="250" width="240" height="60" rx="8" ry="8" fill="#FFEB9C" stroke="#1F3864" stroke-width="1.2"/>
+<text x="740.0" y="280.0" font-size="12" text-anchor="middle" fill="#404040">Buyer Power (patients/payors): MED</text>
+<line x1="450" y1="115" x2="450" y2="250" stroke="#888" stroke-width="1.4"/><line x1="450" y1="310" x2="450" y2="440" stroke="#888" stroke-width="1.4"/><line x1="280" y1="280" x2="330" y2="280" stroke="#888" stroke-width="1.4"/><line x1="570" y1="280" x2="620" y2="280" stroke="#888" stroke-width="1.4"/><text x="450" y="600" font-size="11" text-anchor="middle" fill="#404040">Apollo 24/7, Tata 1mg, MediBuddy, PharmEasy (rivalry) • OS health graphs + insurer apps (substitutes) • Ovexis-type longitudinal entrants (new entrants)</text>
+</svg></div></body></html>

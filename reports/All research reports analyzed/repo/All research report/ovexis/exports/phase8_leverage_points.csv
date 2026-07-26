@@ -1,0 +1,7 @@
+rank,point,loop,why,cost,jarvis
+1,Execute and capture in one loop,R1,Only intervention that creates outcome data; breaks the deepest vicious loop,MED,ODAV loop already does observe-act-verify
+2,Honest failure as trust entry point,R5,Converts the balancing liability loop into a virtuous delegation loop,LOW,resolution_gate.py exists (174 LOC)
+3,Enter on operational budget,R4+B2,Bypasses both the subscription trap and incumbent lock-in simultaneously,LOW,n/a - go-to-market
+4,Depth-first adapters,R6,149 fabricated adapters produced no flywheel; 3 real ones would,MED,directly contradicts existing 160-adapter strategy
+5,Graduated autonomy per action class,B1,Raises the automation ceiling without raising liability exposure,MED,feature_gate has OFF/SHADOW/SUGGEST/FORCE modes already
+6,Zero-marginal-cost integration,R3,Breaks the integration avoidance loop for 253 fragmented vendors,HIGH,ui_automation_execution 1747 LOC

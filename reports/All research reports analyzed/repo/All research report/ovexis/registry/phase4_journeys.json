@@ -1,0 +1,171 @@
+{
+ "patient": [
+  "become_aware",
+  "find_provider",
+  "book",
+  "pre_visit_intake",
+  "travel_arrive",
+  "register_checkin",
+  "wait",
+  "consult",
+  "tests_ordered",
+  "tests_performed",
+  "results_returned",
+  "diagnosis_explained",
+  "treatment_decided",
+  "prescription_filled",
+  "pay",
+  "follow_up",
+  "adhere_at_home",
+  "escalate_if_worse"
+ ],
+ "doctor": [
+  "see_schedule",
+  "review_prior_record",
+  "take_history",
+  "examine",
+  "form_differential",
+  "order_tests",
+  "interpret_results",
+  "decide_treatment",
+  "prescribe",
+  "document_note",
+  "code_encounter",
+  "refer_or_admit",
+  "handoff",
+  "review_inbox_results",
+  "follow_up_patient"
+ ],
+ "nurse": [
+  "receive_handover",
+  "assess_patient",
+  "record_vitals",
+  "administer_meds",
+  "monitor_response",
+  "escalate_deterioration",
+  "coordinate_orders",
+  "prepare_discharge",
+  "educate_patient",
+  "document_care",
+  "give_handover"
+ ],
+ "reception": [
+  "greet",
+  "verify_identity",
+  "verify_eligibility",
+  "register_or_retrieve",
+  "collect_copay",
+  "queue_manage",
+  "reschedule",
+  "discharge_paperwork"
+ ],
+ "billing": [
+  "capture_charges",
+  "assign_codes",
+  "validate_claim",
+  "submit_claim",
+  "track_denial",
+  "appeal",
+  "collect_patient_share",
+  "reconcile"
+ ],
+ "insurance": [
+  "verify_coverage",
+  "pre_authorise",
+  "adjudicate",
+  "approve_or_deny",
+  "settle",
+  "audit_fraud"
+ ],
+ "radiology": [
+  "receive_order",
+  "protocol_study",
+  "schedule_slot",
+  "acquire_image",
+  "store_pacs",
+  "read_report",
+  "communicate_critical",
+  "bill_study"
+ ],
+ "laboratory": [
+  "receive_order",
+  "collect_specimen",
+  "label_track",
+  "analyse",
+  "validate_result",
+  "release_result",
+  "flag_critical",
+  "bill_test"
+ ],
+ "operation_theatre": [
+  "list_case",
+  "pre_anaesthetic_check",
+  "consent",
+  "schedule_slot",
+  "prepare_instruments",
+  "perform_surgery",
+  "record_notes",
+  "post_op_handover",
+  "turnover_room"
+ ],
+ "icu": [
+  "admit",
+  "continuous_monitor",
+  "ventilator_manage",
+  "titrate_drugs",
+  "multi_team_round",
+  "family_communicate",
+  "escalate_deescalate",
+  "transfer_out"
+ ],
+ "emergency": [
+  "arrive",
+  "triage",
+  "rapid_assess",
+  "resuscitate",
+  "order_stat",
+  "disposition_decide",
+  "admit_or_discharge",
+  "handoff_to_ward"
+ ],
+ "pharmacy": [
+  "receive_prescription",
+  "verify_interaction",
+  "check_stock",
+  "dispense",
+  "counsel_patient",
+  "bill",
+  "reorder_stock",
+  "track_expiry"
+ ],
+ "administration": [
+  "staff_roster",
+  "bed_capacity",
+  "procurement",
+  "vendor_manage",
+  "mis_reporting",
+  "budget"
+ ],
+ "quality": [
+  "define_indicator",
+  "collect_data",
+  "audit_chart",
+  "incident_report",
+  "root_cause",
+  "improve_loop"
+ ],
+ "compliance": [
+  "consent_capture",
+  "access_control",
+  "audit_trail",
+  "regulatory_report",
+  "breach_response",
+  "certification_renewal"
+ ],
+ "management": [
+  "dashboard_review",
+  "capacity_plan",
+  "revenue_analyse",
+  "strategy_decide"
+ ]
+}

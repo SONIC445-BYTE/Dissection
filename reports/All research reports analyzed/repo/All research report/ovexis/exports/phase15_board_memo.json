@@ -1,0 +1,136 @@
+{
+  "schema": "ovexis.hpid.phase15.board_memo/v1",
+  "generated": "2026-07-26",
+  "phase": 15,
+  "status": "CANONICAL",
+  "registers": {
+    "kill_list": [
+      "The 149 fabricated platform adapters - quarantine or delete (CB-04)",
+      "Any dashboard-as-product ambition (LAW10, DL-045)",
+      "Ambient scribing (19 competitors, automates a billing artifact) (DL-049)",
+      "Consumer subscription revenue (R4 trap, hard ceiling) (LAW06)",
+      "Multi-agent architecture (coordination failure modes a solo builder cannot debug)",
+      "Outcome-based pricing as the ENTRY model (RT04 circular dependency)"
+    ],
+    "never_build_list": [
+      "An EHR or HMIS - 0 of 19 companies occupy the SoR and all arranged around it (LAW01)",
+      "A foundation model - arch_llm_wrapper GREEN at 18 companies = commodity",
+      "Clinical decision support while solo - all clinical opportunities liability-blocked (LAW04)",
+      "A platform/SDK before 10 workflows complete - repeats the 149-adapter mistake",
+      "Nursing continuous observation - no digital artifact, highest liability, ranked 25/25"
+    ],
+    "immediate_wins": [
+      "Merge phase-2-adapter-wiring into main; make main default (9,713 lines, 325 vs 7 passing tests)",
+      "Add CI running the existing test suite",
+      "Wire policy_manager + permission_engine (338+301 LOC, currently ZERO non-test importers)",
+      "Wire audit_log as append-only (307 LOC, orphaned)",
+      "Replace memory_store XOR+hardcoded key with AES-GCM",
+      "Watch the 82 ABDM demo videos - closes the single blocking unknown G-4.2"
+    ],
+    "long_term_bets": [
+      "Durable workflow engine as protocol_commitment (Phase-3 highest-value concept, SI 9.6)",
+      "Institutional knowledge graph of cross-departmental state (AN05)",
+      "Agent-native claims rule acquisition learning from denial feedback (AN02)",
+      "Voice-native nursing capture to CREATE the missing digital artifact (AN04)"
+    ],
+    "acquisition_targets": [
+      "None recommended - no capital, no team (DL-007). Listed for completeness only.",
+      "If capitalised: a small ABDM-certified connector vendor (14 in Connectors category) for instant certification + customer list"
+    ],
+    "partnership_targets": [
+      "The 13 NHA-rated HMIS vendors (govt-published quality scores) - free qualified target list",
+      "Eka Care/Orbi Health (4.5), Drucare (4.5), MocDoc/Yro (4.4), Plus91 (4.3), HODO (4.1)",
+      "NHCX connectors (6 registered) for the claims chain"
+    ],
+    "research_priorities": [
+      "P0 BLOCKING: 82 ABDM demo videos - do HMIS vendors already cover Tier-1 workflows? (G-4.2, RT01)",
+      "P0: Unit economics of one Indian hospital deployment (RT06, G-6.1)",
+      "P1: Reachability of remaining 455 orphaned modules - wire or delete 18,558 LOC",
+      "P1: Windows hardware validation of the 12 wired adapters (G-1.1)",
+      "P2: Primary clinician/CIO interviews - entirely absent from corpus",
+      "P2: Local model latency/cost for clinical text (G-1.5)"
+    ]
+  },
+  "top_risks": [
+    {
+      "risk": "HMIS vendors already cover Tier-1 workflows",
+      "sev": "CRITICAL",
+      "mitigation": "82 demo videos before commitment (DL-066)",
+      "status": "BLOCKING"
+    },
+    {
+      "risk": "No moat for 12+ months",
+      "sev": "HIGH",
+      "mitigation": "Reframed to domain+policy+provenance; accept the exposure",
+      "status": "ACCEPTED"
+    },
+    {
+      "risk": "No budget line exists for the category",
+      "sev": "HIGH",
+      "mitigation": "Attach to HMIS AMC or claims-recovery % (DL-068)",
+      "status": "MITIGATED"
+    },
+    {
+      "risk": "CIO rejects unproven solo vendor",
+      "sev": "CRITICAL",
+      "mitigation": "SHADOW-mode entry (DL-069), already in feature_gate",
+      "status": "MITIGATED"
+    },
+    {
+      "risk": "Indian unit economics never justify integration effort",
+      "sev": "HIGH",
+      "mitigation": "Validate with one hospital before scaling",
+      "status": "UNVALIDATED"
+    },
+    {
+      "risk": "OpenAI commoditises computer-use",
+      "sev": "HIGH",
+      "mitigation": "Moat is domain+policy+provenance, not clicking (DL-070)",
+      "status": "MITIGATED"
+    },
+    {
+      "risk": "Orphaned safety stack creates false confidence",
+      "sev": "CRITICAL",
+      "mitigation": "Stage 0 mandatory before features (DL-057)",
+      "status": "ACTIONABLE NOW"
+    },
+    {
+      "risk": "Solo builder capacity",
+      "sev": "HIGH",
+      "mitigation": "Sequencing over volume (DL-052); no hires until proof (DL-064)",
+      "status": "STRUCTURAL"
+    }
+  ],
+  "roadmap_18mo": [
+    {
+      "period": "Month 0-1",
+      "theme": "Stage 0 - Recover the baseline",
+      "items": "Merge branch; CI; wire policy/permission/audit; AES-GCM; quarantine 149 adapters; watch 82 demo videos",
+      "gate": "Test suite green in CI; G-4.2 answered"
+    },
+    {
+      "period": "Month 2-4",
+      "theme": "Workflow engine + one workflow",
+      "items": "Build durable workflow engine (protocol_commitment); per-action-class autonomy; mandatory fail-closed verification",
+      "gate": "One workflow runs end-to-end in dry-run"
+    },
+    {
+      "period": "Month 5-8",
+      "theme": "One hospital, shadow mode",
+      "items": "Design-partner hospital; SHADOW observation; measure break points; ABDM sandbox M1-M3",
+      "gate": "Shadow data proves the disconnection thesis"
+    },
+    {
+      "period": "Month 9-12",
+      "theme": "First completions",
+      "items": "Move from SHADOW to SUGGEST to FORCE on the single lowest-risk action class; NHCX claims client",
+      "gate": "First verified completed workflow; R6 flywheel starts"
+    },
+    {
+      "period": "Month 13-18",
+      "theme": "Second workflow, second hospital",
+      "items": "Only after the first completes; institutional knowledge graph; first hire (hospital ops)",
+      "gate": "Two workflows, two hospitals, outcome data accumulating"
+    }
+  ]
+}

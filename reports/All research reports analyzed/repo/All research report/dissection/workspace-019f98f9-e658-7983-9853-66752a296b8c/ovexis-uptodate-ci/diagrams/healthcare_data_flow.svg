@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 920" font-family="Helvetica, Arial, sans-serif">
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475b"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#047857"/></marker>
+<marker id="x" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b91c1c"/></marker>
+</defs>
+<rect width="1240" height="920" fill="#fbfcfe"/>
+<text x="30" y="42" font-size="24" font-weight="bold" fill="#12263a">Healthcare Data Flow — UpToDate (actual) vs. the Ovexis Counter-Architecture</text>
+<text x="30" y="66" font-size="13" fill="#5a7184">Top panel: verified flows (integration docs, editorial policy). Bottom panel: recommended construction (strategy). The red wall is the PHI boundary both philosophies draw — in opposite places.</text>
+
+<!-- UPTODATE PANEL -->
+<text x="30" y="102" font-size="16" font-weight="bold" fill="#1b4f8a">A. UpToDate — one-way evidence distribution (read-only, stateless)</text>
+<!-- inputs -->
+<rect x="30" y="118" width="250" height="120" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="45" y="142" font-size="12.5" font-weight="bold" fill="#33475b">KNOWLEDGE INPUTS</text>
+<text x="45" y="164" font-size="11.5">journals · guidelines · FDA labels</text>
+<text x="45" y="182" font-size="11.5">society guidance · user feedback</text>
+<text x="45" y="200" font-size="11.5">(no patient records, ever)</text>
+<rect x="320" y="118" width="270" height="120" rx="10" fill="#fef3e2" stroke="#f0b45c"/>
+<text x="335" y="142" font-size="12.5" font-weight="bold" fill="#8a5a10">EDITORIAL FACTORY</text>
+<text x="335" y="164" font-size="11.5">7,600 experts → editors → graders</text>
+<text x="335" y="182" font-size="11.5">continuous publishing pipeline</text>
+<text x="335" y="200" font-size="11.5">terminology (Health Language)</text>
+<rect x="630" y="118" width="270" height="120" rx="10" fill="#fef3e2" stroke="#f0b45c"/>
+<text x="645" y="142" font-size="12.5" font-weight="bold" fill="#8a5a10">GRADED CORPUS</text>
+<text x="645" y="164" font-size="11.5">13k topics · GRADE 1A–2C · calculators</text>
+<text x="645" y="182" font-size="11.5">Lexidrug drug truth (harmonised)</text>
+<text x="645" y="200" font-size="11.5">versioned · citeable · proprietary</text>
+<rect x="940" y="118" width="270" height="120" rx="10" fill="#e9f7ef" stroke="#4fbf8f"/>
+<text x="955" y="142" font-size="12.5" font-weight="bold" fill="#146648">DISTRIBUTION</text>
+<text x="955" y="164" font-size="11.5">app/web · EHR Infobutton · Abridge</text>
+<text x="955" y="182" font-size="11.5">Medi-Span data APIs (industry)</text>
+<text x="955" y="200" font-size="11.5">Expert AI answers + sources</text>
+<line x1="280" y1="178" x2="320" y2="178" stroke="#33475b" stroke-width="2" marker-end="url(#a)"/>
+<line x1="590" y1="178" x2="630" y2="178" stroke="#33475b" stroke-width="2" marker-end="url(#a)"/>
+<line x1="900" y1="178" x2="940" y2="178" stroke="#33475b" stroke-width="2" marker-end="url(#a)"/>
+
+<!-- EHR context + PHI wall -->
+<rect x="320" y="270" width="300" height="90" rx="10" fill="#eaf2fb" stroke="#7fb2e5"/>
+<text x="335" y="294" font-size="12.5" font-weight="bold" fill="#1b4f8a">EHR CHART CONTEXT (transient)</text>
+<text x="335" y="316" font-size="11.5">diagnosis/med/lab codes + age/sex</text>
+<text x="335" y="334" font-size="11.5">→ resolves to topics → discarded</text>
+<line x1="620" y1="315" x2="765" y2="238" stroke="#33475b" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#a)"/>
+<rect x="640" y="260" width="140" height="110" rx="8" fill="#fdeaea" stroke="#e77"/>
+<text x="655" y="290" font-size="12" font-weight="bold" fill="#a02020">PHI WALL</text>
+<text x="655" y="312" font-size="11" fill="#7a1f1f">identifiers</text>
+<text x="655" y="330" font-size="11" fill="#7a1f1f">never cross;</text>
+<text x="655" y="348" font-size="11" fill="#7a1f1f">nothing stored</text>
+<!-- telemetry loop -->
+<rect x="30" y="270" width="250" height="90" rx="10" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="45" y="294" font-size="12.5" font-weight="bold" fill="#33475b">TELEMETRY BACK</text>
+<text x="45" y="316" font-size="11.5">search logs · CME ticks · admin usage</text>
+<text x="45" y="334" font-size="11.5">→ editorial priorities + renewals</text>
+<line x1="155" y1="270" x2="400" y2="238" stroke="#33475b" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#a)"/>
+
+<!-- OVEXIS PANEL -->
+<text x="30" y="436" font-size="16" font-weight="bold" fill="#047857">B. Ovexis — consent-native longitudinal intelligence (recommended)</text>
+<g font-size="11.5" fill="#12263a">
+<rect x="30" y="452" width="150" height="180" rx="10" fill="#f3e8ff" stroke="#a855f7"/>
+<text x="42" y="476" font-size="12.5" font-weight="bold" fill="#6b21a8">CONSENT</text>
+<text x="42" y="498">granular</text><text x="42" y="516">purpose-limited</text><text x="42" y="534">revocable</text><text x="42" y="552">receipted</text>
+<rect x="200" y="452" width="150" height="180" rx="10" fill="#f3e8ff" stroke="#a855f7"/>
+<text x="212" y="476" font-size="12.5" font-weight="bold" fill="#6b21a8">IDENTITY</text>
+<text x="212" y="498">person MPI</text><text x="212" y="516">family/care mesh</text><text x="212" y="534">device identity</text><text x="212" y="552">passkeys</text>
+<rect x="370" y="452" width="170" height="180" rx="10" fill="#e0f2fe" stroke="#38bdf8"/>
+<text x="382" y="476" font-size="12.5" font-weight="bold" fill="#075985">INGESTION</text>
+<text x="382" y="498">FHIR R4/R5 · SMART</text><text x="382" y="516">Apple Health · HC</text><text x="382" y="534">India ABDM/ABHA</text><text x="382" y="552">labs · pharmacy · CGM</text><text x="382" y="570">PDFs/OCR fallback</text>
+<rect x="560" y="452" width="170" height="180" rx="10" fill="#e0f2fe" stroke="#38bdf8"/>
+<text x="572" y="476" font-size="12.5" font-weight="bold" fill="#075985">NORMALISE + DEDUP</text>
+<text x="572" y="498">RxNorm · LOINC</text><text x="572" y="516">SNOMED · UCUM</text><text x="572" y="534">entity resolution</text><text x="572" y="552">provenance</text><text x="572" y="570">quality scores</text>
+<rect x="750" y="452" width="170" height="180" rx="10" fill="#d1fae5" stroke="#4fbf8f"/>
+<text x="762" y="476" font-size="12.5" font-weight="bold" fill="#065f46">PATIENT TWIN</text>
+<text x="762" y="498">event-sourced timeline</text><text x="762" y="516">feature store</text><text x="762" y="534">personal baselines</text><text x="762" y="552">risk models</text><text x="762" y="570">(their absent layer)</text>
+<rect x="940" y="452" width="270" height="180" rx="10" fill="#d1fae5" stroke="#4fbf8f"/>
+<text x="952" y="476" font-size="12.5" font-weight="bold" fill="#065f46">AGENT + VALIDATION</text>
+<text x="952" y="498">twin-primary hybrid RAG</text>
+<text x="952" y="516">evidence adapters (guidelines,</text>
+<text x="952" y="534">licensed corpora, GRADE-weighted)</text>
+<text x="952" y="552">validators: source-support, interactions,</text>
+<text x="952" y="570">red-flag, confidence gates</text>
+<text x="952" y="594" font-weight="bold" fill="#065f46">panels: assumptions · sources ·</text>
+<text x="952" y="612" font-weight="bold" fill="#065f46">reasoning · DATA LINEAGE</text>
+</g>
+<line x1="180" y1="542" x2="200" y2="542" stroke="#047857" stroke-width="2" marker-end="url(#g)"/>
+<line x1="350" y1="542" x2="370" y2="542" stroke="#047857" stroke-width="2" marker-end="url(#g)"/>
+<line x1="540" y1="542" x2="560" y2="542" stroke="#047857" stroke-width="2" marker-end="url(#g)"/>
+<line x1="730" y1="542" x2="750" y2="542" stroke="#047857" stroke-width="2" marker-end="url(#g)"/>
+<line x1="920" y1="542" x2="940" y2="542" stroke="#047857" stroke-width="2" marker-end="url(#g)"/>
+
+<!-- outputs -->
+<g font-size="11.5" fill="#12263a">
+<rect x="370" y="668" width="170" height="90" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+<text x="382" y="690" font-weight="bold" fill="#065f46">PATIENT APP</text><text x="382" y="710">insights · nudges</text><text x="382" y="728">explainable trends</text>
+<rect x="560" y="668" width="170" height="90" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+<text x="572" y="690" font-weight="bold" fill="#065f46">CLINICIAN WORKSPACE</text><text x="572" y="710">pre-visit briefs</text><text x="572" y="728">longitudinal panels</text>
+<rect x="750" y="668" width="170" height="90" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+<text x="762" y="690" font-weight="bold" fill="#065f46">CARE TEAM</text><text x="762" y="710">referral packets</text><text x="762" y="728">shared plan (consented)</text>
+<rect x="940" y="668" width="270" height="90" rx="10" fill="#ecfdf5" stroke="#10b981"/>
+<text x="952" y="690" font-weight="bold" fill="#065f46">DEVELOPER/API (MCP · FHIR)</text><text x="952" y="710">open integrations — the surface</text><text x="952" y="728">UpToDate defends by absence</text>
+</g>
+<line x1="835" y1="632" x2="455" y2="668" stroke="#047857" stroke-width="1.5" marker-end="url(#g)"/>
+<line x1="835" y1="632" x2="645" y2="668" stroke="#047857" stroke-width="1.5" marker-end="url(#g)"/>
+<line x1="1075" y1="632" x2="835" y2="668" stroke="#047857" stroke-width="1.5" marker-end="url(#g)"/>
+<line x1="1075" y1="632" x2="1075" y2="668" stroke="#047857" stroke-width="1.5" marker-end="url(#g)"/>
+
+<!-- consent receipts loop -->
+<line x1="455" y1="758" x2="105" y2="632" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#g)"/>
+<text x="170" y="760" font-size="11" fill="#6b21a8">patient-visible access receipts &amp; revocation (audit receipts flow back)</text>
+
+<!-- legend -->
+<rect x="30" y="800" width="1180" height="96" rx="10" fill="#eef3f9" stroke="#9dc3ea"/>
+<text x="50" y="824" font-size="12.5" font-weight="bold" fill="#1b4f8a">LEGEND / CONFIDENCE</text>
+<text x="50" y="846" font-size="11.5" fill="#33475b">Panel A: Confirmed (🟢) flow shapes from integration + editorial documentation; dashed †-elements inferred. Panel B: Strategy (🟡) — no claim of existing product.</text>
+<text x="50" y="866" font-size="11.5" fill="#33475b">Key contrast: UpToDate's PHI wall sits at its front gate (no patient data enters). Ovexis must move the wall INSIDE — consent-gated, patient-audited, purpose-limited by design.</text>
+<text x="50" y="886" font-size="11.5" fill="#33475b">Sources: uptodate.com/home/epic; editorial policy; App Store listing; WK job post R0052281; Abridge partnership coverage.</text>
+</svg>
