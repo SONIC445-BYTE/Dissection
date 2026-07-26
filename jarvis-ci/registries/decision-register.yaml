@@ -1,0 +1,134 @@
+# Irreversible Decision Register — Module 3
+# Available from Phase 2 onward, NOT only at Phase Omega.
+# The alternatives are visible at the moment of decision; they are invisible afterward.
+#
+# reversibility: one-way | costly | reversible
+# status: open | decided | deferred | superseded
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  open_one_way_decisions: 4     # <- the number that should worry you
+
+decisions:
+
+  - id: DEC-001
+    title: Memory architecture — vector-first vs temporal-graph-native
+    category: architecture
+    reversibility: one-way
+    cost_of_change_later: "Rewriting the storage layer plus migrating all
+      accumulated user memories. 6-12 months at S2. Effectively impossible
+      at S3 with production clinical data under retention obligations."
+    cost_curve: exponential
+    recommended_timing: before-stage-1
+    status: open
+    alternatives:
+      - option: vector-first
+        pros: [simpler, commodity-components, cheap, many-backends]
+        cons: [temporal-reasoning-ceiling, stale-fact-retrieval, architectural-not-patchable]
+        evidence: [MEM0-C-032]
+      - option: temporal-graph-native
+        pros: [temporal-validity, clean-invalidation, auditable-history]
+        cons: [operational-complexity, fewer-off-the-shelf-parts, higher-maintenance]
+        evidence: [MEM0-C-032]
+      - option: hybrid-deferred
+        pros: [ship-now, decide-later]
+        cons: [deferral-is-itself-a-vector-first-choice]
+    dependencies: [DEC-004]
+    blocks: [capability:temporal-validity, capability:memory-consolidation]
+    confidence: MEDIUM
+    research_needed: [OQ-01]
+    decided: null
+    reversal_trigger: null
+
+  - id: DEC-002
+    title: Clinical audit trail — retrofit or architect-in
+    category: architecture
+    reversibility: one-way
+    cost_of_change_later: "Retrofitting provenance onto an existing action
+      pipeline requires touching every write path. Grows with every adapter
+      added. Regulatory acceptance may require re-certification."
+    cost_curve: exponential
+    recommended_timing: before-any-clinical-write
+    status: open
+    alternatives:
+      - option: architect-in-now
+        pros: [cheap-now, regulatory-moat, retrofit-avoided]
+        cons: [slows-current-velocity]
+      - option: retrofit-later
+        pros: [faster-now]
+        cons: [cost-grows-with-every-adapter, may-block-certification]
+    dependencies: []
+    blocks: [capability:healthcare-compliance-posture]
+    confidence: HIGH
+    confidence_rationale: "Mem0 demonstrates the cost of the alternative:
+      zero compliance posture closed regulated verticals entirely [MEM0-C-044]."
+    decided: null
+    reversal_trigger: null
+
+  - id: DEC-003
+    title: Pricing / packaging boundary for the differentiating capability
+    category: business
+    reversibility: costly
+    cost_of_change_later: "Repricing after adoption creates customer
+      resentment and public churn events."
+    cost_curve: linear
+    recommended_timing: before-first-paid-customer
+    status: open
+    alternatives:
+      - option: differentiator-inside-evaluation-tier
+        pros: [evaluation-unblocked, adoption-led]
+        cons: [monetisation-deferred]
+        evidence: [FAIL-003]
+      - option: differentiator-gated
+        pros: [immediate-monetisation]
+        cons: [documented-failure-mode]
+        evidence: [MEM0-C-039, MEM0-C-040]
+    confidence: HIGH
+    decided: null
+    reversal_trigger: null
+
+  - id: DEC-004
+    title: Data residency and extraction-model locality
+    category: security
+    reversibility: one-way
+    cost_of_change_later: "Under DPDP and ABDM, moving clinical data across
+      a residency boundary after processing has begun is a consent and
+      legal event, not a config change."
+    cost_curve: exponential
+    recommended_timing: before-any-patient-data
+    status: open
+    alternatives:
+      - option: fully-local-extraction
+        pros: [residency-satisfied, consent-simple, privacy-claim-honest]
+        cons: [model-quality-ceiling, hardware-requirement]
+      - option: hosted-extraction
+        pros: [best-model-quality]
+        cons: [consent-complexity, residency-violation-risk, contradicts-privacy-claim]
+    dependencies: []
+    blocks: [DEC-001, capability:healthcare-compliance-posture]
+    confidence: HIGH
+    decided: null
+    reversal_trigger: null
+
+  - id: DEC-005
+    title: Adapter interface contract — stability guarantee
+    category: platform
+    reversibility: one-way
+    cost_of_change_later: "Once third parties write adapters, the interface
+      is frozen by other people's code. Breaking it forks the ecosystem."
+    cost_curve: step
+    cost_curve_note: "Cheap until the first external adapter exists, then cliff-edge."
+    recommended_timing: before-external-sdk-release
+    status: open
+    alternatives:
+      - option: stable-narrow-interface
+        pros: [community-contribution-safe, versioning-simple]
+        cons: [lowest-common-denominator]
+        evidence: [PAT-011]
+      - option: rich-evolving-interface
+        pros: [capability-expressive]
+        cons: [breaks-external-adapters, ecosystem-fork-risk]
+    confidence: MEDIUM
+    decided: null
+    reversal_trigger: null

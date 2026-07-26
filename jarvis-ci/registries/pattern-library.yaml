@@ -1,0 +1,83 @@
+# Architectural Pattern Library — Module 5
+# status: OBSERVED (1-2 instances) | CONFIRMED (>=3) — mirrors Phase 6 pattern discipline.
+# OBSERVED patterns must NOT be used in synthesis. Two is a coincidence.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  promotion_threshold: 3
+
+patterns:
+
+  - id: PAT-011
+    name: Pluggable backends behind a stable interface
+    category: extensibility
+    status: OBSERVED
+    instances: 1
+    purpose: "Let users choose their own infrastructure without forking the project"
+    strengths: [adoption-breadth, neutralises-lock-in-objection, community-contributes-backends]
+    tradeoffs: [lowest-common-denominator-API, N-backend test matrix, slowest-backend-defines-guarantees]
+    complexity: medium
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-027], note: "19 vector backends behind one interface"}
+    jarvis_recommendation: adopt
+    jarvis_rationale: "Directly applicable to the adapter framework. Also the safest
+      way to keep DEC-005 (interface stability) tractable."
+    applies_to: [adapter-framework, storage, inference]
+    related_decisions: [DEC-005]
+    first_observed: 2026-07-26
+
+  - id: PAT-012
+    name: Open-core with full self-host parity
+    category: business-architecture
+    status: OBSERVED
+    instances: 1
+    purpose: "Remove the lock-in objection entirely while monetising convenience"
+    strengths: [trust, regulated-market-access, developer-goodwill]
+    tradeoffs: [cannibalises-hosted-revenue, ops-burden-shifts-to-user, requires-real-parity]
+    complexity: medium
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-028, MEM0-C-005], note: "Apache 2.0 full stack incl. graph"}
+    jarvis_recommendation: adopt
+    jarvis_rationale: "Self-host is a precondition for clinical data residency, not
+      merely a goodwill gesture. See DEC-004."
+    applies_to: [deployment, business-model]
+    antipattern_of: PAT-013
+    first_observed: 2026-07-26
+
+  - id: PAT-013
+    name: Differentiator gated above the evaluation tier
+    category: business-architecture
+    status: OBSERVED
+    instances: 1
+    purpose: "(claimed) monetise the highest-value capability"
+    strengths: [immediate-revenue-from-committed-buyers]
+    tradeoffs: [converts-evaluation-into-procurement, blocks-technical-validation, drives-churn-pre-purchase]
+    complexity: low
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-025, MEM0-C-039], note: "graph memory at 13x price step"}
+    jarvis_recommendation: reject
+    jarvis_rationale: "Documented failure mode. See FAIL-003."
+    applies_to: [pricing]
+    is_antipattern: true
+    related_failures: [FAIL-003]
+    related_decisions: [DEC-003]
+    first_observed: 2026-07-26
+
+  - id: PAT-014
+    name: Model-agnostic capability layer
+    category: architecture
+    status: OBSERVED
+    instances: 1
+    purpose: "Avoid binding a product's value to any single model provider"
+    strengths: [provider-independence, local-model-support, survives-price-shocks]
+    tradeoffs: [cannot-exploit-provider-specific-features, lowest-common-denominator-prompting]
+    complexity: medium
+    observed_in:
+      - {company: Mem0, evidence: [MEM0-C-023], note: "OpenAI, Anthropic, Gemini, Ollama"}
+    jarvis_recommendation: adopt
+    jarvis_rationale: "Matches baseline L1 posture (abstract, bind to none). Also
+      the enabler for local extraction under DEC-004."
+    applies_to: [inference, memory, planning]
+    related_decisions: [DEC-004]
+    first_observed: 2026-07-26

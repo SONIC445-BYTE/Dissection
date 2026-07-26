@@ -1,0 +1,205 @@
+# JARVIS Competitive Intelligence — Company Registry
+# Phase 1 · v1.0.0 · 2026-07-26
+#
+# Built WITHOUT repo context per 09-repo-context-isolation.md.
+# Question asked: "who owns value in each layer?" — NOT "who resembles JARVIS?"
+#
+# role_hypothesis = PRELIMINARY. Confirmed or overturned by the dossier, never before.
+# tier = research ordering + depth budget, NOT importance.
+# All entries default to Market Signal until a dossier proves otherwise.
+
+meta:
+  version: 1.0.0
+  created: 2026-07-26
+  entity_count: 112          # verified by tools/registry.py, not hand-counted
+  scoreable: 108             # excludes 1 self + 3 unclaimed L15 slots
+  dossiers_ratified: 0
+  discovery_methods_run: [M1, M2, M3, M5, M7]
+  discovery_methods_pending: [M4, M6]   # job archaeology, adjacency walk
+  #
+  # Role-hypothesis distribution vs. 07-strategic-role-classification.md §5:
+  #   Market Signal            33.3%  (target 30-40%)  ✅
+  #   Technology Supplier      30.6%  (target 20-25%)  ⚠ slightly high — L5/L6/L7
+  #                                    commodity density is real, not an error
+  #   Foundational Dependency  15.7%  (target 10-15%)  ✅ borderline
+  #   Integration Target       12.0%  (target 15-20%)  ⚠ low — more Indian HIS
+  #                                    vendors needed (DQ-02)
+  #   Direct Competitor         6.5%  (target 5-10%)   ✅ no inflation
+  #   Potential Partner         1.9%  (target 5-10%)   ⚠ low — correct for now;
+  #                                    partners need a NAMED joint surface
+
+# ─────────────────────────────────────────────────────────────
+# L0 — COMPUTE
+# ─────────────────────────────────────────────────────────────
+- {id: nvidia,        name: NVIDIA,          type: commercial, layer: L0, tier: 1, role_hypothesis: Foundational Dependency, note: "CUDA lock-in is the dependency, not the silicon"}
+- {id: amd,           name: AMD,             type: commercial, layer: L0, tier: 3, role_hypothesis: Market Signal, note: "ROCm maturity = second-source viability"}
+- {id: intel,         name: Intel,           type: commercial, layer: L0, tier: 3, role_hypothesis: Market Signal}
+- {id: qualcomm,      name: Qualcomm,        type: commercial, layer: L0, tier: 3, role_hypothesis: Market Signal, note: "on-device NPU relevant to local-first"}
+- {id: apple-silicon, name: Apple Silicon,   type: commercial, layer: L0, tier: 2, role_hypothesis: Foundational Dependency, note: "unified memory reshapes local inference sizing"}
+
+# ─────────────────────────────────────────────────────────────
+# L1 — FOUNDATION MODELS
+# ─────────────────────────────────────────────────────────────
+- {id: openai,        name: OpenAI,          type: commercial, layer: L1, secondary: [L9, L13], tier: 1, role_hypothesis: Foundational Dependency}
+- {id: anthropic,     name: Anthropic,       type: commercial, layer: L1, secondary: [L5, L9, L13], tier: 1, role_hypothesis: Foundational Dependency, note: "MCP originator; computer-use"}
+- {id: google-dm,     name: Google DeepMind, type: commercial, layer: L1, secondary: [L8, L9], tier: 1, role_hypothesis: Foundational Dependency}
+- {id: meta-ai,       name: Meta AI,         type: commercial, layer: L1, tier: 2, role_hypothesis: Technology Supplier, note: "open-weights supply line"}
+- {id: mistral,       name: Mistral AI,      type: commercial, layer: L1, tier: 2, role_hypothesis: Technology Supplier}
+- {id: qwen,          name: Qwen (Alibaba),  type: commercial, layer: L1, tier: 1, role_hypothesis: Foundational Dependency, note: "dominant small-model family for local deployment"}
+- {id: deepseek,      name: DeepSeek,        type: commercial, layer: L1, tier: 2, role_hypothesis: Technology Supplier}
+- {id: xai,           name: xAI,             type: commercial, layer: L1, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L2 — INFERENCE RUNTIME
+# ─────────────────────────────────────────────────────────────
+- {id: ollama,        name: Ollama,          type: oss-commercial, layer: L2, tier: 1, role_hypothesis: Foundational Dependency}
+- {id: llama-cpp,     name: llama.cpp,       type: oss-project,    layer: L2, tier: 1, role_hypothesis: Foundational Dependency, note: "engine beneath Ollama/LM Studio/Jan — the real dependency"}
+- {id: vllm,          name: vLLM,            type: oss-project,    layer: L2, tier: 2, role_hypothesis: Technology Supplier}
+- {id: tensorrt-llm,  name: TensorRT-LLM,    type: oss-commercial, layer: L2, tier: 3, role_hypothesis: Technology Supplier}
+- {id: onnxruntime,   name: ONNX Runtime,    type: oss-project,    layer: L2, tier: 3, role_hypothesis: Technology Supplier}
+- {id: lm-studio,     name: LM Studio,       type: commercial,     layer: L2, tier: 3, role_hypothesis: Market Signal}
+- {id: jan,           name: Jan,             type: oss-project,    layer: L2, tier: 3, role_hypothesis: Market Signal, note: "closest local-first desktop analogue"}
+- {id: mlx,           name: MLX,             type: oss-project,    layer: L2, tier: 3, role_hypothesis: Technology Supplier}
+
+# ─────────────────────────────────────────────────────────────
+# L3 — MEMORY  ⭐ contested core
+# ─────────────────────────────────────────────────────────────
+- {id: mem0,          name: Mem0,            type: oss-commercial, layer: L3, secondary: [L13], tier: 1, role_hypothesis: Direct Competitor, note: "contested-layer proof required"}
+- {id: zep-graphiti,  name: Zep / Graphiti,  type: oss-commercial, layer: L3, tier: 1, role_hypothesis: Direct Competitor, note: "temporal graph = the capability JARVIS lacks"}
+- {id: letta,         name: Letta,           type: oss-commercial, layer: L3, secondary: [L4], tier: 1, role_hypothesis: Direct Competitor, note: "agent-OS framing overlaps most directly"}
+- {id: cognee,        name: Cognee,          type: oss-project,    layer: L3, tier: 2, role_hypothesis: Technology Supplier}
+- {id: supermemory,   name: Supermemory,     type: commercial,     layer: L3, tier: 3, role_hypothesis: Market Signal}
+- {id: langmem,       name: LangMem,         type: oss-commercial, layer: L3, tier: 3, role_hypothesis: Technology Supplier}
+- {id: notebooklm,    name: NotebookLM,      type: commercial,     layer: L3, secondary: [L9], tier: 2, role_hypothesis: Market Signal}
+- {id: obsidian,      name: Obsidian,        type: commercial,     layer: L3, tier: 3, role_hypothesis: Market Signal, note: "local-first knowledge precedent"}
+- {id: logseq,        name: Logseq,          type: oss-project,    layer: L3, tier: 3, role_hypothesis: Market Signal}
+- {id: notion-ai,     name: Notion AI,       type: commercial,     layer: L3, secondary: [L9], tier: 3, role_hypothesis: Market Signal}
+- {id: rhinal,        name: RHINAL,          type: internal,       layer: L3, tier: 0, self: true, role_hypothesis: null, note: "comparison only — NEVER scored"}
+
+# ─────────────────────────────────────────────────────────────
+# L4 — PLANNING / AGENT FRAMEWORKS  ⭐ contested core
+# ─────────────────────────────────────────────────────────────
+- {id: langgraph,     name: LangGraph,       type: oss-commercial, layer: L4, secondary: [L13], tier: 1, role_hypothesis: Direct Competitor}
+- {id: autogen,       name: AutoGen,         type: oss-project,    layer: L4, tier: 2, role_hypothesis: Technology Supplier}
+- {id: crewai,        name: CrewAI,          type: oss-commercial, layer: L4, tier: 2, role_hypothesis: Direct Competitor}
+- {id: openai-agents, name: OpenAI Agents SDK, type: commercial,   layer: L4, tier: 1, role_hypothesis: Direct Competitor}
+- {id: semantic-kernel, name: Semantic Kernel, type: oss-project,  layer: L4, tier: 3, role_hypothesis: Technology Supplier}
+- {id: claude-code,   name: Claude Code,     type: commercial,     layer: L4, secondary: [L9], tier: 1, role_hypothesis: Market Signal, note: "closest analogue to approval-gated autonomous coding"}
+- {id: llamaindex,    name: LlamaIndex,      type: oss-commercial, layer: L4, secondary: [L3], tier: 3, role_hypothesis: Technology Supplier}
+- {id: temporal,      name: Temporal,        type: oss-commercial, layer: L4, tier: 3, role_hypothesis: Technology Supplier, note: "durable execution — the non-AI answer to long-horizon reliability"}
+
+# ─────────────────────────────────────────────────────────────
+# L5 — PERCEPTION
+# ─────────────────────────────────────────────────────────────
+- {id: browser-use,   name: Browser Use,     type: oss-commercial, layer: L5, secondary: [L6], tier: 1, role_hypothesis: Technology Supplier}
+- {id: anthropic-cu,  name: Anthropic Computer Use, type: commercial, layer: L5, tier: 1, role_hypothesis: Market Signal, note: "only pixel-level full-desktop option"}
+- {id: ms-uia,        name: Microsoft UI Automation, type: commercial, layer: L5, tier: 2, role_hypothesis: Foundational Dependency, note: "accessibility tree = the legacy-HIS adapter surface"}
+- {id: tesseract,     name: Tesseract,       type: oss-project,    layer: L5, tier: 2, role_hypothesis: Technology Supplier}
+- {id: paddleocr,     name: PaddleOCR,       type: oss-project,    layer: L5, tier: 2, role_hypothesis: Technology Supplier, note: "test against Indic scripts — DQ-04"}
+- {id: surya-marker,  name: Surya / Marker,  type: oss-project,    layer: L5, tier: 2, role_hypothesis: Technology Supplier, note: "document layout; candidate for medical reports"}
+- {id: google-docai,  name: Google Document AI, type: commercial,  layer: L5, tier: 3, role_hypothesis: Technology Supplier}
+- {id: azure-doc-int, name: Azure Document Intelligence, type: commercial, layer: L5, tier: 3, role_hypothesis: Technology Supplier}
+
+# ─────────────────────────────────────────────────────────────
+# L6 — EXECUTION
+# ─────────────────────────────────────────────────────────────
+- {id: playwright,    name: Playwright,      type: oss-project,    layer: L6, tier: 1, role_hypothesis: Technology Supplier, note: "never rebuild"}
+- {id: selenium,      name: Selenium,        type: oss-project,    layer: L6, tier: 3, role_hypothesis: Technology Supplier}
+- {id: puppeteer,     name: Puppeteer,       type: oss-project,    layer: L6, tier: 3, role_hypothesis: Technology Supplier}
+- {id: pywinauto,     name: pywinauto,       type: oss-project,    layer: L6, tier: 2, role_hypothesis: Technology Supplier, note: "thick-client HIS automation"}
+- {id: autohotkey,    name: AutoHotkey,      type: oss-project,    layer: L6, tier: 3, role_hypothesis: Technology Supplier}
+- {id: robotjs,       name: RobotJS,         type: oss-project,    layer: L6, tier: 3, role_hypothesis: Technology Supplier}
+- {id: stagehand,     name: Stagehand / Browserbase, type: oss-commercial, layer: L6, tier: 2, role_hypothesis: Technology Supplier}
+
+# ─────────────────────────────────────────────────────────────
+# L7 — VOICE
+# ─────────────────────────────────────────────────────────────
+- {id: whisper,       name: Whisper,         type: oss-project,    layer: L7, tier: 1, role_hypothesis: Foundational Dependency, note: "local STT candidate — thesis-critical"}
+- {id: vosk,          name: Vosk,            type: oss-project,    layer: L7, tier: 2, role_hypothesis: Technology Supplier}
+- {id: piper,         name: Piper,           type: oss-project,    layer: L7, tier: 2, role_hypothesis: Technology Supplier, note: "local TTS candidate"}
+- {id: elevenlabs,    name: ElevenLabs,      type: commercial,     layer: L7, tier: 3, role_hypothesis: Technology Supplier}
+- {id: cartesia,      name: Cartesia,        type: commercial,     layer: L7, tier: 3, role_hypothesis: Technology Supplier, note: "low-latency TTS"}
+- {id: deepgram,      name: Deepgram,        type: commercial,     layer: L7, tier: 3, role_hypothesis: Technology Supplier}
+- {id: qwen3-tts,     name: Qwen3-TTS,       type: oss-commercial, layer: L7, tier: 2, role_hypothesis: Technology Supplier}
+
+# ─────────────────────────────────────────────────────────────
+# L8 — OPERATING SYSTEM AI  ⚠ existential distribution risk
+# ─────────────────────────────────────────────────────────────
+- {id: ms-copilot,    name: Microsoft Copilot, type: commercial,   layer: L8, secondary: [L9, L10, L14], tier: 1, role_hypothesis: Direct Competitor, note: "COMPLEX — high threat AND high leverage"}
+- {id: apple-intel,   name: Apple Intelligence, type: commercial,  layer: L8, tier: 2, role_hypothesis: Market Signal, note: "on-device privacy precedent"}
+- {id: gemini-os,     name: Google Gemini / Aluminium OS, type: commercial, layer: L8, tier: 2, role_hypothesis: Market Signal}
+- {id: alexa-plus,    name: Amazon Alexa+,   type: commercial,     layer: L8, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L9 — APPLICATIONS
+# ─────────────────────────────────────────────────────────────
+- {id: chatgpt,       name: ChatGPT,         type: commercial,     layer: L9, tier: 1, role_hypothesis: Market Signal}
+- {id: claude-app,    name: Claude,          type: commercial,     layer: L9, tier: 2, role_hypothesis: Market Signal}
+- {id: perplexity,    name: Perplexity,      type: commercial,     layer: L9, tier: 3, role_hypothesis: Market Signal}
+- {id: cursor,        name: Cursor,          type: commercial,     layer: L9, tier: 2, role_hypothesis: Market Signal}
+- {id: github-copilot, name: GitHub Copilot, type: commercial,     layer: L9, tier: 3, role_hypothesis: Market Signal}
+- {id: replit,        name: Replit AI,       type: commercial,     layer: L9, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L10 — HEALTHCARE PLATFORMS  ⭐ integration targets, never replace
+# ─────────────────────────────────────────────────────────────
+- {id: epic,          name: Epic Systems,    type: commercial,     layer: L10, tier: 1, role_hypothesis: Integration Target, note: "Cosmos/CoMET + Art/Emmie/Penny agents"}
+- {id: oracle-health, name: Oracle Health,   type: commercial,     layer: L10, tier: 2, role_hypothesis: Integration Target}
+- {id: practo,        name: Practo,          type: commercial,     layer: L10, tier: 1, role_hypothesis: Integration Target, note: "India; Ray practice management; ABDM-integrated"}
+- {id: bahmni,        name: Bahmni,          type: oss-project,    layer: L10, tier: 1, role_hypothesis: Integration Target, note: "OpenMRS+OpenELIS+Odoo; LMIC; ABDM-integrated"}
+- {id: openmrs,       name: OpenMRS,         type: oss-project,    layer: L10, tier: 2, role_hypothesis: Integration Target}
+- {id: openemr,       name: OpenEMR,         type: oss-project,    layer: L10, tier: 3, role_hypothesis: Integration Target}
+- {id: ehospital-nic, name: eHospital (NIC), type: government-infra, layer: L10, tier: 2, role_hypothesis: Integration Target, note: "govt facilities; no competitive scoring"}
+- {id: esushrut,      name: e-Sushrut (C-DAC), type: government-infra, layer: L10, tier: 3, role_hypothesis: Integration Target}
+- {id: insta-hms,     name: Insta HMS,       type: commercial,     layer: L10, tier: 2, role_hypothesis: Integration Target}
+- {id: attune,        name: Attune HIS,      type: commercial,     layer: L10, tier: 2, role_hypothesis: Integration Target}
+- {id: erpnext-health, name: ERPNext Healthcare, type: oss-commercial, layer: L10, tier: 3, role_hypothesis: Integration Target}
+- {id: docpulse,      name: DocPulse,        type: commercial,     layer: L10, tier: 3, role_hypothesis: Integration Target}
+- {id: eka-care,      name: Eka Care,        type: commercial,     layer: L10, tier: 2, role_hypothesis: Integration Target, note: "ABDM-native India health tech"}
+- {id: abridge,       name: Abridge,         type: commercial,     layer: L10, tier: 1, role_hypothesis: Market Signal, note: "ambient scribe category leader — closest funded analogue to clinical AI"}
+- {id: nuance-dax,    name: Nuance DAX,      type: commercial,     layer: L10, tier: 1, role_hypothesis: Market Signal}
+- {id: suki,          name: Suki AI,         type: commercial,     layer: L10, tier: 2, role_hypothesis: Market Signal, note: "voice + EHR navigation — nearest voice-first analogue"}
+- {id: nabla,         name: Nabla,           type: commercial,     layer: L10, tier: 3, role_hypothesis: Market Signal}
+- {id: athenahealth,  name: athenahealth,    type: commercial,     layer: L10, tier: 3, role_hypothesis: Market Signal}
+- {id: olive-ai,      name: Olive AI,        type: commercial,     layer: L10, tier: 1, entity_status: dead, role_hypothesis: Market Signal, note: "⭐ HIGH-VALUE post-mortem — scope-creep death"}
+- {id: forward-health, name: Forward Health, type: commercial,     layer: L10, tier: 2, entity_status: dead, role_hypothesis: Market Signal, note: "⭐ post-mortem — infrastructure nobody wanted"}
+- {id: pear-thera,    name: Pear Therapeutics, type: commercial,   layer: L10, tier: 3, entity_status: dead, role_hypothesis: Market Signal, note: "post-mortem — reimbursement failure"}
+
+# ─────────────────────────────────────────────────────────────
+# L11 — HEALTHCARE STANDARDS
+# ─────────────────────────────────────────────────────────────
+- {id: hl7-fhir,      name: HL7 FHIR,        type: standard,       layer: L11, tier: 1, role_hypothesis: Foundational Dependency}
+- {id: abdm,          name: ABDM / NHA,      type: government-infra, layer: L11, tier: 1, role_hypothesis: Foundational Dependency, note: "ABHA/HFR/HPR/HIE-CM/UHI/NHCX"}
+- {id: snomed,        name: SNOMED CT,       type: standard,       layer: L11, tier: 2, role_hypothesis: Foundational Dependency}
+- {id: loinc,         name: LOINC,           type: standard,       layer: L11, tier: 2, role_hypothesis: Foundational Dependency}
+- {id: dicom,         name: DICOM,           type: standard,       layer: L11, tier: 3, role_hypothesis: Foundational Dependency}
+- {id: mcp,           name: MCP / AAIF,      type: standard,       layer: L11, secondary: [L13], tier: 1, role_hypothesis: Foundational Dependency, note: "Linux Foundation AAIF; cross-vendor"}
+- {id: a2a,           name: A2A Protocol,    type: standard,       layer: L11, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L12 — AUTOMATION PLATFORMS
+# ─────────────────────────────────────────────────────────────
+- {id: uipath,        name: UiPath,          type: commercial,     layer: L12, tier: 2, role_hypothesis: Market Signal, note: "RPA incumbent under AI attack; healthcare RPA precedent"}
+- {id: automation-anywhere, name: Automation Anywhere, type: commercial, layer: L12, tier: 3, role_hypothesis: Market Signal}
+- {id: n8n,           name: n8n,             type: oss-commercial, layer: L12, tier: 3, role_hypothesis: Potential Partner}
+- {id: zapier,        name: Zapier,          type: commercial,     layer: L12, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L13 — DEVELOPER PLATFORMS
+# ─────────────────────────────────────────────────────────────
+- {id: huggingface,   name: Hugging Face,    type: commercial,     layer: L13, tier: 2, role_hypothesis: Foundational Dependency}
+- {id: langsmith,     name: LangSmith,       type: commercial,     layer: L13, tier: 3, role_hypothesis: Technology Supplier}
+- {id: mcp-registry,  name: MCP Registry,    type: oss-project,    layer: L13, tier: 2, role_hypothesis: Potential Partner}
+
+# ─────────────────────────────────────────────────────────────
+# L14 — ENTERPRISE AI
+# ─────────────────────────────────────────────────────────────
+- {id: palantir,      name: Palantir,        type: commercial,     layer: L14, tier: 3, role_hypothesis: Market Signal}
+- {id: glean,         name: Glean,           type: commercial,     layer: L14, tier: 3, role_hypothesis: Market Signal}
+
+# ─────────────────────────────────────────────────────────────
+# L15 — FRONTIER  (mandatory nominations each cycle)
+# ─────────────────────────────────────────────────────────────
+- {id: l15-consolidation, name: "[UNCLAIMED] Memory consolidation/forgetting", type: research-lab, layer: L15, tier: 1, role_hypothesis: null, note: "DQ-01 — negative space. If nobody owns this, it is the opportunity."}
+- {id: l15-clinical-adapter-sdk, name: "[UNCLAIMED] Clinical adapter SDK", type: research-lab, layer: L15, tier: 1, role_hypothesis: null, note: "DQ-10 — direct test of thesis T4"}
+- {id: l15-tier23-india, name: "[UNCLAIMED] Tier-2/3 Indian clinical middle market", type: research-lab, layer: L15, tier: 1, role_hypothesis: null, note: "DQ-11 — gap between ABDM-connected and digitally mature"}

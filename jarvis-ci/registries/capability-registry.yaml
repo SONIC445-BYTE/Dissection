@@ -1,0 +1,215 @@
+# Capability Registry — Module 1
+# Capability-centric index. Auto-discovered and merged by tools/evolve.py.
+# Seeded from: 06-technology-ontology.md capability tree + Mem0 dossier harvest.
+#
+# jarvis_state values: absent | designed | built | wired | verified
+#   (populated from Phase R only; readable only in Phases 7/8/Omega per 09-isolation)
+# opportunity_class: commodity | contested-neglected | contested-hard | moat | structural
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  source_dossiers: [Mem0]
+  pending_confirmation: 0
+
+capabilities:
+
+  - id: semantic-memory-extraction
+    name: Semantic memory (LLM fact extraction)
+    parent: remember
+    layer: L3
+    maturity: S3
+    engineering_complexity: medium
+    maintenance_burden: medium
+    implementations:
+      - {company: Mem0, approach: "LLM extracts facts into compressed entries", evidence: [MEM0-C-023], quality: production}
+    architectural_patterns: [PAT-011]
+    common_failures: []
+    ecosystem_trend: commoditising
+    jarvis_state: absent
+    jarvis_opportunity: low
+    opportunity_class: commodity
+    review_interval_days: 180
+    last_verified: 2026-07-26
+
+  - id: vector-retrieval
+    name: Vector / semantic retrieval
+    parent: remember
+    layer: L3
+    maturity: S4
+    engineering_complexity: low
+    maintenance_burden: low
+    implementations:
+      - {company: Mem0, approach: "19 pluggable vector backends", evidence: [MEM0-C-027], quality: production}
+    architectural_patterns: [PAT-011]
+    common_failures: [stale-fact-retrieval]
+    ecosystem_trend: commodity
+    jarvis_state: absent
+    jarvis_opportunity: low
+    opportunity_class: commodity
+    review_interval_days: 180
+    last_verified: 2026-07-26
+
+  - id: graph-memory
+    name: Graph / relational memory
+    parent: remember
+    layer: L3
+    maturity: S2
+    engineering_complexity: high
+    maintenance_burden: high
+    implementations:
+      - {company: Mem0, approach: "Mem0g directed labelled graph, enhancement over vector-first core", evidence: [MEM0-C-025, MEM0-C-032], quality: production-gated}
+    architectural_patterns: []
+    common_failures: [FAIL-003]
+    ecosystem_trend: contested
+    jarvis_state: absent
+    jarvis_opportunity: medium
+    opportunity_class: contested-hard
+    review_interval_days: 90
+    last_verified: 2026-07-26
+
+  - id: temporal-validity
+    name: Temporal validity (what was true when)
+    parent: remember
+    layer: L3
+    maturity: S2
+    engineering_complexity: high
+    maintenance_burden: high
+    implementations:
+      - {company: Mem0, approach: "partial; vector-first design caps it architecturally", evidence: [MEM0-C-032], quality: partial}
+    architectural_patterns: []
+    common_failures: [stale-fact-retrieval]
+    ecosystem_trend: contested
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: contested-hard
+    open_questions: [OQ-01]
+    review_interval_days: 90
+    last_verified: 2026-07-26
+
+  - id: memory-consolidation
+    name: Memory consolidation & forgetting
+    parent: remember
+    layer: L3
+    discovered_via: M7-negative-space
+    discovered_in: [Mem0]
+    maturity: S1
+    engineering_complexity: high
+    maintenance_burden: high
+    implementations:
+      - {company: Mem0, approach: "claims forgetting; NO MECHANISM DESCRIBED", evidence: [MEM0-C-033], quality: unverified}
+    architectural_patterns: []
+    common_failures: [unbounded-memory-growth]
+    ecosystem_trend: unclaimed
+    ecosystem_note: "Acknowledged unsolved ACROSS THE CATEGORY by practitioners, not just vendors [MEM0-C-041]"
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: contested-hard
+    opportunity_caveat: "Unclaimed in a well-funded category suggests genuinely hard, not merely neglected. Size the difficulty before treating as available."
+    open_questions: [OQ-01, DQ-01]
+    review_interval_days: 60
+    last_verified: 2026-07-26
+
+  - id: procedural-memory
+    name: Procedural memory (learning how, not what)
+    parent: remember
+    layer: L3
+    maturity: S0
+    engineering_complexity: high
+    maintenance_burden: unknown
+    implementations: []
+    ecosystem_trend: unclaimed
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: contested-neglected
+    open_questions: [DQ-03]
+    review_interval_days: 90
+    last_verified: 2026-07-26
+
+  - id: confidence-estimation
+    name: Confidence estimation & calibration
+    parent: reason
+    layer: L4
+    maturity: S1
+    engineering_complexity: high
+    maintenance_burden: medium
+    implementations:
+      - {company: Mem0, approach: "confidence scoring claimed; mechanism undescribed", evidence: [MEM0-C-026], quality: unverified}
+    ecosystem_trend: unclaimed
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: contested-neglected
+    open_questions: [DQ-08]
+    review_interval_days: 90
+    last_verified: 2026-07-26
+
+  - id: conflict-resolution
+    name: Conflict resolution across stored facts
+    parent: remember
+    layer: L3
+    maturity: S2
+    engineering_complexity: medium
+    maintenance_burden: medium
+    implementations:
+      - {company: Mem0, approach: "resolves conflicting facts", evidence: [MEM0-C-026], quality: claimed}
+    ecosystem_trend: growing
+    jarvis_state: absent
+    jarvis_opportunity: medium
+    opportunity_class: contested-neglected
+    review_interval_days: 120
+    last_verified: 2026-07-26
+
+  - id: self-hosting
+    name: Full self-host / data residency
+    parent: govern
+    layer: L13
+    maturity: S3
+    engineering_complexity: medium
+    maintenance_burden: high
+    implementations:
+      - {company: Mem0, approach: "Apache 2.0 full stack, Docker images maintained", evidence: [MEM0-C-028], quality: production}
+    architectural_patterns: [PAT-011]
+    ecosystem_trend: growing
+    ecosystem_note: "Necessary but not sufficient for clinical use — hosted extraction still leaks data"
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: moat
+    review_interval_days: 180
+    last_verified: 2026-07-26
+
+  - id: healthcare-compliance-posture
+    name: Healthcare compliance posture (HIPAA/DPDP/SOC2)
+    parent: govern
+    layer: L11
+    discovered_via: M7-negative-space
+    discovered_in: [Mem0]
+    maturity: S0
+    engineering_complexity: medium
+    maintenance_burden: high
+    implementations: []
+    ecosystem_trend: unclaimed
+    ecosystem_note: "Mem0 has NONE despite naming healthcare a target vertical [MEM0-C-042, MEM0-C-044]. Structural barrier for horizontal infra players."
+    jarvis_state: absent
+    jarvis_opportunity: high
+    opportunity_class: moat
+    open_questions: [OQ-02]
+    review_interval_days: 90
+    last_verified: 2026-07-26
+
+  - id: mcp-interop
+    name: MCP protocol interoperability
+    parent: govern
+    layer: L13
+    maturity: S3
+    engineering_complexity: low
+    maintenance_burden: low
+    implementations:
+      - {company: Mem0, approach: "NOT PRESENT in current release", evidence: [MEM0-C-029], quality: absent}
+    ecosystem_trend: growing
+    ecosystem_note: "Consolidated under Linux Foundation AAIF; absence in universal-positioned infra is a strategic gap"
+    jarvis_state: absent
+    jarvis_opportunity: medium
+    opportunity_class: commodity
+    open_questions: [OQ-04, DQ-07]
+    review_interval_days: 90
+    last_verified: 2026-07-26

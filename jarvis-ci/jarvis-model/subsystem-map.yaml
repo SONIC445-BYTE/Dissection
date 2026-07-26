@@ -1,0 +1,244 @@
+# JARVIS Subsystem Map — routing targets
+# Source: phase-R-repo-dissection/architecture-map.md (verified repo surface)
+#
+# Every routed insight must name an affected subsystem from this list.
+# "affects JARVIS generally" is not a routable answer.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  source: phase-R architecture-map
+  branch_analysed: phase-2-adapter-wiring
+
+# state: verified | built | wired | dark | designed | absent
+#   dark = built but wired to nothing. Inventory, not output.
+
+subsystems:
+
+  - id: command-router
+    name: Command router
+    layer: L4
+    state: verified
+    stage_introduced: 0
+    health: strong
+    note: "5 bug classes fixed structurally, not per-instance"
+    debt: []
+
+  - id: resolution-gate
+    name: Resolution gate (3-branch)
+    layer: L4
+    state: verified
+    stage_introduced: 0
+    health: strong
+    debt: []
+
+  - id: odav-loop
+    name: ODAV loop
+    layer: L4
+    state: wired
+    stage_introduced: 0
+    health: adequate
+    debt: ["incomplete gate-outcome handling (deferred cleanup)"]
+
+  - id: platform-adapters
+    name: Platform adapters (12)
+    layer: L6
+    state: verified
+    stage_introduced: 0
+    health: strong
+    debt: ["desktop launch-fallback unverified"]
+
+  - id: browser-automation
+    name: Browser automation
+    layer: L6
+    state: verified
+    stage_introduced: 0
+    health: strong
+    debt: []
+
+  - id: code-engine
+    name: Code engine
+    layer: L9
+    state: verified
+    stage_introduced: 0
+    health: strong
+    debt: ["upstream file identification not built (declared out of scope)"]
+
+  - id: level6
+    name: Level6 autonomous coding
+    layer: L9
+    state: verified
+    stage_introduced: 0
+    health: strong
+    off_mission: true
+    note: "excellent engineering; L9 is 'compete selectively'; not on healthcare path"
+    debt: []
+
+  - id: memory-store
+    name: Persistent memory (Phase 3a)
+    layer: L3
+    state: built
+    stage_introduced: 0
+    health: partial
+    note: "storage + read/write API + safety boundary. The COMMODITY half."
+    debt:
+      - "no summarisation"
+      - "no temporal validity"
+      - "no consolidation/forgetting"
+      - "no procedural memory"
+
+  - id: memory-boundary
+    name: Memory/confirmation-gate boundary
+    layer: L3
+    state: verified
+    stage_introduced: 0
+    health: strong
+    note: "memory can never bypass confirmation gates — real asset"
+    debt: []
+
+  - id: conversation-manager
+    name: Conversation manager
+    layer: L3
+    state: built
+    stage_introduced: 0
+    health: adequate
+    debt: ["token budgeting + time-trim only; no summarisation"]
+
+  - id: rag-retrieval
+    name: RAG / knowledge retrieval
+    layer: L3
+    state: wired
+    stage_introduced: 0
+    health: fragile
+    debt:
+      - "scrapes Google HTML directly"
+      - "likely ToS violation"
+      - "breaks silently on markup change"
+
+  - id: stt
+    name: Speech-to-text
+    layer: L7
+    state: wired
+    stage_introduced: 0
+    health: liability
+    note: >
+      Drives headless Chrome to an external Netlify URL. Voice is the PRIMARY
+      input surface, so the local-first claim (T3) is contradicted by the thing
+      users talk into. Compliance question, not latency question.
+    debt: ["external web dependency on primary input path"]
+
+  - id: tts
+    name: Text-to-speech
+    layer: L7
+    state: wired
+    stage_introduced: 0
+    health: adequate
+    debt: ["on hold pending Qwen3-TTS latency evaluation"]
+
+  - id: wake-service
+    name: Wake-word detection
+    layer: L7
+    state: verified
+    stage_introduced: 0
+    health: strong
+    debt: []
+
+  - id: emotion-detection
+    name: Text-emotion detection
+    layer: L5
+    state: dark
+    stage_introduced: 0
+    health: unused
+    note: "built, boundary-tested, wired to nothing"
+    debt: ["dark capability — zero user value until wired"]
+
+  - id: screen-capture
+    name: Screen capture / vision
+    layer: L5
+    state: built
+    stage_introduced: 0
+    health: adequate
+    debt: []
+
+  - id: ocr
+    name: OCR
+    layer: L5
+    state: absent
+    stage_introduced: null
+    health: missing
+    note: "Indian clinical reality is paper-heavy. Indic/handwritten OCR is CONTESTED."
+    debt: []
+
+  - id: llm-engine
+    name: LLM engine
+    layer: L2
+    state: wired
+    stage_introduced: 0
+    health: adequate
+    debt:
+      - "generate_stream() exists but uncalled — dark"
+      - "no warm-up/keep-alive"
+      - "no GPU config"
+      - "no model tier selection"
+
+  - id: inference-router
+    name: Intent router
+    layer: L4
+    state: verified
+    stage_introduced: 0
+    health: strong
+    note: "routes canned/context/action/code before reaching llm"
+    debt: []
+
+  - id: safety-gates
+    name: Approval gates + rollback
+    layer: govern
+    state: verified
+    stage_introduced: 0
+    health: strong
+    note: "snapshot-first, refuses without snapshot, reverts on partial failure"
+    debt: []
+
+  - id: honest-failure
+    name: Honest-failure discipline
+    layer: govern
+    state: verified
+    stage_introduced: 0
+    health: strong
+    note: "CONTESTED-underserved ecosystem-wide. The clinical licence to operate."
+    debt: []
+
+  - id: audit-trail
+    name: Clinical audit trail
+    layer: govern
+    state: absent
+    stage_introduced: null
+    health: missing
+    note: "DEC-002. Retrofit cost grows with every adapter added."
+    debt: []
+
+  - id: opd-queue
+    name: OPD queue / patient flow
+    layer: L10
+    state: absent
+    stage_introduced: null
+    health: missing
+    note: "blueprint's own 'actual missing centerpiece'"
+    debt: []
+
+  - id: fhir-adapter
+    name: FHIR / HL7 / ABDM adapters
+    layer: L11
+    state: absent
+    stage_introduced: null
+    health: missing
+    debt: []
+
+  - id: adapter-sdk
+    name: Adapter SDK / extension framework
+    layer: L13
+    state: designed
+    stage_introduced: null
+    health: partial
+    note: "adapter pattern + feature flags already SDK-shaped — unplanned optionality"
+    debt: []

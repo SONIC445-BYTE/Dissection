@@ -1,0 +1,6 @@
+claim_id,claim,section,tier,confidence,source_ids,source_type,accessed,shipping_rung,contested,falsifier,notes
+EXAMPLE-C-001,"Ships an Apache-2.0 licensed core with a hosted tier",8,E1,HIGH,S-001;S-002,code,2026-07-26,adopted-at-scale,no,,"LICENSE file in repo root + pricing page"
+EXAMPLE-C-002,"Uses Postgres as primary store",4,E3,MEDIUM,S-005,inference,2026-07-26,n/a,no,,"Inferred from connection-error string in public issue #412 naming a pg driver"
+EXAMPLE-C-003,"Graph tier priced above typical evaluation budgets",8,E1,HIGH,S-003,docs,2026-07-26,GA,no,,"Pricing page, dated"
+EXAMPLE-C-004,"Vendor-reported benchmark figure disputed by a third party",5,E2,LOW,S-007;S-008,blog,2026-07-26,GA,yes,,"CONTESTED: vendor claims X; independent run reports Y. Both recorded; neither adopted."
+EXAMPLE-C-005,"Likely to add on-device inference within 12 months",5,E4,LOW,S-009,inference,2026-07-26,rumoured,no,"Confirmed by a shipped on-device SDK; killed by a public statement ruling it out","Two edge-inference roles posted in Q2"

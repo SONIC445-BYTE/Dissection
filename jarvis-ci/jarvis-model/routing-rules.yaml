@@ -1,0 +1,149 @@
+# Routing Rules — insight → engineering artifact
+# The decision logic of the Design Intelligence OS.
+#
+# Every insight in the registry substrate is evaluated against these rules
+# and routed to exactly ONE destination, with full justification.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+
+# ── The 15 questions every insight must answer ───────────────────────────
+# Asked in this order. Early exits are cheap and most insights exit early.
+questions:
+  - {n: 1,  q: "Does this affect JARVIS?",                    exit_if_no: ignore}
+  - {n: 2,  q: "Which JARVIS stage does it affect?",          field: affected_stage}
+  - {n: 3,  q: "Which subsystem does it affect?",             field: affected_subsystem}
+  - {n: 4,  q: "Does it introduce a new module?",             field: introduces_module}
+  - {n: 5,  q: "Does it invalidate an architectural decision?",field: invalidates_decision}
+  - {n: 6,  q: "Does it strengthen or weaken an existing design?", field: design_effect}
+  - {n: 7,  q: "Does it create technical debt?",              field: debt_created}
+  - {n: 8,  q: "Does it reduce technical debt?",              field: debt_reduced}
+  - {n: 9,  q: "Should it become an ADR?",                    destination: adr}
+  - {n: 10, q: "Should it become an RFC?",                    destination: rfc}
+  - {n: 11, q: "Should it become a research project?",        destination: research}
+  - {n: 12, q: "Should it become a GitHub Issue?",            destination: issue}
+  - {n: 13, q: "Should it become a milestone?",               destination: milestone}
+  - {n: 14, q: "Is it a future-stage idea, not a current task?", destination: parked}
+  - {n: 15, q: "Should it be ignored?",                       destination: ignore}
+
+# ── Destinations ─────────────────────────────────────────────────────────
+destinations:
+
+  adr:
+    name: Architecture Decision Record
+    when: "insight bears on a decision that is expensive or impossible to reverse"
+    triggers:
+      - "maps to an open decision-register entry with reversibility one-way"
+      - "invalidates a previously-made architectural decision"
+      - "forces a choice between mutually exclusive architectures"
+    output: design-intelligence/adr/ADR-NNN.md
+    requires: [alternatives, consequences, reversal_trigger]
+
+  rfc:
+    name: Request for Comments
+    when: "a design is needed but the decision is not yet forced"
+    triggers:
+      - "introduces a new module or subsystem"
+      - "changes an interface other components depend on"
+      - "affects >=2 subsystems"
+    output: design-intelligence/rfc/RFC-NNN.md
+    requires: [problem, proposed_design, alternatives, open_questions]
+
+  research:
+    name: Research project
+    when: "the insight is real but the correct response is unknown"
+    triggers:
+      - "capability classed contested-hard"
+      - "evidence confidence LOW or UNKNOWN"
+      - "insight raises an unknown-unknown probe"
+    output: design-intelligence/research/RES-NNN.md
+    requires: [question, falsifier, timebox, must_not_block]
+    rule: "research NEVER blocks delivery — it runs alongside"
+
+  issue:
+    name: GitHub Issue
+    when: "the work is understood, bounded, and belongs to the current stage"
+    triggers:
+      - "affected_stage <= current_stage"
+      - "implementation path is clear"
+      - "no unresolved architectural question"
+    output: design-intelligence/issues/ISSUE-NNN.md
+    requires: [acceptance_criteria, subsystem, cost]
+
+  milestone:
+    name: Milestone
+    when: "insight implies a stage exit criterion or groups multiple issues"
+    triggers:
+      - "maps to a stage exit criterion"
+      - "would group >=3 related issues"
+    output: design-intelligence/ROADMAP.md
+
+  parked:
+    name: Future-stage idea
+    when: "valuable, but its stage prerequisites are incomplete"
+    triggers:
+      - "affected_stage > current_stage AND prerequisites open"
+    output: design-intelligence/parked/
+    rule: >
+      PARKED IS NOT REJECTED. Parked items carry an unpark_trigger naming the
+      exact prerequisite that releases them. This is the stage-discipline
+      mechanism: the idea is preserved, dated and reasoned, but cannot consume
+      current-stage attention.
+
+  ignore:
+    name: Ignored
+    when: "no JARVIS impact, or impact is purely informational"
+    triggers:
+      - "layer JARVIS ignores or depends on, with no actionable consequence"
+      - "commodity capability with an existing integration answer"
+      - "market signal with no architectural implication"
+    output: design-intelligence/routing-log.yaml
+    rule: "ignored insights are LOGGED with reason, never silently dropped"
+
+# ── Stage-discipline gate ────────────────────────────────────────────────
+stage_gate:
+  check: "affected_stage <= current_stage OR all blocking prerequisites complete"
+  on_violation: park
+  never_allow:
+    - "stage 2 work while stage 0/1 blocking prerequisites open"
+    - "stage 3 work while stage 0/1/2 incomplete"
+  override: none
+  override_note: >
+    There is deliberately no override. An override flag would be used, and the
+    discipline would erode exactly when it matters most — under delivery pressure.
+
+# ── Priority scoring ─────────────────────────────────────────────────────
+# priority = (user_value*3 + strategic_value*2 + debt_reduction*1.5
+#             + confidence_weight*1.5) / (cost + maintenance*0.5)
+# Then multiplied by stage_multiplier.
+priority:
+  formula: "(uv*3 + sv*2 + dr*1.5 + cw*1.5) / (cost + maint*0.5)"
+  confidence_weight: {HIGH: 3, MEDIUM: 2, LOW: 1, UNKNOWN: 0.5}
+  stage_multiplier:
+    current_stage: 1.0
+    current_stage_blocking_exit: 1.5     # unblocks a stage exit criterion
+    next_stage: 0.4
+    future_stage: 0.1                    # parked anyway; score is advisory
+  bands:
+    - {min: 6.0, band: P0, meaning: "do now — blocks stage exit"}
+    - {min: 4.0, band: P1, meaning: "current stage, high value"}
+    - {min: 2.5, band: P2, meaning: "current stage, scheduled"}
+    - {min: 1.0, band: P3, meaning: "opportunistic"}
+    - {min: 0.0, band: P4, meaning: "parked or informational"}
+
+# ── Mandatory recommendation fields ──────────────────────────────────────
+# Every emitted recommendation MUST carry all of these. Missing any = invalid.
+required_fields:
+  - affected_stage
+  - affected_subsystem
+  - implementation_cost        # xs | s | m | l | xl
+  - maintenance_burden         # none | low | medium | high
+  - dependency_graph           # list of blocking ids
+  - expected_user_value        # 0-5
+  - strategic_value            # 0-5
+  - evidence_confidence        # HIGH | MEDIUM | LOW | UNKNOWN
+  - recommended_priority       # P0-P4
+  - review_trigger             # the event that forces re-evaluation
+  - source_insight             # registry record id
+  - evidence                   # claim ids

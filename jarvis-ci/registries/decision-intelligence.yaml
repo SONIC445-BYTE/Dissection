@@ -1,0 +1,58 @@
+# Decision Intelligence — Module 7
+# The missing link: evidence -> decision. Every finding maps to >=1 decision
+# domain or is explicitly marked informational.
+
+meta:
+  version: 1.0.0
+  updated: 2026-07-26
+  domains: [architecture, business, distribution, healthcare, security,
+            platform, developer-ecosystem, roadmap, hiring, funding]
+
+links:
+
+  - finding_id: MEM0-C-032
+    finding: "Vector-first architecture caps temporal reasoning architecturally"
+    influences:
+      - {domain: architecture, decision: DEC-001, direction: "favours temporal-graph-native"}
+      - {domain: roadmap, decision: null, direction: "L3 work must target the contested subset, not storage"}
+    strength: strong
+    actioned: false
+
+  - finding_id: MEM0-C-044
+    finding: "Category leader has zero healthcare compliance posture despite targeting healthcare"
+    influences:
+      - {domain: healthcare, decision: DEC-002, direction: "architect audit trail in, do not retrofit"}
+      - {domain: security, decision: DEC-004, direction: "residency must precede clinical data"}
+      - {domain: distribution, decision: null, direction: "regulated verticals are structurally open to a compliance-first entrant"}
+    strength: strong
+    actioned: false
+
+  - finding_id: MEM0-C-039
+    finding: "Graph paywall converts technical evaluation into procurement decision"
+    influences:
+      - {domain: business, decision: DEC-003, direction: "keep differentiator inside evaluation tier"}
+    strength: strong
+    actioned: false
+
+  - finding_id: MEM0-C-041
+    finding: "Memory consolidation unsolved across the entire category, per practitioners"
+    influences:
+      - {domain: architecture, decision: DEC-001, direction: "consolidation must be designed with storage, not after"}
+      - {domain: roadmap, decision: null, direction: "highest-value negative space, but size difficulty first"}
+    strength: strong
+    actioned: false
+
+  - finding_id: MEM0-C-021
+    finding: "Category leader's primary moat is a single undisclosed vendor exclusivity"
+    influences:
+      - {domain: distribution, decision: null, direction: "single-partner concentration is a rented moat; avoid dependence"}
+    strength: moderate
+    actioned: false
+
+  - finding_id: MEM0-C-028
+    finding: "Full Apache-2.0 self-host with maintained Docker images is achievable"
+    influences:
+      - {domain: security, decision: DEC-004, direction: "self-host is table stakes, not differentiation"}
+      - {domain: platform, decision: DEC-005, direction: "pluggable-backend pattern makes this tractable"}
+    strength: moderate
+    actioned: false
