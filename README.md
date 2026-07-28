@@ -38,10 +38,10 @@ graph TD
 
 ## Repository Structure & Key Components
 
-*   **`jarvis-model`**: Agents must read this to understand the core model and purpose of JARVIS.
+*   **`jarvis-model`**: Agents must read this to understand the core model and purpose of JARVIS, and explicitly ask me what it is for.
 *   **`Dossaire/reports/`**: The crown jewel of this repo. Contains reports on the critical pain points of the healthcare operations that JARVIS is being built to solve. (If agents cannot read all reports, they must fall back to reading `All research reports analyzed/reconnaissance/`).
 *   **`All research reports/`**: Contains competitor company dissection logs used to directly influence how JARVIS is architected.
-*   **`jarvis-p2/`**: A snapshot of how the original project currently looks, serving as the basis for the research conducted. 
+*   **`jarvis-p2/`**: A snapshot of how the original project currently looks, serving as the basis for the research conducted. Inside this is the `ovexis` folder—a legacy of when this project was merely a competitive intelligence engagement (Phase 1) before evolving into a pattern discovery tool (Phase 2), a Knowledge OS (Phase 3), and finally a Strategic Decision Engine that stopped caring about competitors as the objective and started using them only as evidence (Phase 4).
 
 *(Note: Keep the separation clear. Dissection is the Research Operating System. JARVIS is the product. These registries belong in Dissection, not in the JARVIS codebase. Ovexis and JARVIS are two separate products, hence the renaming to JARVIS Strategic Decision Engine.)*
 
